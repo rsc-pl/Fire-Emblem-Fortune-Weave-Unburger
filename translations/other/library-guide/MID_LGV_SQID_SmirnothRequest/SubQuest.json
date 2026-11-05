@@ -1,0 +1,2274 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01#937",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Smi_m01",
+        "entry_index": 937,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_010#936",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_001#938"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 937,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Smi_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_001#938",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Smi_m01_001",
+        "entry_index": 938,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "スミルノス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_スミルノス"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01#937",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_002#939"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 938,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Smi_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "やあ、ようこそ救世主。\nこんなところまでご苦労様です。",
+        "official_en": "Hello there. Welcome, Promised One. You must have\ncome a long way if you've found yourself here.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_002#939",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Smi_m01_002",
+        "entry_index": 939,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "スミルノス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_スミルノス"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_001#938",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_003#940"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 939,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Smi_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "君の噂はダグシオンから遠く離れた\nこの場所にも届いていましたよ。",
+        "official_en": "Word of you has traveled all the way to this place,\nso far from Dagsion itself.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_003#940",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Smi_m01_003",
+        "entry_index": 940,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "スミルノス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_スミルノス"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_002#939",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_004#941"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 940,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Smi_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "それにしても冥界の連中は容赦がありません。\n……僕はあいつらはとても嫌いですよ。",
+        "official_en": "The forces of the underworld show no mercy. I've\ngot to say...I can't stand them.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_004#941",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Smi_m01_004",
+        "entry_index": 941,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "スミルノス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_スミルノス"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_003#940",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_005#942"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 941,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Smi_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "そうそう、そういえば\n僕は君に頼みたいことがあったのでした。",
+        "official_en": "Ah, yes. There is something I'd like to ask of you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_005#942",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Smi_m01_005",
+        "entry_index": 942,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "スミルノス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_スミルノス"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_004#941",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_006#943"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 942,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Smi_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "イアペトス大洞窟という場所があるのです。\nそこがちょっと悩みの種になってまして。",
+        "official_en": "Have you heard of the Iapetus Cavern? It's been\ngiving me something of a headache lately.",
+        "real_en": "Have you heard of the Great Iapetus Cave? It's been\ngiving me something of a headache lately."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_006#943",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Smi_m01_006",
+        "entry_index": 943,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "スミルノス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_スミルノス"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_005#942",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_007#944"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 943,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Smi_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "最近、あそこに火の山の炎の力が流れ込んだせいで\n通れない場所ができてしまったのです。",
+        "official_en": "The flames from the Mountain of Fire have flowed\ninto the cavern, blocking any entry.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_007#944",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Smi_m01_007",
+        "entry_index": 944,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "スミルノス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_スミルノス"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_006#943",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_008#945"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 944,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Smi_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "炎の前で「フィンブルの夜」を使えば消火できる\nとは思うのですが、魔道書を切らしていまして。",
+        "official_en": "Casting Fimbulvetr Night at those flames would put\nthem out. But I'm out of that particular magic tome.",
+        "real_en": "Casting Night of Fimbul at those flames would put\nthem out. But I'm out of that particular magic tome."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_008#945",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Smi_m01_008",
+        "entry_index": 945,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "スミルノス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_スミルノス"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_007#944",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_009#946"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 945,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Smi_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "昔ジュラに渡したことがあるから、もしかしたら\n彼女の神殿で聞いてもらえば手に入るかもです。",
+        "official_en": "I gave that tome to Jurah quite some time ago. I'd\nsuggest that you ask her for it at her temple.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_009#946",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Smi_m01_009",
+        "entry_index": 946,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "スミルノス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_スミルノス"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_008#945",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_010#947"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 946,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Smi_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "僕に代わって、魔道書を手に入れ、\n炎を消してきて貰えると助かります。",
+        "official_en": "I would appreciate you handling this in my place.\nIt'd be a great help.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_010#947",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Smi_m01_010",
+        "entry_index": 947,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "スミルノス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_スミルノス"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01_009#946",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGA_SQID_SmirnothRequest_Smi_m01#948"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 947,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Smi_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "その代わりに……最上級の兵種に挑めるなど、\n戦いに役立つお礼を用意しましょう。頼みましたよ。",
+        "official_en": "In return, I'll give you something useful for your\nbattling—a chance to attempt a special master class.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02#949",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Smi_m02",
+        "entry_index": 949,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGA_SQID_SmirnothRequest_Smi_m01#948",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_001#950"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 949,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Smi_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_001#950",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Smi_m02_001",
+        "entry_index": 950,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "スミルノス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_スミルノス"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02#949",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_002#951"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 950,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Smi_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "どうやら無事に消火してもらえたようで、\nありがとうございました。",
+        "official_en": "Well, it looks like you managed to put out the flames\nsafely. Thank you. This has been a great help.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_002#951",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Smi_m02_002",
+        "entry_index": 951,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "スミルノス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_スミルノス"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_001#950",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_003#952"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 951,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Smi_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "あの洞窟は魔道の実験のための素材集めに\n重宝していた場所だったので助かりましたよ。",
+        "official_en": "That cave has been a handy spot for gathering\nmaterials for my magic experiments.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_003#952",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Smi_m02_003",
+        "entry_index": 952,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "スミルノス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_スミルノス"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_002#951",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_004#953"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 952,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Smi_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "約束通り、お礼をさせてください。まず君が、\n「ハイエピタフ」の試験に挑めるようにしましょう。",
+        "official_en": "I promised you a reward. I'll arrange for you to\nattempt the <#CTRL:0E><#CTRL:08>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_004#953",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Smi_m02_004",
+        "entry_index": 953,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "スミルノス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_スミルノス"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_003#952",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_005#954"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 953,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Smi_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "それから、当神殿の神の道の門の使用を\n君に許可します。",
+        "official_en": "I've also decided to let you use the Gate of the Gods\nin this temple from now on.",
+        "real_en": "I've also decided to let you use the Gate of the Divine Path\nin this temple from now on."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_005#954",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Smi_m02_005",
+        "entry_index": 954,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "スミルノス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_スミルノス"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_004#953",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_006#955"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 954,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Smi_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "それから、私の所有する「至高のアーク」を\n使える機会を特別にあげましょう！",
+        "official_en": "Finally, as a special treat, I'll give you a rare\nopportunity to use a Supreme Arc that I possess.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_006#955",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Smi_m02_006",
+        "entry_index": 955,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "スミルノス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_スミルノス"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_005#954",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_007#956"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 955,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Smi_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "アークを使うには決まりがありましてね。\n神殿の試練をやり遂げる必要がありますが……",
+        "official_en": "There are rules for using such Arcs, you see. You\nmust first complete the temple's trial.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_007#956",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Smi_m02_007",
+        "entry_index": 956,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "スミルノス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_スミルノス"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_006#955",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_008#957"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 956,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Smi_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "君ならどうということもないでしょう。\n挑みたければ、神官とよく話してください。",
+        "official_en": "I doubt you'll have any trouble with it, however.\nSpeak with the priests if you'd like to try.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_008#957",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Smi_m02_008",
+        "entry_index": 957,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "スミルノス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_スミルノス"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_007#956",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_009#958"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 957,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Smi_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "では、僕はそろそろダグシオンの様子でも\n見に行くとしましょうか。",
+        "official_en": "With that, I think I should check on the state of\nthings in Dagsion.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_009#958",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Smi_m02_009",
+        "entry_index": 958,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "スミルノス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_スミルノス"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "スミルノス",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_008#957",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_B01_m01#959"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 958,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Smi_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "今回は、ありがとうございました。\n困ったことがあれば、また御願いしますよ。",
+        "official_en": "Thank you again for your help. I'll be sure to ask you\nfor anything more I need done in the future.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_B01_m01#959",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_B01_m01",
+        "entry_index": 959,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": "Script/hub/Hub_Temple_110.bin.zst",
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m02_009#958",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_B01_m01_001#960"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 959,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_B01_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_B01_m01_001#960",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_B01_m01_001",
+        "entry_index": 960,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_B01_m01#959",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_B01_m01_002#961"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 960,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_B01_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "これはこれは救世主様。\n何の御用でございましょう？",
+        "official_en": "Ah, if it isn't the Promised One! What can I\ndo for you?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_B01_m01_002#961",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_B01_m01_002",
+        "entry_index": 961,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_B01_m01_001#960",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_B01_m01_003#962"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 961,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_B01_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "「フィンブルの夜」の魔道書でございますか？\nたしかに、当神殿にて厳重に保管されております。",
+        "official_en": "A Fimbulvetr Night tome? We do have such a book in\nsecure care at our temple.",
+        "real_en": "A Night of Fimbul tome? We do have such a book in\nsecure care at our temple."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_B01_m01_003#962",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_B01_m01_003",
+        "entry_index": 962,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_B01_m01_002#961",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_B01_m01_004#963"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 962,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_B01_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "こちらは、もともとはジュラ様が\nスミルノス様からお借りしたもの。",
+        "official_en": "It's a tome that Jurah once borrowed from\nSmyrnos himself.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_B01_m01_004#963",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_B01_m01_004",
+        "entry_index": 963,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_B01_m01_003#962",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGA_SQID_SmirnothRequest_B01_m01#964"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 963,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_B01_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "スミルノス様ご本人の頼みとあらば、お断りする\n理由などございません。どうぞお持ちください。",
+        "official_en": "So, if this is at Smyrnos's request, I have no reason\nto deny your taking it away.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m01#965",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Ism_m01",
+        "entry_index": 965,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": "Script/hub/Dng_200_V6.bin.zst",
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGA_SQID_SmirnothRequest_B01_m01#964",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m01_001#966"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 965,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Ism_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m01_001#966",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Ism_m01_001",
+        "entry_index": 966,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m01#965",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m02#967"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 966,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Ism_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "此処がスミルノスが言っておった場所じゃな？\nほれ、早う「フィンブルの夜」を使ってみよ！",
+        "official_en": "This is the place Smyrnos told us about, hmm?\nLet's not waste time. Try using Fimbulvetr Night!",
+        "real_en": "This is the place Smyrnos told us about, hmm?\nLet's not waste time. Try using Night of Fimbul!"
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m02#967",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Ism_m02",
+        "entry_index": 967,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m01_001#966",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m02_001#968"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 967,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Ism_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m02_001#968",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Ism_m02_001",
+        "entry_index": 968,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イシュマール",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イシュマール",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イシュマール"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イシュマール",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m02#967",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m03#969"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 968,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Ism_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "無事に消火できたようだ。",
+        "official_en": "It seems to have had no trouble putting out the flames.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m03#969",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Ism_m03",
+        "entry_index": 969,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m02_001#968",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m03_001#970"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 969,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Ism_m03"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m03_001#970",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Ism_m03_001",
+        "entry_index": 970,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m03#969",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m03_002#971"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 970,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Ism_m03"
+      },
+      "function": "other",
+      "text": {
+        "jp": "むう……炎が燃えさかっておって\n先に進むことができんではないか……！",
+        "official_en": "Hrm. The flames are burning too fiercely to proceed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m03_002#971",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Ism_m03_002",
+        "entry_index": 971,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m03_001#970",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m03_003#972"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 971,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Ism_m03"
+      },
+      "function": "other",
+      "text": {
+        "jp": "此処がスミルノスが言っておった場所か……\n成程、これは一筋縄ではいかん。",
+        "official_en": "This must be the place Smyrnos was talking about.\n'Tis a problem, no doubt.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m03_003#972",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Ism_m03_003",
+        "entry_index": 972,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m03_002#971",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m04#973"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 972,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Ism_m03"
+      },
+      "function": "other",
+      "text": {
+        "jp": "「フィンブルの夜」をいずれかの者に覚えさせ、\nまたここに来るのが良かろう。",
+        "official_en": "You should have someone learn Fimbulvetr Night before\nwe return to try again.",
+        "real_en": "You should have someone learn Night of Fimbul before\nwe return to try again."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m04#973",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Ism_m04",
+        "entry_index": 973,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m03_003#972",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m04_001#974"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 973,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Ism_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m04_001#974",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_SmirnothRequest_Ism_m04_001",
+        "entry_index": 974,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イシュマール",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イシュマール",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イシュマール"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イシュマール",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Ism_m04#973",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_ClairRequest_Cla_m01#975"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 974,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_SmirnothRequest_Ism_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "激しい炎に阻まれ、先に進むことができない。",
+        "official_en": "The fierce flames are blocking any progress.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

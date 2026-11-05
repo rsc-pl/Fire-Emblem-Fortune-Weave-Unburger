@@ -1,0 +1,4753 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B",
+        "entry_index": 0,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_001#1"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_001",
+        "entry_index": 1,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ようレダ。何をしてるんだ？\nそいつ……“黒曜”だろ？",
+        "official_en": "Ah, Lady Leda. Keeping busy, I see. That's...\nObsidian, isn't it?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_002",
+        "entry_index": 2,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "調弦してるのよ。\n毎日空いた時間に、一度はね。",
+        "official_en": "Yes—I'm tuning it. I try to do this once a day, when I\nhave time.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_003",
+        "entry_index": 3,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "へえ？\n案外ちゃんと大切にしているんだな。",
+        "official_en": "How attentive. I didn't realize you put so much care\ninto your instrument.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_004",
+        "entry_index": 4,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_005#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……馬鹿にしてるの？　調弦なんて、\n奏者にとっては息をするようにやるものよ。",
+        "official_en": "Are you trying to insult me? To a musician, tuning\none's instrument is like breathing.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_005#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_005",
+        "entry_index": 5,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_006#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "こんなの別に何でもない。\n殊更言われるほうが白々しいわ。",
+        "official_en": "The fact you'd suggest otherwise betrays\nyour ignorance.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_006#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_006",
+        "entry_index": 6,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_005#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_007#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……うん。これでよし。",
+        "official_en": "Mhm... That'll do.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_007#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_007",
+        "entry_index": 7,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_006#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_008#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ん～……いい音だぜ。\n“黒曜”の響きと、やはり奏者の腕だな。",
+        "official_en": "Seems it's the beauty of the instrument AND\nthe musician that truly make a melody.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_008#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_008",
+        "entry_index": 8,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_007#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "適当なこと言って……\n本当に演奏の良し悪しなんてわかってるの？",
+        "official_en": "Again with the facile comments. You don't know\nthe first thing about good musicianship, do you?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_009#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_009",
+        "entry_index": 9,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_008#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_010#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "おいおい、見くびってもらっちゃ困る。\n一流の商人は、一流の芸術を嗜むものさ。",
+        "official_en": "I admit, Obsidian in my hands wouldn't sound nearly\nas sweet as in yours. But we merchants know our art.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_010#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_010",
+        "entry_index": 10,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_009#9",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_011#11"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "だから、自分でビウエラを\n弾くことだってできるんだぜ。",
+        "official_en": "I even know my way around a vihuela myself,\nbelieve it or not.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_011#11",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_011",
+        "entry_index": 11,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_010#10",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_012#12"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 11,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ふん……女の子に教えてもらったとか、\n口説くために多少覚えたとかでしょ。",
+        "official_en": "Oh. So, you learned the rudiments from some girl\nyou were seeing? Or just used it to pick up women?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_012#12",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_012",
+        "entry_index": 12,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_011#11",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_013#13"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 12,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いいや。俺様がビウエラを習ったのは男だ。\n純粋な友情のために練習したんだよ。",
+        "official_en": "Nope. In fact, it was a man that taught me the\nstrings. And I practiced purely for friendship.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_013#13",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_013",
+        "entry_index": 13,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_012#12",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_014#14"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 13,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "見せてやったほうが早いか。\nちょっと待ってな。",
+        "official_en": "Perhaps it'd be faster to show you. Wait right here.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_014#14",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_014",
+        "entry_index": 14,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_013#13",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_015#15"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 14,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あなた……！　それ、\nマリアが持っていた……！？",
+        "official_en": "That's...Maria's vihuela!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_015#15",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_015",
+        "entry_index": 15,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_014#14",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_016#16"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 15,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "“天弦・月白”……ま、拾いもんさ。\nそれでは、ご静粛に。",
+        "official_en": "She called it Moonstone. A lucky find, indeed.\nNow, listen close...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_016#16",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_016",
+        "entry_index": 16,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_015#15",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_017#17"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 16,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "♪♪　♪♪♪　♪……",
+        "official_en": "♪",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_017#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_017",
+        "entry_index": 17,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_016#16",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_018#18"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そら、そいつを貸してみな。",
+        "official_en": "Here, mind if I borrow that a sec?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_018#18",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_018",
+        "entry_index": 18,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_017#17",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_019#19"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 18,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あ、ちょっと！\nどうせ弾けないんだから、返して……",
+        "official_en": "Hey, give that back! You won't be able to play\nit anyway.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_019#19",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_019",
+        "entry_index": 19,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "レダ",
+              "note": "Event stages a different sole actor; audited counterexample class shows staging actor is the listener and ATR1.PID remains the speaker"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_018#18",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_020#20"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 19,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "♪♪　♪♪♪　♪……",
+        "official_en": "♪",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_020#20",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_020",
+        "entry_index": 20,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_019#19",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_021#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 20,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……驚いた。\n意外と、できるのね。",
+        "official_en": "You can actually play it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_021#21",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_021",
+        "entry_index": 21,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_020#20",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_022#22"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 21,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そこらの吟遊詩人より、上手いかも……\nなんか似合わない。",
+        "official_en": "And your musicianship is better than most bards'.\nI never would have expected that.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_022#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_022",
+        "entry_index": 22,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_021#21",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_023#23"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "相変わらず失礼な奴だな。\nだがまあ……そうかもな。ほら。",
+        "official_en": "I'll try to take your surprise as a compliment.\nThat being said... Here.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_023#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_023",
+        "entry_index": 23,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_022#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_024#24"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……何のつもり。\n“月白”を差し出して……",
+        "official_en": "Huh? Why would you give me Moonstone?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_024#24",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_024",
+        "entry_index": 24,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_023#23",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_025#25"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 24,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "やるよ。俺が持ってても、\nどうにも湿っぽくなるばっかりだ。",
+        "official_en": "I want you to have it, of course. As skilled as I may\nbe with it, it only tends to bring out the gloom in me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_025#25",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_025",
+        "entry_index": 25,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_024#24",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_026#26"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 25,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "こいつは“乾坤の奏者の再来”と呼ばれてる\nあんたにこそ、相応しいんじゃねえか？",
+        "official_en": "They say you're the reincarnation of the Virtuosa\nof Heaven and Earth. I can't think of a better owner.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_026#26",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_026",
+        "entry_index": 26,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_025#25",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_027#27"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 26,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "『再来』ね……いいわ、貰ってあげる。あの女の\nビウエラ……あたしならもっと弾きこなせるし。",
+        "official_en": "\"Virtuosa Reincarnate,\" yeah... Fine. I'll put it to\nbetter use than you would anyway.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_027#27",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_027",
+        "entry_index": 27,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_026#26",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_028#28"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 27,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いいぜ、自信家は嫌いじゃない。\nだがまあ、俺様の腕もなかなかだったろ？",
+        "official_en": "Happy to hear it! But you've gotta admit, I wasn't\nhalf bad, was I?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_028#28",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_028",
+        "entry_index": 28,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_027#27",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_029#29"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 28,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "相変わらず失礼な奴だな……\nほら。",
+        "official_en": "Rude as ever, I see... Here.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_029#29",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_029",
+        "entry_index": 29,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_028#28",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_030#30"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 29,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "まったく、失礼なのはどっちよ。\n勝手に取って、かき鳴らして。",
+        "official_en": "I'm rude? You're the one who took my vihuela and\nplayed it without asking!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_030#30",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_030",
+        "entry_index": 30,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_029#29",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_031#31"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 30,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "だがこれでわかったろ？\n俺様のビウエラの腕がな。",
+        "official_en": "But at least you see it now, right? I'm pretty good,\naren't I?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_031#31",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_031",
+        "entry_index": 31,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_030#30",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_032#32"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 31,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "それは、まあ……\n認めてあげてもいいわ。",
+        "official_en": "Well—fine, yes. I admit that you're not completely\nwithout skill.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_032#32",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_032",
+        "entry_index": 32,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_031#31",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_033#33"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 32,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "はっはっは。なんか、いい気分になったぜ。\nそれじゃあな。",
+        "official_en": "Hahaha. I'll take what I can get and quit while\nI'm ahead! I'll be seeing you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_033#33",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_033",
+        "entry_index": 33,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_032#32",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_034#34"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 33,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "なにあれ……\n自慢したかっただけ？",
+        "official_en": "What was that about? Was it that important to him\nto show off?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_034#34",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_034",
+        "entry_index": 34,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_033#33",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_035#35"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 34,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……いや、わからないことがある。\n呪われたビウエラは……奏者を見定める。",
+        "official_en": "Either way, it doesn't make sense. This vihuela has\na curse on it—it chooses its owner.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_035#35",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_B_035",
+        "entry_index": 35,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event stages the same person (look/placement) but does not perform a motion command on the line"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_034#34",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A#36"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 35,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "選ばれなかった者は、音すら鳴らせないのに……\nそれだけの実力を、どうやって。",
+        "official_en": "If you're not chosen, you can't even get it to play\na tune... So, how did he do it? And so well?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A#36",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A",
+        "entry_index": 36,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_B_035#35",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_001#37"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 36,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_001#37",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_001",
+        "entry_index": 37,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A#36",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_002#38"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 37,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ふむ……やっぱあんたを見ていると、\n吟遊詩人コーエンを思い起こさせるな。",
+        "official_en": "Mmm... You know, you almost remind me of the\nbard Cohen.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_002#38",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_002",
+        "entry_index": 38,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_001#37",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_003#39"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 38,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……“黒曜”を持っているからじゃない？\nあとあたし、これでも一応末裔なのだし。",
+        "official_en": "Because I have Obsidian, you mean? And, well—\nI am his descendant.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_003#39",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_003",
+        "entry_index": 39,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_002#38",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_004#40"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 39,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "コーエンディアの血筋って以上に、\n纏う雰囲気が似ているのさ。",
+        "official_en": "Nah, it's more than just his bloodline—it's the way\nyou carry yourself that strikes me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_004#40",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_004",
+        "entry_index": 40,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_003#39",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_005#41"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 40,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "俺様は奴と直接話したことがある。\nよく覚えてるぜ。",
+        "official_en": "I knew him, you know. Hmhmhmm. Couldn't forget\nthe man if I tried.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_005#41",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_005",
+        "entry_index": 41,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_004#40",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_006#42"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 41,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あなた……\n生前のコーエンに会ったことがあるの？",
+        "official_en": "You met Cohen while he was still alive?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_006#42",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_006",
+        "entry_index": 42,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_005#41",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_007#43"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 42,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "もしかしてそれが……\n呪われたビウエラを弾きこなせる理由？",
+        "official_en": "Is that how you could play a cursed vihuela?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_007#43",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_007",
+        "entry_index": 43,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_006#42",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_008#44"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 43,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そりゃどうだかな……\nざっと、５００年くらい前のことさ。",
+        "official_en": "Couldn't say. It was nearly five hundred years ago,\nafter all.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_008#44",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_008",
+        "entry_index": 44,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_007#43",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_009#45"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 44,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "俺様は、ちょいとやさぐれててな。親父が死んで、\n一族は没落。しみったれた空気にうんざりしてた。",
+        "official_en": "When my father died, my family fell into ruin.\nAnd I couldn't stand to stick around for all that.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_009#45",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_009",
+        "entry_index": 45,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_008#44",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_010#46"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 45,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "何もかも放り出して家を出て、\nダグザの地を一人で旅してたのさ。",
+        "official_en": "I left everything behind and traveled Dagda all by\nmy lonesome, you see.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_010#46",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_010",
+        "entry_index": 46,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_009#45",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_011#47"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 46,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "その時出会ったのが、\nまだ若かった頃のコーエンだった。",
+        "official_en": "That's when Cohen and I first met. Feels like ages\nago now.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_011#47",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_011",
+        "entry_index": 47,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_010#46",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_012#48"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 47,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……流石はヴァンダル商会の筆頭総支配人さま。\n年の功ってわけね。",
+        "official_en": "Ahh. Sure. Still doesn't explain how some salesman\nlearns to play the way you do.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_012#48",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_012",
+        "entry_index": 48,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_011#47",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_013#49"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 48,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ま、そん時ゃ俺様も青二才だった。\nあいつも神殿から旅立って間がないと言ってた。",
+        "official_en": "I was still just a wild kid. And he'd just left the\ntemple, if I'm not mistaken.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_013#49",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_013",
+        "entry_index": 49,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_012#48",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_014#50"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 49,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "コーエンは、まさに繊細な詩人って感じでな。\n俺たちは互いに似ても似つかねえ性格だった。",
+        "official_en": "Cohen was this sensitive poet, and I was...well.\nLet's just say we couldn't have had less in common.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_014#50",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_014",
+        "entry_index": 50,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_013#49",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_015#51"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 50,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "だが神の血を引く者同士で、旅好きで……\n不思議と気が合った。",
+        "official_en": "But we both had divine blood in our veins—both\ncraved adventure! So strangely enough, we got on.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_015#51",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_015",
+        "entry_index": 51,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_014#50",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_016#52"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 51,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "短い間だったが、最高に楽しい時間だったな。\nあいつからビウエラを習ったのはその時だ。",
+        "official_en": "It was short, but some of the best times of my life.\nSomewhere in there, he taught me the vihuela.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_016#52",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_016",
+        "entry_index": 52,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_015#51",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_017#53"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 52,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ビウエラに選ばれた、ってなら、\n俺の弾き方がコーエン仕込みだからかもな……",
+        "official_en": "My skill with it is only thanks to him. So if I'm able\nto strum cursed strings, maybe I owe him that too.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_017#53",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_017",
+        "entry_index": 53,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_016#52",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_018#54"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 53,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……そういうことだったの。",
+        "official_en": "That would explain it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_018#54",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_018",
+        "entry_index": 54,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_017#53",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_019#55"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 54,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "俺様は最初からあいつの才能を見抜いていたぜ。\n必ず伝説の詩人になるってな。多分あんたも……",
+        "official_en": "I always saw the legend he would be. I see the same\nthing when I look at you, Leda.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_019#55",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_019",
+        "entry_index": 55,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_018#54",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_020#56"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 55,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "コーエンのように伝説になるって？\n音楽の才だけなら、それもいいかもね。",
+        "official_en": "Oh! You think I'll become a legend like him. Based\non my musical talents, hm?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_020#56",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_020",
+        "entry_index": 56,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_019#55",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_021#57"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 56,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "でも、それだけじゃない。壮絶な最期についても\n同じ……でしょ？　聞き飽きたわ。",
+        "official_en": "Or could it be that you think I'll meet a tragic end,\nlike he did? Because I'm sick of hearing about that.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_021#57",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_021",
+        "entry_index": 57,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_020#56",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_022#58"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 57,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そう腐るなよ。\nそんなことを言いたいんじゃあない。",
+        "official_en": "No, no. I think you misunderstand.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_022#58",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_022",
+        "entry_index": 58,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_021#57",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_023#59"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 58,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "上等だが何の変哲もないビウエラを抱えて……\nちょっとばかし傷つきやすい部分もあったが、",
+        "official_en": "Cohen was an expert musician, sure. But he was also\nkind and vulnerable. And even above all that...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_023#59",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_023",
+        "entry_index": 59,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_022#58",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_024#60"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 59,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ひたむきに己の道を進む覚悟のある奴。\n俺にとってのコーエンってのはそういう奴さ。",
+        "official_en": "He was a man determined to cut his own path\nthrough the world. That's who my friend was to me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_024#60",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_024",
+        "entry_index": 60,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_023#59",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_025#61"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 60,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "で、何より腕がいい。\n今のあんたと、似てるぜ。",
+        "official_en": "With your skill with the strings, and that fire in your\neyes, I get the same feeling now.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_025#61",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_025",
+        "entry_index": 61,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_024#60",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_026#62"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 61,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……似てないわよ、そんなの。\n歌とビウエラへの情熱なんて持ってない。",
+        "official_en": "The truth is...I'm nothing like him. I don't have any\npassion for song, or playing the vihuela.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_026#62",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_026",
+        "entry_index": 62,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_025#61",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_027#63"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 62,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あたしにとって、ビウエラは手段でしかないの。\n世を渡り、他人を誑かし、戦うためのね。",
+        "official_en": "To me, music is...a tool. It's a way to get by,\nand deceive people, and fight.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_027#63",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_027",
+        "entry_index": 63,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_026#62",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_028#64"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 63,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "おいおい、このタリムーン様が、自ら感動を\n伝えてるんだぞ……つれねえなあ……",
+        "official_en": "Hey, now! I'm pouring my heart out to you...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_028#64",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_028",
+        "entry_index": 64,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "ウルタンド",
+              "note": "Event stages a different sole actor; audited counterexample class shows staging actor is the listener and ATR1.PID remains the speaker"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_027#63",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_029#65"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 64,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "在りし日の思い出だって聞かせてやったのに……\nご先祖様が泣いてるぜ？",
+        "official_en": "Here I am, sharing tender memories of a bygone era.\nYou're gonna make your ancestor cry, Lady Leda.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_029#65",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_029",
+        "entry_index": 65,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_028#64",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_030#66"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 65,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……まあでも。\nあたしの腕がいいのは確かね。",
+        "official_en": "Well. I suppose you're right I share Cohen's skill.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_030#66",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_030",
+        "entry_index": 66,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_029#65",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_031#67"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 66,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……おお？",
+        "official_en": "Oh?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_031#67",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_031",
+        "entry_index": 67,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_030#66",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_032#68"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 67,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "それに……己の道を進む覚悟もある。\nそこは似てると言ってあげてもいいかしら。",
+        "official_en": "And the determination to forge my own path.\nSo we're not entirely dissimilar.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_032#68",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Tal_BA",
+        "jp_asset": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+        "label": "MID_SE_Led_Tal_A_032",
+        "entry_index": 68,
+        "jp_source_sha256": "c441f190206ff95752e85fe2a66aef824ae70d7845ed9f8df480a19dbd2651aa",
+        "official_en_source_sha256": "ff75b86ba84ca34d2170e961e14463164f9e8f97df685202e5f8c3caf9da6755"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "タリムーン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_タリムーン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "タリムーン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Tal_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_タリムーン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Tal_BA:MID_SE_Led_Tal_A_031#67"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 68,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Tal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……はは、ったくよ。\n賛辞を素直に受け取れねえ奴ってのはいるよな。",
+        "official_en": "Hmhmhm. Damn. I guess not everyone knows how\nto take a compliment.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

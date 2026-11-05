@@ -1,0 +1,1365 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01#893",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_JuraRequest_Jun_m01",
+        "entry_index": 893,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGA_SQID_HungryElefant_B01_m02#892",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_001#894"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 893,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_JuraRequest_Jun_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_001#894",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_JuraRequest_Jun_m01_001",
+        "entry_index": 894,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ジュラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ジュラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01#893",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_002#895"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 894,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_JuraRequest_Jun_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "あなたが救世主ですね。\nその活躍は耳にしていましたよ。",
+        "official_en": "You must be the Promised One. I have heard about\nyour exploits.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_002#895",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_JuraRequest_Jun_m01_002",
+        "entry_index": 895,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ジュラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ジュラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_001#894",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_003#896"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 895,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_JuraRequest_Jun_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "神としてこの地を統べる存在でありながら、\nあなた方人間たちに未来を託さざるを得ない……",
+        "official_en": "Despite my status as a deity of this land, I find I have\nno choice but to entrust its future to you humans.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_003#896",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_JuraRequest_Jun_m01_003",
+        "entry_index": 896,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ジュラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ジュラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_002#895",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_004#897"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 896,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_JuraRequest_Jun_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "自分の不甲斐なさが嫌になります。\n……ですが、私は責任を取らねばなりません。",
+        "official_en": "I loathe my own weakness...but I cannot let that stop\nme from taking responsibility.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_004#897",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_JuraRequest_Jun_m01_004",
+        "entry_index": 897,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ジュラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ジュラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_003#896",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_005#898"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 897,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_JuraRequest_Jun_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "神威大帝の妻として。\nそして、生き残ったダグザの眷属の筆頭として。",
+        "official_en": "As the wife of the Divine Emperor, and as the head\nof the surviving gods of Dagda, I have a favor to ask.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_005#898",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_JuraRequest_Jun_m01_005",
+        "entry_index": 898,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ジュラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ジュラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_004#897",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_006#899"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 898,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_JuraRequest_Jun_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "救世主、あなたに頼みたいことがあるのです。\nこれは……私の個人的な願いのようなものです。",
+        "official_en": "It is something of a personal matter.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_006#899",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_JuraRequest_Jun_m01_006",
+        "entry_index": 899,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ジュラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ジュラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_005#898",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_007#900"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 899,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_JuraRequest_Jun_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "あのような最期を辿ることになりましたが……\n私は神威大帝を心から愛しておりました。",
+        "official_en": "Regardless of how he met his end, I loved the Divine\nEmperor with all my heart.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_007#900",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_JuraRequest_Jun_m01_007",
+        "entry_index": 900,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ジュラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ジュラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_006#899",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_008#901"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 900,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_JuraRequest_Jun_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "もし可能ならば……あの方の、なにか遺品を\n１つでもよいから見つけてもらいたいのです。",
+        "official_en": "If at all possible, can you fetch me at least one\nkeepsake of his?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_008#901",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_JuraRequest_Jun_m01_008",
+        "entry_index": 901,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ジュラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ジュラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_007#900",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_009#902"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 901,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_JuraRequest_Jun_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "せめてもの形見として……このような頼み、\n聞き届けてもらえるかはわかりませんが……",
+        "official_en": "All I ask is something to remember him by. I know\nthat this may seem like a frivolous request.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_009#902",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_JuraRequest_Jun_m01_009",
+        "entry_index": 902,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ジュラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ジュラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_008#901",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGA_SQID_JuraRequest_Jun_m01#903"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 902,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_JuraRequest_Jun_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "叶えていただけたら、高位兵種の試験の許可など、\n厚くお礼を致しましょう。よろしくお願い致します。",
+        "official_en": "But if you do this for me, I will grant permission for\nyou to take the exam for a higher-ranking class.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02#904",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_JuraRequest_Jun_m02",
+        "entry_index": 904,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGA_SQID_JuraRequest_Jun_m01#903",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_001#905"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 904,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_JuraRequest_Jun_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_001#905",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_JuraRequest_Jun_m02_001",
+        "entry_index": 905,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ジュラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ジュラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02#904",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_002#906"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 905,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_JuraRequest_Jun_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "これは、間違いなくあの方の……！\nああ……ありがとうございます。",
+        "official_en": "This must be his... Thank you so much.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_002#906",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_JuraRequest_Jun_m02_002",
+        "entry_index": 906,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ジュラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ジュラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_001#905",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_003#907"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 906,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_JuraRequest_Jun_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "私のこのような願いを聞いてもらって、\nあなたに心からの感謝を……",
+        "official_en": "I owe you a great deal for granting my request.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_003#907",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_JuraRequest_Jun_m02_003",
+        "entry_index": 907,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ジュラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ジュラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_002#906",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_004#908"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 907,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_JuraRequest_Jun_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "救世主、あなたには、最大の礼をもって\nお応えする必要があるようですね。",
+        "official_en": "And I will compensate you appropriately,\nPromised One.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_004#908",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_JuraRequest_Jun_m02_004",
+        "entry_index": 908,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ジュラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ジュラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_003#907",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_005#909"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 908,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_JuraRequest_Jun_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "まず、あなたが最上級の兵種「ヴァルキュリウム」\nの試験を受けられるように致しましょう。",
+        "official_en": "First, I'll see to it that you can take the exam for the\nelevated class, <#CTRL:0E><#CTRL:08>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_005#909",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_JuraRequest_Jun_m02_005",
+        "entry_index": 909,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ジュラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ジュラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_004#908",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_006#910"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 909,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_JuraRequest_Jun_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "次に、ジュラ神殿の神の道の門を\n今後、自由に使うことを許可致します。",
+        "official_en": "Next, I shall grant permission for you to use my\ntemple's Gate of the Gods whenever you want.",
+        "real_en": "Next, I shall grant permission for you to use my\ntemple's Gate of the Divine Path whenever you want."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_006#910",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_JuraRequest_Jun_m02_006",
+        "entry_index": 910,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ジュラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ジュラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_005#909",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_007#911"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 910,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_JuraRequest_Jun_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "それから……我が神殿が所蔵する大いなる武具\n「至高のアーク」を使っていただきたいです。",
+        "official_en": "Finally, I would like you to use the Supreme Arc held\nby my temple. It is a powerful artifact.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_007#911",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_JuraRequest_Jun_m02_007",
+        "entry_index": 911,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ジュラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ジュラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_006#910",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_008#912"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 911,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_JuraRequest_Jun_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "アークの使用には、神殿の試練に挑み、\n乗り越えなくてはならない決まりなのです。",
+        "official_en": "Though in order to use the Arc, one must overcome\nmy temple's trials first.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_008#912",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_JuraRequest_Jun_m02_008",
+        "entry_index": 912,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ジュラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ジュラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_007#911",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_009#913"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 912,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_JuraRequest_Jun_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "あなたに、その試練へ挑めるようにしておきます。\n当ジュラ神殿本殿にいる神官に話しかけてください。",
+        "official_en": "If you wish to undertake this challenge, speak to the\npriest in my temple's main hall.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_009#913",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_JuraRequest_Jun_m02_009",
+        "entry_index": 913,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ジュラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ジュラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_008#912",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_010#914"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 913,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_JuraRequest_Jun_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "さて……私は失礼して\nこれからダグシオンへ行こうと思います。",
+        "official_en": "Now then...if you'll excuse me, I'll be heading off\nto Dagsion.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_010#914",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_JuraRequest_Jun_m02_010",
+        "entry_index": 914,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ジュラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ジュラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_009#913",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01#915"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 914,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_JuraRequest_Jun_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "貴方の征く道に、光明のあらんことを……",
+        "official_en": "May there be light on your path ahead.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Beltran:MID_LGA_SCXX_04_m05#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Beltran",
+        "jp_asset": "Msg/JPja/LG_SideStory_Beltran.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Beltran.msbt.zst",
+        "label": "MID_LGA_SCXX_04_m05",
+        "entry_index": 23,
+        "jp_source_sha256": "01251dddaad35ddf39c946fcd282e04e39d6743c327adc3a9b14ad1c9a3d1d37",
+        "official_en_source_sha256": "2d89fb7de0b29135b798eae5caefba94e3b9995ae903c728e3dca73226a703cf"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ガブリエル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Beltran.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ガブリエル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ガブリエル"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Beltran.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ガブリエル",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Beltran:MID_LGV_SCXX_04_m05_002#22"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": "BLN",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGA_SCXX_04_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<BLN>誰が優勝するか",
+        "official_en": "<BLN>Who's gonna win?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

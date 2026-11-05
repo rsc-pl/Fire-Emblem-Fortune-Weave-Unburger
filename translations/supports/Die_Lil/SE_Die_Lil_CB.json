@@ -1,0 +1,4083 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C",
+        "entry_index": 0,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_001#1"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_001",
+        "entry_index": 1,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "よーしよし、今日の狩りは順調だねー。\n次の獲物は、っと何かいるな……",
+        "official_en": "Today's hunt is going great! And I think I spy my\nnext quarry right over there.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_002",
+        "entry_index": 2,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "早く出てきなよ……\nアタシが頂いちゃうからさ……",
+        "official_en": "Come out, little birdie, so I can eat you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_003",
+        "entry_index": 3,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event stages the same person (look/placement) but does not perform a motion command on the line"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "って、うわ！\nディエゴじゃん！？",
+        "official_en": "What the—Diego?!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_004",
+        "entry_index": 4,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_005#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………",
+        "official_en": "Hm.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_005#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_005",
+        "entry_index": 5,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "ザーコネ",
+              "note": "Event stages a different sole actor; audited counterexample class shows staging actor is the listener and ATR1.PID remains the speaker"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_006#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "まったく、びっくりさせないでよねー。\nいきなり草むらから顔出すなんてさー。",
+        "official_en": "Don't startle me like that! I was ready to shoot the\nnext thing that popped out of those bushes.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_006#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_006",
+        "entry_index": 6,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_005#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_007#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "悪いな。\n狩りの邪魔をしてしまった。",
+        "official_en": "Sorry for disturbing your hunt.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_007#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_007",
+        "entry_index": 7,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_006#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_008#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いいよ、射る前に気づけたしー。てか、\n木切れやら草やら抱えてるケド、何それ？",
+        "official_en": "It's fine. At least I noticed before I fired. Hey, what's\nwith the armload of wood and grass?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_008#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_008",
+        "entry_index": 8,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_007#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "薬草採りだ。いざというときに切らしては\n大変だからな。",
+        "official_en": "I'm picking herbs. Better to stockpile them now so\nwe don't run out later.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_009#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_009",
+        "entry_index": 9,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_008#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_010#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ふーん。毒草と薬草って見分けるの難しいって\n聞いたケド、どっかで習ったのー？",
+        "official_en": "Gotcha. But isn't it tough to tell the difference\nbetween the good herbs and the poisonous ones?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_010#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_010",
+        "entry_index": 10,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_009#9",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_011#11"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "森に生きるハル・ハリの戦士なら\n誰でも経験的に知っている。",
+        "official_en": "I was a Har Hali warrior. We spend most of our lives\nin the forest.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_011#11",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_011",
+        "entry_index": 11,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_010#10",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_012#12"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 11,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "へー、すごいね。\nその木切れとかも薬にするのー？",
+        "official_en": "Wow. And the wood? Is that stuff used to make\nmedicine too?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_012#12",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_012",
+        "entry_index": 12,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event stages the same person (look/placement) but does not perform a motion command on the line"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_011#11",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_013#13"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 12,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "これは薪にする分だ。\n携行食の燻製を作るのに使う。",
+        "official_en": "No, this is firewood. I burn it to smoke the meat for\nour rations.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_013#13",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_013",
+        "entry_index": 13,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_012#12",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_014#14"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 13,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "燻製かー……持ってたら一口くれない？\nちょうどおなか空いてたんだよねー。",
+        "official_en": "Mmm, smoked food. Can you spare a bite for me?\nSomeone just spoiled my hunt.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_014#14",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_014",
+        "entry_index": 14,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_013#13",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_015#15"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 14,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ふん……まあ、いいだろう。",
+        "official_en": "Heh. Fine.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_015#15",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_015",
+        "entry_index": 15,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_014#14",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_016#16"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 15,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ありがと。頂きまーす……って美味っ！\n肉の味に煙と薬草の風味が重なるー！",
+        "official_en": "Thanks! Mmmm. Oh, yum! The meat's seasoned\nwith the smoke and herbs.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_016#16",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_016",
+        "entry_index": 16,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_015#15",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_017#17"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 16,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "何も特別なことはしていない。肉を３日干し、\n香りのいい薬草をまぶしてから燻したものだ。",
+        "official_en": "It's nothing special. I dry the meat for three days,\ncoat it with the herbs, and then smoke it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_017#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_017",
+        "entry_index": 17,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_016#16",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_018#18"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "コレ、お店で出せるぐらいの味だよー！\nていうか、ホントに売ってみない？",
+        "official_en": "\"Nothing special\"?! You could serve this in a\nrestaurant! Actually, maybe you should.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_018#18",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_018",
+        "entry_index": 18,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_017#17",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_019#19"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 18,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "アタシが獲ってきた鳥をアンタが燻製にして\n市場で売るとか！　どう？",
+        "official_en": "I could hunt the birds and you could smoke them to\nsell at market. What do you think?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_019#19",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_019",
+        "entry_index": 19,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_018#18",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_020#20"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 19,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "金儲けに興味はない。\n己の腹を満たす分があれば十分だ。",
+        "official_en": "I'm not in this for money. All I want is something\nto keep me fed and alive a little longer.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_020#20",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_020",
+        "entry_index": 20,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_019#19",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_021#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 20,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "もったいないよー、こんなにおいしいのに。\n絶対売れるってー。",
+        "official_en": "But it's such a good idea. With meat this delicious,\nwe'd be making money hand over fist!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_021#21",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_021",
+        "entry_index": 21,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_020#20",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_022#22"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 21,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いいものを作ってるんだから報われるべきでしょ。\n対価を得るのは悪いコトじゃないよー。",
+        "official_en": "There's nothing wrong with getting paid. All that\nlabor deserves compensation.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_022#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_022",
+        "entry_index": 22,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_021#21",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_023#23"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "アンタの働きが世の中に認められたら\nオルヘルさんも喜ぶんじゃないのー？",
+        "official_en": "And I bet Orchel would be happy to see everyone\ngush over your food.",
+        "real_en": "And I bet Orhel would be happy to see everyone\ngush over your food."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_023#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_023",
+        "entry_index": 23,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_022#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_024#24"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "オルヘルも……\nそうか……",
+        "official_en": "You had to bring her into this...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_024#24",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_024",
+        "entry_index": 24,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_023#23",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_025#25"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 24,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "対価……か。\nあまり考えたことはなかったが……",
+        "official_en": "Compensation, huh? I never thought about it\nthat way, but maybe.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_025#25",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_025",
+        "entry_index": 25,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_024#24",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_026#26"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 25,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ね、アタシと一緒に一儲けしようよー。\n利益は折半でいいからさー。",
+        "official_en": "C'mon, let's make some cash together! We'll split\nthe profits.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_026#26",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_C_026",
+        "entry_index": 26,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_025#25",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B#27"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 26,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……いいだろう。だが、商売はお前に任せる。\n俺は作るだけだ。",
+        "official_en": "Alright. But the business side is all you. I'll stick to\nmaking the stuff.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B#27",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B",
+        "entry_index": 27,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_C_026#26",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_001#28"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 27,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_001#28",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_001",
+        "entry_index": 28,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B#27",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_002#29"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 28,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ねえ、まだー？　すごくいい香りしてきて、\n我慢できないんだけどー。",
+        "official_en": "Hey, are you done yet? That smells so good that I\nwant some right now.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_002#29",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_002",
+        "entry_index": 29,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_001#28",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_003#30"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 29,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "もう少し待て。薬草の風味が肉に\nじっくりと行き渡るまで……",
+        "official_en": "Be patient. Let the flavor of the herbs soak into\nthe meat.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_003#30",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_003",
+        "entry_index": 30,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_002#29",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_004#31"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 30,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "よし、このくらいでいいだろう。\n食べてみろ。",
+        "official_en": "That should do it. Try some.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_004#31",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_004",
+        "entry_index": 31,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_003#30",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_005#32"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 31,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……うーん、やっぱアンタの作る燻製は絶品！\nアタシの獲った鳥がこんなに美味しくなるなんて！",
+        "official_en": "Whoa...your smoked meat is incredible! Is this really\nthe same bird I hunted?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_005#32",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_005",
+        "entry_index": 32,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_004#31",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_006#33"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 32,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "これは絶対、商売になる！\nどーせならドカッと儲けてやりたいよねー！",
+        "official_en": "You and me are going to make SO much money!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_006#33",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_006",
+        "entry_index": 33,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_005#32",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_007#34"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 33,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "手間を考えると、自分で売るより、\n店に卸したほうが良さそう……よし、早速営業だー！",
+        "official_en": "But I think we'll do better selling it wholesale than\npeddling them door-to-door. So let's get to work!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_007#34",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_007",
+        "entry_index": 34,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_006#33",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_008#35"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 34,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……その辺りについては任せる。\n俺の役目は終わりだ。",
+        "official_en": "You get to work. My part is done.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_008#35",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_008",
+        "entry_index": 35,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_007#34",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_009#36"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 35,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ちょっとどこ行くのさー。\n折角だし、アンタも一緒に来てよー！",
+        "official_en": "What, leaving already? You're not interested to see\nhow it goes?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_009#36",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_009",
+        "entry_index": 36,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_008#35",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_010#37"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 36,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……ハァ。\n役には立てんと思うがな。",
+        "official_en": "Ahh... Alright. Though I won't be much use to you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_010#37",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_010",
+        "entry_index": 37,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_009#36",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_011#38"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 37,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "とってもいい品なんですよー！　どうです。\nおじさんのお店に、並べてみませんか！",
+        "official_en": "It's unbelievably good. You'd be a fool not to sell\nthis stuff!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_011#38",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_011",
+        "entry_index": 38,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "モブ1",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "モブ1",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_モブ1"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "モブ1",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_モブ1",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_010#37",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_012#39"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 38,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "うーん、リリアンにはいつも贔屓にして\nもらってるけどねえ。急に言われても……",
+        "official_en": "Hmm. Sure, you've always brought me quality meat.\nBut this...I don't know.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_012#39",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_012",
+        "entry_index": 39,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_011#38",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_013#40"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 39,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そんなー、お願いしますよー。\nアタシとおじさんの仲じゃないですかー！",
+        "official_en": "Come on. Come onnn! Do it for me?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_013#40",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_013",
+        "entry_index": 40,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "モブ1",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "モブ1",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_モブ1"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "モブ1",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_モブ1",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_012#39",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_014#41"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 40,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "しかしねえ、こちらとしても店に出す品は\nちゃんとしたものでないと……",
+        "official_en": "Our reputation rests on us only selling the highest-\nquality food, though.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_014#41",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_014",
+        "entry_index": 41,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_013#40",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_015#42"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 41,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……この肉は、リリアンが狩ったものだ。\n狩人としては一流、血抜きの手際もいい。",
+        "official_en": "Lilian provided the meat herself. She's a first-class\nhunter and knows how to drain the blood.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_015#42",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_015",
+        "entry_index": 42,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_014#41",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_016#43"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 42,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "つまり……そう、傷みのない肉を使っている。\nいい燻製なんだ。買ってやってくれないか。",
+        "official_en": "What I'm trying to say is, we start with fresh meat.\nIt's the quality you're looking for. Just try it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_016#43",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_016",
+        "entry_index": 43,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_015#42",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_017#44"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 43,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "え、えーっと……\nまあ、そーゆーコトなんですよ……",
+        "official_en": "Uhhh... Yeah, pretty much what he said.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_017#44",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_017",
+        "entry_index": 44,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "モブ1",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "モブ1",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_モブ1"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "モブ1",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_モブ1",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_016#43",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_018#45"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 44,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そこまで言われちゃ興味が湧いてきたな。\n一口貰っていいかね？",
+        "official_en": "Well, now I'm curious. You don't mind if I sample\nit for myself?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_018#45",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_018",
+        "entry_index": 45,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_017#44",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_019#46"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 45,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "もちろん！\n一口とは言わず、思いっきりどーぞ！",
+        "official_en": "Go for it! And don't feel like you gotta limit yourself\nto just one bite.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_019#46",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_019",
+        "entry_index": 46,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "モブ1",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "モブ1",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_モブ1"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "モブ1",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_モブ1",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_018#45",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_020#47"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 46,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "では失礼して……むむっ！\nこ、これは確かになかなか……！",
+        "official_en": "Here goes, then. Oh! This is as good as you said—\nno, better!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_020#47",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_020",
+        "entry_index": 47,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "モブ1",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "モブ1",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_モブ1"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "モブ1",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_モブ1",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_019#46",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_021#48"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 47,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "これなら評判になること間違いなしだ！\nわかった！　その燻製、袋ごと買おう！",
+        "official_en": "This could be a signature menu item! I'll take the\nwhole parcel.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_021#48",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_021",
+        "entry_index": 48,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_020#47",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_022#49"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 48,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ホント！？　やったー！\nありがと、おじさん！",
+        "official_en": "Really?! Yesss! Thanks a ton.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_022#49",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_022",
+        "entry_index": 49,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_021#48",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_023#50"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 49,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いやー、売れて良かったー！\nアンタのおかげだよ、ディエゴ！",
+        "official_en": "I knew they'd buy it! And it's all thanks to you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_023#50",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_023",
+        "entry_index": 50,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_022#49",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_024#51"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 50,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "売り込み、結構上手いじゃん。\n商売の素質あるんじゃないのー？",
+        "official_en": "You've got a knack for salesmanship. Ever think\nabout going into business?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_024#51",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_024",
+        "entry_index": 51,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_023#50",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_025#52"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 51,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "本当のことを伝えただけだ。\nお前の手際はたいしたものだったからな。",
+        "official_en": "I was just telling the truth. You did good work.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_025#52",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_025",
+        "entry_index": 52,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_024#51",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_026#53"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 52,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そ、そーかな……？\n褒めても分け前は変わんないよ？",
+        "official_en": "You really think so? 'Cause I'm not paying you more\nto be nice to me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_026#53",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_026",
+        "entry_index": 53,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_025#52",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_027#54"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 53,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……そういうつもりで言ったのではない。\nもういい、これからは手伝わん。",
+        "official_en": "That wasn't what I meant. Never mind. I'm out.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_027#54",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_027",
+        "entry_index": 54,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_026#53",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_028#55"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 54,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あっ、ちょっと待って！\nその前に、これ受け取って！",
+        "official_en": "Hey, one sec. Before you go, this is yours.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_028#55",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_028",
+        "entry_index": 55,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "リリアン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_リリアン"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "リリアン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_リリアン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_027#54",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_029#56"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 55,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "はい、アンタの分け前！\n対価はちゃんと支払わないとねー。ありがと！",
+        "official_en": "Gotta compensate you properly, right? This is your\nshare. Thanks for the help!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_029#56",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_029",
+        "entry_index": 56,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_028#55",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_030#57"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 56,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……ああ。\nじゃあな。",
+        "official_en": "Sure thing. See you around.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_030#57",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_030",
+        "entry_index": 57,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_029#56",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_031#58"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 57,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ん？　分け前は折半だと言っていたはずだが、\nこれは少し多いな……",
+        "official_en": "Hmm? This is a lot. I thought we were going to split\nit evenly.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_031#58",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Lil_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+        "label": "MID_SE_Die_Lil_B_031",
+        "entry_index": 58,
+        "jp_source_sha256": "5fd150d17c48f3b4965439a81bb81832492dfdaffbe3ba96b5b322552d4ae889",
+        "official_en_source_sha256": "a3dfe615c54f4e981299cf04d0be6da293a78e761657867e349f50f587bcd212"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Lil_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Lil_CB:MID_SE_Die_Lil_B_030#57"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 58,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Lil_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……フン、リリアンめ。\n粋なことを。",
+        "official_en": "Heh...that Lilian. Very classy.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

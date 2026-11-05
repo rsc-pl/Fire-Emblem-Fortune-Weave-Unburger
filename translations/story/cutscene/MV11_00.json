@@ -1,0 +1,694 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV11_00",
+        "jp_asset": "Msg/JPja/MV11_00.msbt.zst",
+        "official_en_asset": "Msg/USen/MV11_00.msbt.zst",
+        "label": "MID_MV11_00",
+        "entry_index": 0,
+        "jp_source_sha256": "42d9eefb259825a550e56931c0971b6864708b2737b9075f4255b24d44b7a65b",
+        "official_en_source_sha256": "67b6437ebf9b154e323e7b75a05f634134879cddb998e12b69eb720e90d961ed"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m001#1"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "SH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV11"
+      },
+      "function": "story",
+      "text": {
+        "jp": "<SH>",
+        "official_en": "<SH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV11_00",
+        "jp_asset": "Msg/JPja/MV11_00.msbt.zst",
+        "official_en_asset": "Msg/USen/MV11_00.msbt.zst",
+        "label": "MID_MV11_00_m001",
+        "entry_index": 1,
+        "jp_source_sha256": "42d9eefb259825a550e56931c0971b6864708b2737b9075f4255b24d44b7a65b",
+        "official_en_source_sha256": "67b6437ebf9b154e323e7b75a05f634134879cddb998e12b69eb720e90d961ed"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ソティス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV11_00.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ソティス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ソティス"
+            },
+            {
+              "source": "Msg/USen/MV11_00.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ソティス",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV11_00_m001"
+      },
+      "function": "story",
+      "text": {
+        "jp": "あれだけ世を乱して、どんな気分じゃ？",
+        "official_en": "How did it feel, to upheave the world?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV11_00",
+        "jp_asset": "Msg/JPja/MV11_00.msbt.zst",
+        "official_en_asset": "Msg/USen/MV11_00.msbt.zst",
+        "label": "MID_MV11_00_m002",
+        "entry_index": 2,
+        "jp_source_sha256": "42d9eefb259825a550e56931c0971b6864708b2737b9075f4255b24d44b7a65b",
+        "official_en_source_sha256": "67b6437ebf9b154e323e7b75a05f634134879cddb998e12b69eb720e90d961ed"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ソティス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV11_00.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ソティス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ソティス"
+            },
+            {
+              "source": "Msg/USen/MV11_00.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ソティス",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV11_00_m002"
+      },
+      "function": "story",
+      "text": {
+        "jp": "このけだものめが、もはや正気を失って、\nどれだけ殺しても足らんとみえる。",
+        "official_en": "You have lost your mind, beast. No amount of\nslaughter will slake your unending thirst for blood.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV11_00",
+        "jp_asset": "Msg/JPja/MV11_00.msbt.zst",
+        "official_en_asset": "Msg/USen/MV11_00.msbt.zst",
+        "label": "MID_MV11_00_m003",
+        "entry_index": 3,
+        "jp_source_sha256": "42d9eefb259825a550e56931c0971b6864708b2737b9075f4255b24d44b7a65b",
+        "official_en_source_sha256": "67b6437ebf9b154e323e7b75a05f634134879cddb998e12b69eb720e90d961ed"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ソティス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV11_00.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ソティス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ソティス"
+            },
+            {
+              "source": "Msg/USen/MV11_00.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ソティス",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV11_00_m003"
+      },
+      "function": "story",
+      "text": {
+        "jp": "言いつけを無視して暴れ回り、\n力なきものをいたぶり続け…",
+        "official_en": "You ignore every rebuke and run wild, continuing\nto abuse the weak and downtrodden.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV11_00",
+        "jp_asset": "Msg/JPja/MV11_00.msbt.zst",
+        "official_en_asset": "Msg/USen/MV11_00.msbt.zst",
+        "label": "MID_MV11_00_m004",
+        "entry_index": 4,
+        "jp_source_sha256": "42d9eefb259825a550e56931c0971b6864708b2737b9075f4255b24d44b7a65b",
+        "official_en_source_sha256": "67b6437ebf9b154e323e7b75a05f634134879cddb998e12b69eb720e90d961ed"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ソティス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV11_00.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ソティス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ソティス"
+            },
+            {
+              "source": "Msg/USen/MV11_00.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ソティス",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m005#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV11_00_m004"
+      },
+      "function": "story",
+      "text": {
+        "jp": "あまつさえ、このわしにまで楯突くとはな。",
+        "official_en": "This mania has driven you to challenge even me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m005#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV11_00",
+        "jp_asset": "Msg/JPja/MV11_00.msbt.zst",
+        "official_en_asset": "Msg/USen/MV11_00.msbt.zst",
+        "label": "MID_MV11_00_m005",
+        "entry_index": 5,
+        "jp_source_sha256": "42d9eefb259825a550e56931c0971b6864708b2737b9075f4255b24d44b7a65b",
+        "official_en_source_sha256": "67b6437ebf9b154e323e7b75a05f634134879cddb998e12b69eb720e90d961ed"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ソティス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV11_00.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ソティス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ソティス"
+            },
+            {
+              "source": "Msg/USen/MV11_00.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ソティス",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m006#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV11_00_m005"
+      },
+      "function": "story",
+      "text": {
+        "jp": "随分と舐められたものよ。",
+        "official_en": "That was your fatal error.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m006#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV11_00",
+        "jp_asset": "Msg/JPja/MV11_00.msbt.zst",
+        "official_en_asset": "Msg/USen/MV11_00.msbt.zst",
+        "label": "MID_MV11_00_m006",
+        "entry_index": 6,
+        "jp_source_sha256": "42d9eefb259825a550e56931c0971b6864708b2737b9075f4255b24d44b7a65b",
+        "official_en_source_sha256": "67b6437ebf9b154e323e7b75a05f634134879cddb998e12b69eb720e90d961ed"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ソティス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV11_00.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ソティス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ソティス"
+            },
+            {
+              "source": "Msg/USen/MV11_00.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ソティス",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m005#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m007#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV11_00_m006"
+      },
+      "function": "story",
+      "text": {
+        "jp": "――のう？",
+        "official_en": "Now...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m007#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV11_00",
+        "jp_asset": "Msg/JPja/MV11_00.msbt.zst",
+        "official_en_asset": "Msg/USen/MV11_00.msbt.zst",
+        "label": "MID_MV11_00_m007",
+        "entry_index": 7,
+        "jp_source_sha256": "42d9eefb259825a550e56931c0971b6864708b2737b9075f4255b24d44b7a65b",
+        "official_en_source_sha256": "67b6437ebf9b154e323e7b75a05f634134879cddb998e12b69eb720e90d961ed"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ソティス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV11_00.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ソティス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ソティス"
+            },
+            {
+              "source": "Msg/USen/MV11_00.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ソティス",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m006#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m008#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV11_00_m007"
+      },
+      "function": "story",
+      "text": {
+        "jp": "おぬしの五体をばらばらに切り離し、\n心の臓を取り出し、血を抜き、",
+        "official_en": "I shall carve your body into pieces. I shall\npull out your heart...drain your blood.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m008#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV11_00",
+        "jp_asset": "Msg/JPja/MV11_00.msbt.zst",
+        "official_en_asset": "Msg/USen/MV11_00.msbt.zst",
+        "label": "MID_MV11_00_m008",
+        "entry_index": 8,
+        "jp_source_sha256": "42d9eefb259825a550e56931c0971b6864708b2737b9075f4255b24d44b7a65b",
+        "official_en_source_sha256": "67b6437ebf9b154e323e7b75a05f634134879cddb998e12b69eb720e90d961ed"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ソティス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV11_00.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ソティス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ソティス"
+            },
+            {
+              "source": "Msg/USen/MV11_00.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ソティス",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m007#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV11_00_m008"
+      },
+      "function": "story",
+      "text": {
+        "jp": "時のよすがの果てまでも封印しようぞ。",
+        "official_en": "Until the flow of time comes to\nan end...you will be sealed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m009#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV11_00",
+        "jp_asset": "Msg/JPja/MV11_00.msbt.zst",
+        "official_en_asset": "Msg/USen/MV11_00.msbt.zst",
+        "label": "MID_MV11_00_m009",
+        "entry_index": 9,
+        "jp_source_sha256": "42d9eefb259825a550e56931c0971b6864708b2737b9075f4255b24d44b7a65b",
+        "official_en_source_sha256": "67b6437ebf9b154e323e7b75a05f634134879cddb998e12b69eb720e90d961ed"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ソティス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV11_00.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ソティス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ソティス"
+            },
+            {
+              "source": "Msg/USen/MV11_00.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ソティス",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m008#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m010#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV11_00_m009"
+      },
+      "function": "story",
+      "text": {
+        "jp": "わしのこの手で直々に捌いてやろうというのじゃ。\nそれがせめてもの情けと知れ。",
+        "official_en": "I shall carry out this execution with my own hands.\nCount this the small mercy that it is.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m010#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV11_00",
+        "jp_asset": "Msg/JPja/MV11_00.msbt.zst",
+        "official_en_asset": "Msg/USen/MV11_00.msbt.zst",
+        "label": "MID_MV11_00_m010",
+        "entry_index": 10,
+        "jp_source_sha256": "42d9eefb259825a550e56931c0971b6864708b2737b9075f4255b24d44b7a65b",
+        "official_en_source_sha256": "67b6437ebf9b154e323e7b75a05f634134879cddb998e12b69eb720e90d961ed"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ソティス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV11_00.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ソティス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ソティス"
+            },
+            {
+              "source": "Msg/USen/MV11_00.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ソティス",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV11_00:MID_MV11_00_m009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV11_00_m010"
+      },
+      "function": "story",
+      "text": {
+        "jp": "さらばじゃ。深淵より冥きものよ。",
+        "official_en": "Begone from us, the Darkest Dark.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

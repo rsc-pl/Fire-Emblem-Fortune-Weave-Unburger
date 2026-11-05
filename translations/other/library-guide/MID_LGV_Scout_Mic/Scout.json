@@ -1,0 +1,1509 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m01#587",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m01",
+        "entry_index": 587,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Moo_m08_002#586",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m01_001#588"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 587,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m01_001#588",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m01_001",
+        "entry_index": 588,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m01#587",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m01_002#589"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 588,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "ねえ、\nあたしに何か依頼はないのかい？",
+        "official_en": "Hey, got any work that needs doing?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m01_002#589",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m01_002",
+        "entry_index": 589,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m01_001#588",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m01_003#590"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 589,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "これでも名の知れた傭兵だったんだ。\n多少厳しい仕事だってこなしてみせるよ。",
+        "official_en": "I made my name as a mercenary, and I'm not afraid\nof tough jobs.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m01_003#590",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m01_003",
+        "entry_index": 590,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m01_002#589",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m02#591"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 590,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "ここまでは稼ぐって決めた額があってね。\n決めたことは、守るのが筋ってもんだろ？",
+        "official_en": "I've managed to earn some coin from it, and I'd like\nto earn some more. What do you say?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m02#591",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m02",
+        "entry_index": 591,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m01_003#590",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m02_001#592"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 591,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m02_001#592",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m02_001",
+        "entry_index": 592,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m02#591",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m02_002#593"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 592,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "よし、契約成立だね。\n報酬分はきっちり働くよ。",
+        "official_en": "Great. We're under contract. I'll work hard for my\npay—just you watch.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m02_002#593",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m02_002",
+        "entry_index": 593,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m02_001#592",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m03#594"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 593,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "あんたが不義理を働かない限りは、\nあたしも裏切ったりしないから安心しな！",
+        "official_en": "As long as you're honorable, I'll stick with you.\nRest easy!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m03#594",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m03",
+        "entry_index": 594,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m02_002#593",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m03_001#595"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 594,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m03"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m03_001#595",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m03_001",
+        "entry_index": 595,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m03#594",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m04#596"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 595,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m03"
+      },
+      "function": "other",
+      "text": {
+        "jp": "気が変わったのかい？\nじゃあ仕方ないね。また声をかけておくれ。",
+        "official_en": "Changed your mind, did you? Just find me again if\nyou change it back.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m04#596",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m04",
+        "entry_index": 596,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m03_001#595",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m04_001#597"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 596,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m04_001#597",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m04_001",
+        "entry_index": 597,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m04#596",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m04_002#598"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 597,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "INNER_THOUGHT",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "この街にいると、あんたみたいな奴に\n仲間にならないかって、よく誘われるよ。",
+        "official_en": "People from across the city seek me out and ask for\nmy help. You're no different.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m04_002#598",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m04_002",
+        "entry_index": 598,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m04_001#597",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m05#599"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 598,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "嫌な気はしないけどさ、他を当たっておくれよ。\n恩を返さなきゃならない相手がいるんでね。",
+        "official_en": "Unfortunately for you, there's a person I owe a favor,\nso find somebody else.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m05#599",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m05",
+        "entry_index": 599,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m04_002#598",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m05_001#600"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 599,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m05_001#600",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m05_001",
+        "entry_index": 600,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m05#599",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m05_002#601"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 600,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "INNER_THOUGHT",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "何の話かと思ったら\nこのあたしに仲間になってほしいのかい？",
+        "official_en": "I wonder what it is that we might talk about. Let me\nguess—you want me to join you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m05_002#601",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m05_002",
+        "entry_index": 601,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m05_001#600",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m05_003#602"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 601,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "以前は、傭兵をやっててね。今でも\nあんたみたいなのに、時々声をかけられるよ。",
+        "official_en": "I used to be a mercenary, so I'm used to people\ncoming to me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m05_003#602",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m05_003",
+        "entry_index": 602,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m05_002#601",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m05_004#603"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 602,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "ディートリヒには助けてもらった恩があってさ。\nそっちと縁を切るつもりはないんだけど……",
+        "official_en": "But Dietrich helped me out when I needed it. I can't\njust leave him in the lurch.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m05_004#603",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m05_004",
+        "entry_index": 603,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m05_003#602",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m06#604"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 603,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "こっちも稼がなきゃならない事情があってね。\n報酬が貰えるなら、あんたに力を貸してやるよ。",
+        "official_en": "I am trying to save money though... So here's what\nwe'll do. If you make it worth my while, I'll help you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m06#604",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m06",
+        "entry_index": 604,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m05_004#603",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m06_001#605"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 604,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m06"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m06_001#605",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m06_001",
+        "entry_index": 605,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m06#604",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m06_002#606"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 605,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m06"
+      },
+      "function": "other",
+      "text": {
+        "jp": "よし、契約成立だね！\nこれからよろしく頼むよ。",
+        "official_en": "Great. We're under contract. I look forward to\nworking with you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m06_002#606",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m06_002",
+        "entry_index": 606,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m06_001#605",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m07#607"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 606,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m06"
+      },
+      "function": "other",
+      "text": {
+        "jp": "あんたが不義理を働いたりしない限りは、\nあたしも裏切ったりしないから、安心しな！",
+        "official_en": "As long as you're honorable, I'll stick with you.\nRest easy!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m07#607",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m07",
+        "entry_index": 607,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m06_002#606",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m07_001#608"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 607,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m07"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m07_001#608",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m07_001",
+        "entry_index": 608,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m07#607",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m08#609"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 608,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m07"
+      },
+      "function": "other",
+      "text": {
+        "jp": "おや、気が変わったのかい？\nじゃあ仕方ない。また声をかけておくれ。",
+        "official_en": "Changed your mind, did you? Just find me again if\nyou change it back.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m08#609",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m08",
+        "entry_index": 609,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m07_001#608",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m08_001#610"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 609,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m08"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m08_001#610",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Mic_m08_001",
+        "entry_index": 610,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Mic_m08#609",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Oly_m01#611"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 610,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Mic_m08"
+      },
+      "function": "other",
+      "text": {
+        "jp": "うーん……足りないね。\nこっちも仕事だ、そこはきっちりしておくれよ。",
+        "official_en": "Seriously? That isn't enough. Business is business.\nIt's a hard lesson, but you need to learn it sometime.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

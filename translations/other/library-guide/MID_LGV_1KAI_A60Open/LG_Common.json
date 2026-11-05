@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_Common:MID_LGV_1KAI_A60Open_m01#75",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_Common",
+        "jp_asset": "Msg/JPja/LG_Common.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_Common.msbt.zst",
+        "label": "MID_LGV_1KAI_A60Open_m01",
+        "entry_index": 75,
+        "jp_source_sha256": "89963794d3d69e244d977bc18a6d2b5ab6931e72d32b7635d299433f98d1d8fb",
+        "official_en_source_sha256": "b5b796159c019e428e80d860f6193153b485313c9fcf34d92f53abe58691a78f"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_Common:MID_LGV_1KAI_A60Lock_m01_002#74",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_Common:MID_LGV_1KAI_A60Open_m01_001#76"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 75,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1KAI_A60Open_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_Common:MID_LGV_1KAI_A60Open_m01_001#76",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_Common",
+        "jp_asset": "Msg/JPja/LG_Common.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_Common.msbt.zst",
+        "label": "MID_LGV_1KAI_A60Open_m01_001",
+        "entry_index": 76,
+        "jp_source_sha256": "89963794d3d69e244d977bc18a6d2b5ab6931e72d32b7635d299433f98d1d8fb",
+        "official_en_source_sha256": "b5b796159c019e428e80d860f6193153b485313c9fcf34d92f53abe58691a78f"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_Common.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/LG_Common.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_Common:MID_LGV_1KAI_A60Open_m01#75",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_Common:MID_LGV_1KAI_A100Warp_m01#77"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 76,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1KAI_A60Open_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "よし、鍵が開いた！\nこれでいつでも通れるぞ。",
+        "official_en": "OK, that's open. Now we can go through here\nany time we want.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

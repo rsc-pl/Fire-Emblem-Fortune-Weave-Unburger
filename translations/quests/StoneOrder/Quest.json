@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Quest:MSQID_Title_StoneOrder#654",
+      "source": {
+        "platform": "switch2",
+        "bank": "Quest",
+        "jp_asset": "Msg/JPja/Quest.msbt.zst",
+        "official_en_asset": "Msg/USen/Quest.msbt.zst",
+        "label": "MSQID_Title_StoneOrder",
+        "entry_index": 654,
+        "jp_source_sha256": "9cbc1878173bc0e6215de8e64e2a9f3412d9cdf091da3105ff3b4e664ec3e169",
+        "official_en_source_sha256": "cf1ab0de8645aef473a606555dab88abd8dddcd24e45132e6e0404e0104e4536"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Quest:MSQID_Client_BattleMidea#653",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Quest:MSQID_Detail_StoneOrder#655"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 654,
+        "label_alias_count": 1,
+        "dialogue_role": "UI",
+        "utterance_kind": "UI_LABEL",
+        "speaker_applicable": false,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MSQID_Title_StoneOrder"
+      },
+      "function": "quests",
+      "text": {
+        "jp": "錬成石の仕入れ依頼",
+        "official_en": "Searching for Smithing Stones",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Quest:MSQID_Detail_StoneOrder#655",
+      "source": {
+        "platform": "switch2",
+        "bank": "Quest",
+        "jp_asset": "Msg/JPja/Quest.msbt.zst",
+        "official_en_asset": "Msg/USen/Quest.msbt.zst",
+        "label": "MSQID_Detail_StoneOrder",
+        "entry_index": 655,
+        "jp_source_sha256": "9cbc1878173bc0e6215de8e64e2a9f3412d9cdf091da3105ff3b4e664ec3e169",
+        "official_en_source_sha256": "cf1ab0de8645aef473a606555dab88abd8dddcd24e45132e6e0404e0104e4536"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Quest:MSQID_Title_StoneOrder#654",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Quest:MSQID_Comp_StoneOrder#656"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 655,
+        "label_alias_count": 1,
+        "dialogue_role": "UI",
+        "utterance_kind": "UI_TEXT",
+        "speaker_applicable": false,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MSQID_Detail_StoneOrder"
+      },
+      "function": "quests",
+      "text": {
+        "jp": "錬成石が余ってたら分けてくれないか？\n俺は傭兵だ。武器は商売道具なんだが\nこのままじゃ使い物にならなくなっちまう。\n鉱山に行って掘り返してくるしかないか……？",
+        "official_en": "You got any <#CTRL:0E><#CTRL:08>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Quest:MSQID_Comp_StoneOrder#656",
+      "source": {
+        "platform": "switch2",
+        "bank": "Quest",
+        "jp_asset": "Msg/JPja/Quest.msbt.zst",
+        "official_en_asset": "Msg/USen/Quest.msbt.zst",
+        "label": "MSQID_Comp_StoneOrder",
+        "entry_index": 656,
+        "jp_source_sha256": "9cbc1878173bc0e6215de8e64e2a9f3412d9cdf091da3105ff3b4e664ec3e169",
+        "official_en_source_sha256": "cf1ab0de8645aef473a606555dab88abd8dddcd24e45132e6e0404e0104e4536"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Quest:MSQID_Detail_StoneOrder#655",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Quest:MSQID_Goal_StoneOrder#657"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 656,
+        "label_alias_count": 1,
+        "dialogue_role": "UI",
+        "utterance_kind": "UI_TEXT",
+        "speaker_applicable": false,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MSQID_Comp_StoneOrder"
+      },
+      "function": "quests",
+      "text": {
+        "jp": "錬成石を分けてくれるのか！？\nありがたい！　坑夫にならずに済んだよ。\nしかしここまで錬成石が無くなるとは……\nたぶん例の大剣闘祭の所為だな。",
+        "official_en": "You've got smithing stones to spare? Thanks! The\nHeroic Games have everybody snatching them up.\nI thought I was going to have to become a miner!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Quest:MSQID_Goal_StoneOrder#657",
+      "source": {
+        "platform": "switch2",
+        "bank": "Quest",
+        "jp_asset": "Msg/JPja/Quest.msbt.zst",
+        "official_en_asset": "Msg/USen/Quest.msbt.zst",
+        "label": "MSQID_Goal_StoneOrder",
+        "entry_index": 657,
+        "jp_source_sha256": "9cbc1878173bc0e6215de8e64e2a9f3412d9cdf091da3105ff3b4e664ec3e169",
+        "official_en_source_sha256": "cf1ab0de8645aef473a606555dab88abd8dddcd24e45132e6e0404e0104e4536"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Quest:MSQID_Comp_StoneOrder#656",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Quest:MSQID_Client_StoneOrder#658"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 657,
+        "label_alias_count": 1,
+        "dialogue_role": "UI",
+        "utterance_kind": "UI_LABEL",
+        "speaker_applicable": false,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MSQID_Goal_StoneOrder"
+      },
+      "function": "quests",
+      "text": {
+        "jp": "以下の物を納品",
+        "official_en": "Deliver the following:",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Quest:MSQID_Client_StoneOrder#658",
+      "source": {
+        "platform": "switch2",
+        "bank": "Quest",
+        "jp_asset": "Msg/JPja/Quest.msbt.zst",
+        "official_en_asset": "Msg/USen/Quest.msbt.zst",
+        "label": "MSQID_Client_StoneOrder",
+        "entry_index": 658,
+        "jp_source_sha256": "9cbc1878173bc0e6215de8e64e2a9f3412d9cdf091da3105ff3b4e664ec3e169",
+        "official_en_source_sha256": "cf1ab0de8645aef473a606555dab88abd8dddcd24e45132e6e0404e0104e4536"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Quest:MSQID_Goal_StoneOrder#657",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Quest:MSQID_Title_YamanOrder#659"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 658,
+        "label_alias_count": 1,
+        "dialogue_role": "UI",
+        "utterance_kind": "UI_LABEL",
+        "speaker_applicable": false,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MSQID_Client_StoneOrder"
+      },
+      "function": "quests",
+      "text": {
+        "jp": "錬成石が欲しい傭兵",
+        "official_en": "Mercenary Who Needs Smithing Stones",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

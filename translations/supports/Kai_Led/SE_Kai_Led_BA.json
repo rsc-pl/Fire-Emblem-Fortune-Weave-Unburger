@@ -1,0 +1,3803 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B",
+        "entry_index": 0,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_001#1"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_001",
+        "entry_index": 1,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あら、カイじゃない。\nどう、最近恋してる？",
+        "official_en": "If it isn't Cai! Found love lately?",
+        "real_en": "If it isn't Kai! Found love lately?"
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_002",
+        "entry_index": 2,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ええっ？\nいきなり何でそんなこと聞くの？",
+        "official_en": "Really? You're just gonna hit me with that outta\nthe blue?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_003",
+        "entry_index": 3,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "だって、大剣闘祭の頃のあなたは、\n『よくわからない』って言ってたでしょう？",
+        "official_en": "I just remember that during the Heroic Games,\nyou said you didn't know much about it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_004",
+        "entry_index": 4,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_005#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "だけど、あれから成長して、\nぐっと男前になったんだし、気になるじゃない。",
+        "official_en": "Now you're an eligible young man, so I thought I'd\nfollow up and ask.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_005#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_005",
+        "entry_index": 5,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_006#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "それで、どうなのよ？\n浮いた話の一つや二つぐらいあるんじゃないの？",
+        "official_en": "Come on! There must be one or two flings you can\ntell me about, surely.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_006#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_006",
+        "entry_index": 6,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_005#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_007#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……レダ姉ちゃんは、\nそういうところ相変わらずだよね。",
+        "official_en": "Same old Leda. You haven't changed a bit.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_007#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_007",
+        "entry_index": 7,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_006#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_008#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "でもさ、そんなに無理して\n明るく振る舞わなくていいよ。",
+        "official_en": "You know you don't have to hide behind that\ncheerful mask with me, right?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_008#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_008",
+        "entry_index": 8,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_007#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………",
+        "official_en": "Ah...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_009#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_009",
+        "entry_index": 9,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_008#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_010#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "初めて会った時から、気になってたんだ。\n普段の態度とその奥にある復讐の気持ち……",
+        "official_en": "I've been curious about it since we first met, the way\nyou keep your desire for revenge behind your smile.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_010#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_010",
+        "entry_index": 10,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_009#9",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_011#11"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "まだベルトラン兄ちゃんのこと、\n憎んでいるんだよね？",
+        "official_en": "You still hate Bertrand, don't you?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_011#11",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_011",
+        "entry_index": 11,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_010#10",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_012#12"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 11,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ベルトラン兄ちゃんはもういないけど……\n気持ちは晴れていないんだよね？",
+        "official_en": "Bertrand's gone, but that doesn't mean your hatred\nfor him has disappeared, right? ",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_012#12",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_012",
+        "entry_index": 12,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_011#11",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_013#13"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 12,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……ふうん、心配してくれてるのかしら？\n本当に優しい子よね、カイは。",
+        "official_en": "You're that worried about me, huh? You really are a\ngood guy.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_013#13",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_013",
+        "entry_index": 13,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_012#12",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_014#14"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 13,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "だけど、お生憎様だわ。\nあなたが思うほど無理なんてしてないもの。",
+        "official_en": "But actually, you don't have me quite right—I'm not\nfaking it as much as you might think.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_014#14",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_014",
+        "entry_index": 14,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_013#13",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_015#15"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 14,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あたしは小さい頃から明るい性格なのよ。\nちょっと騒がしいくらいにね。",
+        "official_en": "Since I was a little girl, I've been cheerful by nature.\nTo the point that I was a little bit unruly.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_015#15",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_015",
+        "entry_index": 15,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_014#14",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_016#16"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 15,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "『あなたがいるとお部屋が明るくなるわね』って\nお母さまも言ってくださったものよ。",
+        "official_en": "My mother used to say that the room lit up when I\nwas in it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_016#16",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_016",
+        "entry_index": 16,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_015#15",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_017#17"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 16,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "お父さまも、あたしを見てよく笑ってくださって、\nそんな二人が大好きだったわ……",
+        "official_en": "And my father... I can still remember how he used\nto beam at me. I loved making the two of them smile.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_017#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_017",
+        "entry_index": 17,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_016#16",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_018#18"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……姉ちゃんにもそんな頃があったんだね。\n『両親から愛されてぬくぬくと育った』時期がさ。",
+        "official_en": "So you had that experience too. \"Loved by your\nparents,\" and all that.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_018#18",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_018",
+        "entry_index": 18,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_017#17",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_019#19"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 18,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ふふふ、どこかで聞いたような台詞ね。\n意趣返しのつもりかしら？",
+        "official_en": "Hehe. Alright, I see what you're doing. Turning my\nown words back at me?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_019#19",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_019",
+        "entry_index": 19,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_018#18",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_020#20"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 19,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "でも、確かにそのとおりよ。\nだからこそ、喪ったことを嘆いたの。",
+        "official_en": "But you're right, that's how it felt. And that's why\nI grieved my old life so bitterly.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_020#20",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_020",
+        "entry_index": 20,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_019#19",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_021#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 20,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あたしたちは、かつて相対したわね。片や父親を\n殺した相手を殺すため、片や父親を生かすため……",
+        "official_en": "I thought of us as opposites. Me trying to kill the man\nwho killed my father, you trying to keep yours alive.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_021#21",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_021",
+        "entry_index": 21,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_020#20",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_022#22"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 21,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "決して相容れはしなかったけれど、\n根は同じだったのかもね。",
+        "official_en": "But, even though our goals were incompatible,\nmaybe we were the same at heart.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_022#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_022",
+        "entry_index": 22,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_021#21",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_023#23"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ただ、両親と一緒に幸せに暮らしたかっただけ……\n取り戻せたかどうか、それだけの差だったの。",
+        "official_en": "All we wanted was a happy life with our parents.\nThe difference was just—you could get yours back.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_023#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_023",
+        "entry_index": 23,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_022#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_024#24"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "うん、そうかも……\nでも、今はオレの親父もいないんだけどね……",
+        "official_en": "I guess you're right. But now Pop's gone too.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_024#24",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_024",
+        "entry_index": 24,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_023#23",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_025#25"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 24,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……ごめんなさいね、カイ。\n前は大嫌いだなんて言ってしまって。",
+        "official_en": "Oh, Cai. I'm sorry—for saying I hated you.",
+        "real_en": "Oh, Kai. I'm sorry—for saying I hated you."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_025#25",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_025",
+        "entry_index": 25,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_024#24",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_026#26"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 25,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "お詫びにはならないだろうけど、\nあなたのお父さまの話、聞かせてくれない？",
+        "official_en": "I know it won't make up for being so cruel, but would\nyou tell me about your father?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_026#26",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_026",
+        "entry_index": 26,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_025#25",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_027#27"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 26,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "もちろん。じゃあ、レダ姉ちゃんの\n家族のことも、もっと聞かせてよ。",
+        "official_en": "Of course. And I want to hear more about your\nparents too.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_027#27",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_027",
+        "entry_index": 27,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_026#26",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_028#28"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 27,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "さっきの話、オレも興味あるからさ。",
+        "official_en": "I have a feeling there's a lot to tell.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_028#28",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_B_028",
+        "entry_index": 28,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_027#27",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A#29"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 28,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ええ、いいわよ。お父さまとお母さまは、\n評判になるほどお似合いで、お熱い夫婦でね……",
+        "official_en": "Oh, you have no idea! I mean, I've never seen a\nlove like theirs. They were so well matched...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A#29",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A",
+        "entry_index": 29,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_B_028#28",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_001#30"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 29,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_001#30",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_001",
+        "entry_index": 30,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A#29",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_002#31"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 30,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……そう。アウロラさまは神殿では\nほとんど人に会わずに生活していたのね。",
+        "official_en": "So Aurora kept herself to the temple? Then she must\nhave... Wow, she must have hardly seen anyone.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_002#31",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_002",
+        "entry_index": 31,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_001#30",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_003#32"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 31,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "うん、それで親父は荒っぽいとこがあったからさ。\n二人が一緒になれたのが不思議なくらいなんだ。",
+        "official_en": "Yeah, and Pop was a real tough guy. It's a wonder\nthe two of them ever got together.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_003#32",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_003",
+        "entry_index": 32,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_002#31",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_004#33"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 32,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "恋は理屈で考えられるものじゃないのよ。\nどんな恋路だって、誰にも予想できないわ。",
+        "official_en": "Well, if love is one thing, it's irrational. You never\nknow where it'll take you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_004#33",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_004",
+        "entry_index": 33,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_003#32",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_005#34"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 33,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あたしのお父さまは郡総督だったわ。\n生真面目で、すっごく自分に厳しい人だったの。",
+        "official_en": "My father was the viceroy—a serious, sturdy man,\nwho kept himself to careful routines.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_005#34",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_005",
+        "entry_index": 34,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_004#33",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_006#35"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 34,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "でもお母さまのこととなると急に意地を張ったり、\nいつもは絶対しないような失敗をしたり……",
+        "official_en": "Around my mother though! The man changed\ncompletely, turned blustery and blundering.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_006#35",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_006",
+        "entry_index": 35,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_005#34",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_007#36"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 35,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あはは。\nそれだけ誰かを想えるのって、素敵だね。",
+        "official_en": "Hehehe. I guess he really fell for your mom.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_007#36",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_007",
+        "entry_index": 36,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_006#35",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_008#37"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 36,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あたしたちが生まれてきたのも強い想いの結晶……\n何だか誇らしい気持ちになるわよね。",
+        "official_en": "You and I, we're the products of our parents' passion\nfor each other. Doesn't that make you feel proud?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_008#37",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_008",
+        "entry_index": 37,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_007#36",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_009#38"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 37,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "けれど、強い想いは時にすべてを破壊するほうへ\n向かってしまう……不思議なものよ。",
+        "official_en": "Though of course, passion can go in the other\ndirection—make you want to destroy everything.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_009#38",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_009",
+        "entry_index": 38,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_008#37",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_010#39"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 38,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "レダ姉ちゃんの復讐心のように……\nっていうことだよね。",
+        "official_en": "You mean like your vendetta?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_010#39",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_010",
+        "entry_index": 39,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_009#38",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_011#40"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 39,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……やっぱりオレは、復讐なんかに囚われて\n生きていくのは良くないと思う。",
+        "official_en": "I still say obsessing over vengeance is a bad idea.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_011#40",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_011",
+        "entry_index": 40,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_010#39",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_012#41"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 40,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "『復讐なんか』ね。\nあたしの人生を簡単に否定してくれちゃって。",
+        "official_en": "Obsessing over vengeance? You'd write off my whole\nlife just like that?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_012#41",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_012",
+        "entry_index": 41,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_011#40",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_013#42"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 41,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "だけど、レダ姉ちゃんだって、\n考えたことぐらいあるでしょ？",
+        "official_en": "The thought must have occurred to you before\ntoo, right?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_013#42",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_013",
+        "entry_index": 42,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_012#41",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_014#43"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 42,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "もし復讐に囚われなければ、\nもっと明るい気持ちで生きられるって。",
+        "official_en": "The idea that you could live a better life if you\nweren't fixated on revenge?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_014#43",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_014",
+        "entry_index": 43,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_013#42",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_015#44"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 43,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "オレは姉ちゃんのこと否定したいわけじゃないよ。\nただ、幸せに生きてほしいんだ。",
+        "official_en": "I'm not saying you should ignore what happened to\nyou. I just want you to be happy.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_015#44",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_015",
+        "entry_index": 44,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_014#43",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_016#45"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 44,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………カイ。\nあなた、見た目はすっかり大人になったけど……",
+        "official_en": "Cai. You may look grown up.",
+        "real_en": "Kai. You may look grown up."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_016#45",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_016",
+        "entry_index": 45,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_015#44",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_017#46"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 45,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "中身は昔とたいして変わっていない。\n青臭いままね。",
+        "official_en": "But on the inside, it seems you haven't changed\nmuch. You're still green.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_017#46",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_017",
+        "entry_index": 46,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_016#45",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_018#47"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 46,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ええ？　酷いな。それに変わってないって\n言うなら姉ちゃんもじゃないか。",
+        "official_en": "That's a little harsh. Maybe I haven't changed much,\nbut have you?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_018#47",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_018",
+        "entry_index": 47,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_017#46",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_019#48"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 47,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あ、でも、二人とも変わってないなら、\n姉ちゃんはオレのこと嫌いなままなのかな……",
+        "official_en": "And if you haven't, does that mean you still hate me?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_019#48",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_019",
+        "entry_index": 48,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_018#47",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_020#49"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 48,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "違うわよ。一人で勝手に結論出さないで。\n別にそういうことを言いたいわけじゃないの。",
+        "official_en": "That's— Of course I didn't mean that. Don't put\nwords in my mouth.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_020#49",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_020",
+        "entry_index": 49,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event stages the same person (look/placement) but does not perform a motion command on the line"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_019#48",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_021#50"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 49,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "むしろずっと、そのままでいるあなたが、\n愛おしく思えるのよ。",
+        "official_en": "I think it's sweet that after all this time, you're the\nsame kindhearted Cai as ever.",
+        "real_en": "I think it's sweet that after all this time, you're the\nsame kindhearted Kai as ever."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_021#50",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_021",
+        "entry_index": 50,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_020#49",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_022#51"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 50,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "カイが隣にいてくれると、\nあたしは安心できる気がする……",
+        "official_en": "The kind of person who makes me feel safer when\nthey're by my side.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_022#51",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_022",
+        "entry_index": 51,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_021#50",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_023#52"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 51,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "わ、そ、そうなんだ。\n………………",
+        "official_en": "R-really? Well...I, um, uh...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_023#52",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_023",
+        "entry_index": 52,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event stages the same person (look/placement) but does not perform a motion command on the line"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_022#51",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_024#53"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 52,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "でもオレも、そんなレダ姉ちゃんから\n目が離せない……かな。",
+        "official_en": "Well...I'd better keep an eye on you, then.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_024#53",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_024",
+        "entry_index": 53,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カイ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カイ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カイ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カイ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_023#52",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_025#54"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 53,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ひょっとしたら、これがオレたちの恋……\nなのかもしれないね。",
+        "official_en": "I guess...you're the answer to any questions about\nmy love life.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_025#54",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Kai_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+        "label": "MID_SE_Kai_Led_A_025",
+        "entry_index": 54,
+        "jp_source_sha256": "0ace5b5d592241fbf4ab67caaec51df6166db63a61988a2b00a3235bad43305c",
+        "official_en_source_sha256": "aa5e82b64e830344b7ee89c6e8133a6d24b89aa6d8a9bb0bc4612525c88ac8d0"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Kai_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Kai_Led_BA:MID_SE_Kai_Led_A_024#53"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 54,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Kai_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……さあ。\nどうだかね。",
+        "official_en": "Haha! Let's not get ahead of ourselves.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1475 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m01",
+        "entry_index": 0,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": "Script/hub/HubExternal_SideStory.bin.zst",
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_001#1"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_08_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m01_001",
+        "entry_index": 1,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アンナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アンナ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_08_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "ふっふっふ。私は大剣闘祭運営のアンナ。\nでも、今日はちょっと違う用事なの。",
+        "official_en": "You know me as Anna, the administrator of the\nHeroic Games, but my job today is a little different.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m01_002",
+        "entry_index": 2,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アンナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アンナ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_08_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "あなたの腕を見込んで頼みたいことがあるの。\n話を聞いてくれないかしら？",
+        "official_en": "You seem like a skilled warrior, so I have a favor to\nask if you're willing to listen.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m01_003",
+        "entry_index": 3,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アンナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アンナ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_08_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "ちなみにセオドラ陛下、今回は神殿の内部でも\n極秘の案件となります関係上――",
+        "official_en": "By the way, Queen Theodora, because this job is a\nsecret, and you never know who's listening...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m01_004",
+        "entry_index": 4,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アンナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アンナ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_005#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_08_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "私の口調についても気軽な感じになりますけど、\nこれも世を欺く為ですので、ご協力下さいね。",
+        "official_en": "I might sound a little more casual than you're used to.\nBut trust me, there's good reason for it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_005#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m01_005",
+        "entry_index": 5,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_006#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "CHOICE",
+        "utterance_kind": "CHOICE_OPTION",
+        "speaker_applicable": false,
+        "marker": "NCA",
+        "branch_tag": "NCA",
+        "branch_option": "A",
+        "branch_phase": "PROMPT",
+        "authored_group": "MID_LGV_SCXX_08_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<NCA>話を聞く",
+        "official_en": "<NCA>Hear her out.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_006#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m01_006",
+        "entry_index": 6,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_005#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_007#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "CHOICE",
+        "utterance_kind": "CHOICE_OPTION",
+        "speaker_applicable": false,
+        "marker": "NCB",
+        "branch_tag": "NCB",
+        "branch_option": "B",
+        "branch_phase": "PROMPT",
+        "authored_group": "MID_LGV_SCXX_08_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<NCB>興味はない",
+        "official_en": "<NCB>Decline the request.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_007#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m01_007",
+        "entry_index": 7,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アンナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アンナ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "text",
+              "value": "branch reply",
+              "note": "post-choice branch reply retains the responder PID"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_006#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_008#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "BRANCH_DIALOGUE",
+        "speaker_applicable": true,
+        "marker": "ACA",
+        "branch_tag": "ACA",
+        "branch_option": "A",
+        "branch_phase": "REPLY",
+        "authored_group": "MID_LGV_SCXX_08_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<ACA>ありがとう！\nそれじゃ、早速内容についてなのだけど……",
+        "official_en": "<ACA>Great! Then we can get straight to the details.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_008#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m01_008",
+        "entry_index": 8,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アンナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アンナ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "text",
+              "value": "branch reply",
+              "note": "post-choice branch reply retains the responder PID"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_007#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "BRANCH_DIALOGUE",
+        "speaker_applicable": true,
+        "marker": "ACB",
+        "branch_tag": "ACB",
+        "branch_option": "B",
+        "branch_phase": "REPLY",
+        "authored_group": "MID_LGV_SCXX_08_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<ACB>そんなこと言わないで！\n後生よ！　話だけでも聞いて頂戴。",
+        "official_en": "<ACB>Aw, don't be like that! At least let me tell you what\nthe favor is about.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_009#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m01_009",
+        "entry_index": 9,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アンナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アンナ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_008#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_010#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_08_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "ダグシオンの外れに、半分土に埋もれた\n古い礼拝施設の跡地があるの。",
+        "official_en": "There was an old worship site on the outskirts of\nDagsion once. What's left of it is half buried now.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_010#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m01_010",
+        "entry_index": 10,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アンナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アンナ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_009#9",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_011#11"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_08_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "そこはかなり昔に放棄されていて、完全に\n人の寄り付かない廃墟になっているのだけど。",
+        "official_en": "It was abandoned long ago. With no one keeping\nthe place in good shape, it fell into ruin.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_011#11",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m01_011",
+        "entry_index": 11,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アンナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アンナ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_010#10",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_012#12"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 11,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_08_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "どうもそこを無断で使っている人がいるみたいで、\n私はそれを調べないといけないってわけ。",
+        "official_en": "But now I hear someone's been poking around it\nwithout permission. I need to find out why.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_012#12",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m01_012",
+        "entry_index": 12,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アンナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アンナ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_011#11",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_013#13"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 12,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_08_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "そこで、護衛をお願いできそうな人を探して\nいたのだけど、あなたなら申し分ないわ！",
+        "official_en": "But I'd rather not go alone, and you seem like the\nperfect backup!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_013#13",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m01_013",
+        "entry_index": 13,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アンナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アンナ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_012#12",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m03#14"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 13,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_08_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "どう？\nお願いできないかしら？",
+        "official_en": "What do you think? Are you in?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m03#14",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m03",
+        "entry_index": 14,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": "Script/hub/HubExternal_SideStory.bin.zst",
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m01_013#13",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m03_001#15"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 14,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_08_m03"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m03_001#15",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m03_001",
+        "entry_index": 15,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アンナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アンナ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m03#14",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m03_002#16"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 15,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "INNER_THOUGHT",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_08_m03"
+      },
+      "function": "other",
+      "text": {
+        "jp": "……まあ、ちょっとばかし\n危険な目には遭うかも知れないけど……",
+        "official_en": "Now, fair warning, there might be some danger.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m03_002#16",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m03_002",
+        "entry_index": 16,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アンナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アンナ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m03_001#15",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m03_003#17"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 16,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_08_m03"
+      },
+      "function": "other",
+      "text": {
+        "jp": "その分報酬ははずませてもらうわ。\nね、悪い話じゃないでしょう？",
+        "official_en": "Which is why I'm willing to pay generously for it.\nNot a bad deal, right?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m03_003#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m03_003",
+        "entry_index": 17,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アンナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アンナ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m03_002#16",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m04#18"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_08_m03"
+      },
+      "function": "other",
+      "text": {
+        "jp": "手伝ってくれるなら、\n都合の良いときに、また声をかけて頂戴！",
+        "official_en": "If you're in, come find me when you have the time.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m04#18",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m04",
+        "entry_index": 18,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": "Script/hub/HubExternal_SideStory.bin.zst",
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m03_003#17",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m04_001#19"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 18,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_08_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m04_001#19",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m04_001",
+        "entry_index": 19,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アンナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アンナ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m04#18",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m04_002#20"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 19,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_08_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "ダグシオンの外れにある古い礼拝施設の跡地を\n探らなければならないんだけど……",
+        "official_en": "I need to poke around the ruins of an old worship site\non the outskirts of Dagsion.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m04_002#20",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m04_002",
+        "entry_index": 20,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アンナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アンナ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m04_001#19",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m04_No#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 20,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_08_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "どう？　\n手伝ってくれる気になった？",
+        "official_en": "What do you think? Are you in?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m04_No#21",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m04_No",
+        "entry_index": 21,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": "Script/hub/HubExternal_SideStory.bin.zst",
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m04_002#20",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m04_007#22"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 21,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_08_m04_No"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m04_007#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Soleil",
+        "jp_asset": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+        "label": "MID_LGV_SCXX_08_m04_007",
+        "entry_index": 22,
+        "jp_source_sha256": "1a358ec90c35afa085b40e8be42597e61e5bc74e2f0967845f4adb89016696ac",
+        "official_en_source_sha256": "52e5c58bb1a0137752007803d51c0bb24d845e58ddea3efc3615a3ccef37b8d9"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アンナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アンナ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Soleil.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Soleil:MID_LGV_SCXX_08_m04_No#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_08_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "そ、そう……気が変わったら声をかけてね。\nあなたのこと、信じてるわよ！",
+        "official_en": "Fair enough! But if you change your mind, come find\nme. I'll keep my fingers crossed!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

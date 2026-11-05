@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_2_XXX_c01:MID_LGA_2SEO_c01_Bon_m01#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_2_XXX_c01",
+        "jp_asset": "Msg/JPja/LG_2_XXX_c01.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_2_XXX_c01.msbt.zst",
+        "label": "MID_LGA_2SEO_c01_Bon_m01",
+        "entry_index": 2,
+        "jp_source_sha256": "0552b0cfa56e7ea928fd61639a04cba71a731c707c9e70ecd9c1813b8d98f969",
+        "official_en_source_sha256": "5be465a4a4a3257adc74947a36485538fedaaa661d9f6c8f1868171f43ce2531"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ボナパルテ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_2_XXX_c01.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ボナパルテ"
+            },
+            {
+              "source": "Msg/USen/LG_2_XXX_c01.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_2_XXX_c01:MID_LGV_2SEO_c01_Bon_m01_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_2_XXX_c01:MID_LGV_2BEL_c01_Gat_m01#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": "BLN",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGA_2SEO_c01_Bon_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<BLN>出撃いたしますかな？",
+        "official_en": "<BLN>Shall we sally forth?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

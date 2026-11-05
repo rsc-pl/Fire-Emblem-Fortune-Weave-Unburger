@@ -1,0 +1,1157 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Seodola",
+        "jp_asset": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+        "label": "MID_LGV_SCXX_02_m01",
+        "entry_index": 0,
+        "jp_source_sha256": "2ab5dfdde5f3012a436aa9d32444dfed14ec7779df961e0e9219c9e047ea6f85",
+        "official_en_source_sha256": "48207b7d99833c5a5ad24845ff5405cb46fad95e5df0e091fdd78d101a691d57"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": "Script/hub/HubExternal_SideStory.bin.zst",
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_001#1"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_02_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Seodola",
+        "jp_asset": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+        "label": "MID_LGV_SCXX_02_m01_001",
+        "entry_index": 1,
+        "jp_source_sha256": "2ab5dfdde5f3012a436aa9d32444dfed14ec7779df961e0e9219c9e047ea6f85",
+        "official_en_source_sha256": "48207b7d99833c5a5ad24845ff5405cb46fad95e5df0e091fdd78d101a691d57"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ボナパルテ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ボナパルテ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_02_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "おお、おぬしか……\n実は今、とある問題が発生していてな。",
+        "official_en": "Ah, hello. You may be the answer to a problem I am\ncurrently facing.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Seodola",
+        "jp_asset": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+        "label": "MID_LGV_SCXX_02_m01_002",
+        "entry_index": 2,
+        "jp_source_sha256": "2ab5dfdde5f3012a436aa9d32444dfed14ec7779df961e0e9219c9e047ea6f85",
+        "official_en_source_sha256": "48207b7d99833c5a5ad24845ff5405cb46fad95e5df0e091fdd78d101a691d57"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ボナパルテ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ボナパルテ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_02_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "このダグシオンに、サラミスの勇士を模した石像が\nあったのは知っておろう？",
+        "official_en": "Were you aware that there was a stone statue here\nin Dagsion depicting a brave Saraminian warrior?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Seodola",
+        "jp_asset": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+        "label": "MID_LGV_SCXX_02_m01_003",
+        "entry_index": 3,
+        "jp_source_sha256": "2ab5dfdde5f3012a436aa9d32444dfed14ec7779df961e0e9219c9e047ea6f85",
+        "official_en_source_sha256": "48207b7d99833c5a5ad24845ff5405cb46fad95e5df0e091fdd78d101a691d57"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "CHOICE",
+        "utterance_kind": "CHOICE_OPTION",
+        "speaker_applicable": false,
+        "marker": "NCA",
+        "branch_tag": "NCA",
+        "branch_option": "A",
+        "branch_phase": "PROMPT",
+        "authored_group": "MID_LGV_SCXX_02_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<NCA>知っている",
+        "official_en": "<NCA>Tell him you knew.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Seodola",
+        "jp_asset": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+        "label": "MID_LGV_SCXX_02_m01_004",
+        "entry_index": 4,
+        "jp_source_sha256": "2ab5dfdde5f3012a436aa9d32444dfed14ec7779df961e0e9219c9e047ea6f85",
+        "official_en_source_sha256": "48207b7d99833c5a5ad24845ff5405cb46fad95e5df0e091fdd78d101a691d57"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_005#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "CHOICE",
+        "utterance_kind": "CHOICE_OPTION",
+        "speaker_applicable": false,
+        "marker": "NCB",
+        "branch_tag": "NCB",
+        "branch_option": "B",
+        "branch_phase": "PROMPT",
+        "authored_group": "MID_LGV_SCXX_02_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<NCB>知らない",
+        "official_en": "<NCB>Tell him you didn't know.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_005#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Seodola",
+        "jp_asset": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+        "label": "MID_LGV_SCXX_02_m01_005",
+        "entry_index": 5,
+        "jp_source_sha256": "2ab5dfdde5f3012a436aa9d32444dfed14ec7779df961e0e9219c9e047ea6f85",
+        "official_en_source_sha256": "48207b7d99833c5a5ad24845ff5405cb46fad95e5df0e091fdd78d101a691d57"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ボナパルテ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ボナパルテ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "text",
+              "value": "branch reply",
+              "note": "post-choice branch reply retains the responder PID"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_006#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "BRANCH_DIALOGUE",
+        "speaker_applicable": true,
+        "marker": "ACA",
+        "branch_tag": "ACA",
+        "branch_option": "A",
+        "branch_phase": "REPLY",
+        "authored_group": "MID_LGV_SCXX_02_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<ACA>感心だ。目立つ場所にあったわけではないからか、\n知らぬなどと言う者も多くての。",
+        "official_en": "<ACA>Impressive. Few people know of it, as it was not\nprominently displayed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_006#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Seodola",
+        "jp_asset": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+        "label": "MID_LGV_SCXX_02_m01_006",
+        "entry_index": 6,
+        "jp_source_sha256": "2ab5dfdde5f3012a436aa9d32444dfed14ec7779df961e0e9219c9e047ea6f85",
+        "official_en_source_sha256": "48207b7d99833c5a5ad24845ff5405cb46fad95e5df0e091fdd78d101a691d57"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ボナパルテ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ボナパルテ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "text",
+              "value": "branch reply",
+              "note": "post-choice branch reply retains the responder PID"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_005#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_007#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "BRANCH_DIALOGUE",
+        "speaker_applicable": true,
+        "marker": "ACB",
+        "branch_tag": "ACB",
+        "branch_option": "B",
+        "branch_phase": "REPLY",
+        "authored_group": "MID_LGV_SCXX_02_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<ACB>なんと不勉強な……確かに、そこまで目立つ場所に\n置いてあるわけでもなかったが。",
+        "official_en": "<ACB>I cannot fault you for your ignorance. It was not\nexactly prominently displayed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_007#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Seodola",
+        "jp_asset": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+        "label": "MID_LGV_SCXX_02_m01_007",
+        "entry_index": 7,
+        "jp_source_sha256": "2ab5dfdde5f3012a436aa9d32444dfed14ec7779df961e0e9219c9e047ea6f85",
+        "official_en_source_sha256": "48207b7d99833c5a5ad24845ff5405cb46fad95e5df0e091fdd78d101a691d57"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ボナパルテ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ボナパルテ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_006#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_008#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_02_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "セオドラ様の父上、セルヒオ様の代にて、\n我らサラミスは“ダグザの盾”と称された。",
+        "official_en": "During the reign of King Sergio, my queen's father,\nSaramis was dubbed the \"Shield of Dagda.\"",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_008#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Seodola",
+        "jp_asset": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+        "label": "MID_LGV_SCXX_02_m01_008",
+        "entry_index": 8,
+        "jp_source_sha256": "2ab5dfdde5f3012a436aa9d32444dfed14ec7779df961e0e9219c9e047ea6f85",
+        "official_en_source_sha256": "48207b7d99833c5a5ad24845ff5405cb46fad95e5df0e091fdd78d101a691d57"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ボナパルテ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ボナパルテ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_007#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_02_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "その勇猛な戦いぶりを称えるため、\nソレル様が職人に命じて勇士の像を造ったのだ。",
+        "official_en": "And to commemorate our valor in battle, Lord Solel\ncommissioned a statue of a brave warrior.",
+        "real_en": "And to commemorate our valor in battle, Lord Sorell\ncommissioned a statue of a brave warrior."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_009#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Seodola",
+        "jp_asset": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+        "label": "MID_LGV_SCXX_02_m01_009",
+        "entry_index": 9,
+        "jp_source_sha256": "2ab5dfdde5f3012a436aa9d32444dfed14ec7779df961e0e9219c9e047ea6f85",
+        "official_en_source_sha256": "48207b7d99833c5a5ad24845ff5405cb46fad95e5df0e091fdd78d101a691d57"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ボナパルテ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ボナパルテ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_008#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_010#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_02_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "なかなか豪華な造りの、立派な像だったのだが……\n唾棄すべき愚か者がそれを盗んだとのことでな。",
+        "official_en": "It was a fine statue, and excellently detailed. But a\npack of contemptible villains has stolen it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_010#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Seodola",
+        "jp_asset": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+        "label": "MID_LGV_SCXX_02_m01_010",
+        "entry_index": 10,
+        "jp_source_sha256": "2ab5dfdde5f3012a436aa9d32444dfed14ec7779df961e0e9219c9e047ea6f85",
+        "official_en_source_sha256": "48207b7d99833c5a5ad24845ff5405cb46fad95e5df0e091fdd78d101a691d57"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ボナパルテ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ボナパルテ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_009#9",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_011#11"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_02_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "美しい宝石が装飾として用いられていたので、\nそれ目当てだろうと目されておる。",
+        "official_en": "The stonework was adorned with a dazzling jewel,\nwhich I believe was their true target.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_011#11",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Seodola",
+        "jp_asset": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+        "label": "MID_LGV_SCXX_02_m01_011",
+        "entry_index": 11,
+        "jp_source_sha256": "2ab5dfdde5f3012a436aa9d32444dfed14ec7779df961e0e9219c9e047ea6f85",
+        "official_en_source_sha256": "48207b7d99833c5a5ad24845ff5405cb46fad95e5df0e091fdd78d101a691d57"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ボナパルテ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ボナパルテ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_010#10",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_012#12"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 11,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_02_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "サラミスの栄誉が汚され、陛下は大層お怒りだ。\nワタクシとしても憤懣遣る方ない。",
+        "official_en": "Her Majesty is furious at this slight upon Saramis's\nhonor. As am I.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_012#12",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Seodola",
+        "jp_asset": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+        "label": "MID_LGV_SCXX_02_m01_012",
+        "entry_index": 12,
+        "jp_source_sha256": "2ab5dfdde5f3012a436aa9d32444dfed14ec7779df961e0e9219c9e047ea6f85",
+        "official_en_source_sha256": "48207b7d99833c5a5ad24845ff5405cb46fad95e5df0e091fdd78d101a691d57"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ボナパルテ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ボナパルテ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_011#11",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_013#13"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 12,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_02_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "神殿の者たちが捜索を行っているが、\n別途我らも動き、盗人を成敗してやるつもりだ。",
+        "official_en": "The temples are conducting a search, but we have\ntaken our own action to bring the thieves to justice.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_013#13",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Seodola",
+        "jp_asset": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+        "label": "MID_LGV_SCXX_02_m01_013",
+        "entry_index": 13,
+        "jp_source_sha256": "2ab5dfdde5f3012a436aa9d32444dfed14ec7779df961e0e9219c9e047ea6f85",
+        "official_en_source_sha256": "48207b7d99833c5a5ad24845ff5405cb46fad95e5df0e091fdd78d101a691d57"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ボナパルテ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ボナパルテ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_012#12",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_014#14"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 13,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_02_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "部下の調べによると「禊の祭壇」にて\n怪しい集団が目撃されたらしい。",
+        "official_en": "My agents have investigated and noticed a suspicious\ngroup lurking at the purification shrine.",
+        "real_en": "My agents have investigated and noticed a suspicious\ngroup lurking at the Purification Altar."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_014#14",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Seodola",
+        "jp_asset": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+        "label": "MID_LGV_SCXX_02_m01_014",
+        "entry_index": 14,
+        "jp_source_sha256": "2ab5dfdde5f3012a436aa9d32444dfed14ec7779df961e0e9219c9e047ea6f85",
+        "official_en_source_sha256": "48207b7d99833c5a5ad24845ff5405cb46fad95e5df0e091fdd78d101a691d57"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ボナパルテ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ボナパルテ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_013#13",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m03#15"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 14,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_02_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "彼奴らの討伐、おぬしも助力してくれぬか。",
+        "official_en": "Would you assist us in striking at them?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m03#15",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Seodola",
+        "jp_asset": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+        "label": "MID_LGV_SCXX_02_m03",
+        "entry_index": 15,
+        "jp_source_sha256": "2ab5dfdde5f3012a436aa9d32444dfed14ec7779df961e0e9219c9e047ea6f85",
+        "official_en_source_sha256": "48207b7d99833c5a5ad24845ff5405cb46fad95e5df0e091fdd78d101a691d57"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": "Script/hub/HubExternal_SideStory.bin.zst",
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m01_014#14",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m03_001#16"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 15,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_02_m03"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m03_001#16",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Seodola",
+        "jp_asset": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+        "label": "MID_LGV_SCXX_02_m03_001",
+        "entry_index": 16,
+        "jp_source_sha256": "2ab5dfdde5f3012a436aa9d32444dfed14ec7779df961e0e9219c9e047ea6f85",
+        "official_en_source_sha256": "48207b7d99833c5a5ad24845ff5405cb46fad95e5df0e091fdd78d101a691d57"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ボナパルテ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ボナパルテ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m03#15",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m03_002#17"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 16,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_02_m03"
+      },
+      "function": "other",
+      "text": {
+        "jp": "無論、只でとは言わん。\n相応の謝礼を用意しよう。",
+        "official_en": "There is compensation involved, naturally. I shall\nprepare a suitable reward.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m03_002#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_SideStory_Seodola",
+        "jp_asset": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+        "label": "MID_LGV_SCXX_02_m03_002",
+        "entry_index": 17,
+        "jp_source_sha256": "2ab5dfdde5f3012a436aa9d32444dfed14ec7779df961e0e9219c9e047ea6f85",
+        "official_en_source_sha256": "48207b7d99833c5a5ad24845ff5405cb46fad95e5df0e091fdd78d101a691d57"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ボナパルテ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ボナパルテ"
+            },
+            {
+              "source": "Msg/USen/LG_SideStory_Seodola.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_SideStory_Seodola:MID_LGV_SCXX_02_m03_001#16"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SCXX_02_m03"
+      },
+      "function": "other",
+      "text": {
+        "jp": "足労だが、引き受ける気になったら\n伝えた場所まで来てくれ、頼んだぞ。",
+        "official_en": "It is not an easy place to reach, but if you are\ninterested, head to the purification shrine.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

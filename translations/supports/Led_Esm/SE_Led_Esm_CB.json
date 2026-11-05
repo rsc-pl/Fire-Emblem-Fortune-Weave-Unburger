@@ -1,0 +1,3797 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C",
+        "entry_index": 0,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_001#1"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_001",
+        "entry_index": 1,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "見てよレダ！　あんたに貰った化粧水を\n使ってみたんだけどさ。ほら、すべすべ！",
+        "official_en": "Hey, Leda! That balm you gave me... It works! My\nskin's already way smoother!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_002",
+        "entry_index": 2,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "本当ね。前よりずっと肌理が整ってるわ。\n何だか、艶も出たように思うし……",
+        "official_en": "I bet it is. Your skin looks lovely! You've got quite\na glow about you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_003",
+        "entry_index": 3,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "やっぱりあなたは、磨けば光るわね。\nあげた甲斐があったわ。",
+        "official_en": "And all it took was a little bit of polish. I'm really\nglad that balm worked for you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_004",
+        "entry_index": 4,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_005#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "え～、そう？　ふふん、レダみたいな\n綺麗な女に褒められると自信がつくね。",
+        "official_en": "Really? You think so? Hehe. Coming from you, that\nmeans a lot.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_005#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_005",
+        "entry_index": 5,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_006#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "周りにも変化が出てきたんじゃない？\n都会の男に言い寄られたりして。",
+        "official_en": "Oh, I'm sure I'm not the only one who's noticed. I bet\nyou've been turning heads all over town.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_006#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_006",
+        "entry_index": 6,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_005#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_007#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "かもしれないけど興味ないよ。\nあたいはダーリン一筋さ。",
+        "official_en": "Maybe... But I'm not interested. I only have eyes for\nmy Sweetie!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_007#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_007",
+        "entry_index": 7,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_006#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_008#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "じゃあ、その愛しのディートリヒの反応は？",
+        "official_en": "And how did Dietrich react?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_008#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_008",
+        "entry_index": 8,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_007#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そう、聞いてよ！　女っぷりは上がったけどさ！\n肝心のダーリンの態度が全然変わらないんだよ！",
+        "official_en": "It was a disaster! I'm doing everything I can to catch\nhis eye... But no change. He's as tight-lipped as ever!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_009#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_009",
+        "entry_index": 9,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_008#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_010#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "うーん、確かに彼……簡単じゃなさそうよね。\nちょっと待ってて。",
+        "official_en": "Heh... Yeah, can't say I'm surprised. That one would\nbe tough to crack. Um... Oh! I have an idea...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_010#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_010",
+        "entry_index": 10,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_009#9",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_011#11"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "はいこれ、あげるわ。香油なんだけど、\nカーラさまもお使いになると言われる品でね。",
+        "official_en": "Here, try this. It's a perfumed oil. I hear this is what\nthe goddess Kalla herself uses.",
+        "real_en": "Here, try this. It's a perfumed oil. I hear this is what\nthe goddess Cara herself uses."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_011#11",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_011",
+        "entry_index": 11,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_010#10",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_012#12"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 11,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "髪に塗り込めば、そよ風が吹くたびに、\n薔薇の香りが広がるようになるの。",
+        "official_en": "All you have to do is massage it through your hair.\nThen, when the breeze blows, you'll smell like roses.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_012#12",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_012",
+        "entry_index": 12,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_011#11",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_013#13"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 12,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "へえ、神様はこんなのつけてるんだ。\nこれで女神にも匹敵するいい女になるんだね！",
+        "official_en": "You're giving me the hair oil of the GODS? If that\nwon't turn Sweetie's head, what will?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_013#13",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_013",
+        "entry_index": 13,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_012#12",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_014#14"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 13,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "流石にそこまでは畏れ多くて言えないわよ。\nでも、包容力のある女は演出できると思うわ。",
+        "official_en": "Hehe. Who knows. But it can't hurt to make\nyourself seem a bit more...refined.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_014#14",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_014",
+        "entry_index": 14,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_013#13",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_015#15"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 14,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いい匂いするね。\n海獣の脂から作ったものとは全然違うよ。",
+        "official_en": "Ooh, smell that! All we have back home is\nsea-beast blubber.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_015#15",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_015",
+        "entry_index": 15,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_014#14",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_016#16"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 15,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あはは、まだ開けてもないじゃない。\n気のせいよ。つけてみなさいな。",
+        "official_en": "Hehehe. How can you smell it when you haven't\neven opened the bottle? Come on, try it for real.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_016#16",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_016",
+        "entry_index": 16,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_015#15",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_017#17"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 16,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "？　まあいいや。\nこれでダーリンもあたいに気を持つはずさ！",
+        "official_en": "Well, if you say so... I just hope Sweetie likes it!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_017#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_017",
+        "entry_index": 17,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_016#16",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_018#18"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "！？　ううっ、匂い強……！",
+        "official_en": "Oh wow. Wow... This is... This is REALLY strong!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_018#18",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_018",
+        "entry_index": 18,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_017#17",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_019#19"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 18,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "危ない！　ちょっと、ふらふらじゃない大丈夫？\nいったん蓋は閉めるわよ。",
+        "official_en": "Hey, you alright? You don't look so good. Let's...put\nthe cork back in the bottle.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_019#19",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_019",
+        "entry_index": 19,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_018#18",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_020#20"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 19,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ごめん、慣れない匂いだからかな……\n直接嗅ぐとキツくて……",
+        "official_en": "Sorry... It just kinda punched me in the face! Maybe\nit's a little much for me...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_020#20",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_020",
+        "entry_index": 20,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_019#19",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_021#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 20,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "瓶越しに嗅ぐ分には………………\nへっちゃらなんだけどさ。",
+        "official_en": "I think I'm going to keep this closed. Then I should\nbe OK.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_021#21",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_021",
+        "entry_index": 21,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_020#20",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_022#22"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 21,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "本当に開ける前から香りを感じられるのね。\nそれ自体はすごいことだけど……",
+        "official_en": "Wow, you really did smell it before the bottle was\nopen! That's amazing, but...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_022#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_022",
+        "entry_index": 22,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_021#21",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_023#23"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "困ったわね。別の油を混ぜてもいいけど、\nそれだと香油本来の良さが損なわれちゃうし……",
+        "official_en": "I'm not sure how to make this work for you. I could\ntry to dilute it, but that would probably just ruin it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_023#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_023",
+        "entry_index": 23,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_022#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_024#24"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "うう～、自分の鼻が憎い。\nいい女になるはずだったのに～。",
+        "official_en": "Me and my nose! I was on the road to elegance,\nbut I crashed!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_024#24",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_024",
+        "entry_index": 24,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_023#23",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_025#25"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 24,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "レダはいいなあ、滅茶苦茶綺麗だしさ……\nどんな男も好きにできそうじゃないのさ。",
+        "official_en": "Leda, I'll level with you... You're so sophisticated.\nYou can get any man you want.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_025#25",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_025",
+        "entry_index": 25,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_024#24",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_026#26"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 25,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そんなことないわよ……\nあいつは手が届かないところにいるんだしね。",
+        "official_en": "That is not true. I can't even get the one man I want.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_026#26",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_026",
+        "entry_index": 26,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_025#25",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_027#27"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 26,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "なら、香油は諦めて可愛い服で着飾るとか、\n彼が好きになりそうな別の……",
+        "official_en": "Look, Esmeralda. You have so much potential.\nLet's forget the oil and focus on something else.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_027#27",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_027",
+        "entry_index": 27,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_026#26",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_028#28"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 27,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "待った！\nあたいはこの香油、物にするよ！",
+        "official_en": "No can do! I've set my mind to it!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_028#28",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_028",
+        "entry_index": 28,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_027#27",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_029#29"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 28,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ええ？　だってさっきはあんなに\n苦しそうだったじゃない。無理しちゃ駄目よ。",
+        "official_en": "You nearly fainted! You do not have to force yourself\nto smell like roses.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_029#29",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_029",
+        "entry_index": 29,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_028#28",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_030#30"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 29,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "無理でも何でも、ダーリンのためなら、\nあたいはやるよ！　諦めるもんか！",
+        "official_en": "There's nothing I can't do! I've made up my mind.\nI WILL smell like a rose. Sweetie? Just you wait!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_030#30",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_C_030",
+        "entry_index": 30,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_029#29",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B#31"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 30,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "『無理でも何でも』か……\nじゃあ、あなたの気の済むまでやりなさい。",
+        "official_en": "Nothing you can't do, huh? Who am I to stop you.\nKnock yourself out, Esme.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B#31",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B",
+        "entry_index": 31,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_C_030#30",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_001#32"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 31,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_001#32",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_001",
+        "entry_index": 32,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B#31",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_002#33"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 32,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "じゃーん！　どうさ、レダ！\nあの香油を遂に克服したよ！",
+        "official_en": "Ta-da! Here I am, smelling like a rose! What do you\nthink?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_002#33",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_002",
+        "entry_index": 33,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_001#32",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_003#34"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 33,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "え？　……本当だわ。\nちゃんとつけられてるじゃない！",
+        "official_en": "What? Oh wow, you smell wonderful!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_003#34",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_003",
+        "entry_index": 34,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_002#33",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_004#35"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 34,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いろいろ頑張った成果さ。\n鼻つまんだり、鼻栓をしたりしてさ。",
+        "official_en": "It did take a little trial and error. First I held my nose,\nthen I stuffed it up with cotton...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_004#35",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_004",
+        "entry_index": 35,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_003#34",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_005#36"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 35,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "けど、口から入る匂いで気分が悪くなるから\n意味なくてさ。息を止めることにしたんだ。",
+        "official_en": "No matter what I tried, the scent was overwhelming.\nSo I decided I'd just hold my breath.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_005#36",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_005",
+        "entry_index": 36,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_004#35",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_006#37"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 36,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "え？　もしかして蓋を開けてから、\n香油を塗って、髪に馴染むまで……",
+        "official_en": "Hold your breath? From when you uncork the\nbottle until...your hair absorbs the oil?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_006#37",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_006",
+        "entry_index": 37,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_005#36",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_007#38"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 37,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そう、匂いが弱まるまでずーっとね！\nまあ、海に潜り続けるようなもんさ！",
+        "official_en": "That's right! Till the smell dies down. I just think of it\nlike...jumping into the sea! Which I've done. A lot.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_007#38",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_007",
+        "entry_index": 38,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_006#37",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_008#39"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 38,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "随分と面白いというか、危ない方法だけど、\n本当に無理を通して克服しちゃうなんてね。",
+        "official_en": "That's an...interesting...solution. And probably a\ndangerous one. But you did what you said you'd do!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_008#39",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_008",
+        "entry_index": 39,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_007#38",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_009#40"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 39,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "何回か死ぬかと思ったけどね。\n愛の力で乗り越えたのさ。",
+        "official_en": "I did! I worried I might pass out...or even die! But the\npower of love saw me through.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_009#40",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_009",
+        "entry_index": 40,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "エスメラルダ",
+              "note": "Event stages a different sole actor; audited counterexample class shows staging actor is the listener and ATR1.PID remains the speaker"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_008#39",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_010#41"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 40,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……たとえ死ぬような目に遭っても、\n目的を成し遂げたいって気持ちはよくわかるわ。",
+        "official_en": "I know how it feels to want to achieve a goal so\nbadly that you're willing to die for it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_010#41",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_010",
+        "entry_index": 41,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_009#40",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_011#42"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 41,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "それでディートリヒのほうはどうだったの？\n惚れてくれた？",
+        "official_en": "So, tell me... How did Dietrich react this time?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_011#42",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_011",
+        "entry_index": 42,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_010#41",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_012#43"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 42,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "全然！　何となくそんな気はしてたけど、\n駄目だったよ。いつものダーリンのままさ。",
+        "official_en": "He...didn't. I thought he'd notice, but no. That's my\nSweetie, I guess. It's just how he is.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_012#43",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_012",
+        "entry_index": 43,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_011#42",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_013#44"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 43,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "死ぬほどの思いをした割には、\nなんだか嬉しそうね？",
+        "official_en": "For someone who nearly died of rose-scented hair,\nyou seem pretty happy.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_013#44",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_013",
+        "entry_index": 44,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_012#43",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_014#45"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 44,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "うん、あたいの愛が、\n少しも揺らがなかったからね。",
+        "official_en": "Well, all this trouble showed me that Sweetie really\nis the one.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_014#45",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_014",
+        "entry_index": 45,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_013#44",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_015#46"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 45,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ダーリンのためにつらい思いをして、\nだけど全然結果に繋がらなくて………………",
+        "official_en": "I nearly killed myself with this stuff, and he didn't\neven notice!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_015#46",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_015",
+        "entry_index": 46,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_014#45",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_016#47"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 46,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "それでも変わらず大好きなままさ。\n自分自身の想いの強さを再確認できたよ。",
+        "official_en": "But I still love him. And I realized that all this was\nsilly. I need to focus on what matters.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_016#47",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_016",
+        "entry_index": 47,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_015#46",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_017#48"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 47,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ふーん、そういうことね。\n自分を顧みず、ただ相手を求めて、か……",
+        "official_en": "<#CTRL:0E>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_017#48",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_017",
+        "entry_index": 48,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_016#47",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_018#49"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 48,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "エスメラルダ、あなたのこと気に入っちゃったわ。\n彼にはちょっともったいないぐらいに。",
+        "official_en": "Esmeralda... You are very impressive. And you're\ntotally wasted on this man.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_018#49",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_018",
+        "entry_index": 49,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_017#48",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_019#50"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 49,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "えっ……？\nちょ、ちょっとレダ！？",
+        "official_en": "What do you mean by that?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_019#50",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_019",
+        "entry_index": 50,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_018#49",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_020#51"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 50,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "大丈夫よ。女の魅力を教えるだけだから。\nあなたは身を任せるだけでいいの。",
+        "official_en": "Let's just say there's a lot more I could teach you\nabout using your feminine wiles. If you'll let me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_020#51",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_020",
+        "entry_index": 51,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_019#50",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_021#52"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 51,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "きっと、誰よりも艶やかで美しい花になれるわ。\nディートリヒでさえも惑うような花に……",
+        "official_en": "I could help you blossom into a flower so bewitching\nthat no one could resist you...not even Dietrich.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_021#52",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_021",
+        "entry_index": 52,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_020#51",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_022#53"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 52,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ダ、ダーリンがあたいの色香に、\n惑わされるのは見たいけど………………",
+        "official_en": "Bewitching? That sounds good, but, um...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_022#53",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_022",
+        "entry_index": 53,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_021#52",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_023#54"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 53,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "でも、レダとそういうのは無理ー！！！",
+        "official_en": "Sweetie is the only one for meee!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_023#54",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Esm_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+        "label": "MID_SE_Led_Esm_B_023",
+        "entry_index": 54,
+        "jp_source_sha256": "82d7a34862d6e72bf5e725a7ec5845d9802bf99ed5ae152e55c64fe84065976c",
+        "official_en_source_sha256": "1b777fe2f5e0525136a3bb7506bf40b899b6d000d103701a89c37971bc6fc7bb"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Esm_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Esm_CB:MID_SE_Led_Esm_B_022#53"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 54,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Esm_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ふふふ、冗談だったのに。\nうぶな分、これからが楽しみね。",
+        "official_en": "Aw, I was just kidding! She's got a lot to learn, but\nit'll be fun to see what life has in store for this one.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

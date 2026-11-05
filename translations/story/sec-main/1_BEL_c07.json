@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c07:MID_EV15_044_m01_001#101",
+      "source": {
+        "platform": "switch2",
+        "bank": "1_BEL_c07",
+        "jp_asset": "Msg/JPja/1_BEL_c07.msbt.zst",
+        "official_en_asset": "Msg/USen/1_BEL_c07.msbt.zst",
+        "label": "MID_EV15_044_m01_001",
+        "entry_index": 101,
+        "jp_source_sha256": "f2d6a9b7cd91c49ca39afad25151f005acfec0db2414a46e2923d32c664aa038",
+        "official_en_source_sha256": "6783e040e91b4e9db16ac5a2f84a8e219c0e4099d6946cf055880d7f980058cc"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "アスワン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/1_BEL_c07.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アスワン"
+            },
+            {
+              "source": "Msg/USen/1_BEL_c07.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/1_BEL_c07.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_アスワン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c07:MID_EV15_044_m01#100",
+          "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c07:MID_EV15_044_m01_002#102"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 101,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV15_044_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "ベルトラン！\nやっぱり、間違いないわ！",
+        "official_en": "Bertrand! It's Bertrand!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c07:MID_EV15_044_m01_002#102",
+      "source": {
+        "platform": "switch2",
+        "bank": "1_BEL_c07",
+        "jp_asset": "Msg/JPja/1_BEL_c07.msbt.zst",
+        "official_en_asset": "Msg/USen/1_BEL_c07.msbt.zst",
+        "label": "MID_EV15_044_m01_002",
+        "entry_index": 102,
+        "jp_source_sha256": "f2d6a9b7cd91c49ca39afad25151f005acfec0db2414a46e2923d32c664aa038",
+        "official_en_source_sha256": "6783e040e91b4e9db16ac5a2f84a8e219c0e4099d6946cf055880d7f980058cc"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "アスワン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/1_BEL_c07.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アスワン"
+            },
+            {
+              "source": "Msg/USen/1_BEL_c07.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/1_BEL_c07.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_アスワン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c07:MID_EV15_044_m01_001#101",
+          "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c07:MID_EV15_044_m01_003#103"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 102,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV15_044_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "雰囲気は変わっているけれど……\nあれは確かにベルトランだわ！",
+        "official_en": "Much-changed...but that's him! I know it is!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c07:MID_EV15_044_m01_003#103",
+      "source": {
+        "platform": "switch2",
+        "bank": "1_BEL_c07",
+        "jp_asset": "Msg/JPja/1_BEL_c07.msbt.zst",
+        "official_en_asset": "Msg/USen/1_BEL_c07.msbt.zst",
+        "label": "MID_EV15_044_m01_003",
+        "entry_index": 103,
+        "jp_source_sha256": "f2d6a9b7cd91c49ca39afad25151f005acfec0db2414a46e2923d32c664aa038",
+        "official_en_source_sha256": "6783e040e91b4e9db16ac5a2f84a8e219c0e4099d6946cf055880d7f980058cc"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ギルキルス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/1_BEL_c07.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ギルキルス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ギルキルス"
+            },
+            {
+              "source": "Msg/USen/1_BEL_c07.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ギルキルス",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/1_BEL_c07.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ギルキルス",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c07:MID_EV15_044_m01_002#102",
+          "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c07:MID_EV15_044_m01_004#104"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 103,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV15_044_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "……何だと！？\nあれが……ベルトラン？",
+        "official_en": "What did you say?! THAT is Bertrand?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c07:MID_EV15_044_m01_005#105",
+      "source": {
+        "platform": "switch2",
+        "bank": "1_BEL_c07",
+        "jp_asset": "Msg/JPja/1_BEL_c07.msbt.zst",
+        "official_en_asset": "Msg/USen/1_BEL_c07.msbt.zst",
+        "label": "MID_EV15_044_m01_005",
+        "entry_index": 105,
+        "jp_source_sha256": "f2d6a9b7cd91c49ca39afad25151f005acfec0db2414a46e2923d32c664aa038",
+        "official_en_source_sha256": "6783e040e91b4e9db16ac5a2f84a8e219c0e4099d6946cf055880d7f980058cc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ギルキルス",
+          "evidence": [
+            {
+              "source": "Msg/JPja/1_BEL_c07.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ギルキルス",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ギルキルス"
+            },
+            {
+              "source": "Msg/USen/1_BEL_c07.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ギルキルス",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c07:MID_EV15_044_m01_004#104",
+          "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c07:MID_EV15_044_m01_006#106"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 105,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV15_044_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "……馬鹿な……\n何故、お前が生きている……",
+        "official_en": "How are you still alive?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

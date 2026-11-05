@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGA_SQID_JuraRequest_Jun_m01#903",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGA_SQID_JuraRequest_Jun_m01",
+        "entry_index": 903,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ジュラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ジュラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ジュラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m01_009#902",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02#904"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 903,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": "BLN",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGA_SQID_JuraRequest_Jun_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<BLN>頼みたいことがあるのです",
+        "official_en": "<BLN>I have a favor to ask.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

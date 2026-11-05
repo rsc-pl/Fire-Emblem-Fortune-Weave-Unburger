@@ -1,0 +1,1413 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01#1021",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_AuroraRequest_Aur_m01",
+        "entry_index": 1021,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_CaraRequest_Car_m02_010#1020",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_001#1022"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 1021,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_AuroraRequest_Aur_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_001#1022",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_AuroraRequest_Aur_m01_001",
+        "entry_index": 1022,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アウロラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アウロラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01#1021",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_002#1023"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1022,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_AuroraRequest_Aur_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "まあ、救世主さま。\nようこそお越しくださいましたわ。",
+        "official_en": "Thank you for coming, Promised One.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_002#1023",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_AuroraRequest_Aur_m01_002",
+        "entry_index": 1023,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アウロラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アウロラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_001#1022",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_003#1024"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1023,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_AuroraRequest_Aur_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "周辺で怪我をした人や避難民を\n収容して、治療を行っているところですの。",
+        "official_en": "I want you to know that we're doing all we can to\ntreat the injured and help refugees.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_003#1024",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_AuroraRequest_Aur_m01_003",
+        "entry_index": 1024,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アウロラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アウロラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_002#1023",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_004#1025"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1024,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_AuroraRequest_Aur_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "……皆、頑張っておりますわ。\n自分たちが生きるための戦いを。",
+        "official_en": "Everyone is fighting to survive this dark time.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_004#1025",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_AuroraRequest_Aur_m01_004",
+        "entry_index": 1025,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アウロラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アウロラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_003#1024",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_005#1026"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1025,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_AuroraRequest_Aur_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "でも、皆がこうして希望を持っていられるのは、\n救世主さまのおかげだと思っておりますの。",
+        "official_en": "But I believe that fight is only possible because you\ninspire them to hold hope in their hearts.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_005#1026",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_AuroraRequest_Aur_m01_005",
+        "entry_index": 1026,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アウロラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アウロラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_004#1025",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_006#1027"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1026,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_AuroraRequest_Aur_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "――そうでしたわ、わたくし、救世主さまに\nお願いしたいことがあったのでした。",
+        "official_en": "On that front, there is something I need to ask\nof you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_006#1027",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_AuroraRequest_Aur_m01_006",
+        "entry_index": 1027,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アウロラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アウロラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_005#1026",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_007#1028"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1027,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_AuroraRequest_Aur_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "治療に使う薬がどうしても足りなくて、\nどこからか調達しなければならないのですけど。",
+        "official_en": "We are desperately short on medicine, with no new\nsupplies coming our way.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_007#1028",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_AuroraRequest_Aur_m01_007",
+        "entry_index": 1028,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アウロラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アウロラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_006#1027",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_008#1029"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1028,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_AuroraRequest_Aur_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "だけど、薬不足はどこも同じ。この神殿が\n買占めを行うわけには参りませんわ。",
+        "official_en": "The shortage is felt everywhere, and the temple\nmust not hoard its supply.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_008#1029",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_AuroraRequest_Aur_m01_008",
+        "entry_index": 1029,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アウロラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アウロラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_007#1028",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_009#1030"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1029,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_AuroraRequest_Aur_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "薬そのものが手に入らなくとも、\nいくつかの材料さえ手に入れば、",
+        "official_en": "I don't need the finished medication to help. If I can\nget hold of the ingredients...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_009#1030",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_AuroraRequest_Aur_m01_009",
+        "entry_index": 1030,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アウロラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アウロラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_008#1029",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_010#1031"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1030,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_AuroraRequest_Aur_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "昔スミルノスのおじさまから教わった製法で\n薬を作ることができる筈なのですが……",
+        "official_en": "I should be able to make medicine using the recipe I\nlearned from my uncle Smyrnos a long time ago.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_010#1031",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_AuroraRequest_Aur_m01_010",
+        "entry_index": 1031,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アウロラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アウロラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_009#1030",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_011#1032"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1031,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_AuroraRequest_Aur_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "その素材を、集めて来て貰えませんか？\nもちろん無償で……などとは言いません。",
+        "official_en": "I'd be happy to compensate you for the trouble of\ngathering the ingredients for me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_011#1032",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_AuroraRequest_Aur_m01_011",
+        "entry_index": 1032,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アウロラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アウロラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_010#1031",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02#1033"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1032,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_AuroraRequest_Aur_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "最上級の兵種の試験を受けられるなど、色々な\nお礼を用意しておきます。お願いしましたよ。",
+        "official_en": "Perhaps you'd be interested in taking a master class\nexam? Let's talk once you've found the ingredients.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02#1033",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_AuroraRequest_Aur_m02",
+        "entry_index": 1033,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m01_011#1032",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_001#1034"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 1033,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_AuroraRequest_Aur_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_001#1034",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_AuroraRequest_Aur_m02_001",
+        "entry_index": 1034,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アウロラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アウロラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02#1033",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_002#1035"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1034,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_AuroraRequest_Aur_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "まあ！　救世主さま、\n材料を見つけてきてくださいましたのね。",
+        "official_en": "You've gathered the ingredients I asked for?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_002#1035",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_AuroraRequest_Aur_m02_002",
+        "entry_index": 1035,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アウロラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アウロラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_001#1034",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_003#1036"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1035,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_AuroraRequest_Aur_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "これで、多くの方々を救うことができますわ。\n本当にありがとう。",
+        "official_en": "This will help us to save many lives. Thank you\nso much.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_003#1036",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_AuroraRequest_Aur_m02_003",
+        "entry_index": 1036,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アウロラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アウロラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_002#1035",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_004#1037"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1036,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_AuroraRequest_Aur_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "あなたはこうして、各地で人々を救っているのね……\nわたくしも、その力になりたいわ。",
+        "official_en": "Your work has saved so many people. I want to help\nin any way I can.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_004#1037",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_AuroraRequest_Aur_m02_004",
+        "entry_index": 1037,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アウロラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アウロラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_003#1036",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_005#1038"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1037,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_AuroraRequest_Aur_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "まず約束通り、あなたに「バトルモンク」の\n資格試験を受けられるようにしましょう。",
+        "official_en": "So, as promised, you can now take the <#CTRL:0E><#CTRL:08>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_005#1038",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_AuroraRequest_Aur_m02_005",
+        "entry_index": 1038,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アウロラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アウロラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_004#1037",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_006#1039"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1038,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_AuroraRequest_Aur_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "そして、この神殿の神の道の門を開放します。\nこれからは自由に使ってください！",
+        "official_en": "Also, I'll open the Gate of the Gods to this temple.\nFeel free to use it whenever you need!",
+        "real_en": "Also, I'll open the Gate of the Divine Path to this temple.\nFeel free to use it whenever you need!"
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_006#1039",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_AuroraRequest_Aur_m02_006",
+        "entry_index": 1039,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アウロラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アウロラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_005#1038",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_007#1040"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1039,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_AuroraRequest_Aur_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "それから、我がアウロラ神殿の、\n試練を受けられるように手配しましょう。",
+        "official_en": "I will also arrange for you to take on the trial at\nmy temple.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_007#1040",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_AuroraRequest_Aur_m02_007",
+        "entry_index": 1040,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アウロラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アウロラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_006#1039",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_008#1041"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1040,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_AuroraRequest_Aur_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "その試練を乗り越えれば、あなたは「アーク」が\n使えるようになります。戦いにきっと役立つわ！",
+        "official_en": "Overcoming that trial will allow you to use my Arc.\nI imagine you'll find it very useful in battle!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_008#1041",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_AuroraRequest_Aur_m02_008",
+        "entry_index": 1041,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アウロラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アウロラ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アウロラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_AuroraRequest_Aur_m02_007#1040",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_ReconstructionArena1_B01_m01#1042"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1041,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_AuroraRequest_Aur_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "神殿の人に話しかければ、試練に挑めます。\nうふふ……好きな時に挑戦してみてくださいね。",
+        "official_en": "Just speak to someone at the temple to take the trial\nanytime you like.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

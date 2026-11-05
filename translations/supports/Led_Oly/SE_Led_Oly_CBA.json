@@ -1,0 +1,5114 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_C",
+        "entry_index": 0,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_001#1"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_C_001",
+        "entry_index": 1,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "勝負ですわ、レイリダーナ。\n今日という今日はあたくしが勝ちますから！",
+        "official_en": "Leilidahna! On this day I shall be victorious at last!\nAnd so...I challenge you!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_C_002",
+        "entry_index": 2,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ほんと、毎日懲りないわね。\n他にすることはないの？",
+        "official_en": "Don't you ever learn? Please, you must have\nsomething better to do.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_C_003",
+        "entry_index": 3,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "当然ですわ。あなたを打ち負かすことこそ\nあたくしの悲願ですもの！",
+        "official_en": "I do not. Defeating you is my greatest desire!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_C_004",
+        "entry_index": 4,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_005#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "最も“カエルスの薔薇”に相応しいのは\nあたくしだと証明してみせますわよ！",
+        "official_en": "Once and for all, I will prove that I am the one most\nworthy of the title Rose of Caelus! Not you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_005#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_C_005",
+        "entry_index": 5,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_006#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "はあ、いつもこの調子……\nいい加減面倒くさいわね。",
+        "official_en": "<#CTRL:0E>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_006#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_C_006",
+        "entry_index": 6,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_005#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_007#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そんなに勝ちたいんだったら、\nあたしの弱みを教えてあげるわ。",
+        "official_en": "If winning is that important to you, I'll just tell you\nmy weakness.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_007#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_C_007",
+        "entry_index": 7,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_006#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_008#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "馬鹿にしていますの！？\nそんな宿敵から施しを受けるような真似……",
+        "official_en": "You dare mock me?! I will NOT accept an act of\ncharity from my sworn enemy!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_008#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_C_008",
+        "entry_index": 8,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_007#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あらそう、ならいいわよ。\n嫌ならこれは一生の秘密にしておきましょう。",
+        "official_en": "Oh? Well, if that's how you feel, I'll take this secret\nto the grave with me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_009#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_C_009",
+        "entry_index": 9,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_008#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_010#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "こ、厚意を受けないのも無作法ですわね。\nいいでしょう、お聞かせなさい。",
+        "official_en": "I...I suppose it would be impolite of me not to accept\nyour sad little gesture. Very well, I shall hear it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_010#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_C_010",
+        "entry_index": 10,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event stages the same person (look/placement) but does not perform a motion command on the line"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_009#9",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_011#11"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "実は……あたしはね、料理がすっごく下手なの。\nどうやっても食べられないものが出来るのよ。",
+        "official_en": "The truth is I'm absolutely awful at cooking. Doesn't\nmatter what I do, the food I make is just...disgusting.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_011#11",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_C_011",
+        "entry_index": 11,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_010#10",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_012#12"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 11,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "りょ……『料理』ですって？",
+        "official_en": "C-cooking...you say?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_012#12",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_C_012",
+        "entry_index": 12,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_011#11",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_013#13"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 12,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "“カエルスの薔薇”の称号を持つ者には、\n人としての魅力も求められるわ。",
+        "official_en": "As the Rose of Caelus, I'm supposed to have\nmastered all of the arts.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_013#13",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_C_013",
+        "entry_index": 13,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_012#12",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_014#14"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 13,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "歌や踊りといった芸術が最も評価されるけど、\n料理の上手さも当然魅力の一つよ。",
+        "official_en": "Singing and dancing are valued most, as you know,\nbut mastery of the culinary arts is important too.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_014#14",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_C_014",
+        "entry_index": 14,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_013#13",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_015#15"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 14,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "料理であっても、あたしを一泡吹かせてみせたら\n結構な箔がつくと思うわよ。",
+        "official_en": "If you beat me in a cooking challenge, I'm sure your\nstanding will get a big boost.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_015#15",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_C_015",
+        "entry_index": 15,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_014#14",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_016#16"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 15,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………",
+        "official_en": "Rrrgh!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_016#16",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_C_016",
+        "entry_index": 16,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_015#15",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_017#17"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 16,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "何、その顔。あたしとしては痛い弱点を\n教えたつもりなんだけど、嬉しくないの？",
+        "official_en": "Why are you making that face? I told you my secret.\nIt's embarrassing. You should be smiling.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_017#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_C_017",
+        "entry_index": 17,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_016#16",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_018#18"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "オリンピアのことだから、\n大喜びで飛び跳ねるかと思ったのに。",
+        "official_en": "In fact, I would expect that you, of all people, would\nbe jumping for joy.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_018#18",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_C_018",
+        "entry_index": 18,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_017#17",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_019#19"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 18,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "全然喜べませんわ。\nだって……",
+        "official_en": "I cannot rejoice at all, Leilidahna. You see...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_019#19",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_C_019",
+        "entry_index": 19,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_018#18",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_020#20"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 19,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………\nあたくしも料理は苦手なんですもの。",
+        "official_en": "I am also...terrible at cooking.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_020#20",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_C_020",
+        "entry_index": 20,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_019#19",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 20,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……ああ、そう。",
+        "official_en": "Oh.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B#21",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B",
+        "entry_index": 21,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_C_020#20",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_001#22"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 21,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_001#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_001",
+        "entry_index": 22,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B#21",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_002#23"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "レイリダーナ、ここにいましたのね。\nいざ、勝負ですわ！",
+        "official_en": "There you are, Leilidahna. I have come to\nchallenge you!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_002#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_002",
+        "entry_index": 23,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_001#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_003#24"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………ああ、オリンピア。\n悪いけど、また今度ね。",
+        "official_en": "Oh, Olympia...sorry. Can we do this another time?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_003#24",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_003",
+        "entry_index": 24,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_002#23",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_004#25"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 24,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……心ここにあらず、といった様子ですわね。\n何か心配事でもありまして？",
+        "official_en": "You seem to be here in body but not in spirit, as\nthey say. Is something on your mind?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_004#25",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_004",
+        "entry_index": 25,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_003#24",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_005#26"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 25,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ベルトランのことよ。",
+        "official_en": "Yes. Bertrand.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_005#26",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_005",
+        "entry_index": 26,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_004#25",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_006#27"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 26,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "不意にあの男のことが頭に浮かんで、\n復讐の想いで心が埋め尽くされてしまう……",
+        "official_en": "He floats into my mind without warning and fills me\nwith thoughts of revenge.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_006#27",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_006",
+        "entry_index": 27,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_005#26",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_007#28"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 27,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……寝ても覚めてもベルトランですわね。\n何かと言えばあなたはそればかり。",
+        "official_en": "Humph. It's Bertrand this and Bertrand that! Night\nand day, Leilidahna. That's all you talk about.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_007#28",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_007",
+        "entry_index": 28,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_006#27",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_008#29"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 28,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "強い想いは、それだけで生きる力に\nなり得ますわ。けれど……",
+        "official_en": "While I understand that powerful desires can give\nus something to live for...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_008#29",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_008",
+        "entry_index": 29,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_007#28",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_009#30"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 29,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あたくしを差し置いてベルトランばかりを\n見るなんて、許し難いですわ。",
+        "official_en": "I do not appreciate this thing where you ignore me\nso that you can think about Bertrand.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_009#30",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_009",
+        "entry_index": 30,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_008#29",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_010#31"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 30,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "仕方がないじゃない。\nこれはもう……恋に近しいものなの。",
+        "official_en": "What do you want me to do? I can't help it. It's\nlike...like...being in love, I suppose.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_010#31",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_010",
+        "entry_index": 31,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_009#30",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_011#32"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 31,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "復讐のため、ただ一人のことだけを考え続け、\nそれに心を支配されてしまっている……",
+        "official_en": "If I'm going to get my revenge, I must stay focused on\nthis one person. They must never leave my thoughts.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_011#32",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_011",
+        "entry_index": 32,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_010#31",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_012#33"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 32,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "おかしなことを。\nそんなものが恋であるはずはありませんわ。",
+        "official_en": "What a strange thing to say! That is nothing like\nlove at all.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_012#33",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_012",
+        "entry_index": 33,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_011#32",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_013#34"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 33,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "もしそうだったら……あたくしがレイリダーナに\n恋をしていることになってしまいますわよ。",
+        "official_en": "If it were, then that would mean I am in love with\nyou, Leilidahna.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_013#34",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_013",
+        "entry_index": 34,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_012#33",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_014#35"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 34,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "何言ってるの？\nそれとこれとは別でしょう。",
+        "official_en": "What are you talking about? Your thing with me\nis...totally different.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_014#35",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_014",
+        "entry_index": 35,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_013#34",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_015#36"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 35,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "同じですわよ！　“カエルスの薔薇”の称号を\n目の前であなたに奪われたあの日から……",
+        "official_en": "It is the same! Ever since the day you stole the\nRose of Caelus title from me...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_015#36",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_015",
+        "entry_index": 36,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_014#35",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_016#37"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 36,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あたくしはずっと、ずーーーーーーっと、\nレイリダーナのことを考えていますもの！",
+        "official_en": "I have never stopped thinking of you! Not once!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_016#37",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_016",
+        "entry_index": 37,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_015#36",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_017#38"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 37,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "それこそ、寝ても覚めても\nあなたの顔が頭から離れないくらいに！",
+        "official_en": "Night and day, day and night...I am unable to banish\nyour face from my mind!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_017#38",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_017",
+        "entry_index": 38,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_016#37",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_018#39"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 38,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……ああ。\nなるほどね。",
+        "official_en": "I see.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_018#39",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_018",
+        "entry_index": 39,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_017#38",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_019#40"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 39,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "じゃあ、オリンピア。\nあなた、あたしの恋人になる？",
+        "official_en": "If that's how it is, Olympia...would you like to be\nmy girlfriend?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_019#40",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_019",
+        "entry_index": 40,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_018#39",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_020#41"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 40,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "こ、こここここここいび、とぉ……！？",
+        "official_en": "Girlfriend?! Me?! Why, I...I...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_020#41",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_020",
+        "entry_index": 41,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_019#40",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_021#42"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 41,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ほっ、本気で言っておりますの！？\n破廉恥ですわよ！",
+        "official_en": "You cannot be serious! Leilidahna! You are\nshameless!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_021#42",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_021",
+        "entry_index": 42,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_020#41",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_022#43"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 42,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "冗談冗談。\n悪いわね、変なこと言って。",
+        "official_en": "Sorry, sorry, I was kidding! I just couldn't\nhelp myself.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_022#43",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_022",
+        "entry_index": 43,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_021#42",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_023#44"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 43,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "！　あたくしをからかったのね！\nふざけないでくださる！？",
+        "official_en": "*gasp* You were teasing me! I do not appreciate you\nhaving fun at my expense!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_023#44",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_023",
+        "entry_index": 44,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_022#43",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_024#45"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 44,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "だから悪かったってば。\nちょっと嬉しくなっちゃったのよ。",
+        "official_en": "I said I was sorry. It's just...what you said made me\nfeel better, that's all.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_024#45",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_024",
+        "entry_index": 45,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_023#44",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_025#46"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 45,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "何年も何年も同じ相手を想い続けてきた……\nあなたもそうだったんだ、ってわかったから。",
+        "official_en": "Hearing that someone has occupied your thoughts\nnonstop over the years...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_025#46",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_025",
+        "entry_index": 46,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_024#45",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_026#47"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 46,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "こんな身近にそんな人がいたなんてね。\n何だかほっとしたわ。",
+        "official_en": "I didn't think anyone could understand what that's\nlike...definitely not anyone close to me. It's a relief.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_026#47",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_026",
+        "entry_index": 47,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_025#46",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_027#48"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 47,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そうですわよ。もっとあたくしを頼りなさいな。\n一人で苦しむことなんてありませんわ。",
+        "official_en": "A relief... Indeed. I will not have you suffering alone.\nYou must depend upon me more often, Leilidahna.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_027#48",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_B_027",
+        "entry_index": 48,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_026#47",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A#49"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 48,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………そうね。\nありがとう、オリンピア。",
+        "official_en": "I think I will. Thank you, Olympia.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A#49",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A",
+        "entry_index": 49,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_B_027#48",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_001#50"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 49,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_001#50",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_001",
+        "entry_index": 50,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A#49",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_002#51"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 50,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "まだ敵の軍勢が……\nオリンピア、まだやれる？",
+        "official_en": "More enemies are coming. Olympia, can you\nkeep going?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_002#51",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_002",
+        "entry_index": 51,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_001#50",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_003#52"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 51,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あたくしを誰だと思ってますの？\nこの程度、物の数にも入りませんわ。",
+        "official_en": "Please. Who do you think I am? I shall pluck off\nthese foes as though they were new flowers in bloom.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_003#52",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_003",
+        "entry_index": 52,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_002#51",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_004#53"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 52,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ふふ、頼もしい限りだわ。\nなら……行くわよ！",
+        "official_en": "Hehehe. I can always depend on you. Alright then...\nattack!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_004#53",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_004",
+        "entry_index": 53,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_003#52",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_005#54"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 53,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "承知いたしましたわ！\nはあっ！",
+        "official_en": "Indeed! Hraah!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_005#54",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_005",
+        "entry_index": 54,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_004#53",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_006#55"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 54,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ようやく片づいたみたいね。\nオリンピアも無事で何よりだわ。",
+        "official_en": "That was the last of them. Are you OK?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_006#55",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_006",
+        "entry_index": 55,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_005#54",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_007#56"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 55,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "当然ですわ。\nあたくしは“カエルスの碧き薔薇”、オリンピア。",
+        "official_en": "But of course. I am the Blue Rose of Caelus!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_007#56",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_007",
+        "entry_index": 56,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_006#55",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_008#57"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 56,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "如何な苦境に陥ろうとも、\n手折られるわけには参りませんもの。",
+        "official_en": "No matter the predicament I'm in, I will not be\nplucked of my petals nor snapped off at the stem.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_008#57",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_008",
+        "entry_index": 57,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_007#56",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_009#58"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 57,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "たいしたものね。\nこんな時でも誇りを失わずにいられるなんて。",
+        "official_en": "Your pride remains unbroken, even in times like\nthese. It's impressive. Honestly.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_009#58",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_009",
+        "entry_index": 58,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_008#57",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_010#59"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 58,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "それはあなたもですわよ、レイリダーナ。\n常に変わることなく美しいままですわ。",
+        "official_en": "The same goes for you, Leilidahna. You do not\nchange. You are as strong and as lovely as ever.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_010#59",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_010",
+        "entry_index": 59,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_009#58",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_011#60"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 59,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……知ってる？　あたしたちの戦いぶり、\n美しい舞のようだなんて言われてるらしいわよ。",
+        "official_en": "They say that when we fight together, it looks like\na beautiful dance. Did you know that?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_011#60",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_011",
+        "entry_index": 60,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_010#59",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_012#61"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 60,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ええ、そのようですわね。\n光栄、と言うべきでしょうか。",
+        "official_en": "Yes, I'd heard. I suppose I should consider it\na compliment.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_012#61",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_012",
+        "entry_index": 61,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_011#60",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_013#62"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 61,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あたくしたちの舞を目にして倒れるなんて、\n相対した敵も幸せなことでしょうね。",
+        "official_en": "No doubt our enemies are overjoyed to lay eyes upon\nour dance...just before they're felled by it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_013#62",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_013",
+        "entry_index": 62,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_012#61",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_014#63"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 62,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……正直なところ、\nちょっと複雑ではあるけどね。",
+        "official_en": "To tell you the truth, it feels a bit strange.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_014#63",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_014",
+        "entry_index": 63,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_013#62",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_015#64"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 63,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "神殿で踊りや歌に勤しんでいた頃は、\nこんなふうに手が血で染まるなんて思わなかった。",
+        "official_en": "When I used to sing and dance at the temple...\nI never thought I'd have so much blood on my hands.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_015#64",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_015",
+        "entry_index": 64,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_014#63",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_016#65"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 64,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そう、辛気臭い顔しないでくださる？\nあたくしは今、清々しい心地ですわよ。",
+        "official_en": "Please, Leilidahna. Enough with that grim look of\nyours. I, for one, am feeling quite refreshed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_016#65",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_016",
+        "entry_index": 65,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_015#64",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_017#66"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 65,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あれほどまでに追い求めたあなたの隣に、\nこうして立てているんですもの。",
+        "official_en": "You see, I have chased after you for so very long,\nand now here I am...standing by your side.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_017#66",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_017",
+        "entry_index": 66,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_016#65",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_018#67"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 66,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……あなたはずっとそればかりね。\nその執念だけは敵わない。",
+        "official_en": "Is that really all you think about? Your tenacity\nis the one thing I can't compete with.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_018#67",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_018",
+        "entry_index": 67,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_017#66",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_019#68"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 67,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いいわ、認めてあげる。\nあたしの負けよ。",
+        "official_en": "Fine, I admit it. I lose.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_019#68",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_019",
+        "entry_index": 68,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_018#67",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_020#69"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 68,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "何を言ってますの？\n勝負もせずに勝ち負けもありませんわ。",
+        "official_en": "What do you mean? I have issued no challenge.\nThere can be no winning or losing. Not now.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_020#69",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_020",
+        "entry_index": 69,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_019#68",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_021#70"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 69,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "平和が戻ったら、改めて勝負しましょう。\nそしてその時こそあたくしが勝利しますわ。",
+        "official_en": "We shall continue our bouts once peace has been\nrestored. Then and only then shall I be victorious.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_021#70",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_021",
+        "entry_index": 70,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_020#69",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_022#71"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 70,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……そうね。あたしたち二人の\n決着をきっちりとつけなくちゃ。",
+        "official_en": "As you wish. We'll settle things between us once\nand for all...but first, peace.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_022#71",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_022",
+        "entry_index": 71,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_021#70",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_023#72"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 71,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "やりたいことはいろいろあるのよね。\n歌に踊りに楽器に……",
+        "official_en": "There are so many things I need to brush up on.\nSinging, dancing, playing music...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_023#72",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_023",
+        "entry_index": 72,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_022#71",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_024#73"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 72,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ああ、そうそう。\nもちろん料理も練習しておかないと。",
+        "official_en": "Oh, and cooking. We really have to work on our\nculinary skills.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_024#73",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Oly_CBA",
+        "jp_asset": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+        "label": "MID_SE_Led_Oly_A_024",
+        "entry_index": 73,
+        "jp_source_sha256": "7adf0c60088078792674f04d6c1894bd45c73177e6a2601ca68f2b4e31669134",
+        "official_en_source_sha256": "84513a195cf88c08e8954ae758039bc4be917dce8863fc15725f9a46278a65a5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "オリンピア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オリンピア"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オリンピア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Oly_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_オリンピア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Oly_CBA:MID_SE_Led_Oly_A_023#72"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 73,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Oly_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ええ、望むところですわ！\nあたくしも腕を磨いておきますわよ！",
+        "official_en": "We do! Oh, how I look forward to practicing all those\nskills once more.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

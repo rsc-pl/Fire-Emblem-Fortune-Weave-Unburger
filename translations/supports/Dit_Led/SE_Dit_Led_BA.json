@@ -1,0 +1,3563 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_B",
+        "entry_index": 0,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_001#1"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_B_001",
+        "entry_index": 1,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "なかなか面白い……！\nはぁっ！",
+        "official_en": "Ah, a fine opponent! Hrah!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_B_002",
+        "entry_index": 2,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ふふ、その様子だと、\n満足してもらえたようね。",
+        "official_en": "Hehe. You enjoyed that, I take it?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_B_003",
+        "entry_index": 3,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "演奏を頼まれることは多いけど、\n魔獣がご所望とは新鮮だったわ。",
+        "official_en": "I get plenty of requests for music, but I don't often\nget requests for a Demonic Beast.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_B_004",
+        "entry_index": 4,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_005#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あたしとしてはちょっと複雑だけどね。\n出したそばから斬られちゃうし。",
+        "official_en": "To be honest, I'm not sure how to feel about it.\nI bring these creatures here...only to be slaughtered.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_005#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_B_005",
+        "entry_index": 5,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_006#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………\n言葉の割に機嫌が良いな。",
+        "official_en": "Oh? Yet you seem pleased.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_006#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_B_006",
+        "entry_index": 6,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_005#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_007#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "まあね。今まではたいてい、\n下品な奴に取り入ることが目的で弾いてたの。",
+        "official_en": "Well, I usually play just to get in the good graces of\nsome scumbag.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_007#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_B_007",
+        "entry_index": 7,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_006#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_008#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "けど、あなたはいやらしい感じがしないし、\n顔も極上でしょ？　そりゃ悪い気はしないわ。",
+        "official_en": "But you're no scumbag. And you have a pretty face.\nSo, I suppose it's not so bad this time.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_008#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_B_008",
+        "entry_index": 8,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "ウルタンド",
+              "note": "Event stages a different sole actor; audited counterexample class shows staging actor is the listener and ATR1.PID remains the speaker"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_007#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………",
+        "official_en": "Hmm.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_009#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_B_009",
+        "entry_index": 9,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_008#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_010#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "要はあたしじゃなく、\n魔獣を求めてくれて気が楽ってことよ。",
+        "official_en": "You don't get it... I'm saying that I'm glad you're just\ninterested in my Demonic Beasts—and not me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_010#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_B_010",
+        "entry_index": 10,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_009#9",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_011#11"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あの醜い獣はベルトランを殺すための力なの。\n憎くて憎くて仕方がないあの男をね。",
+        "official_en": "I cultivated this power for one reason only...\nTo kill someone I loathe. To kill Bertrand.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_011#11",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_B_011",
+        "entry_index": 11,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_010#10",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_012#12"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 11,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "力の根源がバロールだろうと、関係ない。\n復讐に役立つものは何だろうと使うわ。",
+        "official_en": "I don't care if this power comes to me from Balor.\nI will use it if it allows me to get my revenge.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_012#12",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_B_012",
+        "entry_index": 12,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_011#11",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_013#13"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 12,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……まあ、もう死んじゃったけどね。\n復讐の曲を聞かせてやりたかったのに……",
+        "official_en": "But now he's dead... Dead when I wanted so very\nmuch to play my song of revenge for him...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_013#13",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_B_013",
+        "entry_index": 13,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_012#12",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_014#14"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 13,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "復讐か。考えたこともない……\n私は純粋に、強者との死合いを望む……",
+        "official_en": "I care not for revenge—only for dueling the strong.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_014#14",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_B_014",
+        "entry_index": 14,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_013#13",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_015#15"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 14,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "心底興味なさそうね。でもあなた、\nフォドラにいた頃から相当斬ってたのよね。",
+        "official_en": "You don't ever think about revenge? But surely\nyou've invited it from having cut down so many.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_015#15",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_B_015",
+        "entry_index": 15,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_014#14",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_016#16"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 15,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "家族や恋人を殺されたことを憎んで、\n復讐に来た人間とかいなかったの？",
+        "official_en": "Has no one ever come after you seething with rage\nand ready to avenge a loved one you killed?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_016#16",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_B_016",
+        "entry_index": 16,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_015#15",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_017#17"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 16,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そんな者は……ほとんど覚えていない。\nつまらん奴しかいなかったからな……",
+        "official_en": "I do not recall. They were beneath my notice.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_017#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_B_017",
+        "entry_index": 17,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_016#16",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_018#18"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……血に塗れ、汚れた道を歩いてきたのは\n同じだけど、その辺りは合わないわね。",
+        "official_en": "We may have walked the same blood-soaked road,\nbut I don't understand you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_018#18",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_B_018",
+        "entry_index": 18,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_017#17",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_019#19"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 18,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "でも、いいわ。\nわかったようなこと言われるのは御免だしね。",
+        "official_en": "And that's fine by me. I hate people acting like they\nunderstand when they don't.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_019#19",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_B_019",
+        "entry_index": 19,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_018#18",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_020#20"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 19,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あの曲も殺人鬼に聞かせるぐらいが、\nちょうどいいし、ご所望とあらばまた弾くわ。",
+        "official_en": "Anyway, my song is perfect for a murderer's ears.\nI'll play it for you again sometime.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_020#20",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_B_020",
+        "entry_index": 20,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_019#19",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 20,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………\n妙な奴だ……",
+        "official_en": "She is an odd one.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A#21",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A",
+        "entry_index": 21,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_B_020#20",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_001#22"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 21,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_001#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_001",
+        "entry_index": 22,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A#21",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_002#23"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "お待たせ、ディートリヒ。\n魔獣をご所望かしら？",
+        "official_en": "Hello, Dietrich. Let me guess...you want me to play\nanother Demonic Beast into existence for you?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_002#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_002",
+        "entry_index": 23,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_001#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_003#24"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いや……\nその前に聞かせてもらおう。",
+        "official_en": "No. I do have a question for you, though.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_003#24",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_003",
+        "entry_index": 24,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_002#23",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_004#25"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 24,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "お前は……なぜ嬉々として魔獣を出す。\nなぜ技が破られて、笑みを浮かべる。",
+        "official_en": "You summon Demonic Beasts without a care, and\nsmile as I cut them down. How?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_004#25",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_004",
+        "entry_index": 25,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_003#24",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_005#26"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 25,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……え？",
+        "official_en": "What's that supposed to mean?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_005#26",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_005",
+        "entry_index": 26,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_004#25",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_006#27"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 26,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "魔獣はお前が修行の果に身につけた技のはず。\n本来、愉快である筈がない……",
+        "official_en": "Summoning these beasts is a skill that was hard-\nearned. Seeing them destroyed cannot be pleasant.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_006#27",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_006",
+        "entry_index": 27,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_005#26",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_007#28"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 27,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……ふうん、あなたは他人に興味はないと\n思ってたけど、案外気にするのね。",
+        "official_en": "I thought human feelings were \"beneath your notice.\"\nThis sudden concern of yours is...unexpected.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_007#28",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_007",
+        "entry_index": 28,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_006#27",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_008#29"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 28,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "だけど、前にも言ったはずよ。\nわかったようなこと言われるのは御免なの。",
+        "official_en": "Besides, I told you how I feel about people acting like\nthey understand.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_008#29",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_008",
+        "entry_index": 29,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_007#28",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_009#30"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 29,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "一緒に戦って仲間意識でも芽生えたのか\n知らないけど、妙な詮索はやめてもらいたいわ。",
+        "official_en": "Maybe you feel closer to me since we've now fought\ntogether, but please stop prying.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_009#30",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_009",
+        "entry_index": 30,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_008#29",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_010#31"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 30,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "案ずるな、問答は終いだ……\n行く……！",
+        "official_en": "I have no further need for words. It is time to fight!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_010#31",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_010",
+        "entry_index": 31,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_009#30",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_011#32"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 31,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "！？\nちょっと剣なんて抜いて何のつもり！？",
+        "official_en": "Hey! What the hell do you think you're doing? How\ndare you draw your sword on me!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_011#32",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_011",
+        "entry_index": 32,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_010#31",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_012#33"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 32,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "！　きゃああ！！",
+        "official_en": "Aaah!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_012#33",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_012",
+        "entry_index": 33,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "マーナ",
+              "note": "Event stages a different sole actor; audited counterexample class shows staging actor is the listener and ATR1.PID remains the speaker"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_011#32",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_013#34"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 33,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "立つがいい……死ぬぞ？",
+        "official_en": "Stand, or die on the ground.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_013#34",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_013",
+        "entry_index": 34,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_012#33",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_014#35"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 34,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "死ぬですって……？　あたしが……？\nこんな奴の剣で……？　ふざけないで。",
+        "official_en": "Die? ME? At the tip of this bastard's blade?\nI will not!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_014#35",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_014",
+        "entry_index": 35,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_013#34",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_015#36"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 35,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ディートリヒ、あなたが死になさい。",
+        "official_en": "You're the one who's going to die, Dietrich.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_015#36",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_015",
+        "entry_index": 36,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_014#35",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_016#37"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 36,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ほう、いいぞ……！\nこの禍々しさ、逸楽たり得る！",
+        "official_en": "Yes, the darkness rises... I will enjoy this!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_016#37",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_016",
+        "entry_index": 37,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "サラン",
+              "note": "Event stages a different sole actor; audited counterexample class shows staging actor is the listener and ATR1.PID remains the speaker"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_015#36",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_017#38"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 37,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "はあ……はあ……結局、殺せなかった。\nまったく……その満足げな顔、忌々しいわ。",
+        "official_en": "After all that, I still couldn't kill you. Please, that\nsmug look on your face disgusts me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_017#38",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_017",
+        "entry_index": 38,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_016#37",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_018#39"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 38,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "自分の欲を満たすために殺そうとするなんて、\n本当、いい趣味してるわね。",
+        "official_en": "Killing is the only way you experience pleasure,\nisn't it? How lovely.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_018#39",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_018",
+        "entry_index": 39,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_017#38",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_019#40"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 39,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "お前も……少しは満ち足りただろう。\n技を惜しむことなく、獣を出せたのだからな……",
+        "official_en": "Pleasure? Were you not pleased also? You brought\nyour skill to bear by unleashing that beast.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_019#40",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_019",
+        "entry_index": 40,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_018#39",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_020#41"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 40,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "はあ？\nそれ、どういう意味よ。",
+        "official_en": "What?! What the hell are you saying?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_020#41",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_020",
+        "entry_index": 41,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_019#40",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_021#42"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 41,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "お前は、復讐のために磨いた技を\n醜いと笑い……いつも手を抜いていた。",
+        "official_en": "You diminish your talents, but they are formidable.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_021#42",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_021",
+        "entry_index": 42,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_020#41",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_022#43"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 42,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "自ら否定しているが故に……\n斬られることを是とするのだろう。",
+        "official_en": "You allowed me to slay the beasts because you take\nno pleasure in your talents.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_022#43",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_022",
+        "entry_index": 43,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_021#42",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_023#44"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 43,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……だったらなによ。あんな怪物を生む、\n何かを殺すための曲なんて、嫌悪して当然でしょ。",
+        "official_en": "So? A song that summons a monster like that—\na monster meant only for murder...it's repulsive.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_023#44",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_023",
+        "entry_index": 44,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_022#43",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_024#45"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 44,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "嫌で嫌で仕方ないけど、\n使い道があるから使う、それだけよ。",
+        "official_en": "I despise this power. I only use it because it's a\nmeans to an end. Nothing more.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_024#45",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_024",
+        "entry_index": 45,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_023#44",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_025#46"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 45,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "私にはお前が生きるための曲に聴こえた。\n魔獣は……お前の魂の響きそのものだ。",
+        "official_en": "Truly? To me, life pulses through your song. It is\nthe very cry of your soul.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_025#46",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_025",
+        "entry_index": 46,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_024#45",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_026#47"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 46,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ただの手段ではない……\nお前が、お前であるための曲なのではないか？",
+        "official_en": "It is no mere melody. The sound is itself you. Am\nI wrong?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_026#47",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_026",
+        "entry_index": 47,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_025#46",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_027#48"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 47,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "もしかして、あなた……『わかったようなこと』を\n言わないように、殺しに来たってこと……？",
+        "official_en": "Wait, did you try to kill me so you could...\nunderstand me?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_027#48",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_027",
+        "entry_index": 48,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_026#47",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_028#49"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 48,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "呆れた……妙なところで律儀な奴ね。\n……けど、嫌いじゃないわ。",
+        "official_en": "Unbelievable. You have a strange way of connecting\nwith people. But to be honest, I don't mind it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_028#49",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_028",
+        "entry_index": 49,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_027#48",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_029#50"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 49,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "お前の演奏のほうにも興味が湧いた。\n次は……普通の曲も聴かせるがいい……",
+        "official_en": "I am interested in hearing more. Now, I would hear\na song that you enjoy playing.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_029#50",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_029",
+        "entry_index": 50,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_028#49",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_030#51"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 50,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あら？　あなたがそんな事を言うなんて\n少し意外ね。まあ、悪い気はしないけど。",
+        "official_en": "A song I enjoy playing? An unexpected request\ncoming from you. But fine. I'll play for you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_030#51",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Led_BA",
+        "jp_asset": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+        "label": "MID_SE_Dit_Led_A_030",
+        "entry_index": 51,
+        "jp_source_sha256": "11881b69cd20914a65ac43b25081b768ce3e6a14d45e88838cf356d6fc086838",
+        "official_en_source_sha256": "a6bc965812a418ba9a8b36f9e18eed7f2dd34ebb2bada85b4cc1dbcea42f62b3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Led_BA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Led_BA:MID_SE_Dit_Led_A_029#50"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 51,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Led_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いい？　このあたしが本気で弾くんだから、\nおとなしく聴くのよ。次に剣を抜いたら殺すわ。",
+        "official_en": "Now sit quietly and listen. And if you draw your\nsword on me again...I will kill you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

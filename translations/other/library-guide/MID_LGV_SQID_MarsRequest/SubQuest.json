@@ -1,0 +1,1395 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01#915",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_MarsRequest_Mar_m01",
+        "entry_index": 915,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_JuraRequest_Jun_m02_010#914",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_001#916"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 915,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_MarsRequest_Mar_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_001#916",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_MarsRequest_Mar_m01_001",
+        "entry_index": 916,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "マーズ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マーズ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01#915",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_002#917"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 916,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_MarsRequest_Mar_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "お前が最近噂の救世主か。\n１度会ってみたいと思っていたところだった。",
+        "official_en": "Ah, the much discussed Promised One. I've been\nhoping to meet you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_002#917",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_MarsRequest_Mar_m01_002",
+        "entry_index": 917,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "マーズ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マーズ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_001#916",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_003#918"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 917,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_MarsRequest_Mar_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "お前のおかげで、この地の命運が\n首の皮一枚のところで繋がったようだな。",
+        "official_en": "I hear it's thanks to you this land hasn't totally slid\ninto chaos.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_003#918",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_MarsRequest_Mar_m01_003",
+        "entry_index": 918,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "マーズ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マーズ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_002#917",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_004#919"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 918,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_MarsRequest_Mar_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "冥界の軍勢は強敵だ。これまで戦ってきた\n相手とは一味も二味も違う。",
+        "official_en": "The forces of the underworld are formidable...unlike\nany foe I've faced.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_004#919",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_MarsRequest_Mar_m01_004",
+        "entry_index": 919,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "マーズ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マーズ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_003#918",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_005#920"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 919,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_MarsRequest_Mar_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "故に、この神殿もお前たちの\n戦いのための力になれればと思っている。",
+        "official_en": "But maybe my temple can aid you in your struggle.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_005#920",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_MarsRequest_Mar_m01_005",
+        "entry_index": 920,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "マーズ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マーズ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_004#919",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_006#921"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 920,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_MarsRequest_Mar_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "……そうだ、救世主よ。お前を見込んで\n俺の頼みを一つ聞いてはくれぬだろうか。",
+        "official_en": "With that in mind, I need a favor.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_006#921",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_MarsRequest_Mar_m01_006",
+        "entry_index": 921,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "マーズ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マーズ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_005#920",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_007#922"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 921,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_MarsRequest_Mar_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "俺が昔から愛用している黄金の兜が\n何者かによって持ち出されてしまったのだ。",
+        "official_en": "Some blackguard stole my Golden Helm.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_007#922",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_MarsRequest_Mar_m01_007",
+        "entry_index": 922,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "マーズ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マーズ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_006#921",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_008#923"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 922,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_MarsRequest_Mar_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "この神殿の近くにある洞窟に怪しいものが\n逃げ込んだという証言もあるのだが……",
+        "official_en": "There are reports of a strange character holing up in\na cave nearby... I wonder if that's who did it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_008#923",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_MarsRequest_Mar_m01_008",
+        "entry_index": 923,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "マーズ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マーズ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_007#922",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_009#924"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 923,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_MarsRequest_Mar_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "たかだか賊相手にこの軍神が動くわけにもいかぬ。\n救世主よ、俺の兜を取り戻してはもらえぬか？",
+        "official_en": "Unfortunately, the Bringer of War can't take action\nagainst lowly bandits. Would you do it?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_009#924",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_MarsRequest_Mar_m01_009",
+        "entry_index": 924,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "マーズ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マーズ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m01_008#923",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGA_SQID_MarsRequest_Mar_m01#925"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 924,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_MarsRequest_Mar_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "取り戻せたら、最上級の兵種を１つ解放してやろう。\n他にも礼を用意する。では、待っているぞ。",
+        "official_en": "I want my helmet back. Succeed and I'll let you learn\na high-ranking class—among other things.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02#926",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_MarsRequest_Mar_m02",
+        "entry_index": 926,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGA_SQID_MarsRequest_Mar_m01#925",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_001#927"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 926,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_MarsRequest_Mar_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_001#927",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_MarsRequest_Mar_m02_001",
+        "entry_index": 927,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "マーズ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マーズ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02#926",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_002#928"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 927,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_MarsRequest_Mar_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "今回のことは悪くは思わんでくれ。\n噂に聞く救世主がどれほどのものか、",
+        "official_en": "Thanks. I hope you didn't mind the trouble.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_002#928",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_MarsRequest_Mar_m02_002",
+        "entry_index": 928,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "マーズ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マーズ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_001#927",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_003#929"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 928,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_MarsRequest_Mar_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "俺としても興味があってな、\n一芝居打たせてもらったのだ。",
+        "official_en": "The truth is, I wanted to see your skills in action,\nso I put on a little production.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_003#929",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_MarsRequest_Mar_m02_003",
+        "entry_index": 929,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "マーズ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マーズ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_002#928",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_004#930"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 929,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_MarsRequest_Mar_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "詫びと言ってはなんだが……\nお前に３つの褒美をやろう。",
+        "official_en": "By way of apology, I'll give you three rewards.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_004#930",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_MarsRequest_Mar_m02_004",
+        "entry_index": 930,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "マーズ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マーズ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_003#929",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_005#931"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 930,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_MarsRequest_Mar_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "まず１つ目、最上級の兵種「ソードマスター」の\n資格試験を受けられるようにしてやろう。",
+        "official_en": "First, I'll let you take the certification exam for the\n<#CTRL:0E><#CTRL:08>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_005#931",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_MarsRequest_Mar_m02_005",
+        "entry_index": 931,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "マーズ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マーズ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_004#930",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_006#932"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 931,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_MarsRequest_Mar_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "それから２つ目、お前にマーズ神殿の神の道の門を\n使えるようにしてやる。",
+        "official_en": "I'll also allow you to use the Gate of the Gods here at\nmy temple.",
+        "real_en": "I'll also allow you to use the Gate of the Divine Path here at\nmy temple."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_006#932",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_MarsRequest_Mar_m02_006",
+        "entry_index": 932,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "マーズ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マーズ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_005#931",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_007#933"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 932,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_MarsRequest_Mar_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "そして３つ目、俺の持つ武具、\n「アーク」を使う機会を与えよう。",
+        "official_en": "Finally, I'll give you a chance to earn the Arc in my\npossession.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_007#933",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_MarsRequest_Mar_m02_007",
+        "entry_index": 933,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "マーズ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マーズ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_006#932",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_008#934"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 933,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_MarsRequest_Mar_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "アークを使うのには神殿の試練に挑む必要がある。\nお前なら、見事乗り越えてみせるだろう。",
+        "official_en": "You'll have to undertake the temple's trial in order to\nuse it. But I'm sure you'll have no trouble with that.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_008#934",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_MarsRequest_Mar_m02_008",
+        "entry_index": 934,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "マーズ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マーズ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_007#933",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_009#935"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 934,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_MarsRequest_Mar_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "このマーズ神殿本殿の神官に話しかけ\n神殿の試練に挑むがいい。",
+        "official_en": "Just go and talk to the priest and give it a try.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_009#935",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_MarsRequest_Mar_m02_009",
+        "entry_index": 935,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "マーズ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マーズ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_008#934",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_010#936"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 935,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_MarsRequest_Mar_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "……わかったか？　では、そろそろ俺は\nダグシオンへ向かおうと思う。",
+        "official_en": "Understood? Good. Now, I think I'll head to Dagsion.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_010#936",
+      "source": {
+        "platform": "switch2",
+        "bank": "SubQuest",
+        "jp_asset": "Msg/JPja/SubQuest.msbt.zst",
+        "official_en_asset": "Msg/USen/SubQuest.msbt.zst",
+        "label": "MID_LGV_SQID_MarsRequest_Mar_m02_010",
+        "entry_index": 936,
+        "jp_source_sha256": "decffa9cad6cc24a0e94b260e07f2b4ffd08a25e317415d72a9cee7ca5257542",
+        "official_en_source_sha256": "3334183dacfddd239b8ed674e3529b8c074daf134bf66fa08c7918dd27edd5bc"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "マーズ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マーズ"
+            },
+            {
+              "source": "Msg/USen/SubQuest.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マーズ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_MarsRequest_Mar_m02_009#935",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SubQuest:MID_LGV_SQID_SmirnothRequest_Smi_m01#937"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 936,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_SQID_MarsRequest_Mar_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "お前の活躍は、見守らせて貰うぞ。\nそれではまたな。",
+        "official_en": "I'll be watching your progress. Until next time.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

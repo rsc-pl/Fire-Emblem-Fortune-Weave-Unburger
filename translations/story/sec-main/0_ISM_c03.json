@@ -1,0 +1,2187 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01",
+        "entry_index": 0,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_001#1"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_001",
+        "entry_index": 1,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フォトナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "着いたぞ。ここじゃ。",
+        "official_en": "And here we are.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_002",
+        "entry_index": 2,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "トロイア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "トロイア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_トロイア"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "トロイア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "ニネ",
+              "note": "Event stages a different sole actor; audited counterexample class shows staging actor is the listener and ATR1.PID remains the speaker"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "このダグシオンの中にあって\n亡者の気配がしないとは……不思議な場所だね。",
+        "official_en": "It's strange not to see any signs of the risen dead\nhere in the heart of Dagsion.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_003",
+        "entry_index": 3,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "トロイア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "トロイア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_トロイア"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "トロイア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_トロイア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "いや……どちらかというと、これはまるで、\n世界そのものから隔絶されたような……",
+        "official_en": "If that's where we are. It feels almost like this place\nis outside the world...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_004",
+        "entry_index": 4,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_006#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "CHOICE",
+        "utterance_kind": "CHOICE_OPTION",
+        "speaker_applicable": false,
+        "marker": "NCA",
+        "branch_tag": "NCA",
+        "branch_option": "A",
+        "branch_phase": "PROMPT",
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "<NCA>この場所は？",
+        "official_en": "<NCA>\"What is this place?\"",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_006#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_006",
+        "entry_index": 5,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フォトナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_008#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "ここは吾が“方尖塔の間”と名付けた、\n特別な空間じゃ。",
+        "official_en": "'Tis a special place. I call it the Obelisk Chamber.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_008#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_008",
+        "entry_index": 6,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_006#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_009#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "フォトナ神殿の地下にあり、この部屋の\n存在を知るものはほとんどおらぬ。",
+        "official_en": "Only a few people know this chamber exists beneath\nmy temple.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_009#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_009",
+        "entry_index": 7,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フォトナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_008#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_018#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "この地にもしものことが起こった場合に備え、\n「彼女」が吾に用意させていたものじゃ。",
+        "official_en": "It was she who asked me to prepare it, in case\ndisaster ever struck this land.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_018#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_018",
+        "entry_index": 8,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フォトナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_009#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_019#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "吾は運命を司る神であるが故に、\nある程度の未来を知る力を持っておる。",
+        "official_en": "Since I am the Goddess of Fate, I enjoy the power to\nglimpse into the future.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_019#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_019",
+        "entry_index": 9,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フォトナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_018#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_020#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "吾はあるとき、ダグザの地の未来に恐ろしい\n因果の乱れがあることを感じ取ったのじゃ。",
+        "official_en": "And one of my visions showed me a terrible\ndisturbance in the causality of this land.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_020#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_020",
+        "entry_index": 10,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フォトナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_019#9",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_021#11"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "それは、放置すれば世界すら滅ぼすほどの、\n恐ろしいもののように思われた。故に――",
+        "official_en": "One so awful that it could destroy the world if\nleft unchecked.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_021#11",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_021",
+        "entry_index": 11,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フォトナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_020#10",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_022#12"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 11,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "それ以来、吾はこの地、この時に集まり得る、\n強力な力を持った戦士を探していたのじゃ。",
+        "official_en": "Since then, I have been searching for powerful\nwarriors to gather together at this moment in time.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_022#12",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_022",
+        "entry_index": 12,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フォトナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_021#11",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_056#13"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 12,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "そして因果の海の中で、ついに吾の目に\n適う者たちを見出すに至った。",
+        "official_en": "In the roiling waters of causality, I have found\nwarriors fit to the task.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_056#13",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_056",
+        "entry_index": 13,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "ニネ",
+              "note": "Event stages a different sole actor; audited counterexample class shows staging actor is the listener and ATR1.PID remains the speaker"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_022#12",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_057#14"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 13,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "いずれもダグザの焔将の称号を受けつつも、\nその枠に到底収まらぬ程の、真の戦士たち――",
+        "official_en": "Each possesses staggering power and a noble soul.\nAny one of them is worth a thousand.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_057#14",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_057",
+        "entry_index": 14,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フォトナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_056#13",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_058#15"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 14,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "そうじゃな……彼らのことは、\n「真焔将」とでも呼ぶことにしようかの。",
+        "official_en": "Let us call them...hmm...the Flame Lords of Dagda.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_058#15",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_058",
+        "entry_index": 15,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フォトナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_057#14",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_023#16"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 15,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "この先の戦いには、彼らの協力が不可欠じゃ。\nできれば、一人でも多く……な。",
+        "official_en": "We'll never win the battles ahead without them.\nWe need as many as we can recruit.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_023#16",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_023",
+        "entry_index": 16,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_058#15",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_060#17"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 16,
+        "label_alias_count": 1,
+        "dialogue_role": "CHOICE",
+        "utterance_kind": "CHOICE_OPTION",
+        "speaker_applicable": false,
+        "marker": "NCA",
+        "branch_tag": "NCA",
+        "branch_option": "A",
+        "branch_phase": "PROMPT",
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "<NCA>その方法とは？",
+        "official_en": "<NCA>\"Where can we find them?\"",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_060#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_060",
+        "entry_index": 17,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_023#16",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_024#18"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "EMPTY",
+        "utterance_kind": "EMPTY",
+        "speaker_applicable": false,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "",
+        "official_en": "",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_024#18",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_024",
+        "entry_index": 18,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フォトナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_060#17",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_025#19"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 18,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "残念ながら、その者たちはすでに死者として\nバロールの軍門に下ってしまっておる。",
+        "official_en": "Alas, they're all dead now. More of Balor's pawns.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_025#19",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_025",
+        "entry_index": 19,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フォトナ",
+              "note": "Event stages the same person (look/placement) but does not perform a motion command on the line"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_024#18",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_026#20"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 19,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "そういえば、実際に彼らとは、すでに\nアルシネウス大橋で刃を交えたのじゃったな……",
+        "official_en": "Come to think of it, you crossed swords with them\nat Alcineus Span.",
+        "real_en": "Come to think of it, you crossed swords with them\nat the Great Alcineus Bridge."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_026#20",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_026",
+        "entry_index": 20,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "コウカ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "コウカ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_コウカ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "コウカ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_コウカ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_025#19",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_027#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 20,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "なっ――！？　それでは、\nもう既にどうしようもないではないか！",
+        "official_en": "What?! Then this war is lost before it started!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_027#21",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_027",
+        "entry_index": 21,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フォトナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_026#20",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_028#22"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 21,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "慌てるでない。そのための秘策はあるのじゃ。\nよく聞け、おぬし――",
+        "official_en": "Don't look so panicked. I have a plan. You there—\nlisten carefully.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_028#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_028",
+        "entry_index": 22,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フォトナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_027#21",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_029#23"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "この部屋の方尖塔は、それぞれの戦士の過去に\n干渉することができるようになっておる。",
+        "official_en": "The obelisks in this chamber allow you to intervene\nin each warrior's past.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_029#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_029",
+        "entry_index": 23,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_028#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_042#24"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "これを使って彼らの因果律に触れ、\n吾々のもとに辿り着くように導くのじゃ。",
+        "official_en": "We can use these to bend the laws of causality and\nguide the warriors to safety in our present.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_042#24",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_042",
+        "entry_index": 24,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "トロイア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "トロイア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_トロイア"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "トロイア",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_トロイア",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_029#23",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_047#25"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 24,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "それが本当だとすると、とんでもないことだね。\nまさしく神の力ってことか。",
+        "official_en": "That's incredible. The sort of help only a goddess\ncan provide.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_047#25",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_047",
+        "entry_index": 25,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フォトナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_042#24",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_048#26"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 25,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "じゃが、この運命の神たる吾ですら、\n干渉できるのは限定的な範囲に限られる。",
+        "official_en": "Yes...but even I, the Goddess of Fate, am limited in\nwhat I can do in the past.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_048#26",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_048",
+        "entry_index": 26,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フォトナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_047#25",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_049#27"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 26,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "例えば……バロールの復活そのもののような、\n大きな流れは変えられぬのじゃ。",
+        "official_en": "For example, I can't reverse major events like\nBalor's resurrection.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_049#27",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_049",
+        "entry_index": 27,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フォトナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_048#26",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_050#28"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 27,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "端を多少いじった所で、どこかで帳尻を合わせ、\nもとの形に揺り戻されてしまうからの。",
+        "official_en": "Tweak even the edges of something like that, and\nit will snap back to its original shape with time.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_050#28",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_050",
+        "entry_index": 28,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_049#27",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_061#29"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 28,
+        "label_alias_count": 1,
+        "dialogue_role": "CHOICE",
+        "utterance_kind": "CHOICE_OPTION",
+        "speaker_applicable": false,
+        "marker": "NCA",
+        "branch_tag": "NCA",
+        "branch_option": "A",
+        "branch_phase": "PROMPT",
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "<NCA>わかった",
+        "official_en": "<NCA>\"I'll do what must be done.\"",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_061#29",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_061",
+        "entry_index": 29,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_050#28",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_051#30"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 29,
+        "label_alias_count": 1,
+        "dialogue_role": "CHOICE",
+        "utterance_kind": "CHOICE_OPTION",
+        "speaker_applicable": false,
+        "marker": "NCB",
+        "branch_tag": "NCB",
+        "branch_option": "B",
+        "branch_phase": "PROMPT",
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "<NCB>早速はじめよう",
+        "official_en": "<NCB>\"Let's get started.\"",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_051#30",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_051",
+        "entry_index": 30,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フォトナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_061#29",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_054#31"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 30,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "うむ。案ずるよりもまずは産むが容易い。\nそれぞれの方尖塔に触れてみるが良い。",
+        "official_en": "Good. Better to act than to fret! Now try touching\none of the obelisks.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_054#31",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_054",
+        "entry_index": 31,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フォトナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_051#30",
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_059#32"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 31,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "ああ、それから、\nおぬしの旅には吾も同行させてもらう。",
+        "official_en": "Don't worry. I'll be there with you on your journey.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_059#32",
+      "source": {
+        "platform": "switch2",
+        "bank": "0_ISM_c03",
+        "jp_asset": "Msg/JPja/0_ISM_c03.msbt.zst",
+        "official_en_asset": "Msg/USen/0_ISM_c03.msbt.zst",
+        "label": "MID_EV00_012_m01_059",
+        "entry_index": 32,
+        "jp_source_sha256": "5fdbca87ef5b26101bb6bda2a9a801a64ba696aa6f041265ca511293fcbb7714",
+        "official_en_source_sha256": "e54f2c2db0b0b8af69cfdc680f3e3acfd3170cb953e3316f6082a13e5ee9523f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/0_ISM_c03.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/0_ISM_c03.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フォトナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:0_ISM_c03:MID_EV00_012_m01_054#31"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 32,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV00_012_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "時のよすがの中で\n迷い子にでもなられては困るのでな。",
+        "official_en": "We wouldn't want you to get lost in the flow of time.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

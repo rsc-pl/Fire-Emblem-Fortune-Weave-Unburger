@@ -1,0 +1,4134 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C",
+        "entry_index": 0,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_001#1"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_001",
+        "entry_index": 1,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "うーむ……なかなか見つからないな。\nニネはいったいどこに？",
+        "official_en": "Hmm, I haven't seen Ninae anywhere. Where could\nshe be?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_002",
+        "entry_index": 2,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……！　あの黒い装束。ニネだな。\n見つけられて良かった。",
+        "official_en": "Ah! I recognize that black lace.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_003",
+        "entry_index": 3,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………",
+        "official_en": "*sigh*",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_004",
+        "entry_index": 4,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_005#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "何もしていない様子ではあるが……\nあれは邪魔をしてはいけないな。",
+        "official_en": "She doesn't look busy...but I shouldn't interrupt,\njust in case.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_005#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_005",
+        "entry_index": 5,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_006#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "仕方がない。\nしばらく、空でも眺めて待つか。",
+        "official_en": "There's no rush. I'll just watch the clouds as I wait.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_006#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_006",
+        "entry_index": 6,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "ウルタンド",
+              "note": "Event stages a different sole actor; audited counterexample class shows staging actor is the listener and ATR1.PID remains the speaker"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_005#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_007#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………",
+        "official_en": "Huh?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_007#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_007",
+        "entry_index": 7,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_006#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_008#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……ライサンダー？\nいつここへ。",
+        "official_en": "Lysander? How much time have you sat here?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_008#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_008",
+        "entry_index": 8,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_007#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ははは。見つけた時よりも\n陽が向こうにあるから、かなり前だな。",
+        "official_en": "Hehe. Judging by the sun, it's been quite a while\nsince I spotted you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_009#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_009",
+        "entry_index": 9,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_008#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_010#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "どうして？\n声をかければ良かったのに。",
+        "official_en": "So much sitting and so little saying things.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_010#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_010",
+        "entry_index": 10,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_009#9",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_011#11"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あなたはよく物思いに耽っているだろう。\nその時間を壊すのは忍びなくて待っていたんだ。",
+        "official_en": "You seemed lost in thought as usual. I didn't want\nto be a pest, so I waited.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_011#11",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_011",
+        "entry_index": 11,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_010#10",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_012#12"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 11,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そう……邪魔しないでいてくれたのね。\nありがとう。",
+        "official_en": "You left me be. Left me to my thoughts. Thank you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_012#12",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_012",
+        "entry_index": 12,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_011#11",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_013#13"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 12,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "森閑とした時間を、楽しんでいたの。\nそれで、ニネに何の用？",
+        "official_en": "I was appreciating serenity. What is your suggestion\nthat I do instead?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_013#13",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_013",
+        "entry_index": 13,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_012#12",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_014#14"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 13,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "手合わせをお願いしたかったんだ。\nあなたは主天将の地位にあると聞いたから。",
+        "official_en": "I heard you were a chief celestial general, so I\nwanted to request a sparring match.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_014#14",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_014",
+        "entry_index": 14,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_013#13",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_015#15"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 14,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "不思議な人。それだけのために、\nずっと待っていたの？",
+        "official_en": "You sat for that? For me? For a match? Hm.\nHow odd.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_015#15",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_015",
+        "entry_index": 15,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_014#14",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_016#16"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 15,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……いいわ。\n訓練場に行きましょう。",
+        "official_en": "Then spar we shall. But not here. At the place\nfor sparring.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_016#16",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_016",
+        "entry_index": 16,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_015#15",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_030#17"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 16,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "本当か！？\nありがとう、ニネ！",
+        "official_en": "Really?! Thank you, Ninae!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_030#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_030",
+        "entry_index": 17,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_016#16",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_017#18"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "EMPTY",
+        "utterance_kind": "EMPTY",
+        "speaker_applicable": false,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "",
+        "official_en": "",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_017#18",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_017",
+        "entry_index": 18,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_030#17",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_018#19"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 18,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ぜぇぜぇ……流石だな。\nもう一度！　と言いたいが、こんな時間か。",
+        "official_en": "Haaah... Haaah... I knew you wouldn't go easy on\nme. I'd ask for another round, but it's getting late.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_018#19",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_018",
+        "entry_index": 19,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_017#18",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_019#20"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 19,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "長々と付き合わせてしまったな。\n手合わせに集中して気がつかなかった。",
+        "official_en": "Sorry to keep you here so long. I was so focused on\nour training that time flew by.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_019#20",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_019",
+        "entry_index": 20,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_018#19",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_020#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 20,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ニネも時間なんて忘れていたわ。\n気が抜けなかったもの。",
+        "official_en": "It flew past me too. I saw it go, but could not lower\nmy guard to catch it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_020#21",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_020",
+        "entry_index": 21,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_019#20",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_021#22"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 21,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "“黒麗糸のニネ”にそう言ってもらえるとは\n光栄だな。",
+        "official_en": "I'm honored to hear that, Black-Lace Ninae.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_021#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_021",
+        "entry_index": 22,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_020#21",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_022#23"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "改めて、こんな時間まで\n手合わせをしてくれたこと、感謝する。",
+        "official_en": "Again, you did me a favor sparring with me for\nso long.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_022#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_022",
+        "entry_index": 23,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_021#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_023#24"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "お礼なんて、別に……\nニネも訓練は必要だから。",
+        "official_en": "You needed to spar. But I must spar too. So the favor\nwas also done to myself.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_023#24",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_023",
+        "entry_index": 24,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_022#23",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_024#25"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 24,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "その時は、良ければ俺も誘ってくれ。\nそれでは、今日はここで失礼する……",
+        "official_en": "I'd like to be there the next time you train too.\nBut I'll be on my way now.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_024#25",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_024",
+        "entry_index": 25,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_023#24",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_025#26"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 25,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "待って。\nニネはライサンダーのお願いを聞いた。",
+        "official_en": "Not yet. A favor for a favor.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_025#26",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_025",
+        "entry_index": 26,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_024#25",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_026#27"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 26,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "次はあなたが聞く番。\nまたあの空がよく見える場所に来て？",
+        "official_en": "Mine is done, now we establish yours. Meet me\nwhere the sky is broad and open.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_026#27",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_026",
+        "entry_index": 27,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_025#26",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_027#28"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 27,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あ、ああ。もちろん、それくらいはいいが、\nその、どういう意味で来いと……",
+        "official_en": "Er, of course. But might I ask what you have in\nmind there?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_027#28",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_027",
+        "entry_index": 28,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_026#27",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_028#29"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 28,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "来たらわかるわ。\nそれじゃあ、約束……",
+        "official_en": "You'll see when the time is right. When the favor\nis returned.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_028#29",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_028",
+        "entry_index": 29,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_027#28",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_029#30"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 29,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "む、むむむ……\nこういうことは幾度か経験したぞ。",
+        "official_en": "Hmm. I think I know from experience where\nthis is headed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_029#30",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_C_029",
+        "entry_index": 30,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_028#29",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B#31"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 30,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "まるで逢瀬の約束……いや、まさかな。\nそんなことはないはずだ。",
+        "official_en": "A private meeting, just the two of us... But no.\nShe's not the type...is she?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B#31",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B",
+        "entry_index": 31,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_C_029#30",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_001#32"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 31,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_001#32",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_001",
+        "entry_index": 32,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B#31",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_002#33"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 32,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "約束の場所はここだな。\nしかし、ニネはいったいどういうつもりで……",
+        "official_en": "This is where Ninae asked me to meet her. But I still\ndon't know why.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_002#33",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_002",
+        "entry_index": 33,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_001#32",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_003#34"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 33,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "来たわね。\nさあ、一緒にぼーっとしましょう。",
+        "official_en": "You arrived. Let us do nothing together.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_003#34",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_003",
+        "entry_index": 34,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event stages the same person (look/placement) but does not perform a motion command on the line"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_002#33",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_004#35"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 34,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……え？\nそれだけ、なのか？",
+        "official_en": "What? Is that all?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_004#35",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_004",
+        "entry_index": 35,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_003#34",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_005#36"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 35,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "だけ、って何？　お父様とぼーっとしていた頃を\n思い出したから呼んだのに。",
+        "official_en": "Not \"all.\" Nothing. I have fond memories of doing\nnothing with my father. Now we will do it too.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_005#36",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_005",
+        "entry_index": 36,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_004#35",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_006#37"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 36,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ああ、なんだ。\nお父上代わりか……",
+        "official_en": "Oh! I see now. So that was the role you brought me\nhere to play.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_006#37",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_006",
+        "entry_index": 37,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_005#36",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_007#38"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 37,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "お誘いは嬉しいが、なぜ俺なんだ？\n父親に見える年齢ではないつもりだが。",
+        "official_en": "I appreciate the invitation, but I'm a bit young to\nbe a stand-in for anyone's father.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_007#38",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_007",
+        "entry_index": 38,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_006#37",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_008#39"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 38,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……あなた、空を眺めるのが好きでしょう？\nだから呼んだの。",
+        "official_en": "But you look lovingly—longingly—at the sky.\nThat love and longing is why I asked.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_008#39",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_008",
+        "entry_index": 39,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_007#38",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_009#40"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 39,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "！？\nどうしてあなたが、それを知っているんだ？",
+        "official_en": "H-how did you know about that?!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_009#40",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_009",
+        "entry_index": 40,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event stages the same person (look/placement) but does not perform a motion command on the line"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_008#39",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_010#41"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 40,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "見ればわかる。ライサンダーの\n空を眺める瞳は、とても熱っぽい。",
+        "official_en": "My eyes told me. My eyes saw your eyes, and the\npassion in them as they saw the sky.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_010#41",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_010",
+        "entry_index": 41,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_009#40",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_011#42"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 41,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そ、そうか。\n正面から指摘されると気恥ずかしいものだな。",
+        "official_en": "I...I see. It's a little embarrassing to hear it put\nso bluntly.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_011#42",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_011",
+        "entry_index": 42,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_010#41",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_012#43"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 42,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "この際だから言うが、俺は草原にごろりと\n横になって空を見上げるのが趣味なんだ。",
+        "official_en": "Then I may as well admit that my hobby is lying in\nthe meadow and looking up at the sky.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_012#43",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_012",
+        "entry_index": 43,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_011#42",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_013#44"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 43,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "将来は、空を駆ける騎士になりたい。\n子供の頃からずっと、そんな夢を抱いている。",
+        "official_en": "Someday, I want to be a knight who soars through\nthe skies. It's been a dream of mine since childhood.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_013#44",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_013",
+        "entry_index": 44,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_012#43",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_014#45"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 44,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "戦場を駆ける際にも、\n空の広さに感じ入っているほどだ。",
+        "official_en": "Even when I'm soaring over the battlefield, I find the\nvastness of the sky deeply moving.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_014#45",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_014",
+        "entry_index": 45,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_013#44",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_015#46"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 45,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いいものね、空は……\n自由で、どこまでも続いていて……",
+        "official_en": "The skies are wonderful. They go on forever into\nthe infinite. Into freedom.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_015#46",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_015",
+        "entry_index": 46,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_014#45",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_016#47"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 46,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そうだな。\n共感してもらえて嬉しいよ。",
+        "official_en": "Exactly. I'm glad you understand.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_016#47",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_016",
+        "entry_index": 47,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_015#46",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_017#48"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 47,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "隠居した人間の趣味のようだと笑われるのが\n怖くて、あまり人に言ったことはなかったから……",
+        "official_en": "I was afraid people would laugh if they knew I had\nsuch an idle hobby. So I usually don't talk about it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_017#48",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_017",
+        "entry_index": 48,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_016#47",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_018#49"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 48,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ニネは、笑わない。\nぼーっとするの、ニネも好きよ。",
+        "official_en": "I wouldn't laugh. I like to do nothing just like you do.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_018#49",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_018",
+        "entry_index": 49,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_017#48",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_019#50"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 49,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ふふ、同じ時や気持ちを\n分かち合えるというのは良いものだな。",
+        "official_en": "Heh. It's nice to know someone else feels the\nsame way.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_019#50",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_019",
+        "entry_index": 50,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_018#49",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_020#51"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 50,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "では、今日はここで二人、\nぼんやりして過ごそうか。",
+        "official_en": "Now then, shall we spend the rest of the day doing\nnothing together?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_020#51",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_020",
+        "entry_index": 51,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_019#50",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_021#52"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 51,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ええ。\n………………",
+        "official_en": "Yes. Mm.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_021#52",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_021",
+        "entry_index": 52,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "ウルタンド",
+              "note": "Event stages a different sole actor; audited counterexample class shows staging actor is the listener and ATR1.PID remains the speaker"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_020#51",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_022#53"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 52,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "んー、はあ……！　すっかり夕方だ。\n良い時間を過ごせたな。",
+        "official_en": "Ahhh. Is it evening already? I had a nice\ntime today.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_022#53",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_022",
+        "entry_index": 53,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_021#52",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_023#54"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 53,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "このままのんびりしていてもいいが\nそろそろ戻らねば。",
+        "official_en": "I would love to continue, but I ought to be getting\nback soon.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_023#54",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_023",
+        "entry_index": 54,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_022#53",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_024#55"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 54,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "待って、静寂が壊れる。\nまだ、ここにいて。",
+        "official_en": "Shh. Don't leave yet. Don't do something in our time\nof doing nothing.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_024#55",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_024",
+        "entry_index": 55,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_023#54",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_025#56"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 55,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "え？　しかし、精進のためには\n流石にもう鍛錬を始めておかねば……",
+        "official_en": "Er...but I need to get back to my training. Otherwise\nI'll never improve.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_025#56",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_025",
+        "entry_index": 56,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_024#55",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_026#57"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 56,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "後でニネが鍛えてあげる。\nだから、駄目？",
+        "official_en": "Training? I'll train you later. So stay now.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_026#57",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_026",
+        "entry_index": 57,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_025#56",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_027#58"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 57,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "う、うーむ……わかった。\nでは、もう少しだけ。",
+        "official_en": "Er...alright, I suppose. Just for a little while.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_027#58",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_027",
+        "entry_index": 58,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_026#57",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_028#59"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 58,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ありがとう。\nライサンダー、優しい。",
+        "official_en": "Thank you. Your doing nothing is doing me\na kindness.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_028#59",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Lys_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+        "label": "MID_SE_Nin_Lys_B_028",
+        "entry_index": 59,
+        "jp_source_sha256": "31dfb4cc5ec9923d9a43cf1d09d210bd557fc9b18f153e463d85b62e5cbdf260",
+        "official_en_source_sha256": "f30239713cef377daa7f5ecadafc2086809f554ea8b37d483abe868cd58763a3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ライサンダー",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ライサンダー"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ライサンダー",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Lys_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ライサンダー",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Lys_CB:MID_SE_Nin_Lys_B_027#58"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 59,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Lys_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……いかん。少しどきっとしてしまった。\n入れ込み過ぎないよう気をつけなければ……",
+        "official_en": "Uh-oh... My heart skipped a beat there. Best be\ncareful not to get too involved.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

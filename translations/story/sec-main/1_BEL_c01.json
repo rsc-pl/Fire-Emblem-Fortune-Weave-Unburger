@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c01:MID_EV15_002_m01_014#135",
+      "source": {
+        "platform": "switch2",
+        "bank": "1_BEL_c01",
+        "jp_asset": "Msg/JPja/1_BEL_c01.msbt.zst",
+        "official_en_asset": "Msg/USen/1_BEL_c01.msbt.zst",
+        "label": "MID_EV15_002_m01_014",
+        "entry_index": 135,
+        "jp_source_sha256": "3d99a7b5b196c907e048149490390ac87f42872db39f3e6ab48ce242bd957e16",
+        "official_en_source_sha256": "4cf17ce3bc0b1e0c2442fbe542e5f08cb78faadea86b0e3e547ffe1453af20ee"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/1_BEL_c01.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/1_BEL_c01.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c01:MID_EV15_002_m01_013#134",
+          "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c01:MID_EV15_002_m01_015#136"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 135,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV15_002_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "忘れないわ！　お前の顔、その声！\n絶対に、あたしがこの手で殺してやる……！",
+        "official_en": "Your face and your voice— I will never forget you!\nI'll kill you. I will!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c01:MID_EV15_002_m01_053#137",
+      "source": {
+        "platform": "switch2",
+        "bank": "1_BEL_c01",
+        "jp_asset": "Msg/JPja/1_BEL_c01.msbt.zst",
+        "official_en_asset": "Msg/USen/1_BEL_c01.msbt.zst",
+        "label": "MID_EV15_002_m01_053",
+        "entry_index": 137,
+        "jp_source_sha256": "3d99a7b5b196c907e048149490390ac87f42872db39f3e6ab48ce242bd957e16",
+        "official_en_source_sha256": "4cf17ce3bc0b1e0c2442fbe542e5f08cb78faadea86b0e3e547ffe1453af20ee"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c01:MID_EV15_002_m01_015#136",
+          "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c01:MID_EV15_002_m01_016#138"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 137,
+        "label_alias_count": 1,
+        "dialogue_role": "EMPTY",
+        "utterance_kind": "EMPTY",
+        "speaker_applicable": false,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV15_002_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "",
+        "official_en": "",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

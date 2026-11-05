@@ -1,0 +1,5102 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C",
+        "entry_index": 0,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_001#1"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_001",
+        "entry_index": 1,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "今日は何の芸をしようかなあ。\nこれなんかいいかも、もしかして。",
+        "official_en": "Hm, what magic trick should I work on today?\nMaaaybe this one?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_002",
+        "entry_index": 2,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あ、お客さんですか？　もしかして？\n少し待っててくださいね。うん、これでよし！",
+        "official_en": "Oh! Someone who wants a show? Just a moment!\nAaand, ready!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_003",
+        "entry_index": 3,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "はい、お待たせしまっ……！？\n………………",
+        "official_en": "OK! Sorry to keep you wai...ting?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_004",
+        "entry_index": 4,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_005#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………",
+        "official_en": "Mmm.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_005#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_005",
+        "entry_index": 5,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_006#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "すすす、少～し、待っていてくださいね～。\n……ななな、何でディートリヒさんが！？",
+        "official_en": "J-just a moment! <#CTRL:0E>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_006#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_006",
+        "entry_index": 6,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_005#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_007#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "この人はアナトリアちゃんに斬りかかるし、\n芸なんて興味ないだろうし、あわわ……！",
+        "official_en": "<#CTRL:0E>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_007#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_007",
+        "entry_index": 7,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_006#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_008#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "わわわ、私も殺されちゃうのかな！？\nもしかして！？　逃げなきゃあ！",
+        "official_en": "<#CTRL:0E>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_008#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_008",
+        "entry_index": 8,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_007#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "む……？　思っていたよりも速い、か。\n成程、面白い……！",
+        "official_en": "Oh? How swift she is. I will give chase.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_009#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_009",
+        "entry_index": 9,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_008#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_010#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ひいい！　お、お、追ってきたあ！\n！　あそこの木箱の中に隠れれば……！",
+        "official_en": "Kyah! He's chasing me! Maybe I can hide in here!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_010#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_010",
+        "entry_index": 10,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_009#9",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_011#11"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "消えた……？\nいや、気配は確かにある……",
+        "official_en": "She is gone. No, I can sense her, somewhere near...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_011#11",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_011",
+        "entry_index": 11,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_010#10",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_012#12"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 11,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "見つかりませんように、見つかりませんように、\n見つかりませんように……！",
+        "official_en": "Please don't find me, please don't find me,\nplease don't find me...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_012#12",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_012",
+        "entry_index": 12,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_011#11",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_013#13"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 12,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そこか……ぜああああっ！",
+        "official_en": "There you are! Hrah!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_013#13",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_013",
+        "entry_index": 13,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_012#12",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_014#14"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 13,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "きゃあああああ！",
+        "official_en": "Aaah!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_014#14",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_014",
+        "entry_index": 14,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_013#13",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_015#15"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 14,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "見つけたぞ……！\n……もう、これでしまいか？",
+        "official_en": "I have found you. Do you yield?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_015#15",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_015",
+        "entry_index": 15,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "モブ1",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "モブ1",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_モブ1"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "モブ1",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_モブ1",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_014#14",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_016#16"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 15,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "おい！　そこで何をしている！？\n少女相手に剣を抜くなど……",
+        "official_en": "Hey! You! What are you doing?! Drawing your sword\non that poor, scared girl...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_016#16",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_016",
+        "entry_index": 16,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_015#15",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_017#17"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 16,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "お前になど用はない……\nはあっ！",
+        "official_en": "You have no part in this. Tyah!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_017#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_017",
+        "entry_index": 17,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "モブ1",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "モブ1",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_モブ1"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "モブ1",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_モブ1",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_016#16",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_018#18"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "うわあああああ！",
+        "official_en": "Waaah!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_018#18",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_018",
+        "entry_index": 18,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_017#17",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_019#19"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 18,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そんな、斬っちゃうなんて……\nわ、私が逃げたせい？　もしかして……？",
+        "official_en": "Nooo! You killed him?! Is this because I ran away?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_019#19",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_019",
+        "entry_index": 19,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_018#18",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_020#20"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 19,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……見るがいい、気絶しているだけだ。\n鎧を斬っただけに過ぎん。",
+        "official_en": "He is not dead. In fact, he is unscathed. I cut only\nhis armor.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_020#20",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_020",
+        "entry_index": 20,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_019#19",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_021#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 20,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ほっ。いやでも、こんなことしちゃ駄目ですよお！\n神様が許してくれませんよ！？",
+        "official_en": "Phew... Even so, you can't just go around slicing\npeople! The gods won't forgive you!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_021#21",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_021",
+        "entry_index": 21,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_020#20",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_022#22"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 21,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "面倒なことだ。\n誰に許しを得る必要があるというのか……",
+        "official_en": "What say do the gods have in it?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_022#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_022",
+        "entry_index": 22,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "アンナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アンナ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_アンナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_021#21",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_023#23"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いくら大剣闘祭の参加者でも限度はあるわよ。\nさあ、事情を聞かせてもらうわよ。",
+        "official_en": "I know you're participating in the Heroic Games, but\nthere are limits, you know. Come on, what'd you do?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_023#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_023",
+        "entry_index": 23,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "アンナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アンナ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アンナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_アンナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_022#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_024#24"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……まあ、そんなところだろうとは思ったわ。\n私も暇じゃないし、もうしないでよ。",
+        "official_en": "Uh huh, I figured. Well, I'm really busy, so please\nmind yourself, OK?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_024#24",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_024",
+        "entry_index": 24,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_023#23",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_025#25"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 24,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ディートリヒさん、酷いですよぉ！\n『事情はこいつが話す……』で黙るなんて！",
+        "official_en": "Dietrich, that was just plain mean! You made me do\nall the talking!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_025#25",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_025",
+        "entry_index": 25,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_024#24",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_026#26"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 25,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ア、アンナさんもずっと黙ってましたし、\nわ、私も緊張で声が出ませんでしたよお！",
+        "official_en": "Ms. Anna kept staring at me with a blank face...\nI got so nervous, I could hardly speak!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_026#26",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_026",
+        "entry_index": 26,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_025#25",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_027#27"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 26,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……そうだな、言葉を使わず、お前が\n身振りのみで伝える様は、なかなか愉快だった。",
+        "official_en": "When words failed, you conveyed a great deal with\nmere gestures. It was captivating.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_027#27",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_027",
+        "entry_index": 27,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_026#26",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_028#28"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 27,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "どれ………………\nむ？　ないか。ならば、次にするか……",
+        "official_en": "One moment... Oh, perhaps not now, but\nlater, certainly.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_028#28",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_028",
+        "entry_index": 28,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_027#27",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_029#29"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 28,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "よ、良かった、よくわからないけど……\nやっと解放された……あれ？",
+        "official_en": "Phew, he's gone. I don't know what all that was, but\nI guess he's leaving me alone, so that's good.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_029#29",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_C_029",
+        "entry_index": 29,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_028#28",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B#30"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 29,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あの人『次』って言った！？\nまた来るの！？　もしかして！？",
+        "official_en": "Wait... Wait. He said \"later.\" That means...he's gonna\ncome back?! Noooooo!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B#30",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_B",
+        "entry_index": 30,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_C_029#29",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_001#31"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 30,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_001#31",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_B_001",
+        "entry_index": 31,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B#30",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_002#32"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 31,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……ここにいたか、探したぞ。",
+        "official_en": "So you are here. I have been searching.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_002#32",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_B_002",
+        "entry_index": 32,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_001#31",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_003#33"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 32,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ディ、ディートリヒさん！\nだ、駄目、逃げたらまた誰かが酷い目に……！",
+        "official_en": "Agh, it's you! <#CTRL:0E>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_003#33",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_B_003",
+        "entry_index": 33,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_002#32",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_004#34"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 33,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "おい、幾らが希望だ……？\nひとまず、適当に置いておくが。",
+        "official_en": "What is considered a typical amount? I am prepared\nto pay.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_004#34",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_B_004",
+        "entry_index": 34,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_003#33",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_005#35"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 34,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "え……お金？\nど、どういうことですか？",
+        "official_en": "Huh? Wait, what's the gold for?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_005#35",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_B_005",
+        "entry_index": 35,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_004#34",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_006#36"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 35,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "以前、お前の芸を\n楽しませてもらった事に対する対価だ……",
+        "official_en": "Your fee. I was highly entertained.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_006#36",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_B_006",
+        "entry_index": 36,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_005#35",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_007#37"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 36,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あの、それって、貴方が私を追いかけて、\n兵士さんを斬った日の話ですか？　もしかして？",
+        "official_en": "Um, do you mean when you chased after me and\nslashed at that soldier?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_007#37",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_B_007",
+        "entry_index": 37,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_006#36",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_008#38"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 37,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そうだ、お前がアンナの前で暴れた日だ。\nあの時は……持ち合わせがなくてな。",
+        "official_en": "Indeed. The day you went wild in front of Anna. At\nthat time, I lacked funds.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_008#38",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_B_008",
+        "entry_index": 38,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_007#37",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_009#39"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 38,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "暴れてたのは貴方のほうでしょう！？\nえ、じゃあ、芸を見に来てくれてたんですか？",
+        "official_en": "Went...wild? You were the one who acted wild!\nWait, so you came to watch me perform?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_009#39",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_B_009",
+        "entry_index": 39,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_008#38",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_010#40"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 39,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そ、そんなあ………………\nそうと知っていれば、逃げなかったのに……",
+        "official_en": "No way... If I'd known, I wouldn't have run from you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_010#40",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_B_010",
+        "entry_index": 40,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_009#39",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_011#41"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 40,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "私は怖かったから逃げただけなんです。\nだから、このお金は受け取れません。",
+        "official_en": "I only ran because I was terrified. I can't accept\nyour money.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_011#41",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_B_011",
+        "entry_index": 41,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_010#40",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_012#42"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 41,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "なんだと……？　\nあれは実に愉快だったのだが。",
+        "official_en": "What? Why not? I was truly entertained.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_012#42",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_B_012",
+        "entry_index": 42,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_011#41",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_013#43"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 42,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "それに……恐怖の一心で逃げたのならば、\nなぜ今、お前は私から逃げようとしない？",
+        "official_en": "Moreover...if you feared me then, and so fled, why do\nyou not flee now?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_013#43",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_B_013",
+        "entry_index": 43,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_012#42",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_014#44"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 43,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あ、あの日、兵士さんが倒れた時に、\n思い出しちゃったからです……",
+        "official_en": "Well, because... When you knocked that soldier\ndown, it reminded me of something...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_014#44",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_B_014",
+        "entry_index": 44,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_013#43",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_015#45"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 44,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "私の大切な人が……\n目の前で死んじゃった日のことを……",
+        "official_en": "It made me think about the day someone very special\nto me died. Right in front of me...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_015#45",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_B_015",
+        "entry_index": 45,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_014#44",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_016#46"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 45,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "貴方から逃げて、あんなことが起こるなら、\nもう逃げちゃ駄目だって思ったんです。",
+        "official_en": "I feel like...if running away allows something like that\nto happen, then I have to stand my ground.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_016#46",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_B_016",
+        "entry_index": 46,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_015#45",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_017#47"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 46,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……？\nあの兵士も『大切』だったのか？",
+        "official_en": "Hm. Was the soldier important to you?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_017#47",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_B_017",
+        "entry_index": 47,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_016#46",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_018#48"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 47,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いいえ、知らない人でした。\nだけど、目の前で誰かが傷つくなんて私は嫌です。",
+        "official_en": "No, I didn't know him. But I hate seeing anyone\nget hurt.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_018#48",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_B_018",
+        "entry_index": 48,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_017#47",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_019#49"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 48,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "もちろん、今は戦わないと駄目な時ですけど……\n本当は誰の命も奪いたくありません！",
+        "official_en": "I mean, there are times when you've gotta fight. But\nI really don't want to take anyone's life...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_019#49",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_B_019",
+        "entry_index": 49,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_018#48",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_020#50"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 49,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "己と関係が希薄な者の命も想う、か。\n私には出来ないことだ……",
+        "official_en": "So you care for the lives of strangers. I cannot say\nthe same.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_020#50",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_B_020",
+        "entry_index": 50,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_019#49",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A#51"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 50,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あ、お金忘れてますよ！　……行っちゃった。\n何だか、少し羨ましそうだった？　もしかして。",
+        "official_en": "Hey, you forgot your gold! And he's gone... Did he...\ndid he look kinda jealous or something?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A#51",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A",
+        "entry_index": 51,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_B_020#50",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_001#52"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 51,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_001#52",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_001",
+        "entry_index": 52,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A#51",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_002#53"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 52,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "はい！　右手にあった短剣が、\n手の中でお金に変わっちゃいました！",
+        "official_en": "Aaand, presto! The dagger turned into money!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_002#53",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_002",
+        "entry_index": 53,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_001#52",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_003#54"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 53,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ほう……右手を派手に動かし、\nその隙に左手で準備をするとは、器用なものだ。",
+        "official_en": "How you waved your right hand to disguise what\nyou were doing with your left... Dexterous!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_003#54",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_003",
+        "entry_index": 54,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_002#53",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_004#55"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 54,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "か、からかってるんですかあ！？\nもしかして！！！　次はすごいですからね！？",
+        "official_en": "Heeey, are you teasing me or something? The next\none will be better—just you wait.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_004#55",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_004",
+        "entry_index": 55,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_003#54",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_005#56"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 55,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "２本の紐を、あたかも１本かのように持ち、\n刃のない剣を本物であるかのように振るう……",
+        "official_en": "Holding two strings and pretending they are one,\nwhile feigning to cut them with a dull blade...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_005#56",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_005",
+        "entry_index": 56,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_004#55",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_006#57"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 56,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "なかなかやるものだ。\nどれも……見応えがあった。",
+        "official_en": "You have a knack for this. I am pleased to witness\nyour technique.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_006#57",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_006",
+        "entry_index": 57,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_005#56",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_007#58"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 57,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "くうぅ、種が全部見抜かれている……\nものすっごく練習したのにぃ……！",
+        "official_en": "Gah, you saw through every one of my tricks... And I\nspent so much time practicing them!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_007#58",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_007",
+        "entry_index": 58,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_006#57",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_008#59"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 58,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………",
+        "official_en": "Hmm.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_008#59",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_008",
+        "entry_index": 59,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_007#58",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_009#60"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 59,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "な、何ですか。言っておきますけど、\n今本当に悔しがってますし、芸じゃありませんよ。",
+        "official_en": "What? Just so you know, my frustration? It's not a\nmagic trick.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_009#60",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_009",
+        "entry_index": 60,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_008#59",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_010#61"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 60,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "随分私を恐れなくなったなと……\n考えていただけだ。",
+        "official_en": "I was reflecting on the fact that you no longer\nfear me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_010#61",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_010",
+        "entry_index": 61,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_009#60",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_011#62"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 61,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あ、あはは。そういうことですか。\nはい……そのとおりだと思います。",
+        "official_en": "Hehe... Oh, I see. I mean, I do think you're right.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_011#62",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_011",
+        "entry_index": 62,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_010#61",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_012#63"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 62,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "最初は殺される？　もしかして？\n……って、怖い気持ちでいっぱいでした。",
+        "official_en": "At first I was super scared and wondering if you\nwere going to kill me or something.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_012#63",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_012",
+        "entry_index": 63,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_011#62",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_013#64"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 63,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ディートリヒさんは私とはかけ離れた存在で、\n何考えているのか全然わからなくて……",
+        "official_en": "You and I are worlds apart, so I never know what\nyou're thinking...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_013#64",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_013",
+        "entry_index": 64,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_012#63",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_014#65"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 64,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "だけど、そんなふうに考えているのは貴方も\nもしかして同じかもって思い直したんです。",
+        "official_en": "But then I started to wonder if maybe we aren't so\ndifferent in some ways.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_014#65",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_014",
+        "entry_index": 65,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_013#64",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_015#66"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 65,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………",
+        "official_en": "Hm.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_015#66",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_015",
+        "entry_index": 66,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_014#65",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_016#67"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 66,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "芸のお代を持ってきた時のディートリヒさん、\n少しだけ羨ましそうな目をしていました。",
+        "official_en": "When you came to pay me for the \"show,\" you\nseemed, I dunno...kinda jealous?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_016#67",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_016",
+        "entry_index": 67,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_015#66",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_017#68"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 67,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "まるで、自分には手の届かない物を見るような、\nほんのちょっと寂しい目……",
+        "official_en": "Your eyes looked even a little sad, like you were\nseeing something you couldn't ever reach...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_017#68",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_017",
+        "entry_index": 68,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_016#67",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_018#69"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 68,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "だから、怖がらずに私を知ってもらって、\n貴方のことも知ろうって思いました。",
+        "official_en": "So I decided then and there that I wanted you to\nknow me. And I wanted to know you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_018#69",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_018",
+        "entry_index": 69,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_017#68",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_019#70"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 69,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そうしたら、仲良くなれるかもしれないって。\nもしかして。",
+        "official_en": "And that maybe we could be friends.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_019#70",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_019",
+        "entry_index": 70,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_018#69",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_020#71"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 70,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そうか……\nかもしれんな。",
+        "official_en": "I see. Perhaps we will.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_020#71",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_020",
+        "entry_index": 71,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_019#70",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_021#72"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 71,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "！　はい！\nそれで、どの芸が一番面白かったですか！？",
+        "official_en": "Yeah! Sooo, which trick did you like the most?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_021#72",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_021",
+        "entry_index": 72,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディートリヒ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_020#71",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_022#73"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 72,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………いつぞやか、アンナに対し、\n手足をばたつかせていたやつだな……",
+        "official_en": "Your wild gesticulations as you groveled to Anna.\nI could not tear my eyes away.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_022#73",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Dit_Hal_CBA",
+        "jp_asset": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+        "label": "MID_SE_Dit_Hal_A_022",
+        "entry_index": 73,
+        "jp_source_sha256": "0b17f842fd5c951149e7e91212ee5cc8dcee7b80c08eaf58aff49079c5a431e6",
+        "official_en_source_sha256": "4e33ef32e5b5d4e928c2304847a4200368b7fd49fa305263365d1b7713997544"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ハルヴィン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ハルヴィン"
+            },
+            {
+              "source": "Msg/USen/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ハルヴィン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Dit_Hal_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ハルヴィン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Dit_Hal_CBA:MID_SE_Dit_Hal_A_021#72"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 73,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Dit_Hal_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "～～！　だからー！\nあれは芸じゃないんですってばー！",
+        "official_en": "Hey, I told you that wasn't one of my tricks!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

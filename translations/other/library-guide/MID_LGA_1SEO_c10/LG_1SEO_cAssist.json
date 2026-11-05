@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1SEO_cAssist:MID_LGA_1SEO_c10_LG13_016_m05#321",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1SEO_cAssist",
+        "jp_asset": "Msg/JPja/LG_1SEO_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1SEO_cAssist.msbt.zst",
+        "label": "MID_LGA_1SEO_c10_LG13_016_m05",
+        "entry_index": 321,
+        "jp_source_sha256": "413a037b3532204b7c0d81615089588ba121672f8ea28a9fc5fb83fcd4258dbc",
+        "official_en_source_sha256": "7b1ce614663cf45c524c3c5be4194103e6355ccf9273dcf4526da0833f8539b2"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アナトリア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1SEO_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アナトリア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アナトリア"
+            },
+            {
+              "source": "Msg/USen/LG_1SEO_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アナトリア",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1SEO_cAssist:MID_LGV_1SEO_c10_LG13_016_m05_001#320",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1SEO_cAssist:MID_LGV_1SEO_c10_LG13_016_m06#322"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 321,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": "BLN",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGA_1SEO_c10_LG13_016_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<BLN>準備が調ったのですか？",
+        "official_en": "<BLN>Are you prepared now?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

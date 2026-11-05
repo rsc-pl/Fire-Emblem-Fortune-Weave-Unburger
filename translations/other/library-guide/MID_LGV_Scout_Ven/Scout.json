@@ -1,0 +1,1807 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01#1182",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m01",
+        "entry_index": 1182,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Negotiation_SP_3rd_Maj_m01_013#1181",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_001#1183"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 1182,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_001#1183",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m01_001",
+        "entry_index": 1183,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01#1182",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_002#1184"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1183,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "貴様に提案がある。\nこのベンディッツ将軍の仲間にならんか？",
+        "official_en": "You there! I have a proposal. Join my group!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_002#1184",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m01_002",
+        "entry_index": 1184,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_001#1183",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_003#1185"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1184,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "貴殿に提案がある。\nこのベンディッツの仲間になりませぬか？",
+        "official_en": "I have a proposal for you. You should join my group!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_003#1185",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m01_003",
+        "entry_index": 1185,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_002#1184",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_004#1186"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1185,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "わしを倒した貴様は見込みがある。\nこのベンディッツ将軍の仲間にしてやろう。",
+        "official_en": "I've decided that you have promise. You beat me,\nafter all. So you must join my group!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_004#1186",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m01_004",
+        "entry_index": 1186,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_003#1185",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_005#1187"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1186,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "わしが力を見込んで誘うなど、珍しいことだぞ。\n自信を持っていい。",
+        "official_en": "Few have any skill that's worth a fig these days, and\nI rarely recruit those that do. Take the compliment!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_005#1187",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m01_005",
+        "entry_index": 1187,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_004#1186",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_006#1188"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1187,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "わしが力を見込んで誘うなど、珍しいことです。\n自信を持って良いことですぞ。",
+        "official_en": "Few have any skill that's worth a fig these days, and\nI rarely recruit those that do. Enjoy the compliment!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_006#1188",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m01_006",
+        "entry_index": 1188,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_005#1187",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_007#1189"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1188,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "この千載一遇の機会！\nうなずかねば後悔するぞ。",
+        "official_en": "You won't get this offer again—not from me! You'll\nregret it if you turn ME down!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_007#1189",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m01_007",
+        "entry_index": 1189,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_006#1188",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_008#1190"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1189,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "我が崇高な目的を達成するための一端を\n担わせてやるのだ。うなずくしかあるまい？",
+        "official_en": "I'm bringing you in on the ground floor of my\nambitious rise. So this is where you agree!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_008#1190",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m01_008",
+        "entry_index": 1190,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_007#1189",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_009#1191"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1190,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "我が崇高な目的を達成するための一端を\n担っていただきたいのです。いかがですかな？",
+        "official_en": "I'm bringing you in on the ground floor of my\nambitious rise. So I'm sure you'll agree!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_009#1191",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m01_009",
+        "entry_index": 1191,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_008#1190",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m02#1192"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1191,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "なにせ、我が崇高な目的を達成するための\n一端を担えるのだからな。",
+        "official_en": "I've got nowhere to go but up! So be glad you're\ngetting in on the ground floor here.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m02#1192",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m02",
+        "entry_index": 1192,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m01_009#1191",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m02_001#1193"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 1192,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m02_001#1193",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m02_001",
+        "entry_index": 1193,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m02#1192",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m02_002#1194"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1193,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "わしが領土を持てた暁には、\n貴様の名を歴史に刻んでやろう。",
+        "official_en": "I will inevitably be grabbing hold of vast amounts\nof territory. You will be making history—with ME!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m02_002#1194",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m02_002",
+        "entry_index": 1194,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m02_001#1193",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m02_003#1195"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1194,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "ウーハー！　貴殿の助力があれば、\nわしは必ず領土を持てるでしょう！",
+        "official_en": "Ooh! I'd grab myself vast amounts of territory if you\nwere in my employ!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m02_003#1195",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m02_003",
+        "entry_index": 1195,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m02_002#1194",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m02_004#1196"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1195,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "わしが領土を持てた暁には、\n貴様の名を歴史に刻んでやろう。",
+        "official_en": "I will inevitably be grabbing hold of vast amounts of\nterritory. You will be making history—with ME!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m02_004#1196",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m02_004",
+        "entry_index": 1196,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m02_003#1195",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m02_005#1197"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1196,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "これから、我が手足としてよく働くのだぞ。\nウハハハハ！",
+        "official_en": "So from now on, you have the great honor of being\nsubordinate to my demands! Ha HA!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m02_005#1197",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m02_005",
+        "entry_index": 1197,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m02_004#1196",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m02_006#1198"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1197,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "お力、期待しておりますからな。\nこれからよろしく頼みますぞ。ウハハハハ！",
+        "official_en": "I have the highest respect of your power, and will\nplace higher demands on you than others! Ha HA!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m02_006#1198",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m02_006",
+        "entry_index": 1198,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m02_005#1197",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m03#1199"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1198,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "貴様の力を、このベンディッツ将軍のために\n存分に使うのだぞ。ウハハハハ！",
+        "official_en": "I will wrap you around my little finger and exploit\nyou to the fullest. Rely on me! Ha HA!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m03#1199",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m03",
+        "entry_index": 1199,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m02_006#1198",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m03_001#1200"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 1199,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m03"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m03_001#1200",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m03_001",
+        "entry_index": 1200,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m03#1199",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m03_002#1201"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1200,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m03"
+      },
+      "function": "other",
+      "text": {
+        "jp": "わしの偉大さに尻込みしておるのようだな。\n自信がつくまで待ってやろう。",
+        "official_en": "Do you have a habit of walking away from your\nsuperiors? I'll wait for you to come to your senses.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m03_002#1201",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m03_002",
+        "entry_index": 1201,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m03_001#1200",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m03_003#1202"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1201,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m03"
+      },
+      "function": "other",
+      "text": {
+        "jp": "ぐぐうっ……し、仕方がありませんな。\n貴殿の気が済むまで、ご検討くだされ……",
+        "official_en": "Gah! I...I suppose that's your answer for now.\nAs you please...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m03_003#1202",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m03_003",
+        "entry_index": 1202,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m03_002#1201",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m04#1203"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1202,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m03"
+      },
+      "function": "other",
+      "text": {
+        "jp": "わしに勝ったからと調子に乗りおって！\nだが、わしは寛大だ。待ってやろう。",
+        "official_en": "Your little defeat of me has gone to your head!\nBut I am generosity itself! I can wait.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m04#1203",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m04",
+        "entry_index": 1203,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m03_003#1202",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m04_001#1204"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 1203,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m04_001#1204",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m04_001",
+        "entry_index": 1204,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m04#1203",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m04_002#1205"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1204,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "このベンディッツと戦った貴様には\nその凄さが、よーくわかったようだな？",
+        "official_en": "You and I battled in the glorious arena. You surely\nsensed my sheer, terrible greatness!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m04_002#1205",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m04_002",
+        "entry_index": 1205,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m04_001#1204",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m04_003#1206"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1205,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "このベンディッツを旗下に加えようとは\nわしの偉大さがわかるものが居ったようだな！",
+        "official_en": "You have grasped, it seems, what glory there is to\nbe had in serving MY command!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m04_003#1206",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m04_003",
+        "entry_index": 1206,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m04_002#1205",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m04_004#1207"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1206,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "このベンディッツを旗下に加えようとは\n流石は女王、わしの偉大さがわかるようだな！",
+        "official_en": "Naturally, Queen, you've realized what glory you'd\nhave, serving under my command!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m04_004#1207",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m04_004",
+        "entry_index": 1207,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m04_003#1206",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m04_005#1208"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1207,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "だが生憎、貴様ではわしに釣り合わぬ。\nもっと精進して、出直してくるがいい！",
+        "official_en": "I'm sorry to report, however, that you are not fit for\nmy employ yet. Work harder! Come back later!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m04_005#1208",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Ven_m04_005",
+        "entry_index": 1208,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ベンディッツ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベンディッツ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベンディッツ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Ven_m04_004#1207",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Negotiation_SP_Start_Ven_m01#1209"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1208,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Ven_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "だが生憎、今の貴殿では、わしは手に余るだろう。\nもっと己を鍛え、出直してこられるがよい！",
+        "official_en": "But I regret to inform you that your talent can't yet\nmeet my demands. Train more. Then return.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5114 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C",
+        "entry_index": 0,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_001#1"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C_001",
+        "entry_index": 1,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "よう、フィアナ。こうも天気がいいと、\n気持ちも晴れやかになるよな。",
+        "official_en": "Hey, Fianna. With great weather like this, it's hard\nto complain, huh?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C_002",
+        "entry_index": 2,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あ……その……\nこ、こんにちは……",
+        "official_en": "Ah... Um... Hello...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C_003",
+        "entry_index": 3,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ったく、あいつは相変わらず、\n大将以外には全然懐かねえな。",
+        "official_en": "Man, she hardly seems to talk to anyone who\nisn't Talimun...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C_004",
+        "entry_index": 4,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_005#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……しっかし、こうもつれねえと\n逆に燃えてくるぜ。",
+        "official_en": "Too bad I'm such a sucker for the hard-to-get type.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_005#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C_005",
+        "entry_index": 5,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_006#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "おれだって何人もの女を転がしてきた男だ。\n腕の見せどころだな。",
+        "official_en": "I've been involved in my fair share of conquests\nthough. Time to put that experience to work.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_006#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C_006",
+        "entry_index": 6,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_005#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_007#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "へっ、こういう土産さえありゃ、\nたいてい上手くいくもんさ。",
+        "official_en": "Heh. Something like this oughta do the trick.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_007#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C_007",
+        "entry_index": 7,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_006#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_008#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "なあ、フィアナ。\nちょっとお前さんに用があるんだ。",
+        "official_en": "Hey there, Fianna. I'm not interrupting, am I?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_008#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C_008",
+        "entry_index": 8,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_007#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "？　な、何でしょうか……\nあ、もしかしてどこかお怪我を……？",
+        "official_en": "Wh-what is it? Are you hurt?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_009#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C_009",
+        "entry_index": 9,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_008#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_010#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いやいや、治療の依頼じゃない。\nもっと個人的なことさ。",
+        "official_en": "No, no. This isn't about work. No need for healing\nright now.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_010#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C_010",
+        "entry_index": 10,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_009#9",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_011#11"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いつも怖がらせちまってるみたいだからな。\nお詫びに贈り物をしたいんだ。",
+        "official_en": "I got you something, actually. Since I seem to scare\nyou all the time, I wanted to make it up to you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_011#11",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C_011",
+        "entry_index": 11,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_010#10",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_012#12"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 11,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いえ、私が一方的に\n避けてしまっているだけですから……",
+        "official_en": "No need. I've been avoiding you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_012#12",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C_012",
+        "entry_index": 12,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_011#11",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_013#13"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 12,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "それでもさ。ほら、巷で人気の高級菓子だ。\nおれの気持ち、受け取ってくれ。",
+        "official_en": "Well, here. I got you some of these fancy sweets.\nI wanted you to know how I feel.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_013#13",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C_013",
+        "entry_index": 13,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_012#12",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_014#14"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 13,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……シモンさんの気持ち、ですか？\nこの蜂蜜がけのお菓子が……",
+        "official_en": "How you feel? Like...honey-covered sweets?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_014#14",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C_014",
+        "entry_index": 14,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_013#13",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_015#15"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 14,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "買うには結構並ぶんだぜ。柄じゃねえけど、\nお前さんのことを考えながら買ってきたのさ。",
+        "official_en": "Right. They're pretty popular. People line up to buy\nthem. I wanted you to know I was thinking of you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_015#15",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C_015",
+        "entry_index": 15,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_014#14",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_016#16"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 15,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そこまで苦労して、私に……？\n………………",
+        "official_en": "You waited in line, thinking of me?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_016#16",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C_016",
+        "entry_index": 16,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_015#15",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_017#17"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 16,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "この熱っぽい感じ……\nドンピシャで来たみたいだな。",
+        "official_en": "Heh. I nailed it... You still got it, Simon.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_017#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C_017",
+        "entry_index": 17,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_016#16",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_018#18"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……よくわかりました。シモンさんは、\n私のことがお嫌いなのですね……",
+        "official_en": "I see... You could have simply told me you hate\nme, Simon.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_018#18",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C_018",
+        "entry_index": 18,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_017#17",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_019#19"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 18,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……は？",
+        "official_en": "What?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_019#19",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C_019",
+        "entry_index": 19,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_018#18",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_020#20"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 19,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "こちらはお返ししますね……\nもう行きます……さようなら……",
+        "official_en": "Now, I will return these to you... And take\nmy leave. Goodbye.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_020#20",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C_020",
+        "entry_index": 20,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_019#19",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_021#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 20,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ちょっ、おい！　……どういうこった？\nこの菓子が何だってんだよ？",
+        "official_en": "H-hey! What just happened? Is there something\nwrong with it?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_021#21",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_C_021",
+        "entry_index": 21,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_020#20",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B#22"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 21,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………\n美味えじゃねえか。甘くて。",
+        "official_en": "Seems fine to me... Delicious, even.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B",
+        "entry_index": 22,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_C_021#21",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_001#23"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_001#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_001",
+        "entry_index": 23,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_002#24"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "はーあ。菓子渡し損ねてから、\nフィアナとまともに話できてねえな。",
+        "official_en": "Ugh. I haven't been able to get a word in with Fianna\nsince I tried to give her that candy.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_002#24",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_002",
+        "entry_index": 24,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_001#23",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_003#25"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 24,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "二人になろうとすると、あからさまに\n避けられるし。どうしたもんか……",
+        "official_en": "Whenever I try to catch her alone so we can talk,\njust the two of us, she avoids me. What do I do now?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_003#25",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_003",
+        "entry_index": 25,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_002#24",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_004#26"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 25,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……ん？\n扉の陰に、縄みてえな……",
+        "official_en": "Huh? What is this? A rope?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_004#26",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_004",
+        "entry_index": 26,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_003#25",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_005#27"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 26,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "！　こいつは……罠猟用のくくり罠だな。\nしかし何でこんなとこに。",
+        "official_en": "What the hell? A snare trap? What's this doing here?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_005#27",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_005",
+        "entry_index": 27,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_004#26",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_006#28"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 27,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ご、ごめんなさいっ……！",
+        "official_en": "I'm sorry!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_006#28",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_006",
+        "entry_index": 28,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_005#27",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_007#29"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 28,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "うおおっとお！？\nちょっ……",
+        "official_en": "What in the— Hey!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_007#29",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_007",
+        "entry_index": 29,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_006#28",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_008#30"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 29,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "フィ、フィアナ！　何しやがんだ、\n縄が足に……おい、まさかこの罠は……",
+        "official_en": "Fianna! What're you doing?! What's this rope doing\naround my— Am I in the snare?!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_008#30",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_008",
+        "entry_index": 30,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_007#29",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_009#31"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 30,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "私が置きました……\n商会の倉庫にあったものをお借りして……",
+        "official_en": "Yes. I set the snare for you. I borrowed it from one\nof the Vandahl warehouses...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_009#31",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_009",
+        "entry_index": 31,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_008#30",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_010#32"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 31,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "兵の方々を診るようお願いされたのですが、\nあなた相手だと、こうでもしないと不安で……",
+        "official_en": "I was asked to heal the wounded, and I was worried\nI'd need something like this were I to treat you...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_010#32",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_010",
+        "entry_index": 32,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_009#31",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_011#33"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 32,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "待て待て、おれを何だと思ってる。\n野獣か何かと勘違いしてねえか？",
+        "official_en": "Wait, wait! What do you take me for, some kind\nof madman killer on the loose?!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_011#33",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_011",
+        "entry_index": 33,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_010#32",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_012#34"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 33,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "でも、私を嫌っているのでしょう……？\nそれに、二人になって私の命を狙おうとも……",
+        "official_en": "Don't you...hate me? Isn't that why you kept trying\nto catch me alone? To finally kill me?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_012#34",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_012",
+        "entry_index": 34,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_011#33",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_013#35"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 34,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "しねえよ、そんなこと！　まったくの誤解だ！\nおれはお前さんと話がしたかっただけで……",
+        "official_en": "N-no! Of course not! There's been a huge\nmisunderstanding! I just wanted to talk, I swear!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_013#35",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_013",
+        "entry_index": 35,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_012#34",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_014#36"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 35,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "え？　では、私に甘いものを渡したのは\n悪意ではなかったのですか……？",
+        "official_en": "What? But you gave me sweets... Are you saying\nyou had no ill intentions all this time?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_014#36",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_014",
+        "entry_index": 36,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_013#35",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_015#37"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 36,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あん？　悪意なわけないだろ。\nお前さんが喜ぶと思って、渡したんだよ。",
+        "official_en": "Ill intentions? No! I gave you that candy because\nI thought you'd like it!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_015#37",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_015",
+        "entry_index": 37,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_014#36",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_016#38"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 37,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "！　ご、ごめんなさい！　私、甘いものが\n苦手なものですから、てっきり……",
+        "official_en": "O-oh! I'm sorry! It's just...you bought me sweets...\nIf you don't hate me, why would you do that?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_016#38",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_016",
+        "entry_index": 38,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_015#37",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_017#39"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 38,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そうならそうと素直に言ってくれ……\nたく……よっと。",
+        "official_en": "Well, hell. You could've just said that then.\nDamn it all... Tyah!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_017#39",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_017",
+        "entry_index": 39,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_016#38",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_018#40"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 39,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "今度一緒に、お前さんの好きなもんを食べよう。\nそれで仲直りってことにしようぜ。な？",
+        "official_en": "Next time, let's just get some food you like, and we'll\neat that together, alright? As friends?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_018#40",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_018",
+        "entry_index": 40,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_017#39",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_019#41"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 40,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そんな、ご迷惑をおかけしたのは\n私のほうなのに……",
+        "official_en": "After all the stress I've caused you?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_019#41",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_019",
+        "entry_index": 41,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_018#40",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_020#42"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 41,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "シモンさん、お優しい方ですね……\nありがとうございます……",
+        "official_en": "You're kind, Simon... Thank you...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_020#42",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_020",
+        "entry_index": 42,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_019#41",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_021#43"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 42,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "こんな私に付き合っていただけるなら、\n是非お食事に……ふふふ。",
+        "official_en": "If you're willing to go to so much trouble just for me,\nI'll happily have dinner with you... Heehee.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_021#43",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_021",
+        "entry_index": 43,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_020#42",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_022#44"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 43,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ふう……どうなることかと思ったが、\n一件落着だな。",
+        "official_en": "Whew! You had me worried there for a minute,\nbut I'm glad we were finally able to talk.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_022#44",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_022",
+        "entry_index": 44,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_021#43",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_023#45"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 44,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "じゃあ、おれはこれで。\n日取りはまた改めて決めようぜ。",
+        "official_en": "I'll leave you alone for now, then. When you decide\non a place, we'll set a date. Sound good?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_023#45",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_023",
+        "entry_index": 45,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_022#44",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_024#46"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 45,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あ……待ってください。\nそちらにはアトラスベア用の罠がいくつも……",
+        "official_en": "Ah... Before you go... There are a few more traps\nyou should be aware of.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_024#46",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_024",
+        "entry_index": 46,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_023#45",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_025#47"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 46,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "！？　だから、おれを何だと思ってんだ？\n大将と違ってただの人間だぜ？",
+        "official_en": "Hey! Just what do you think I'm capable of exactly?!\nI'm a normal human being! I'm not even a demigod!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_025#47",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_025",
+        "entry_index": 47,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_024#46",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_026#48"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 47,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "それはそうですが、とてもお強いですので、\n用心せねばと思い……",
+        "official_en": "That may be, but you are formidable still. I can't\nhope to face you head-on.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_026#48",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_B_026",
+        "entry_index": 48,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_025#47",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A#49"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 48,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………\nお前さんのほうが、よっぽど怖いぜ。",
+        "official_en": "You are much scarier than I am, Fianna...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A#49",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A",
+        "entry_index": 49,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_B_026#48",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_001#50"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 49,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_001#50",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_001",
+        "entry_index": 50,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A#49",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_002#51"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 50,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いやー、お前さんみたいな美女と食事ができて\n嬉しいぜ。じゃあ、早速食べるか。",
+        "official_en": "Ahh... Nothing like a nice meal with a beautiful\nwoman, I say. Shall we?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_002#51",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_002",
+        "entry_index": 51,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_001#50",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_003#52"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 51,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あ、待ってください、シモンさん。\nこちらをかけなければ……",
+        "official_en": "One moment, Simon. I need to add some of this first.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_003#52",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_003",
+        "entry_index": 52,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_002#51",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_004#53"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 52,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "なっ……何してんだ？\n香辛料全部ぶちまける奴があるかよ。",
+        "official_en": "What are you doing? How much extra spice do you\nneed to add?!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_004#53",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_004",
+        "entry_index": 53,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_003#52",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_005#54"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 53,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そうですか？　美味しいですよ……？\n私、辛いものが好きなのです。",
+        "official_en": "What do you mean? It's delicious! I love spicy food.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_005#54",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_005",
+        "entry_index": 54,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_004#53",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_006#55"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 54,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そ、そうか……\nまあ、人の好みはそれぞれだよな……",
+        "official_en": "Oh... I see. To each their own, I guess.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_006#55",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_006",
+        "entry_index": 55,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_005#54",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_007#56"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 55,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "さあ、シモンさんもどうぞ……\nかけて差し上げましょうか？",
+        "official_en": "Would you like to try some, Simon? Here, let me\njust put a dab on the side for you...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_007#56",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_007",
+        "entry_index": 56,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_006#55",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_008#57"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 56,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いいっ！？　いや、おれはそこまで\n辛いの好きってわけじゃ……",
+        "official_en": "No, no! That's fine! Spicy food doesn't sit well\nwith me...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_008#57",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_008",
+        "entry_index": 57,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_007#56",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_009#58"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 57,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あ、お嫌いでしたか……ごめんなさい。\n今度こそ、仲良くなれると思ったのに……",
+        "official_en": "I see... So then you don't like it... I'm sorry. I thought\nwe had something in common for a moment.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_009#58",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_009",
+        "entry_index": 58,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_008#57",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_010#59"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 58,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………いや。そんなに\n嫌いってわけでもない。付き合おう。",
+        "official_en": "Well, it's not that I hate spicy food... You know what?\nLet's do it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_010#59",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_010",
+        "entry_index": 59,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_009#58",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_011#60"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 59,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "本当ですか……良かった……\nでは、追加の香辛料を……",
+        "official_en": "Really? You'll try it? Then allow me to do\nthe honors...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_011#60",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_011",
+        "entry_index": 60,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_010#59",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_012#61"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 60,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "もう、料理が見えねえぞ……\nそろそろいいんじゃないか……？",
+        "official_en": "I don't think I can see the food anymore...\nThat's probably enough, right?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_012#61",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_012",
+        "entry_index": 61,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_011#60",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_013#62"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 61,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いいえ……これでまだ半分です。",
+        "official_en": "Not yet... We're halfway there now.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_013#62",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_013",
+        "entry_index": 62,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_012#61",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_014#63"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 62,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "は、半分！？\nおいおい、流石に店も迷惑するぜ……",
+        "official_en": "H-halfway?! Hey, the chef's gonna think you don't\nthink his food's any good!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_014#63",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_014",
+        "entry_index": 63,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_013#62",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_015#64"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 63,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "大丈夫です。タリムーンさんが\n商会でお代を持つと約束してくださったので。",
+        "official_en": "It's fine. Talimun said we can expense the meal,\nso the company will pay for it. We'll tip well.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_015#64",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_015",
+        "entry_index": 64,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_014#63",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_016#65"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 64,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "食事の席で辛いものが好きだと伝えたところ、\n素晴らしい感性だから大切にしろと。",
+        "official_en": "Talimun said I have a wonderful sense for flavor\nand that I should cherish it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_016#65",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_016",
+        "entry_index": 65,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_015#64",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_017#66"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 65,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そして『俺様は食わずとも辛みの良さがわかる。\nだが、普通の奴は食わなきゃわからん』とも。",
+        "official_en": "He also told me he can tell the quality of a spicy meal\nwithout trying it, because he has a special skill...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_017#66",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_017",
+        "entry_index": 66,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_016#65",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_018#67"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 66,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……あの野郎、\n自分だけ逃げやがったな……",
+        "official_en": "That bastard... Of course he weaseled his way out.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_018#67",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_018",
+        "entry_index": 67,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_017#66",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_019#68"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 67,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "つか、支配人も許可出したのかよ！？\n香辛料代も馬鹿にならねえだろ。",
+        "official_en": "And you're sure Ursula signed off? The cost of all\nthose spices has to be significant!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_019#68",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_019",
+        "entry_index": 68,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_018#67",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_020#69"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 68,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "彼の皿以外は好きにしていいとのことでした。\n曰く、それで満足するなら安いものだとか。",
+        "official_en": "She said seeing the two of us satisfied was worth\nany price—and to leave her and Talimun out of it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_020#69",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_020",
+        "entry_index": 69,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_019#68",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_021#70"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 69,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "支配人め……\n大将には甘いんだよなあ……",
+        "official_en": "Damn her... Of course she'd look out for Talimun\nand leave me to hang.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_021#70",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_021",
+        "entry_index": 70,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_020#69",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_022#71"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 70,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ふふふ、さあ、召し上がれ……\nお料理が冷める前に。",
+        "official_en": "Heehee. Now, before it gets cold...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_022#71",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_022",
+        "entry_index": 71,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_021#70",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_023#72"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 71,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ああ……食べよう。\n食べりゃ、いいんだろ……！",
+        "official_en": "Right... Down the hatch...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_023#72",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_023",
+        "entry_index": 72,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_022#71",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_024#73"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 72,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………っ！　\nがふっ！！",
+        "official_en": "Rraugh! Eughhh. Ahhh...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_024#73",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Sim_Fia_CBA",
+        "jp_asset": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+        "label": "MID_SE_Sim_Fia_A_024",
+        "entry_index": 73,
+        "jp_source_sha256": "a01e177ae712924763f8e88e1a51efac779885f03433541bf9ca71ade506f9ae",
+        "official_en_source_sha256": "c268660e032d3333aca6afd504ce572b77f3ee205321896271691d51f593ba5b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "フィアナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フィアナ"
+            },
+            {
+              "source": "Msg/USen/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フィアナ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Sim_Fia_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_フィアナ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Sim_Fia_CBA:MID_SE_Sim_Fia_A_023#72"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 73,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Sim_Fia_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そんなに美味しかったのですね……ふふふ、\n嬉しい……これからも仲良くできそう……",
+        "official_en": "I'm glad you enjoyed it. Heehee. It seems we have\nsomething in common after all.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

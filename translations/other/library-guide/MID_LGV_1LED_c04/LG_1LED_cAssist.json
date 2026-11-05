@@ -1,0 +1,904 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_005_m01#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1LED_cAssist",
+        "jp_asset": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+        "label": "MID_LGV_1LED_c04_LG14_005_m01",
+        "entry_index": 23,
+        "jp_source_sha256": "19771dbdc565a58ad9509028a996babbab5646bfdcf3aa1b6665da64d17e3288",
+        "official_en_source_sha256": "ab30a0a3e92b65e93eced3a66de0476cad830a2912522a500ea6e2410770b417"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": "Script/hub/Hub_000_LED.bin.zst",
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c03_GM14_006_m02_004#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_005_m01_001#24"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1LED_c04_LG14_005_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_005_m01_001#24",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1LED_cAssist",
+        "jp_asset": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+        "label": "MID_LGV_1LED_c04_LG14_005_m01_001",
+        "entry_index": 24,
+        "jp_source_sha256": "19771dbdc565a58ad9509028a996babbab5646bfdcf3aa1b6665da64d17e3288",
+        "official_en_source_sha256": "ab30a0a3e92b65e93eced3a66de0476cad830a2912522a500ea6e2410770b417"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "カーラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カーラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カーラ"
+            },
+            {
+              "source": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カーラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_005_m01#23",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_005_m01_002#25"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 24,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1LED_c04_LG14_005_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "妾は少し分殿に用事があるのでな。\nレイリダーナよ、ここで一旦別れるとしよう。",
+        "official_en": "I have business to attend to at the branch temple.\nTime to part ways, Leilidahna.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_005_m01_002#25",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1LED_cAssist",
+        "jp_asset": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+        "label": "MID_LGV_1LED_c04_LG14_005_m01_002",
+        "entry_index": 25,
+        "jp_source_sha256": "19771dbdc565a58ad9509028a996babbab5646bfdcf3aa1b6665da64d17e3288",
+        "official_en_source_sha256": "ab30a0a3e92b65e93eced3a66de0476cad830a2912522a500ea6e2410770b417"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "カーラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カーラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_カーラ"
+            },
+            {
+              "source": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "カーラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_カーラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_005_m01_001#24",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_005_m01_003#26"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 25,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1LED_c04_LG14_005_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "その前に、支度金を渡しておこう。\n其方の試合の準備の足しにするがよい。",
+        "official_en": "But before I depart, let me give you a little gold to\ncover your expenses as you prepare for the match.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_005_m01_003#26",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1LED_cAssist",
+        "jp_asset": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+        "label": "MID_LGV_1LED_c04_LG14_005_m01_003",
+        "entry_index": 26,
+        "jp_source_sha256": "19771dbdc565a58ad9509028a996babbab5646bfdcf3aa1b6665da64d17e3288",
+        "official_en_source_sha256": "ab30a0a3e92b65e93eced3a66de0476cad830a2912522a500ea6e2410770b417"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_005_m01_002#25",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_006_m01#27"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 26,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1LED_c04_LG14_005_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<#CTRL:0E>",
+        "official_en": "The <#CTRL:0E>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_006_m01#27",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1LED_cAssist",
+        "jp_asset": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+        "label": "MID_LGV_1LED_c04_LG14_006_m01",
+        "entry_index": 27,
+        "jp_source_sha256": "19771dbdc565a58ad9509028a996babbab5646bfdcf3aa1b6665da64d17e3288",
+        "official_en_source_sha256": "ab30a0a3e92b65e93eced3a66de0476cad830a2912522a500ea6e2410770b417"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": "Script/hub/Hub_000_LED.bin.zst",
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_005_m01_003#26",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_006_m01_001#28"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 27,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1LED_c04_LG14_006_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_006_m01_001#28",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1LED_cAssist",
+        "jp_asset": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+        "label": "MID_LGV_1LED_c04_LG14_006_m01_001",
+        "entry_index": 28,
+        "jp_source_sha256": "19771dbdc565a58ad9509028a996babbab5646bfdcf3aa1b6665da64d17e3288",
+        "official_en_source_sha256": "ab30a0a3e92b65e93eced3a66de0476cad830a2912522a500ea6e2410770b417"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_006_m01#27",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_006_m02#29"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 28,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1LED_c04_LG14_006_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "……本当、嫌な気分だわ。\n酒場にでも行けば、少しは晴れるかしらね。",
+        "official_en": "Ugh, I feel like crap. Maybe going to a tavern or\nsomething would cheer me up.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_006_m02#29",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1LED_cAssist",
+        "jp_asset": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+        "label": "MID_LGV_1LED_c04_LG14_006_m02",
+        "entry_index": 29,
+        "jp_source_sha256": "19771dbdc565a58ad9509028a996babbab5646bfdcf3aa1b6665da64d17e3288",
+        "official_en_source_sha256": "ab30a0a3e92b65e93eced3a66de0476cad830a2912522a500ea6e2410770b417"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": "Script/hub/Hub_000_LED.bin.zst",
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_006_m01_001#28",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_006_m02_001#30"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 29,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1LED_c04_LG14_006_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_006_m02_001#30",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1LED_cAssist",
+        "jp_asset": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+        "label": "MID_LGV_1LED_c04_LG14_006_m02_001",
+        "entry_index": 30,
+        "jp_source_sha256": "19771dbdc565a58ad9509028a996babbab5646bfdcf3aa1b6665da64d17e3288",
+        "official_en_source_sha256": "ab30a0a3e92b65e93eced3a66de0476cad830a2912522a500ea6e2410770b417"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アスワン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アスワン"
+            },
+            {
+              "source": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_006_m02#29",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_006_m02_002#31"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 30,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1LED_c04_LG14_006_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "やめてください！\n私に構わないで！",
+        "official_en": "Stop, please! Leave me alone!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_006_m02_002#31",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1LED_cAssist",
+        "jp_asset": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+        "label": "MID_LGV_1LED_c04_LG14_006_m02_002",
+        "entry_index": 31,
+        "jp_source_sha256": "19771dbdc565a58ad9509028a996babbab5646bfdcf3aa1b6665da64d17e3288",
+        "official_en_source_sha256": "ab30a0a3e92b65e93eced3a66de0476cad830a2912522a500ea6e2410770b417"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_006_m02_001#30",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_006_m02_003#32"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 31,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1LED_c04_LG14_006_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "逃さねえぜ、お嬢さん。ちょっと痛い目でも\n見てもらえば聞き分けがよくなるかなあ！？",
+        "official_en": "You're not going anywhere, missy. Maybe a little\nhurtin' will make you more pliant!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_006_m02_003#32",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1LED_cAssist",
+        "jp_asset": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+        "label": "MID_LGV_1LED_c04_LG14_006_m02_003",
+        "entry_index": 32,
+        "jp_source_sha256": "19771dbdc565a58ad9509028a996babbab5646bfdcf3aa1b6665da64d17e3288",
+        "official_en_source_sha256": "ab30a0a3e92b65e93eced3a66de0476cad830a2912522a500ea6e2410770b417"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "アスワン",
+              "note": "Event stages a different sole actor; audited counterexample class shows staging actor is the listener and ATR1.PID remains the speaker"
+            },
+            {
+              "source": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_006_m02_002#31",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_TG14_103_m01#33"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 32,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1LED_c04_LG14_006_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "あら、ここにもろくでなしがいたわ。\n困っているようだし、助けてあげましょうか。",
+        "official_en": "Damn it, another scumbag. It looks like she's\nin trouble... Hey, you. Get away from her!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_007_m01#89",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1LED_cAssist",
+        "jp_asset": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+        "label": "MID_LGV_1LED_c04_LG14_007_m01",
+        "entry_index": 89,
+        "jp_source_sha256": "19771dbdc565a58ad9509028a996babbab5646bfdcf3aa1b6665da64d17e3288",
+        "official_en_source_sha256": "ab30a0a3e92b65e93eced3a66de0476cad830a2912522a500ea6e2410770b417"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": "Script/hub/Hub_000_LED.bin.zst",
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_TG14_107_GM_m02_003#88",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_007_m01_001#90"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 89,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1LED_c04_LG14_007_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_007_m01_001#90",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1LED_cAssist",
+        "jp_asset": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+        "label": "MID_LGV_1LED_c04_LG14_007_m01_001",
+        "entry_index": 90,
+        "jp_source_sha256": "19771dbdc565a58ad9509028a996babbab5646bfdcf3aa1b6665da64d17e3288",
+        "official_en_source_sha256": "ab30a0a3e92b65e93eced3a66de0476cad830a2912522a500ea6e2410770b417"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "バッカニア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "バッカニア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_バッカニア"
+            },
+            {
+              "source": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "バッカニア",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_007_m01#89",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_007_m01_002#91"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 90,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1LED_c04_LG14_007_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "話が真実なれば、レヒネルが動き出す\nまでにはしばしの猶予がありそうです。",
+        "official_en": "If what we heard is true, we should have some time\nbefore Lechner makes his move.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_007_m01_002#91",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1LED_cAssist",
+        "jp_asset": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+        "label": "MID_LGV_1LED_c04_LG14_007_m01_002",
+        "entry_index": 91,
+        "jp_source_sha256": "19771dbdc565a58ad9509028a996babbab5646bfdcf3aa1b6665da64d17e3288",
+        "official_en_source_sha256": "ab30a0a3e92b65e93eced3a66de0476cad830a2912522a500ea6e2410770b417"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "バッカニア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "バッカニア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_バッカニア"
+            },
+            {
+              "source": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "バッカニア",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_LG14_007_m01_001#90",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_LG14_007_m01#92"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 91,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1LED_c04_LG14_007_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "此方も十分に戦力を調え、<#CTRL:0E>",
+        "official_en": "Let's make sure we're prepared for battle. <#CTRL:0E>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_GM14_008_m01#109",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1LED_cAssist",
+        "jp_asset": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+        "label": "MID_LGV_1LED_c04_GM14_008_m01",
+        "entry_index": 109,
+        "jp_source_sha256": "19771dbdc565a58ad9509028a996babbab5646bfdcf3aa1b6665da64d17e3288",
+        "official_en_source_sha256": "ab30a0a3e92b65e93eced3a66de0476cad830a2912522a500ea6e2410770b417"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_LG14_007_m02_003#108",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_GM14_008_m01_001#110"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 109,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1LED_c04_GM14_008_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_GM14_008_m01_001#110",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1LED_cAssist",
+        "jp_asset": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+        "label": "MID_LGV_1LED_c04_GM14_008_m01_001",
+        "entry_index": 110,
+        "jp_source_sha256": "19771dbdc565a58ad9509028a996babbab5646bfdcf3aa1b6665da64d17e3288",
+        "official_en_source_sha256": "ab30a0a3e92b65e93eced3a66de0476cad830a2912522a500ea6e2410770b417"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "バッカニア",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1LED_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "バッカニア",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_バッカニア"
+            },
+            {
+              "source": "Msg/USen/LG_1LED_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "バッカニア",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_c04_GM14_008_m01#109",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1LED_cAssist:MID_LGV_1LED_TG14_108_m01#111"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 110,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1LED_c04_GM14_008_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "レヒネルは湖畔の廃屋に向かったようです。\n我々も急ぎ、追跡しましょう。",
+        "official_en": "It seems Lechner is headed to that forsaken\nlakehouse. Let's follow with haste.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

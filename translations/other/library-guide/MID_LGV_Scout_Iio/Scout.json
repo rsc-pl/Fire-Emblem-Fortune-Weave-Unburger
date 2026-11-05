@@ -1,0 +1,3055 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m01#907",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m01",
+        "entry_index": 907,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Negotiation_SP_Question03_Yan_m01_024#906",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m01_001#908"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 907,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m01_001#908",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m01_001",
+        "entry_index": 908,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m01#907",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m01_002#909"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 908,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "なあ、俺を雇ってくれないか？\n一緒に戦わせてほしいんだ。",
+        "official_en": "Hey, how about you hire me on? I'd be glad to fight\nas part of your group.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m01_002#909",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m01_002",
+        "entry_index": 909,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m01_001#908",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m01_003#910"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 909,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "陛下、無理を承知でお願いがあります。\n俺を雇っていただけませんか。",
+        "official_en": "Your Majesty, I'm sorry to be so forward. Could you\npossibly take me into your employ?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m01_003#910",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m01_003",
+        "entry_index": 910,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m01_002#909",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m01_004#911"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 910,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "ベルトランさん、\n俺をあなたの下で戦わせてほしい。",
+        "official_en": "Bertrand, please let me fight for you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m01_004#911",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m01_004",
+        "entry_index": 911,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m01_003#910",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m01_005#912"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 911,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "仕えるべき主を探す半人前として、\n自分の知らない戦い方を学びたい。",
+        "official_en": "I'm new to this work, and I'd like to be of service,\neven while learning how to be a better fighter.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m01_005#912",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m01_005",
+        "entry_index": 912,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m01_004#911",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m01_006#913"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 912,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "仕えるべき主を探す半人前として、\n自分の知らぬ戦い方を学びたいのです。",
+        "official_en": "I'm new to this work, but I'd like serve you, even\nthough I'm still learning how to be a better fighter.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m01_006#913",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m01_006",
+        "entry_index": 913,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m01_005#912",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m02#914"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 913,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "俺が元アラゴの人間故、信用できない気持ちも\nあるかもしれない。だが、その上で頼む。",
+        "official_en": "You may feel that I'm not trustworthy, given I'm\nfrom Arago. But that's exactly why I'm asking.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m02#914",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m02",
+        "entry_index": 914,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m01_006#913",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m02_001#915"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 914,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m02_001#915",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m02_001",
+        "entry_index": 915,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m02#914",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m02_002#916"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 915,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "！　感謝する。\n如何様にも使ってくれ。",
+        "official_en": "What?! Thank you! Please, use me however you\nsee fit.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m02_002#916",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m02_002",
+        "entry_index": 916,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m02_001#915",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m03#917"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 916,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "！　感謝します。\n如何様にも使ってください。",
+        "official_en": "Really?! Thank you! Please, employ me in any way\nyou see fit.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m03#917",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m03",
+        "entry_index": 917,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m02_002#916",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m03_001#918"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 917,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m03"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m03_001#918",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m03_001",
+        "entry_index": 918,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m03#917",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m03_002#919"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 918,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m03"
+      },
+      "function": "other",
+      "text": {
+        "jp": "……そうか。\n気が変わったら声をかけてくれ。",
+        "official_en": "Alright. Let me know if you change your mind.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m03_002#919",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m03_002",
+        "entry_index": 919,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m03_001#918",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m04#920"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 919,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m03"
+      },
+      "function": "other",
+      "text": {
+        "jp": "……そうですか。残念です。\n気が変わったらお願いします。",
+        "official_en": "I see. That is a pity. Please don't hesitate to ask me if\nyou decide otherwise.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m04#920",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m04",
+        "entry_index": 920,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m03_002#919",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m04_001#921"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 920,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m04_001#921",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m04_001",
+        "entry_index": 921,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m04#920",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m04_002#922"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 921,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "確かに俺は雇い主を探している。\nだが、誰でもいいわけじゃない。",
+        "official_en": "I want to pledge my service, but more than that, I\nhope to find an ideal lord to serve.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m04_002#922",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m04_002",
+        "entry_index": 922,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m04_001#921",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m04_003#923"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 922,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "声をかけてくれたのはありがたいです。\nだが、俺を雇うのはやめたほうがいい。",
+        "official_en": "I appreciate your interest, but I suggest that you not\nbother hiring me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m04_003#923",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m04_003",
+        "entry_index": 923,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m04_002#922",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m04_004#924"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 923,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "声をかけてくれたのは嬉しい。\nだが、俺を雇うのはやめたほうがいい。",
+        "official_en": "I appreciate your interest, but I suggest that you not\nbother hiring me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m04_004#924",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m04_004",
+        "entry_index": 924,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m04_003#923",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m04_005#925"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 924,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "あんたのことは信用できないな……\n他の奴をあたってくれ。",
+        "official_en": "I don't know you well enough...to say if you're\nsomeone like that or not.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m04_005#925",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m04_005",
+        "entry_index": 925,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m04_004#924",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m04_006#926"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 925,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "俺は祖国の王に忠義を捧げられなかった男です。\nあなたにも、同じようにならないとは言えない。",
+        "official_en": "I must admit that I refused to pledge myself to the\nking of my homeland. I might...refuse you too.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m04_006#926",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m04_006",
+        "entry_index": 926,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m04_005#925",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05#927"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 926,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m04"
+      },
+      "function": "other",
+      "text": {
+        "jp": "俺は祖国の王に忠義を捧げられなかった男。\nあなたにも、同じようにならないとは言えない。",
+        "official_en": "I must admit that I refused to pledge myself to the\nking of my homeland. I might...refuse you too.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05#927",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m05",
+        "entry_index": 927,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m04_006#926",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_001#928"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 927,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_001#928",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m05_001",
+        "entry_index": 928,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05#927",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_002#929"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 928,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "俺はもともとアラゴの騎士だったんだ。\nだが、祖国に嫌気がさして出奔してきた。",
+        "official_en": "I was once a knight of Arago, but my homeland\nchanged. I grew to loathe it, so I left it all behind.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_002#929",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m05_002",
+        "entry_index": 929,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_001#928",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_003#930"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 929,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "俺はもともとアラゴの騎士でした。\n祖国に嫌気がさして出奔してきたんです。",
+        "official_en": "I was once a knight of Arago, but my homeland\nchanged. I grew to loathe it, so I left it all behind.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_003#930",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m05_003",
+        "entry_index": 930,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_002#929",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_004#931"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 930,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "あなたはベルトラン将軍……！？\nアラゴで１度、その顔を見たことがある。",
+        "official_en": "General Bertrand? I once saw you back when I\nlived in Arago.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_004#931",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m05_004",
+        "entry_index": 931,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_003#930",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_005#932"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 931,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "今は、真に仕えるべき主君を探しながら\n傭兵をしている身分だ。",
+        "official_en": "I'm now trying to earn my way as a mercenary\nwhile searching for a new lord to serve.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_005#932",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m05_005",
+        "entry_index": 932,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_004#931",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_006#933"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 932,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "今は、真に仕えるべき主君を探しながら\n傭兵をしています。",
+        "official_en": "I'm now trying to earn my keep as a mercenary\nwhile searching for a new lord to serve.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_006#933",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m05_006",
+        "entry_index": 933,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_005#932",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_007#934"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 933,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "俺はもともとアラゴの騎士だったんだ\nだが、国に嫌気がさして出奔してきた。",
+        "official_en": "I used to be a knight in Arago, until it all changed.\nI came to loathe being there, so I left it behind.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_007#934",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m05_007",
+        "entry_index": 934,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_006#933",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_008#935"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 934,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "あんたを主君に……なんていう訳はないが\n信頼できる雇い主ではありそうだな。",
+        "official_en": "It's not like I would serve you as a lord, but I would\nsee you as an employer to dedicate myself to.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_008#935",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m05_008",
+        "entry_index": 935,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_007#934",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_009#936"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 935,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "陛下が理想の主君かどうかはわかりませんが\n風の噂に、名君だと聞き及んでいます。",
+        "official_en": "I don't know if Your Majesty rules by ideals or\notherwise, but I have heard you are a good ruler.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_009#936",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m05_009",
+        "entry_index": 936,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_008#935",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_010#937"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 936,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "今は、仕えるべき主君を探しながら\n傭兵をしている身分だ。",
+        "official_en": "For now, I'm earning my keep as a mercenary while\nsearching for a true lord to serve.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_010#937",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m05_010",
+        "entry_index": 937,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_009#936",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_011#938"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 937,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "よし。十分な報酬を貰えるなら\nあんたに力を貸してやってもいい。",
+        "official_en": "So this is good. As long as I get paid fairly, I'm glad\nto provide you service.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_011#938",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m05_011",
+        "entry_index": 938,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_010#937",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_012#939"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 938,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "十分な報酬を貰えるなら\n傭兵として、旗下に加わりましょう。",
+        "official_en": "I would gladly serve under your banner as a\nmercenary if the pay was fair for my service.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_012#939",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m05_012",
+        "entry_index": 939,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_011#938",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_013#940"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 939,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "あなたも、あの国には思うところがありそうだ。\n報酬を貰えるなら、力を貸そう。",
+        "official_en": "I'm sure you have some...thoughts about that country.\nIf you can pay, I'd be glad to serve you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_013#940",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m05_013",
+        "entry_index": 940,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_012#939",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_014#941"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 940,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "俺の愛馬が腹を空かせているんだ\n手付けに、こいつを用意してもらえるか？",
+        "official_en": "My faithful steed is hungry. Can you get me this as\npart of my early salary?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_014#941",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m05_014",
+        "entry_index": 941,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_013#940",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m06#942"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 941,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m05"
+      },
+      "function": "other",
+      "text": {
+        "jp": "さしあたり、愛馬が腹を空かせています。\n手付けに、これらを用意してもらえますか？",
+        "official_en": "My faithful steed is hungry. Can Your Majesty get\nme this as part of my early salary?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m06#942",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m06",
+        "entry_index": 942,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m05_014#941",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m06_001#943"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 942,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m06"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m06_001#943",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m06_001",
+        "entry_index": 943,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m06#942",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m06_002#944"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 943,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m06"
+      },
+      "function": "other",
+      "text": {
+        "jp": "感謝する！\n愛馬の「ロシナン」も喜ぶよ。",
+        "official_en": "Thank you! Rocinan will appreciate this as well.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m06_002#944",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m06_002",
+        "entry_index": 944,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m06_001#943",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m06_003#945"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 944,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m06"
+      },
+      "function": "other",
+      "text": {
+        "jp": "感謝します！　愛馬の「ロシナン」に代わり\nお礼を申し上げます。",
+        "official_en": "Thank you! And allow me to give my thanks on\nbehalf of Rocinan too.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m06_003#945",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m06_003",
+        "entry_index": 945,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m06_002#944",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m06_004#946"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 945,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m06"
+      },
+      "function": "other",
+      "text": {
+        "jp": "まだまだ半人前だが\nきっとあんたの役にたってみせる。",
+        "official_en": "Though I am new to this, I swear that I'll prove my\nuse to you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m06_004#946",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m06_004",
+        "entry_index": 946,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m06_003#945",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m07#947"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 946,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m06"
+      },
+      "function": "other",
+      "text": {
+        "jp": "まだまだ半人前ですが\n如何様にも使ってください。",
+        "official_en": "Though I am new to this work, I hope you'll still use\nme in any way you see fit.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m07#947",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m07",
+        "entry_index": 947,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m06_004#946",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m07_001#948"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 947,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m07"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m07_001#948",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m07_001",
+        "entry_index": 948,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m07#947",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m07_002#949"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 948,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m07"
+      },
+      "function": "other",
+      "text": {
+        "jp": "……そうか。\n気が変わったら声をかけてくれ。",
+        "official_en": "Alright. Let me know if you change your mind.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m07_002#949",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m07_002",
+        "entry_index": 949,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m07_001#948",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m08#950"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 949,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m07"
+      },
+      "function": "other",
+      "text": {
+        "jp": "……そうですか。残念です。\n気が変わったらお願いします。",
+        "official_en": "I see. That is a pity. Please don't hesitate to ask me if\nyou decide otherwise.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m08#950",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m08",
+        "entry_index": 950,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m07_002#949",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m08_001#951"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 950,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m08"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m08_001#951",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m08_001",
+        "entry_index": 951,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m08#950",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m08_002#952"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 951,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "INNER_THOUGHT",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m08"
+      },
+      "function": "other",
+      "text": {
+        "jp": "……足りないな。\n待っているから用意してきてくれ。",
+        "official_en": "That's not enough. I'll be here once you have it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m08_002#952",
+      "source": {
+        "platform": "switch2",
+        "bank": "Scout",
+        "jp_asset": "Msg/JPja/Scout.msbt.zst",
+        "official_en_asset": "Msg/USen/Scout.msbt.zst",
+        "label": "MID_LGV_Scout_Iio_m08_002",
+        "entry_index": 952,
+        "jp_source_sha256": "d8631d386ccd7ffe12ddf160dab9bbd605a44167d82667988f4cc634262a53a1",
+        "official_en_source_sha256": "1a4b259a44b94f0ee187ccf872fb355453876d9c6020de8e0ce7d4dd966be332"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/Scout.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/Scout.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Iio_m08_001#951",
+          "fefw:switch2:vUNKNOWN:msbt-v3:Scout:MID_LGV_Scout_Pep_m01#953"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 952,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "INNER_THOUGHT",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_Scout_Iio_m08"
+      },
+      "function": "other",
+      "text": {
+        "jp": "……足りないようです。\n待っていますから、またご用意を。",
+        "official_en": "It seems that you don't have enough. I'll be here\nwhen you have the full amount.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

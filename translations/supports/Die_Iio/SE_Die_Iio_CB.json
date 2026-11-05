@@ -1,0 +1,3283 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C",
+        "entry_index": 0,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_001#1"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_001",
+        "entry_index": 1,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ディエゴ、聞きたいことがある。\n少しいいか？",
+        "official_en": "Diego. Do you have a moment?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_002",
+        "entry_index": 2,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……何だ？",
+        "official_en": "What?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_003",
+        "entry_index": 3,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "君は『オルヘルの犬』と揶揄されるほど、\nあの祭司に飼い馴らされているな。",
+        "official_en": "I've noticed you're called Orchel's stray. You're\nquite devoted to her.",
+        "real_en": "I've noticed you're called Orhel's stray. You're\nquite devoted to her."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_004",
+        "entry_index": 4,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_005#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "腕の立つ戦士を隷属させるほどには見えんが、\nディエゴから見た彼女はどんな人物なんだ？",
+        "official_en": "But why? How does a skilled fighter like you become\nso...subordinate.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_005#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_005",
+        "entry_index": 5,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_006#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "なぜお前に語る必要が……まあいい。\nオルヘルは、慈愛に満ちた女神のような存在だ。",
+        "official_en": "Why should I tell you? Well, whatever. Orchel is\nlike...a merciful goddess.",
+        "real_en": "Why should I tell you? Well, whatever. Orhel is\nlike...a merciful goddess."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_006#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_006",
+        "entry_index": 6,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_005#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_007#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "孤児にも手を差し伸べたり、\n他の神官に食事を振る舞うこともある。",
+        "official_en": "She takes in orphans and sometimes serves food to\nthe other priests.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_007#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_007",
+        "entry_index": 7,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_006#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_008#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "誰でも平等に尊ぶことができるのか。\n良い人物だな。もっと聞かせてくれ。",
+        "official_en": "I see. She treats everyone as equals. And she's\nhonorable. Anything else?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_008#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_008",
+        "entry_index": 8,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_007#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "他人からの害意に気づくまでが遅い。\nよく商人に騙されるから、俺は目を離せない。",
+        "official_en": "She believes the best of everyone. It gets her into\ntrouble with some merchants, so I have to watch her.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_009#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_009",
+        "entry_index": 9,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_008#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_010#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そもそもあいつは鈍感というか、注意力が散漫だ。\n考え事をしながら歩いて、よく壁にぶつかる。",
+        "official_en": "Also she can be clumsy and unfocused. I've seen\nher so lost in thought that she bumps into a wall.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_010#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_010",
+        "entry_index": 10,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_009#9",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_011#11"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……想像とは違うな。\nそんな主君に仕えて、君はどうなりたいんだ？",
+        "official_en": "Huh. And what do you get from serving such\na master?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_011#11",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_011",
+        "entry_index": 11,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_010#10",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_012#12"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 11,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "別に、どうなろうとも思わない。\nなぜそんなことを聞く？",
+        "official_en": "I don't know. Why?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_012#12",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_012",
+        "entry_index": 12,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_011#11",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_013#13"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 12,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "俺は理想を追い求めてきた。\n民の幸福を守る騎士になりたい、と。",
+        "official_en": "I've always strived to become the ideal knight. One\nwho protects the happiness of the people.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_013#13",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_013",
+        "entry_index": 13,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_012#12",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_014#14"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 13,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "故に、仕えるべき主君を求めているんだ。\n皆を正しい方向へ導く者こそ理想的だな。",
+        "official_en": "I seek a lord who's worthy of my service and whose\nideals mirror my own. Someone who can lead!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_014#14",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_014",
+        "entry_index": 14,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_013#13",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_015#15"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 14,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………",
+        "official_en": "Hmm.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_015#15",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_015",
+        "entry_index": 15,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_014#14",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_016#16"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 15,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "！　すまない。熱く話し過ぎてしまった。\n君の興味を惹く話ではなかったな。",
+        "official_en": "Sorry. It's a topic I'm quite passionate about,\nbut I sense you're not.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_016#16",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_016",
+        "entry_index": 16,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_015#15",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_017#17"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 16,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……傭兵の割に、\n随分と青臭いことを言う奴だ。",
+        "official_en": "You don't sound too experienced, for a mercenary.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_017#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_017",
+        "entry_index": 17,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_016#16",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_018#18"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "元々俺は、\nアラゴ王国に仕える騎士だったんだ。",
+        "official_en": "I began as a knight for the kingdom of Arago.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_018#18",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_018",
+        "entry_index": 18,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_017#17",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_019#19"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 18,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "だが、私欲を満たすことしか興味のない\nギルキルス王や騎士たちに嫌気がさして出奔した。",
+        "official_en": "But King Gilchris and his knights were self-serving\nand only wanted power. It's why I left.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_019#19",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_019",
+        "entry_index": 19,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_018#18",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_020#20"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 19,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そうか……\nお前は自分の理想に従い、主人を捨てたのか。",
+        "official_en": "Ah. So you abandoned your lord in favor of\nyour ideals.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_020#20",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_020",
+        "entry_index": 20,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_019#19",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_021#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 20,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "しかし俺はお前と違って、\n主人に夢を見ているわけじゃない。",
+        "official_en": "That's where I'm different. I don't need my lady to\nmirror my beliefs.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_021#21",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_021",
+        "entry_index": 21,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_020#20",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_022#22"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 21,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "『主人に』……つまり別の理想があるんだな。\nそうだろう？",
+        "official_en": "So there are ideals you live by then?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_022#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_022",
+        "entry_index": 22,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_021#21",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_023#23"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……これ以上、話すつもりはない。",
+        "official_en": "I'm done talking with you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_023#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_023",
+        "entry_index": 23,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_022#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_024#24"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そうか。ならこれ以上は聞かない。\nその代わり、君の仕事を観察させてくれないか？",
+        "official_en": "OK, I'll let it go. Maybe I'll see what your ideals are\nout on the battlefield.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_024#24",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_C_024",
+        "entry_index": 24,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_023#23",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B#25"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 24,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "はあ……\n邪魔だけはするなよ。",
+        "official_en": "*sigh* Just don't get in my way.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B#25",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B",
+        "entry_index": 25,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_C_024#24",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_001#26"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 25,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_001#26",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_001",
+        "entry_index": 26,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B#25",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_002#27"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 26,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……話とは何だ、イオ。\nさっさと済ませろ。",
+        "official_en": "What is it, Io? And how soon can we get it\nover with?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_002#27",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_002",
+        "entry_index": 27,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_001#26",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_003#28"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 27,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "何度か仕事を見させてもらって、\n一つわかったことがある。",
+        "official_en": "I've been watching you for a while now, and I think\nI finally understand.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_003#28",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_003",
+        "entry_index": 28,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_002#27",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_004#29"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 28,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "君の忠誠心は俺とは違って、\nただ尽くすことに終始しているな。",
+        "official_en": "You and I view loyalty differently. To you, it's all\nabout service and nothing more.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_004#29",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_004",
+        "entry_index": 29,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_003#28",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_005#30"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 29,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "俺にはそれで十分だからな。",
+        "official_en": "That's all I need it to be.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_005#30",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_005",
+        "entry_index": 30,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_004#29",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_006#31"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 30,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "つまり、尽くすだけの理由があるんだろう？\nでなければ仕える主は誰でもいいはずだ。",
+        "official_en": "Maybe, but why do you serve? There must be some\nreason, or it wouldn't matter who your lord was.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_006#31",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_006",
+        "entry_index": 31,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_005#30",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_007#32"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 31,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "チッ……一生続きそうだな。\nいいだろう、教えてやる。",
+        "official_en": "Tch. You're not going to let it go, are you.\nFine, then.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_007#32",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_007",
+        "entry_index": 32,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_006#31",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_008#33"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 32,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ハル・ハリ族にいた頃の俺は、\n命じられるがまま族長に従ってきた。",
+        "official_en": "Back in the Har Hali, I would do whatever the\nchief told me to.",
+        "real_en": "Back in the Har-Hari, I would do whatever the\nchief told me to."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_008#33",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_008",
+        "entry_index": 33,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_007#32",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_009#34"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 33,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そして仲間と殺し合い、魂を捧げよと命じられ……\nその時になってようやく逃げ出した。",
+        "official_en": "Until we were told to kill each other and offer our\nsouls. That was the day I ran away.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_009#34",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_009",
+        "entry_index": 34,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_008#33",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_010#35"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 34,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "お前のような理想などなかった俺は、\n主人を見限るという決断さえできなかったんだ。",
+        "official_en": "I didn't even have the excuse of some high-minded\nideals backing up my choice.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_010#35",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_010",
+        "entry_index": 35,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_009#34",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_011#36"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 35,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………",
+        "official_en": "Mm...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_011#36",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_011",
+        "entry_index": 36,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_010#35",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_012#37"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 36,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "逃げた先で、オルヘルに命を救われた。\n今や他の主人は考えられない。",
+        "official_en": "I went on the run, and Orchel saved my life. Now I\ncan't imagine serving anyone else.",
+        "real_en": "I went on the run, and Orhel saved my life. Now I\ncan't imagine serving anyone else."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_012#37",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_012",
+        "entry_index": 37,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_011#36",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_013#38"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 37,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あいつを側で支えてやることが、\n俺の幸せなんだ。",
+        "official_en": "Supporting her is where I find my happiness.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_013#38",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_013",
+        "entry_index": 38,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_012#37",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_014#39"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 38,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "君にとって、彼女を守ることが理想なのか。\nそれで、現状に満足している、と。",
+        "official_en": "Then protecting her, serving her is your reason—your\nideal. And that's enough for you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_014#39",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_014",
+        "entry_index": 39,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_013#38",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_015#40"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 39,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "俺は騎士ではないからな。\nこれでわかっただろう。お前が求める答えはない。",
+        "official_en": "Because I'm not a knight. Do you see? I don't have\nthe answers you're looking for.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_015#40",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_015",
+        "entry_index": 40,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_014#39",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_016#41"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 40,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いや、そんなことはない。ディエゴとオルヘルは、\nもはや主従以上の関係なんだとわかった。",
+        "official_en": "That's not true. It's become clear that you and Orchel\nhave a relationship beyond that of a lord and vassal.",
+        "real_en": "That's not true. It's become clear that you and Orhel\nhave a relationship beyond that of a lord and vassal."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_016#41",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_016",
+        "entry_index": 41,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_015#40",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_017#42"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 41,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……素直に羨ましいとも思う。俺はまだ、\nそんな主君を見つけられていないからな。",
+        "official_en": "Frankly, I'm jealous. I still haven't found a lord to\nserve the way you have.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_017#42",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_017",
+        "entry_index": 42,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_016#41",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_018#43"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 42,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……俺と違って、お前には\n高い理想を追い求める執念がある。",
+        "official_en": "Well, keep trying. I personally never held your style\nof noble ideals.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_018#43",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_018",
+        "entry_index": 43,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_017#42",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_019#44"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 43,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "その姿勢を捨てなければ、\nいずれ理想を体現した者に仕官できるだろう。",
+        "official_en": "But if you hold on to yours, sooner or later you'll\nfind someone you can be proud to serve.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_019#44",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_019",
+        "entry_index": 44,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_018#43",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_020#45"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 44,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ディエゴ……ありがとう。",
+        "official_en": "Thank you, Diego.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_020#45",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_020",
+        "entry_index": 45,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_019#44",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_021#46"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 45,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "礼は要らん。\nその代わり、気をつけることだ。",
+        "official_en": "Don't thank me. Just be careful.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_021#46",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_021",
+        "entry_index": 46,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ディエゴ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディエゴ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディエゴ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ディエゴ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_020#45",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_022#47"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 46,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "もし主人と定めた者がオルヘルに仇なす存在なら、\n全力で排除するからな。",
+        "official_en": "If the master you find is Orchel's enemy, then I'll\ncome at you both with everything I have.",
+        "real_en": "If the master you find is Orhel's enemy, then I'll\ncome at you both with everything I have."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_022#47",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Die_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+        "label": "MID_SE_Die_Iio_B_022",
+        "entry_index": 47,
+        "jp_source_sha256": "322320c18a5fb27ec0648026e93d7945c927b073ea190cade31c21e1471a2a41",
+        "official_en_source_sha256": "98143d883990aa7a82e0133c1eccd9a48cecedc76034494749b5d3fdcfeaeb3b"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Die_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Die_Iio_CB:MID_SE_Die_Iio_B_021#46"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 47,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Die_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そうならんよう努めるさ。\n君を敵に回すと厄介だろうしな。",
+        "official_en": "I'd definitely like to avoid that. You would make for\na dangerous foe.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

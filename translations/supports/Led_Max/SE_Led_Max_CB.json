@@ -1,0 +1,3745 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C",
+        "entry_index": 0,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_001#1"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_001",
+        "entry_index": 1,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ねえ、ジェスター。\nちょっと今いいかしら？",
+        "official_en": "Hey, Jester! Have a minute?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_002",
+        "entry_index": 2,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "んん？　ボクに用……？\n悪いけど、レダに付き合うのはつまらなそうだ。",
+        "official_en": "What? I'm getting bored already just looking at\nyour face.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_003",
+        "entry_index": 3,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "オマエの綺麗な顔を血で赤く染める……\nそんな遊びなら心が踊るけどね。ヒヒッ……",
+        "official_en": "Now, we could put a little red on it, spruce it up.\nThat'd keep me entertained! Heh heh HEH!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_004",
+        "entry_index": 4,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_005#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あら、それならもう間に合ってるわよ。\nこの顔は何度も赤く染まってるもの。返り血でね。",
+        "official_en": "Oh, sure. I've had my face painted red many times,\nwith the blood of my enemies.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_005#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_005",
+        "entry_index": 5,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_006#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "！？\n……ヒ、ヒヒ、それはなかなか愉快だね。",
+        "official_en": "Urkh... Hah hah... Now that's fun!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_006#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_006",
+        "entry_index": 6,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_005#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_007#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ええ、そうでしょう。\nあなたとは仲良くなれると思うわ。",
+        "official_en": "Do you think so? You know, I think you and I could\nget along famously.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_007#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_007",
+        "entry_index": 7,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_006#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_008#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "吟遊詩人の格好をしているのに、血で染まる……\n殺し屋ってところかな？",
+        "official_en": "Uh-huh. So you dress like a bard, but you're covered\nin blood stains. You really an assassin or something?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_008#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_008",
+        "entry_index": 8,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_007#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "否定はしないわ。\n安い連中と一緒にはしないでほしいけどね。",
+        "official_en": "In a sense. But really I'd prefer not to be lumped in\nwith that unsavory crowd.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_009#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_009",
+        "entry_index": 9,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_008#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_010#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……ダグシオンに標的がいるの。\n“闘技場の白髪鬼”ベルトランよ。",
+        "official_en": "My target is in Dagsion. A man they call the\nWhite-Maned Demon—whose real name is Bertrand.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_010#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_010",
+        "entry_index": 10,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_009#9",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_011#11"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "！　……巨人にさえ勝つ奴を、殺すのか。\nボクへの用は、協力の申し出かな？",
+        "official_en": "Huh?! Right... Killing the man who beat a giant.\nSmall potatoes. Guess you want my help, huh?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_011#11",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_011",
+        "entry_index": 11,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_010#10",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_012#12"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 11,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ええ、そのとおりよ。\nあなたはあいつと交流があるみたいだしね。",
+        "official_en": "Exactly. You do seem to be in contact with him.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_012#12",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_012",
+        "entry_index": 12,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_011#11",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_013#13"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 12,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ヒヒッ、構わないけど、\nボクにどれぐらい払ってくれるのかな？",
+        "official_en": "Hyehe. Sure, I'll help! How much coin you going\nto put in my purse?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_013#13",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_013",
+        "entry_index": 13,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_012#12",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_014#14"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 13,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……お金が欲しいの？\nそんなふうには見えなかったから、少し意外だわ。",
+        "official_en": "Oh, it's money you want. That's a surprise. I didn't\ntake you for the profit-motivated type.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_014#14",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_014",
+        "entry_index": 14,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_013#13",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_015#15"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 14,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "まあ、安心なさいな。\n目的が果たせるなら、いくらでもよ。",
+        "official_en": "Well, it's no matter. After I achieve my goal I can pay\nyou whatever amount you ask for.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_015#15",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_015",
+        "entry_index": 15,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_014#14",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_016#16"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 15,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "へえ、たいした執念だね……\nどうしてアイツに死んでほしいんだい？",
+        "official_en": "I got some fixations of my own—but yours is\ndifferent. Why do you want him dead so bad?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_016#16",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_016",
+        "entry_index": 16,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_015#15",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_017#17"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 16,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あはは、わざわざ聞かなくとも“白髪鬼”は\n恨みをたくさん買っているでしょう？",
+        "official_en": "Heh. Do the specifics matter? The White-Maned\nDemon's given plenty of people reason to hate him.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_017#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_017",
+        "entry_index": 17,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_016#16",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_018#18"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "だってあいつは、闘技場に飼われている\n飢えた獣なんだから。",
+        "official_en": "The heartless brute's been kept in that arena for\nso long now.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_018#18",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_018",
+        "entry_index": 18,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_017#17",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_019#19"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 18,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……そんなつまらない理由じゃ、\n殺しに協力する気にはなれないな。",
+        "official_en": "That's...stupid. I don't kill people for stupid reasons.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_019#19",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_019",
+        "entry_index": 19,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_018#18",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_020#20"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 19,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "勘違いしないでくれる？",
+        "official_en": "Kill him? Oh, you misunderstood me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_020#20",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_020",
+        "entry_index": 20,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_019#19",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_021#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 20,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……？\n『勘違い』？",
+        "official_en": "Er. What?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_021#21",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_021",
+        "entry_index": 21,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_020#20",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_022#22"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 21,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あいつは……あたしが殺すわ。\nあなたは情報だけくれればいい。",
+        "official_en": "I'm going to kill him. All I need from you is\ninformation.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_022#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_022",
+        "entry_index": 22,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_021#21",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_023#23"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……！　わかった………………\nここでは話せないから、移動しよう。",
+        "official_en": "*gasp* Alright... Tell ya what. We'll talk about it\nsomewhere more quiet.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_023#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_023",
+        "entry_index": 23,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_022#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_024#24"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "アイツは苛立つと力任せになる。\nあと、昔怪我をした左足首を庇う癖もあるな。",
+        "official_en": "He gets reaaal angry when he's frustrated. Oh,\nand he favors his left leg—injured it a ways back.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_024#24",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_024",
+        "entry_index": 24,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_023#23",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_025#25"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 24,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ありがとう。じゃあ、これは気持ちよ。\nこれからも仲良くしましょう？",
+        "official_en": "Your honesty's appreciated. Here—by way of thanks.\nI hope we'll continue working together.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_025#25",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_025",
+        "entry_index": 25,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_024#24",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_026#26"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 25,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……ふう、僕とたいして変わらない年だと\n思うけど、何て冷たい目なんだろう……",
+        "official_en": "Whew. We're the same age. But she's got that cold\nlook in her eyes...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_026#26",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_C_026",
+        "entry_index": 26,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_025#25",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B#27"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 26,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あれは躊躇なく相手を殺す目だ……\n嘘の情報で、いつまで騙せるかな……",
+        "official_en": "The look of someone who wants to kill. If she figures\nout I'm lying, then...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B#27",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B",
+        "entry_index": 27,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_C_026#26",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_001#28"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 27,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_001#28",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_001",
+        "entry_index": 28,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B#27",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_002#29"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 28,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あ、レダさん……",
+        "official_en": "U-uh, Leda!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_002#29",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_002",
+        "entry_index": 29,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_001#28",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_003#30"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 29,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "マクシム……\n………………はあ。",
+        "official_en": "Maxim. Hm.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_003#30",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_003",
+        "entry_index": 30,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_002#29",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_004#31"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 30,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あなたの顔を見る度に、\n自分の目が如何に腐っていたか痛感するわ。",
+        "official_en": "Seeing your face always reminds me how clouded my\neyes were.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_004#31",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_004",
+        "entry_index": 31,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event stages the same person (look/placement) but does not perform a motion command on the line"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_003#30",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_005#32"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 31,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "シドニア事変の日、ベルトランと共にいた従騎士。\nそんな男から情報を得ようとしていたなんて。",
+        "official_en": "I mean, I tried to get reliable information from the\nman who was Bertrand's squire in Cydonia!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_005#32",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_005",
+        "entry_index": 32,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_004#31",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_006#33"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 32,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "道理で役に立たないものや、\n間違っているものばかりだと思ったわ。",
+        "official_en": "Of course everything you told me was useless. Or just\nplain wrong.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_006#33",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_006",
+        "entry_index": 33,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_005#32",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_007#34"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 33,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "僕も気づくべきだったよ。\nあの日、ベルトランさんから命を受けていたんだ。",
+        "official_en": "You were in good company. I should've recognized\nyou too, after the order Bertrand gave me that day.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_007#34",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_007",
+        "entry_index": 34,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_006#33",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_008#35"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 34,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "きみを説得して、保護するように、と。\nだけど、大剣闘祭で戦うまで死んでいたとばかり……",
+        "official_en": "He told me to persuade you to come back. But I\nthought you were dead until I saw you in the arena.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_008#35",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_008",
+        "entry_index": 35,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_007#34",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_009#36"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 35,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ふっ、気づいたところで変わらないわ。\nあたしが『説得』なんてされるわけないもの。",
+        "official_en": "Hm. It wouldn't have mattered if you recognized\nme. I was not to be persuaded.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_009#36",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_009",
+        "entry_index": 36,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_008#35",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_010#37"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 36,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……そうだね。\nきみは今でも、あの人を殺そうとしている。",
+        "official_en": "No, I guess not. You still want him dead.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_010#37",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_010",
+        "entry_index": 37,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event stages the same person (look/placement) but does not perform a motion command on the line"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_009#36",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_011#38"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 37,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………",
+        "official_en": "*sigh*",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_011#38",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_011",
+        "entry_index": 38,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_010#37",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_012#39"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 38,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "わかるんだ。僕はかつて「陽炎の騎士団」という、\n暗殺者の集団にいたからね。",
+        "official_en": "I can tell. I spent some time with a group called the\nOrder of the Haze.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_012#39",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_012",
+        "entry_index": 39,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_011#38",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_013#40"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 39,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "レダさんの殺意の炎は……\n今でもずっと消えていないんだろう？",
+        "official_en": "I got good at seeing when people have murder in\ntheir hearts. And you still do.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_013#40",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_013",
+        "entry_index": 40,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_012#39",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_014#41"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 40,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ええ、そうよ。だったらどうなの？\nあたしを殺す？",
+        "official_en": "Yes, I do. So what? I guess you'd better kill me, huh?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_014#41",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_014",
+        "entry_index": 41,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_013#40",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_015#42"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 41,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いいや、僕はきみを殺さない。\n殺す理由がないんだ。",
+        "official_en": "No. Why would I do that?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_015#42",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_015",
+        "entry_index": 42,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_014#41",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_016#43"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 42,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "はあ？\n主君に仇なす者を前に何を……",
+        "official_en": "What kind of question is that? I'm the enemy of the\nperson you serve.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_016#43",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_016",
+        "entry_index": 43,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_015#42",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_017#44"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 43,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……だって、レダさんは、\nベルトランさんを守ろうともしている。",
+        "official_en": "Sure...but you're trying to protect him too.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_017#44",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_017",
+        "entry_index": 44,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_016#43",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_018#45"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 44,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "今日まで一緒に戦ってきたんだ。\n嫌でもわかるよ。",
+        "official_en": "That's probably not what you want to hear.\nBut there's a reason you're helping us in our fight.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_018#45",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_018",
+        "entry_index": 45,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_017#44",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_019#46"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 45,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そ、それは、あたし以外の奴に殺されたら\n困るから……",
+        "official_en": "Th-that's not— I just don't want him to\nget killed by someone else!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_019#46",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_019",
+        "entry_index": 46,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_018#45",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_020#47"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 46,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "レダさん、僕にはきみの\n心のすべてまではわからない。",
+        "official_en": "Leda, I don't know all that's in your heart.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_020#47",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_020",
+        "entry_index": 47,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_019#46",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_021#48"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 47,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "だけど……\n本当は優しい人なんだと信じてるよ。",
+        "official_en": "But I think you're a kinder person than you\nwant to admit.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_021#48",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_021",
+        "entry_index": 48,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_020#47",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_022#49"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 48,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "呆れた……\nもういいわ、勝手にそう思いなさいよ。",
+        "official_en": "You're...impossible. Fine! Believe what you want.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_022#49",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_022",
+        "entry_index": 49,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_021#48",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_023#50"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 49,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "けど、また負けたみたいで\n少しだけ癪だわ。",
+        "official_en": "How annoying that I've lost again.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_023#50",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_023",
+        "entry_index": 50,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_022#49",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_024#51"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 50,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "？\nそれはいったい……",
+        "official_en": "Huh? Lost how?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_024#51",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_024",
+        "entry_index": 51,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_023#50",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_025#52"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 51,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あたしも、嘘をつくことはよくあったわ。\n色んな奴を騙してきた。",
+        "official_en": "I've done more than my fair share of lying. Tricked\nall manner of people.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_025#52",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_025",
+        "entry_index": 52,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_024#51",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_026#53"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 52,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "だけど、全身嘘の鎧を纏ったジェスターの正体は、\n見抜けなかったもの。たいした詐欺師ね。",
+        "official_en": "But I couldn't see Jester's true identity through the\nlayer of deception. He's a consummate con artist.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_026#53",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Max_CB",
+        "jp_asset": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+        "label": "MID_SE_Led_Max_B_026",
+        "entry_index": 53,
+        "jp_source_sha256": "6b76fb76fa700b9fdf8665bff09f110cacb647aee8acc90d03d5fae8d30e3cb3",
+        "official_en_source_sha256": "7edabc566ce651f31656af7a7d3c5d3785b7ea2de1d16b42ccdfb6ca20cd2882"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "マクシム",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_マクシム"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "マクシム",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Max_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_マクシム",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Max_CB:MID_SE_Led_Max_B_025#52"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 53,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Max_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いや……あいつは、ただの道化師さ。\nヒヒッ。",
+        "official_en": "Nah, not an artist. He's just...a clown. Heh HEH.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

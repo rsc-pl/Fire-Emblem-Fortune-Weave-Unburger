@@ -1,0 +1,206 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Canonical UNBURGER source-aligned record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "record_id",
+    "source",
+    "context",
+    "text",
+    "review"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "platform",
+        "bank",
+        "jp_asset",
+        "official_en_asset",
+        "label",
+        "entry_index",
+        "jp_source_sha256",
+        "official_en_source_sha256"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "platform": { "type": "string" },
+        "bank": { "type": "string" },
+        "jp_asset": { "type": ["string", "null"] },
+        "official_en_asset": { "type": ["string", "null"] },
+        "label": { "type": "string" },
+        "entry_index": { "type": "integer", "minimum": 0 },
+        "jp_source_sha256": { "type": ["string", "null"] },
+        "official_en_source_sha256": { "type": ["string", "null"] }
+      }
+    },
+    "context": {
+      "type": "object",
+      "required": [
+        "speaker",
+        "addressee",
+        "scene_ref",
+        "neighbor_record_ids",
+        "usage_state",
+        "alignment",
+        "source_sequence",
+        "label_alias_count",
+        "dialogue_role",
+        "utterance_kind",
+        "speaker_applicable",
+        "marker",
+        "branch_tag",
+        "branch_option",
+        "branch_phase",
+        "authored_group"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "speaker": { "$ref": "#/$defs/entity_ref" },
+        "addressee": { "$ref": "#/$defs/entity_ref" },
+        "scene_ref": { "type": ["string", "null"] },
+        "neighbor_record_ids": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "usage_state": {
+          "enum": [
+            "PLAYER_VISIBLE_VERIFIED",
+            "ASSET_REFERENCED",
+            "UNVERIFIED_CANDIDATE",
+            "DEBUG/TECHNICAL_PROVEN",
+            "UNALIGNED",
+            "JP_ONLY",
+            "EN_ONLY"
+          ]
+        },
+        "alignment": {
+          "enum": ["ALIGNED", "JP_ONLY", "EN_ONLY", "NO_JP_SOURCE", "BOTH_EMPTY"]
+        },
+        "source_sequence": { "type": "integer", "minimum": 0 },
+        "label_alias_count": { "type": "integer", "minimum": 1 },
+        "dialogue_role": {
+          "enum": [
+            "SPOKEN",
+            "NARRATION",
+            "CHOICE",
+            "SYSTEM",
+            "UI",
+            "CONTROL",
+            "EMPTY",
+            "UNKNOWN"
+          ]
+        },
+        "utterance_kind": {
+          "enum": [
+            "DIALOGUE_LINE",
+            "INNER_THOUGHT",
+            "BRANCH_DIALOGUE",
+            "CHOICE_OPTION",
+            "NARRATION_LINE",
+            "CAPTION",
+            "SYSTEM_MESSAGE",
+            "UI_LABEL",
+            "UI_TEXT",
+            "CONTROL_MARKER",
+            "EMPTY",
+            "UNKNOWN"
+          ]
+        },
+        "speaker_applicable": { "type": "boolean" },
+        "marker": { "type": ["string", "null"] },
+        "branch_tag": { "type": ["string", "null"] },
+        "branch_option": { "type": ["string", "null"] },
+        "branch_phase": { "enum": ["PROMPT", "REPLY", null] },
+        "authored_group": { "type": ["string", "null"] }
+      }
+    },
+    "function": {
+      "type": "string"
+    },
+    "text": {
+      "type": "object",
+      "required": [
+        "jp",
+        "official_en",
+        "real_en"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "jp": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "official_en": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "real_en": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "UNREVIEWED",
+            "KEEP",
+            "CHANGE"
+          ]
+        }
+      }
+    }
+  },
+  "$defs": {
+    "entity_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["state", "entity_id", "evidence"],
+      "properties": {
+        "state": {
+          "enum": [
+            "PROVEN_FROM_ATTRIBUTE",
+            "PROVEN_FROM_CALLSITE",
+            "CORROBORATED",
+            "CANDIDATE_UNVERIFIED",
+            "UNKNOWN",
+            "CONFLICT"
+          ]
+        },
+        "entity_id": { "type": ["string", "null"] },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["source"],
+            "properties": {
+              "source": { "type": "string" },
+              "field": { "type": "string" },
+              "value": { "type": "string" },
+              "note": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

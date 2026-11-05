@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_c02_GM30_002_m01#36",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_3ISM_cAssist",
+        "jp_asset": "Msg/JPja/LG_3ISM_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_3ISM_cAssist.msbt.zst",
+        "label": "MID_LGV_3ISM_c02_GM30_002_m01",
+        "entry_index": 36,
+        "jp_source_sha256": "f50f5719ab91671db05ae3859b79643de68ac07da61e4355f22254467eaf1d9c",
+        "official_en_source_sha256": "9479e2000d5787c5ceeefbc9f5ac15b6957b9eeaf2d3c9d0b62ddaa32c5117da"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_GM30_002_m03_002#35",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_c02_GM30_002_m01_001#37"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 36,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_3ISM_c02_GM30_002_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_c02_GM30_002_m01_001#37",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_3ISM_cAssist",
+        "jp_asset": "Msg/JPja/LG_3ISM_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_3ISM_cAssist.msbt.zst",
+        "label": "MID_LGV_3ISM_c02_GM30_002_m01_001",
+        "entry_index": 37,
+        "jp_source_sha256": "f50f5719ab91671db05ae3859b79643de68ac07da61e4355f22254467eaf1d9c",
+        "official_en_source_sha256": "9479e2000d5787c5ceeefbc9f5ac15b6957b9eeaf2d3c9d0b62ddaa32c5117da"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "フォトナ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_3ISM_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_フォトナ"
+            },
+            {
+              "source": "Msg/USen/LG_3ISM_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "フォトナ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_c02_GM30_002_m01#36",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_GM30_002_m04#38"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 37,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_3ISM_c02_GM30_002_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "ここからはおぬしがこの軍の総大将じゃ。\nまずは部隊を編成し、出撃させるがよい。",
+        "official_en": "You'll be this army's commander in chief. Form your\nsquads and give them their marching orders.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

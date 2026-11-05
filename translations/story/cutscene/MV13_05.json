@@ -1,0 +1,2175 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05",
+        "entry_index": 0,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m001#1"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "SH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13"
+      },
+      "function": "story",
+      "text": {
+        "jp": "<SH>",
+        "official_en": "<SH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m001",
+        "entry_index": 1,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "NARRATION",
+        "utterance_kind": "NARRATION_LINE",
+        "speaker_applicable": false,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m001"
+      },
+      "function": "story",
+      "text": {
+        "jp": "おりゃあああ！",
+        "official_en": "(big attack exert)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m002",
+        "entry_index": 2,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "セオドラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_セオドラ"
+            },
+            {
+              "source": "Msg/USen/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m002"
+      },
+      "function": "story",
+      "text": {
+        "jp": "ふっ、はっ！",
+        "official_en": "(attack exerts x2)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m003",
+        "entry_index": 3,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m003"
+      },
+      "function": "story",
+      "text": {
+        "jp": "（アドリブ）",
+        "official_en": "(pained exerts)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m004",
+        "entry_index": 4,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m005#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m004"
+      },
+      "function": "story",
+      "text": {
+        "jp": "おい！　あの鈍くさそうな娘を狙って人質にしろ！",
+        "official_en": "You! Go take the one standing around as a hostage!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m005#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m005",
+        "entry_index": 5,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "オルヘル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オルヘル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オルヘル"
+            },
+            {
+              "source": "Msg/USen/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オルヘル",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m006#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m005"
+      },
+      "function": "story",
+      "text": {
+        "jp": "えっ！？",
+        "official_en": "Huh?!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m006#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m006",
+        "entry_index": 6,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m005#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m007#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m006"
+      },
+      "function": "story",
+      "text": {
+        "jp": "（アドリブ）",
+        "official_en": "(grunting)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m007#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m007",
+        "entry_index": 7,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "セオドラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_セオドラ"
+            },
+            {
+              "source": "Msg/USen/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m006#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m008#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m007"
+      },
+      "function": "story",
+      "text": {
+        "jp": "しまった！",
+        "official_en": "Damn it!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m008#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m008",
+        "entry_index": 8,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "セオドラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_セオドラ"
+            },
+            {
+              "source": "Msg/USen/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m007#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m008"
+      },
+      "function": "story",
+      "text": {
+        "jp": "……？",
+        "official_en": "(noticing something strange)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m009#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m009",
+        "entry_index": 9,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m008#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m010#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m009"
+      },
+      "function": "story",
+      "text": {
+        "jp": "お……重い……！",
+        "official_en": "She's heavy!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m010#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m010",
+        "entry_index": 10,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m009#9",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m011#11"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m010"
+      },
+      "function": "story",
+      "text": {
+        "jp": "全然動かねえ！　どうなってる！？",
+        "official_en": "She won't budge! What gives?!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m011#11",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m011",
+        "entry_index": 11,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m010#10",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m012#12"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 11,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m011"
+      },
+      "function": "story",
+      "text": {
+        "jp": "おい！　遊んでるんじゃねえぞ！",
+        "official_en": "Hey! Quit messing around and go!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m012#12",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m012",
+        "entry_index": 12,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m011#11",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m037#13"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 12,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m012"
+      },
+      "function": "story",
+      "text": {
+        "jp": "だ、だけどよ！\nこいつ、全然持ち上がらねえんです！",
+        "official_en": "We're not! We seriously can't lift her!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m037#13",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m037",
+        "entry_index": 13,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "オルヘル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オルヘル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オルヘル"
+            },
+            {
+              "source": "Msg/USen/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オルヘル",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m012#12",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m013#14"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 13,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m037"
+      },
+      "function": "story",
+      "text": {
+        "jp": "まあ！",
+        "official_en": "Goodness.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m013#14",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m013",
+        "entry_index": 14,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m037#13",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m014#15"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 14,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m013"
+      },
+      "function": "story",
+      "text": {
+        "jp": "どんだけ重いんだ！？",
+        "official_en": "How can she be this heavy?!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m014#15",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m014",
+        "entry_index": 15,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "オルヘル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オルヘル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オルヘル"
+            },
+            {
+              "source": "Msg/USen/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オルヘル",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m013#14",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m015#16"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 15,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m014"
+      },
+      "function": "story",
+      "text": {
+        "jp": "人が！　気にしていることを！",
+        "official_en": "Rude! Show some respect!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m015#16",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m015",
+        "entry_index": 16,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m014#15",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m016#17"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 16,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m015"
+      },
+      "function": "story",
+      "text": {
+        "jp": "うお！",
+        "official_en": "(exert when thrown)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m016#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m016",
+        "entry_index": 17,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m015#16",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m017#18"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m016"
+      },
+      "function": "story",
+      "text": {
+        "jp": "うお！",
+        "official_en": "(exert when thrown)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m017#18",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m017",
+        "entry_index": 18,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m016#17",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m018#19"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 18,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m017"
+      },
+      "function": "story",
+      "text": {
+        "jp": "うわああ！",
+        "official_en": "(exert upon collision)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m018#19",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m018",
+        "entry_index": 19,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m017#18",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m019#20"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 19,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m018"
+      },
+      "function": "story",
+      "text": {
+        "jp": "うわああ！",
+        "official_en": "(exert upon collision)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m019#20",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m019",
+        "entry_index": 20,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m018#19",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m020#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 20,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m019"
+      },
+      "function": "story",
+      "text": {
+        "jp": "うわああ！",
+        "official_en": "(exert upon collision)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m020#21",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m020",
+        "entry_index": 21,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "セオドラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_セオドラ"
+            },
+            {
+              "source": "Msg/USen/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m019#20",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m021#22"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 21,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m020"
+      },
+      "function": "story",
+      "text": {
+        "jp": "ええ……",
+        "official_en": "(astounded exert)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m021#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m021",
+        "entry_index": 22,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "オルヘル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オルヘル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オルヘル"
+            },
+            {
+              "source": "Msg/USen/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オルヘル",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m020#21",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m022#23"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m021"
+      },
+      "function": "story",
+      "text": {
+        "jp": "そんな、大声で、言うなんて……",
+        "official_en": "Talking about me like that to my face...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m022#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m022",
+        "entry_index": 23,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "セオドラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_セオドラ"
+            },
+            {
+              "source": "Msg/USen/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m021#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m023#24"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m022"
+      },
+      "function": "story",
+      "text": {
+        "jp": "！",
+        "official_en": "(surprised exert)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m023#24",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m023",
+        "entry_index": 24,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m022#23",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m024#25"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 24,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m023"
+      },
+      "function": "story",
+      "text": {
+        "jp": "ひ、ひええええ……",
+        "official_en": "(scared exert)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m024#25",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m024",
+        "entry_index": 25,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "オルヘル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オルヘル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オルヘル"
+            },
+            {
+              "source": "Msg/USen/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オルヘル",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m023#24",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m025#26"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 25,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m024"
+      },
+      "function": "story",
+      "text": {
+        "jp": "失礼です、わ！！",
+        "official_en": "It's. not. NICE!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m025#26",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m025",
+        "entry_index": 26,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m024#25",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m026#27"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 26,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m025"
+      },
+      "function": "story",
+      "text": {
+        "jp": "ぎゃああああああ！",
+        "official_en": "(scream exert)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m026#27",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m026",
+        "entry_index": 27,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "セオドラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_セオドラ"
+            },
+            {
+              "source": "Msg/USen/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m025#26",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m027#28"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 27,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m026"
+      },
+      "function": "story",
+      "text": {
+        "jp": "……",
+        "official_en": "(shocked breath)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m027#28",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m027",
+        "entry_index": 28,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m026#27",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m028#29"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 28,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m027"
+      },
+      "function": "story",
+      "text": {
+        "jp": "（アドリブ）",
+        "official_en": "(adlib)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m028#29",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m028",
+        "entry_index": 29,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "オルヘル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オルヘル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オルヘル"
+            },
+            {
+              "source": "Msg/USen/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オルヘル",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m027#28",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m029#30"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 29,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m028"
+      },
+      "function": "story",
+      "text": {
+        "jp": "大丈夫ですわ！　みねうちですから！",
+        "official_en": "It's alright! I made sure to go easy on them.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m029#30",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m029",
+        "entry_index": 30,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "セオドラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_セオドラ"
+            },
+            {
+              "source": "Msg/USen/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m028#29",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m030#31"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 30,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m029"
+      },
+      "function": "story",
+      "text": {
+        "jp": "何、みねうちだと……？　あれがか？",
+        "official_en": "\"Easy\"? With a statue? Seriously?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m030#31",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m030",
+        "entry_index": 31,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "オルヘル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オルヘル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オルヘル"
+            },
+            {
+              "source": "Msg/USen/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オルヘル",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m029#30",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m031#32"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 31,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m030"
+      },
+      "function": "story",
+      "text": {
+        "jp": "？",
+        "official_en": "(\"hm?\" sound)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m031#32",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m031",
+        "entry_index": 32,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "セオドラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_セオドラ"
+            },
+            {
+              "source": "Msg/USen/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m030#31",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m032#33"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 32,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m031"
+      },
+      "function": "story",
+      "text": {
+        "jp": "多分だが、ちょっと違うな。",
+        "official_en": "Some might see it...differently.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m032#33",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m032",
+        "entry_index": 33,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "オルヘル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オルヘル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オルヘル"
+            },
+            {
+              "source": "Msg/USen/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オルヘル",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m031#32",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m033#34"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 33,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m032"
+      },
+      "function": "story",
+      "text": {
+        "jp": "ええっ！？",
+        "official_en": "Whaa?!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m033#34",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m033",
+        "entry_index": 34,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m032#33",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m034#35"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 34,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m033"
+      },
+      "function": "story",
+      "text": {
+        "jp": "な、なんだこいつら！　逃げろ！！",
+        "official_en": "We're out of our league here. Run!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m034#35",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m034",
+        "entry_index": 35,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m033#34",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m035#36"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 35,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m034"
+      },
+      "function": "story",
+      "text": {
+        "jp": "わあーっ！！",
+        "official_en": "(shout of fear)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m035#36",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m035",
+        "entry_index": 36,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "セオドラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_セオドラ"
+            },
+            {
+              "source": "Msg/USen/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m034#35",
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m036#37"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 36,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m035"
+      },
+      "function": "story",
+      "text": {
+        "jp": "……やれやれだ。",
+        "official_en": "What a disaster.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m036#37",
+      "source": {
+        "platform": "switch2",
+        "bank": "MV13_05",
+        "jp_asset": "Msg/JPja/MV13_05.msbt.zst",
+        "official_en_asset": "Msg/USen/MV13_05.msbt.zst",
+        "label": "MID_MV13_05_m036",
+        "entry_index": 37,
+        "jp_source_sha256": "5e680bfaccb382e1e0c6848a2cbd347dd028705342c22d251a66513d9f587fad",
+        "official_en_source_sha256": "a87687793c37e972fa0979b5deae9e68fa9f9d600e4447b1aa077659061e3ea6"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "オルヘル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オルヘル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_オルヘル"
+            },
+            {
+              "source": "Msg/USen/MV13_05.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "オルヘル",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:MV13_05:MID_MV13_05_m035#36"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 37,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_MV13_05_m036"
+      },
+      "function": "story",
+      "text": {
+        "jp": "むう……",
+        "official_en": "(sighing exert)",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

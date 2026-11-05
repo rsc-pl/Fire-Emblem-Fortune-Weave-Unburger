@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1SEO_cAssist:MID_LGV_1SEO_c01_LG13_001_m01#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1SEO_cAssist",
+        "jp_asset": "Msg/JPja/LG_1SEO_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1SEO_cAssist.msbt.zst",
+        "label": "MID_LGV_1SEO_c01_LG13_001_m01",
+        "entry_index": 0,
+        "jp_source_sha256": "413a037b3532204b7c0d81615089588ba121672f8ea28a9fc5fb83fcd4258dbc",
+        "official_en_source_sha256": "7b1ce614663cf45c524c3c5be4194103e6355ccf9273dcf4526da0833f8539b2"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": "Script/hub/Hub_Btl_012.bin.zst",
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1SEO_cAssist:MID_LGV_1SEO_c01_LG13_001_m01_001#1"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1SEO_c01_LG13_001_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1SEO_cAssist:MID_LGV_1SEO_c01_LG13_001_m01_001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1SEO_cAssist",
+        "jp_asset": "Msg/JPja/LG_1SEO_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1SEO_cAssist.msbt.zst",
+        "label": "MID_LGV_1SEO_c01_LG13_001_m01_001",
+        "entry_index": 1,
+        "jp_source_sha256": "413a037b3532204b7c0d81615089588ba121672f8ea28a9fc5fb83fcd4258dbc",
+        "official_en_source_sha256": "7b1ce614663cf45c524c3c5be4194103e6355ccf9273dcf4526da0833f8539b2"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "セオドラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1SEO_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_セオドラ"
+            },
+            {
+              "source": "Msg/USen/LG_1SEO_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_1SEO_cAssist.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1SEO_cAssist:MID_LGV_1SEO_c01_LG13_001_m01#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1SEO_cAssist:MID_LGV_1SEO_c01_LG13_001_m01_002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1SEO_c01_LG13_001_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "思えば、このメガエラ王宮も\n随分と久しぶりだ。",
+        "official_en": "Thinking on it, I have not been here in the royal\npalace of Megaira for some time.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1SEO_cAssist:MID_LGV_1SEO_c01_LG13_001_m01_002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1SEO_cAssist",
+        "jp_asset": "Msg/JPja/LG_1SEO_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1SEO_cAssist.msbt.zst",
+        "label": "MID_LGV_1SEO_c01_LG13_001_m01_002",
+        "entry_index": 2,
+        "jp_source_sha256": "413a037b3532204b7c0d81615089588ba121672f8ea28a9fc5fb83fcd4258dbc",
+        "official_en_source_sha256": "7b1ce614663cf45c524c3c5be4194103e6355ccf9273dcf4526da0833f8539b2"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ボナパルテ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1SEO_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ボナパルテ"
+            },
+            {
+              "source": "Msg/USen/LG_1SEO_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_1SEO_cAssist.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1SEO_cAssist:MID_LGV_1SEO_c01_LG13_001_m01_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1SEO_cAssist:MID_LGV_1SEO_c01_LG13_001_m01_003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1SEO_c01_LG13_001_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "セルヒオ様にお会いする前に、\n皆に声をかけてやっては如何でしょうかな。",
+        "official_en": "Perhaps you should reacquaint yourself with the\npeople here before meeting with King Sergio.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1SEO_cAssist:MID_LGV_1SEO_c01_LG13_001_m01_003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1SEO_cAssist",
+        "jp_asset": "Msg/JPja/LG_1SEO_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1SEO_cAssist.msbt.zst",
+        "label": "MID_LGV_1SEO_c01_LG13_001_m01_003",
+        "entry_index": 3,
+        "jp_source_sha256": "413a037b3532204b7c0d81615089588ba121672f8ea28a9fc5fb83fcd4258dbc",
+        "official_en_source_sha256": "7b1ce614663cf45c524c3c5be4194103e6355ccf9273dcf4526da0833f8539b2"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ボナパルテ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1SEO_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ボナパルテ"
+            },
+            {
+              "source": "Msg/USen/LG_1SEO_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ボナパルテ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1SEO_cAssist:MID_LGV_1SEO_c01_LG13_001_m01_002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1SEO_cAssist:MID_LGV_1SEO_c01_LG13_001_m01_004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1SEO_c01_LG13_001_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "セオドラ様のご帰還を\n心から待っていたものも多くおるでしょうし。",
+        "official_en": "I am sure many of them have been eagerly awaiting\nyour return, Your Highness.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1SEO_cAssist:MID_LGV_1SEO_c01_LG13_001_m01_004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1SEO_cAssist",
+        "jp_asset": "Msg/JPja/LG_1SEO_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1SEO_cAssist.msbt.zst",
+        "label": "MID_LGV_1SEO_c01_LG13_001_m01_004",
+        "entry_index": 4,
+        "jp_source_sha256": "413a037b3532204b7c0d81615089588ba121672f8ea28a9fc5fb83fcd4258dbc",
+        "official_en_source_sha256": "7b1ce614663cf45c524c3c5be4194103e6355ccf9273dcf4526da0833f8539b2"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "セオドラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1SEO_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_セオドラ"
+            },
+            {
+              "source": "Msg/USen/LG_1SEO_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セオドラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1SEO_cAssist:MID_LGV_1SEO_c01_LG13_001_m01_003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1SEO_cAssist:MID_LGV_1SEO_c02_GM13_001_m01#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1SEO_c01_LG13_001_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "ああ、そうだな。\nそれが済んだら、<#CTRL:0E>",
+        "official_en": "That is a fine idea. I shall mingle here before\nproceeding to <#CTRL:0E>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

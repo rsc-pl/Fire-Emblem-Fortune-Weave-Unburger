@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "release",
+    "scope",
+    "counts",
+    "records"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer"
+    },
+    "release": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "counts": {
+      "type": "object"
+    },
+    "records": {
+      "type": "array"
+    },
+    "census": {
+      "type": "object",
+      "description": "Optional P01C role/kind/speaker census; denominators are physical records, not guesses.",
+      "properties": {
+        "dialogue_denominator": { "type": "integer", "minimum": 0 },
+        "confirmed": { "type": "integer", "minimum": 0 },
+        "candidate": { "type": "integer", "minimum": 0 },
+        "genuine_unknown": { "type": "integer", "minimum": 0 },
+        "not_applicable": { "type": "integer", "minimum": 0 },
+        "by_role": { "type": "object" },
+        "by_kind": { "type": "object" },
+        "by_function": { "type": "object" }
+      }
+    },
+    "promotion_audit": {
+      "type": "object",
+      "description": "Optional re-check of prior public promotions.",
+      "properties": {
+        "pre_promoted": { "type": "integer", "minimum": 0 },
+        "false_positive_role": { "type": "integer", "minimum": 0 },
+        "kept_corroborated": { "type": "integer", "minimum": 0 },
+        "downgraded_to_proven_from_attribute": { "type": "integer", "minimum": 0 }
+      }
+    }
+  }
+}

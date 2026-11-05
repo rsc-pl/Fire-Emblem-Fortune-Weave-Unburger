@@ -1,0 +1,3937 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C",
+        "entry_index": 0,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_001#1"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_001",
+        "entry_index": 1,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あーあ、また振られちまった。面白くねえ。\n……ん？　あれは？",
+        "official_en": "Ugh. Dumped again. Why's it always like this?\nHang on...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_002",
+        "entry_index": 2,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ピーテルが知らねえ女と話してっぞ！\n何か手渡されてるな……恋文か！？",
+        "official_en": "Peter's talking to some girl... She's giving him\nsomething? A...a love letter?!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_003",
+        "entry_index": 3,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あっ、あの野郎～～！！\n一人でいい思いしやがって！　腹立つな！",
+        "official_en": "That jerk, hogging all the good times! Makes me\nso angry!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_004",
+        "entry_index": 4,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_005#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "うん。また機会があれば……\nそれじゃ。",
+        "official_en": "If we get the chance, sure. OK, bye.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_005#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_005",
+        "entry_index": 5,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_006#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "おいコラ！　お前調子乗んなよ！\n逢引きの約束が上手くいったからって……！",
+        "official_en": "Hey! HEY! Don't let it go to your head, just 'cause\nyou got yourself a date.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_006#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_006",
+        "entry_index": 6,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_005#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_007#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "うわあっ！？　ダイトウ！？\nあ、逢引きって何のこと！？",
+        "official_en": "Dadao?! Date?! What are you talking about?",
+        "real_en": "Daitou?! Date?! What are you talking about?"
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_007#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_007",
+        "entry_index": 7,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_006#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_008#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "しらばっくれるんじゃねえぞ！\nさっきまで女と話してただろうが！",
+        "official_en": "Don't act like you don't know what I'm talking about.\nYou. The girl. The both of you!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_008#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_008",
+        "entry_index": 8,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_007#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "お前みたいな冴えない奴が、女から恋文を\n貰うなんてこと、おいら納得いかねえ！",
+        "official_en": "A boring little scab like you, getting a love letter from\na girl? No. No way!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_009#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_009",
+        "entry_index": 9,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_008#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_010#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "こ、恋文？　どういうこと？\n本当に何のことだか……",
+        "official_en": "L-love letter? What do you mean?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_010#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_010",
+        "entry_index": 10,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_009#9",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_011#11"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "どこまでもとぼけやがって！\nさっきの紙見せてみろ！",
+        "official_en": "How long you gonna keep up the act, huh? Fork over\nthe paper she gave you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_011#11",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_011",
+        "entry_index": 11,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_010#10",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_012#12"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 11,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ほらな！　熱い想いが綴られて……\nって、何だこりゃ？　飯の絵……？",
+        "official_en": "Ha! Bet there's all kinds of juicy details... Wait. The\nhell is this? A picture of...food?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_012#12",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_012",
+        "entry_index": 12,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_011#11",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_013#13"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 12,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あの子のお店の名物料理なんだって。\nお父さんが料理人らしいよ。",
+        "official_en": "Y-yeah. It's a dish that girl's shop is famous for.\nShe said her father is the cook.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_013#13",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_013",
+        "entry_index": 13,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_012#12",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_014#14"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 13,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "恋文じゃ……ねえ？\n店の娘に宣伝されただけってことか？",
+        "official_en": "So it's...not a love letter? It's just some sorta flyer?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_014#14",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_014",
+        "entry_index": 14,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_013#13",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_015#15"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 14,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そうだよ……恋文とか逢引きとか、\nぼく、意味がわかんないよ……",
+        "official_en": "Yes! I don't know why you're talking all mean about\ngirls and dates and lovey-dovey stuff.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_015#15",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_015",
+        "entry_index": 15,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_014#14",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_016#16"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 15,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "な～んだ！\nまっ、そんなこったろうと思ってたぞ！",
+        "official_en": "Well, I'll be! Bahaha! Ya know, I figured it was\nsomething like that anyway.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_016#16",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_016",
+        "entry_index": 16,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_015#15",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_017#17"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 16,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あー、安心したらなんか腹減ってきたな。\n美味そうな飯が載ってやがるなあ……",
+        "official_en": "I feel better. And feeling better means I'm hungry.\nThat food looks tasty...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_017#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_017",
+        "entry_index": 17,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_016#16",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_018#18"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ぷぷっ、絵を見ただけでそんな大きな音……\nダイトウって、食べるの好きなんだ？",
+        "official_en": "Hehe. That's a lot of tummy noise for just looking at\na picture. You like food, don't you, Dadao?",
+        "real_en": "Hehe. That's a lot of tummy noise for just looking at\na picture. You like food, don't you, Daitou?"
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_018#18",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_018",
+        "entry_index": 18,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_017#17",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_019#19"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 18,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "当たり前だろ。お前だって\n美味えもん腹いっぱい食いてえだろうが。",
+        "official_en": "Doesn't everyone? I mean, you stuff your face with\ngrub plenty too, don't ya?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_019#19",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_019",
+        "entry_index": 19,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_018#18",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_020#20"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 19,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "まあね。口寂しい時用に、ギンジの実を\n持ち歩いてるし……一粒食べる？",
+        "official_en": "Heh. Kinda. I carry around a bag of ginji fruit in\ncase I get hungry. You want one?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_020#20",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_020",
+        "entry_index": 20,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_019#19",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_021#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 20,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "へえ、こいつ、結構美味えなあ。\n舎弟どもに渡してやりてえ。",
+        "official_en": "Whoa, these are pretty tasty. Wish I could share with\nmy little minions back home.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_021#21",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_021",
+        "entry_index": 21,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_020#20",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_022#22"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 21,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "しゃ、舎弟？\nなんか怖い単語が聞こえたような……",
+        "official_en": "M-minions? That's a scary word.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_022#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_022",
+        "entry_index": 22,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_021#21",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_023#23"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "故郷においらを慕ってるガキがいるんだよ。\n食糧が手に入りにくい場所でな。",
+        "official_en": "Heh, yeah, they were some scrappy kids who loved\nme. It was really hard to come by food in the village.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_023#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_023",
+        "entry_index": 23,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_022#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_024#24"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "飢えを凌ぐために野生動物の卵を盗んだりとか、\nいろいろやってんだ。",
+        "official_en": "So I did what I could to provide for 'em. Stealing\nsandworm eggs and things like that.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_024#24",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_024",
+        "entry_index": 24,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_023#23",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_025#25"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 24,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そうなんだ……\nすごい所だね……",
+        "official_en": "That sounds...interesting.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_025#25",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_025",
+        "entry_index": 25,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_024#24",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_026#26"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 25,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "里じゃ、肉も魚も拝めたもんじゃねえからな。\n美味そうな料理見たら、絵でも腹が鳴るぞ。",
+        "official_en": "We hardly had any food in my village. So if I so\nmuch as get a whiff of food, my stomach goes nuts.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_026#26",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_026",
+        "entry_index": 26,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_025#25",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_027#27"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 26,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "えっと、じゃあこのお店、一緒に行ってみる？\n貰った紙を見せると割引になるって聞いたし。",
+        "official_en": "Well, we should try this shop together. We'll get a\ngood deal if we show 'em this flyer.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_027#27",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_027",
+        "entry_index": 27,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_026#26",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_028#28"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 27,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "本当か！？\nなら、すぐ行こうぜ！",
+        "official_en": "Ooh, is that so?! Well, what're we waiting for, then?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_028#28",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_028",
+        "entry_index": 28,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_027#27",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_029#29"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 28,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "これに載ってるやつ、全部注文して\nおいらたちで食べ尽くしてやる！",
+        "official_en": "Let's order one of everything. We'll clean out the\nrestaurant in no time!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_029#29",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_C_029",
+        "entry_index": 29,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_028#28",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B#30"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 29,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そ、そんなの、\nさすがにお金が足りないよ！？",
+        "official_en": "I, um, don't think we'll have enough money for that.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B#30",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B",
+        "entry_index": 30,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_C_029#29",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_001#31"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 30,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_001#31",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_001",
+        "entry_index": 31,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B#30",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_002#32"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 31,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ううん、気にしないで……\n良かったよ。それじゃ。",
+        "official_en": "No, no. Don't worry about it. Alright. Bye.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_002#32",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_002",
+        "entry_index": 32,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_001#31",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_003#33"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 32,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ピーテル～！！\nまた知らねえ女と話してやがったな！？",
+        "official_en": "Peterrr! Did I just see you talking to cute\nladies again?!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_003#33",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_003",
+        "entry_index": 33,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_002#32",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_004#34"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 33,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ダイトウ……別に逢引きとかじゃないからね。\n落とし物を届けてあげて、お礼を言われただけ。",
+        "official_en": "Dadao, it's not like that. I picked up something she\ndropped, and she was thanking me. That's it.",
+        "real_en": "Daitou, it's not like that. I picked up something she\ndropped, and she was thanking me. That's it."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_004#34",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_004",
+        "entry_index": 34,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_003#33",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_005#35"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 34,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "なんだ、そうなのか。\n紛らわしい奴だな！",
+        "official_en": "That's all it was? You're so confusing, man.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_005#35",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_005",
+        "entry_index": 35,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_004#34",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_006#36"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 35,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "きみが勝手に勘違いしただけじゃないか……",
+        "official_en": "You're the one who keeps taking things the\nwrong way.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_006#36",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_006",
+        "entry_index": 36,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_005#35",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_007#37"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 36,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "お前ならもっと女に好かれてもおかしくねえと\n思うんだがなあ。",
+        "official_en": "Look, I just wouldn't be surprised if the ladies were\nafter ya.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_007#37",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_007",
+        "entry_index": 37,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_006#36",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_008#38"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 37,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "前まではぽやっとしてたけど、\n今は結構シャキっとしてるだろ！",
+        "official_en": "You used to be kinda soft, but now look at ya! You're\nextra fit.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_008#38",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_008",
+        "entry_index": 38,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_007#37",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_009#39"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 38,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "まあ、確かに痩せはしたよ。\n戦争が激化して食べ物が少なくなったから……",
+        "official_en": "I've gotten leaner, sure. Food isn't always easy to\ncome by because of the fighting.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_009#39",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_009",
+        "entry_index": 39,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_008#38",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_010#40"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 39,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "前は良かったなあ。\nぼく、いつも何かしら食べてたし。",
+        "official_en": "Used to be I was always snacking on something.\nThose were good times.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_010#40",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_010",
+        "entry_index": 40,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_009#39",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_011#41"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 40,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………ん？　女に好かれたくて\n体を引き締めたってわけじゃねえのか。",
+        "official_en": "Er... You mean you didn't get fit like this to get all\nthe ladies' attention?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_011#41",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_011",
+        "entry_index": 41,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_010#40",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_012#42"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 41,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "えっ？　そ、そうだよ。\nダイトウじゃあるまいし。",
+        "official_en": "No. Not at all. I'm not like you, Dadao.",
+        "real_en": "No. Not at all. I'm not like you, Daitou."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_012#42",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_012",
+        "entry_index": 42,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_011#41",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_013#43"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 42,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "なんだよそれ！　そんなの不健康だぞ！\nお前、食うのが好きなんだよな！？",
+        "official_en": "Well, that's just plain unhealthy if you're not eating!\nDon't you like food?!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_013#43",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_013",
+        "entry_index": 43,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_012#42",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_014#44"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 43,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "だったら遠慮なく、もりもり好きなだけ食え！\nじゃねえと生きてる意味がねえ！",
+        "official_en": "You should be eating as much as you want! No\nrestraint! What's the point of life if you can't do that?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_014#44",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_014",
+        "entry_index": 44,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_013#43",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_015#45"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 44,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そこまで言う！？\nこんな状況だし仕方ないよ……",
+        "official_en": "Take it easy! I can't help the way things are.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_015#45",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_015",
+        "entry_index": 45,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_014#44",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_016#46"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 45,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "状況なんて関係ねえ！\nお前はいい奴だし、毎日頑張ってる！",
+        "official_en": "The situation's got nothing to do with it! You're a\ngood guy, and you're always helping people out.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_016#46",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_016",
+        "entry_index": 46,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_015#45",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_017#47"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 46,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いろんな奴を気遣って、感謝だってされてんだ！\n飯ぐらい、どかどか食って当然だろ！",
+        "official_en": "People are grateful to you because you're looking out\nfor them. So you should be eating your fill!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_017#47",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_017",
+        "entry_index": 47,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_016#46",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_018#48"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 47,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "当然ってほどでは……でも、ありがとう。\nぼくのこと、案外見てくれてたんだ。",
+        "official_en": "I'm...surprised you noticed all that. Thanks, I guess.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_018#48",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_018",
+        "entry_index": 48,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_017#47",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_019#49"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 48,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "案外は余計だ！\nあと、まだ食ってねえのに礼なんか言うな！",
+        "official_en": "What do you mean by that?! And don't thank me till\nyou've eaten.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_019#49",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_019",
+        "entry_index": 49,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_018#48",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_020#50"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 49,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "待ってろ馬鹿！　お前のために\n美味えもんをたんまり用意してやるぞ！",
+        "official_en": "You wait here, ya damn fool. I'm gonna get some\nfood for ya.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_020#50",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_020",
+        "entry_index": 50,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_019#49",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_021#51"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 50,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そ、そんなのいいよ！\nどこ行くの！？",
+        "official_en": "You don't have to do that! Where are you going?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_021#51",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_021",
+        "entry_index": 51,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_020#50",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_022#52"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 51,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "これだこれ！\nおいらのとっておき、分けてやる！",
+        "official_en": "Here, try these! They're the best of the best.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_022#52",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_022",
+        "entry_index": 52,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_021#51",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_023#53"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 52,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "その辺で獲った虫だ！\n焼いても揚げても、生でもいいぞ！",
+        "official_en": "Delicious crunchy bugs I found over that way. You\ncan bake 'em, fry 'em—or eat 'em raw!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_023#53",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_023",
+        "entry_index": 53,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_022#52",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_024#54"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 53,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ひぃっ！？\nあ、足がいっぱいあるぅ！？",
+        "official_en": "Aah! I can't eat that! There's...too many legs!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_024#54",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_024",
+        "entry_index": 54,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_023#53",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_025#55"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 54,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "里では砂虫を食うんだが、こっちの細長い虫も\n手軽で美味いんだ！　ほら！",
+        "official_en": "The sandworms back home were always my fave, but\nthese little crunchy guys are tasty too. Eat up!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_025#55",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_025",
+        "entry_index": 55,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_024#54",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_026#56"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 55,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あ！ごめん、ぼくちょっと用事を思い出した！\n行かなきゃいけないから、それじゃね！",
+        "official_en": "I have...somewhere else to be...right now.\nGotta run! Bye!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_026#56",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Pet_Dai_CB",
+        "jp_asset": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+        "label": "MID_SE_Pet_Dai_B_026",
+        "entry_index": 56,
+        "jp_source_sha256": "a7bc5b23a454f2f55efa6825a9e4d5ed7c2293b25de814a560fff1e35de482d0",
+        "official_en_source_sha256": "7d03104c809c792131382c1993efe3b609e394be65747941e85300632161e7e1"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ダイトウ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ダイトウ"
+            },
+            {
+              "source": "Msg/USen/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ダイトウ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Pet_Dai_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ダイトウ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Pet_Dai_CB:MID_SE_Pet_Dai_B_025#55"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 56,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Pet_Dai_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "なんだよ。これが甘くて美味えのによ。\n……うん、悪くねえな。",
+        "official_en": "Passing up perfectly good food, eh? But they're so\ngood... Mmm, crunchy!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

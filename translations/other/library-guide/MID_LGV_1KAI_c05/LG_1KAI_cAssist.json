@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1KAI_cAssist:MID_LGV_1KAI_c05_LG11_011_m01#242",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1KAI_cAssist",
+        "jp_asset": "Msg/JPja/LG_1KAI_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1KAI_cAssist.msbt.zst",
+        "label": "MID_LGV_1KAI_c05_LG11_011_m01",
+        "entry_index": 242,
+        "jp_source_sha256": "e879daf2e5cede6b75e0e81f221956eac049d75a571a4755f039310918e6b88b",
+        "official_en_source_sha256": "5e92af822be4c92242b27cfaa81105587801cb85c9a8b19991c1a72fa686f33c"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": "Script/hub/Hub_000_KAI.bin.zst",
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1KAI_cAssist:MID_LGV_1KAI_LG11_010_m01_003#241",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1KAI_cAssist:MID_LGV_1KAI_c05_LG11_011_m01_001#243"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 242,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1KAI_c05_LG11_011_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1KAI_cAssist:MID_LGV_1KAI_c05_LG11_011_m01_001#243",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1KAI_cAssist",
+        "jp_asset": "Msg/JPja/LG_1KAI_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1KAI_cAssist.msbt.zst",
+        "label": "MID_LGV_1KAI_c05_LG11_011_m01_001",
+        "entry_index": 243,
+        "jp_source_sha256": "e879daf2e5cede6b75e0e81f221956eac049d75a571a4755f039310918e6b88b",
+        "official_en_source_sha256": "5e92af822be4c92242b27cfaa81105587801cb85c9a8b19991c1a72fa686f33c"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "アスワン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1KAI_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アスワン"
+            },
+            {
+              "source": "Msg/USen/LG_1KAI_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_1KAI_cAssist.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_アスワン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1KAI_cAssist:MID_LGV_1KAI_c05_LG11_011_m01#242",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1KAI_cAssist:MID_LGV_1KAI_c05_LG11_011_m12#244"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 243,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1KAI_c05_LG11_011_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "お願いします。どうか私を\n<#CTRL:0E>",
+        "official_en": "I beg you, take me to the <#CTRL:0E>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1KAI_cAssist:MID_LGV_1KAI_c05_LG11_011_m12#244",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1KAI_cAssist",
+        "jp_asset": "Msg/JPja/LG_1KAI_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1KAI_cAssist.msbt.zst",
+        "label": "MID_LGV_1KAI_c05_LG11_011_m12",
+        "entry_index": 244,
+        "jp_source_sha256": "e879daf2e5cede6b75e0e81f221956eac049d75a571a4755f039310918e6b88b",
+        "official_en_source_sha256": "5e92af822be4c92242b27cfaa81105587801cb85c9a8b19991c1a72fa686f33c"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1KAI_cAssist:MID_LGV_1KAI_c05_LG11_011_m01_001#243",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1KAI_cAssist:MID_LGV_1KAI_c05_LG11_011_m12_001#245"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 244,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1KAI_c05_LG11_011_m12"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1KAI_cAssist:MID_LGV_1KAI_c05_LG11_011_m12_001#245",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1KAI_cAssist",
+        "jp_asset": "Msg/JPja/LG_1KAI_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1KAI_cAssist.msbt.zst",
+        "label": "MID_LGV_1KAI_c05_LG11_011_m12_001",
+        "entry_index": 245,
+        "jp_source_sha256": "e879daf2e5cede6b75e0e81f221956eac049d75a571a4755f039310918e6b88b",
+        "official_en_source_sha256": "5e92af822be4c92242b27cfaa81105587801cb85c9a8b19991c1a72fa686f33c"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "アスワン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1KAI_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アスワン"
+            },
+            {
+              "source": "Msg/USen/LG_1KAI_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1KAI_cAssist:MID_LGV_1KAI_c05_LG11_011_m12#244",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1KAI_cAssist:MID_LGV_1KAI_TG11_004_m01#246"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 245,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "INNER_THOUGHT",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1KAI_c05_LG11_011_m12"
+      },
+      "function": "other",
+      "text": {
+        "jp": "あの……白髪鬼に会いたいのですけど、\n本当にこちらでいいのでしょうか……？",
+        "official_en": "Ah, hmm... Are you certain that this is the correct\npath to the White-Maned Demon?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

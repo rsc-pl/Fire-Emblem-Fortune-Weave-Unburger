@@ -1,0 +1,1868 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C",
+        "entry_index": 0,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_001#1"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_001",
+        "entry_index": 1,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "アスワン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アスワン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_アスワン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "お見事です。レダさん。\n私も隣で訓練しても構いませんか？",
+        "official_en": "Impressive, Leda. May I train by your side?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_002",
+        "entry_index": 2,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "別にいいけど、\nあなた、女王にしては十分な腕前じゃない？",
+        "official_en": "Of course—but I would have thought your skills were\nalready honed enough for a queen.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_003",
+        "entry_index": 3,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "アスワン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アスワン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_アスワン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いえ、私も戦場に立ちますから。\n強いに越したことはありませんよ。",
+        "official_en": "No. I'll be striding into battle as well. One can never\ntrain too much for that.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_004",
+        "entry_index": 4,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "アスワン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アスワン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_アスワン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_005#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "それに、芸術面ではあなたに遠く及びませんし、\nせめて弓の腕ぐらいは並ばせてください。",
+        "official_en": "Besides, I'm nowhere near you in artistic skill.\nAt least let me try to match you in archery.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_005#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_005",
+        "entry_index": 5,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_006#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "女王になって数年経っても、\n負けん気の強さは変わらないのね。",
+        "official_en": "You've had a crown on your head all this time,\nand you're still as competitive as ever.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_006#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_006",
+        "entry_index": 6,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_005#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_007#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いいわ。\n二人でしたほうが張り合いも出るしね。",
+        "official_en": "But fine! I won't turn down a little competition.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_007#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_007",
+        "entry_index": 7,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_006#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_008#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あなたの矢は本当に真っ直ぐね。\n見ていて気持ちがいいわ。",
+        "official_en": "You're accurate with your arrows—it's satisfying\nto see.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_008#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_008",
+        "entry_index": 8,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "アスワン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アスワン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_アスワン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_007#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ありがとうございます。\nあなたの矢も力強くて素敵です。",
+        "official_en": "As for you, you let them loose with glorious power.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_009#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_009",
+        "entry_index": 9,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_008#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_010#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あら、いいの？\nあなたの想い人を殺す矢を褒めちゃって。",
+        "official_en": "You're really going to praise the skills of your\nbeloved's future assassin?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_010#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_010",
+        "entry_index": 10,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "アスワン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アスワン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_アスワン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_009#9",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_011#11"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "構いません。ベルトランも\n射られる覚悟は出来ているでしょう。",
+        "official_en": "I'm sure Bertrand has resigned himself to\ngetting shot.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_011#11",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_011",
+        "entry_index": 11,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "アスワン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アスワン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_アスワン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_010#10",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_012#12"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 11,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "それにレダさんの矢は何よりも\n頼りになりますしね。",
+        "official_en": "Besides! I'm depending on your bow skills more than\njust about anything.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_012#12",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_012",
+        "entry_index": 12,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_011#11",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_013#13"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 12,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……どういうこと？",
+        "official_en": "What do you mean by that?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_013#13",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_013",
+        "entry_index": 13,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "アスワン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アスワン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_アスワン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_012#12",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_014#14"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 13,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "昔、私たちは互いに敵視したこともありましたが、\n今は共通の敵と戦っていますから。",
+        "official_en": "A long time ago, we saw each other as enemies.\nBut now we face a common foe.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_014#14",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_014",
+        "entry_index": 14,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "アスワン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アスワン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_アスワン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_013#13",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_015#15"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 14,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ちょっとやそっとでは死なないベルトランを\n本気で殺そうとする方が、味方で心強いです。",
+        "official_en": "Bertrand is a hard man to kill. Anyone intent on\ndoing it anyway will make a promising ally.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_015#15",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_015",
+        "entry_index": 15,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_014#14",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_016#16"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 15,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ふふ。\n随分あたしとあいつを買っているのね。",
+        "official_en": "Hehe. You think that highly of me, huh?\nAnd him.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_016#16",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_016",
+        "entry_index": 16,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_015#15",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_017#17"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 16,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ま、いいわ。\nあなたの芯の強いところは気に入っているし。",
+        "official_en": "Well, that's fine. I like your spirit.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_017#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_017",
+        "entry_index": 17,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "アスワン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アスワン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_アスワン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_016#16",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_018#18"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そう言ってもらえると嬉しいです。\nあの……レダさん。一つよろしいですか？",
+        "official_en": "Thank you. And...Leda, may I ask you something?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_018#18",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_018",
+        "entry_index": 18,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_017#17",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_019#19"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 18,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "なに？　改まって？",
+        "official_en": "What? You're acting stiff.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_019#19",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_019",
+        "entry_index": 19,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "アスワン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アスワン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_アスワン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_018#18",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_020#20"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 19,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "近々、晩餐会を開くのですけれど、\n今度こそ来ていただけませんか？",
+        "official_en": "We are holding a banquet soon. Would you consider\nattending?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_020#20",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_020",
+        "entry_index": 20,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "アスワン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アスワン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_アスワン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_019#19",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_021#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 20,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "以前はうやむやになってしまいましたし、\n是非ご招待したいのです。",
+        "official_en": "I'm still upset about what happened at the last one\nI invited you to. I wanted to make up for it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_021#21",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_021",
+        "entry_index": 21,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "アスワン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アスワン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_アスワン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_020#20",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_022#22"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 21,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "レダさんのお好きな料理をご用意しますよ。\nご友人の方々を呼んでいただいても……",
+        "official_en": "I'll be sure to have your favorite foods prepared.\nAnd you can invite your friends too—",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_022#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_022",
+        "entry_index": 22,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_021#21",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_023#23"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……悪いけど、やめておくわ。\nまた何かあったら嫌だもの。",
+        "official_en": "Sorry, but I'll pass. I wouldn't want something to\nhappen again.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_023#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_023",
+        "entry_index": 23,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "アスワン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アスワン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_アスワン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_022#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_024#24"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そうですよね……あんなことがあったのに、\n信用しろとは都合が良すぎますよね……",
+        "official_en": "Of course. I suppose you wouldn't fully trust me after\nwhat happened.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_024#24",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_024",
+        "entry_index": 24,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_023#23",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_025#25"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 24,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "勘違いしないで。あなたと二人ならいいわ。\n酒場で何かご馳走してちょうだい。",
+        "official_en": "Well! I wouldn't mind if it was just the two of us.\nHow about you buy me something at the tavern?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_025#25",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_025",
+        "entry_index": 25,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_レダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_024#24",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_026#26"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 25,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "最初に出会った時に奢ってあげた分の\nお礼がまだだったしね。",
+        "official_en": "You never repaid me for the meal I bought you after\nwe met.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_026#26",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Led_Asw_C",
+        "jp_asset": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+        "label": "MID_SE_Led_Asw_C_026",
+        "entry_index": 26,
+        "jp_source_sha256": "1ce955554470cbf60fd67a4f20a8ec1c7def9957b124d56120416280ad1b7b99",
+        "official_en_source_sha256": "9e3c990bcf31750180c1d5886b74382eeb93cefc9a279e75894d989e6bede774"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "アスワン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_アスワン"
+            },
+            {
+              "source": "Msg/USen/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "アスワン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Led_Asw_C.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_アスワン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Led_Asw_C:MID_SE_Led_Asw_C_025#25"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 26,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Led_Asw_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "レダさん……！\nはい！　わかりました！",
+        "official_en": "Oh! I suppose you're right, Leda. The tavern it is!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

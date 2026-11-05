@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c09:MID_EV15_057_m01_017#165",
+      "source": {
+        "platform": "switch2",
+        "bank": "1_BEL_c09",
+        "jp_asset": "Msg/JPja/1_BEL_c09.msbt.zst",
+        "official_en_asset": "Msg/USen/1_BEL_c09.msbt.zst",
+        "label": "MID_EV15_057_m01_017",
+        "entry_index": 165,
+        "jp_source_sha256": "8de99a644831d41089d4376ab38d302a96f5dd49e20b488b7b59bb1fa1468d5d",
+        "official_en_source_sha256": "eb46a6d5537a30b509fd2ae82c60a94cdf0d137e251beb7ce896cfb1130d095d"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "シンラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/1_BEL_c09.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シンラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シンラ"
+            },
+            {
+              "source": "Msg/USen/1_BEL_c09.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シンラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/1_BEL_c09.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "キリーク",
+              "note": "Event stages a different sole actor; audited counterexample class shows staging actor is the listener and ATR1.PID remains the speaker"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c09:MID_EV15_057_m01_016#164",
+          "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c09:MID_EV15_057_m01_018#166"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 165,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV15_057_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "遺言は、今のうちに残しておけ。\nその程度であれば、待ってやらぬこともない。",
+        "official_en": "I will allow a moment for last rites before your\njourney to the underworld.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c09:MID_EV15_057_m01_018#166",
+      "source": {
+        "platform": "switch2",
+        "bank": "1_BEL_c09",
+        "jp_asset": "Msg/JPja/1_BEL_c09.msbt.zst",
+        "official_en_asset": "Msg/USen/1_BEL_c09.msbt.zst",
+        "label": "MID_EV15_057_m01_018",
+        "entry_index": 166,
+        "jp_source_sha256": "8de99a644831d41089d4376ab38d302a96f5dd49e20b488b7b59bb1fa1468d5d",
+        "official_en_source_sha256": "eb46a6d5537a30b509fd2ae82c60a94cdf0d137e251beb7ce896cfb1130d095d"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ベルトラン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/1_BEL_c09.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベルトラン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ベルトラン"
+            },
+            {
+              "source": "Msg/USen/1_BEL_c09.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ベルトラン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/1_BEL_c09.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ベルトラン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c09:MID_EV15_057_m01_017#165",
+          "fefw:switch2:vUNKNOWN:msbt-v3:1_BEL_c09:MID_EV15_057_m01_019#167"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 166,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_EV15_057_m01"
+      },
+      "function": "story",
+      "text": {
+        "jp": "あいにくと、\n俺はここで死ぬつもりはない。",
+        "official_en": "No need. I'm not planning to go there anytime soon.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

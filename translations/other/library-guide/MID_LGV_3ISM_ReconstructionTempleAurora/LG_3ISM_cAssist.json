@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_ReconstructionTempleAurora_m01#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_3ISM_cAssist",
+        "jp_asset": "Msg/JPja/LG_3ISM_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_3ISM_cAssist.msbt.zst",
+        "label": "MID_LGV_3ISM_ReconstructionTempleAurora_m01",
+        "entry_index": 17,
+        "jp_source_sha256": "f50f5719ab91671db05ae3859b79643de68ac07da61e4355f22254467eaf1d9c",
+        "official_en_source_sha256": "9479e2000d5787c5ceeefbc9f5ac15b6957b9eeaf2d3c9d0b62ddaa32c5117da"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGA_3ISM_CenJoin_m01#16",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_ReconstructionTempleAurora_m01_001#18"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_3ISM_ReconstructionTempleAurora_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_ReconstructionTempleAurora_m01_001#18",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_3ISM_cAssist",
+        "jp_asset": "Msg/JPja/LG_3ISM_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_3ISM_cAssist.msbt.zst",
+        "label": "MID_LGV_3ISM_ReconstructionTempleAurora_m01_001",
+        "entry_index": 18,
+        "jp_source_sha256": "f50f5719ab91671db05ae3859b79643de68ac07da61e4355f22254467eaf1d9c",
+        "official_en_source_sha256": "9479e2000d5787c5ceeefbc9f5ac15b6957b9eeaf2d3c9d0b62ddaa32c5117da"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "セントリオン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_3ISM_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セントリオン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_セントリオン"
+            },
+            {
+              "source": "Msg/USen/LG_3ISM_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セントリオン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_3ISM_cAssist.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_ReconstructionTempleAurora_m01#17",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_ReconstructionTempleAurora_m01_002#19"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 18,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_3ISM_ReconstructionTempleAurora_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "救世主殿、実は折り入ってご相談したい\nことがあるのですが、よろしいですかな。",
+        "official_en": "There's something I need to discuss with you, if you\ndon't mind, Promised One.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_ReconstructionTempleAurora_m01_002#19",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_3ISM_cAssist",
+        "jp_asset": "Msg/JPja/LG_3ISM_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_3ISM_cAssist.msbt.zst",
+        "label": "MID_LGV_3ISM_ReconstructionTempleAurora_m01_002",
+        "entry_index": 19,
+        "jp_source_sha256": "f50f5719ab91671db05ae3859b79643de68ac07da61e4355f22254467eaf1d9c",
+        "official_en_source_sha256": "9479e2000d5787c5ceeefbc9f5ac15b6957b9eeaf2d3c9d0b62ddaa32c5117da"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "セントリオン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_3ISM_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セントリオン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_セントリオン"
+            },
+            {
+              "source": "Msg/USen/LG_3ISM_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セントリオン",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_ReconstructionTempleAurora_m01_001#18",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_ReconstructionTempleAurora_m01_003#20"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 19,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_3ISM_ReconstructionTempleAurora_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "メリアス地方にあるアウロラ神殿の本殿は\n敵の攻撃により破壊されてしまっております。",
+        "official_en": "Aurora's temple in Melias was attacked\nand destroyed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_ReconstructionTempleAurora_m01_003#20",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_3ISM_cAssist",
+        "jp_asset": "Msg/JPja/LG_3ISM_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_3ISM_cAssist.msbt.zst",
+        "label": "MID_LGV_3ISM_ReconstructionTempleAurora_m01_003",
+        "entry_index": 20,
+        "jp_source_sha256": "f50f5719ab91671db05ae3859b79643de68ac07da61e4355f22254467eaf1d9c",
+        "official_en_source_sha256": "9479e2000d5787c5ceeefbc9f5ac15b6957b9eeaf2d3c9d0b62ddaa32c5117da"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "セントリオン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_3ISM_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セントリオン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_セントリオン"
+            },
+            {
+              "source": "Msg/USen/LG_3ISM_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セントリオン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_3ISM_cAssist.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_ReconstructionTempleAurora_m01_002#19",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_ReconstructionTempleAurora_m01_004#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 20,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_3ISM_ReconstructionTempleAurora_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "これを復興することができれば、周辺に暮らす\n者たちにとり、何よりの励みとなるでしょう。",
+        "official_en": "If it were to be restored to its former glory, it might\nserve as encouragement for those living nearby.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_ReconstructionTempleAurora_m01_004#21",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_3ISM_cAssist",
+        "jp_asset": "Msg/JPja/LG_3ISM_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_3ISM_cAssist.msbt.zst",
+        "label": "MID_LGV_3ISM_ReconstructionTempleAurora_m01_004",
+        "entry_index": 21,
+        "jp_source_sha256": "f50f5719ab91671db05ae3859b79643de68ac07da61e4355f22254467eaf1d9c",
+        "official_en_source_sha256": "9479e2000d5787c5ceeefbc9f5ac15b6957b9eeaf2d3c9d0b62ddaa32c5117da"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "セントリオン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_3ISM_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セントリオン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_セントリオン"
+            },
+            {
+              "source": "Msg/USen/LG_3ISM_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セントリオン",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_ReconstructionTempleAurora_m01_003#20",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_ReconstructionTempleAurora_m01_005#22"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 21,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_3ISM_ReconstructionTempleAurora_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "それに、神の道の門が使用可能になれば、\nこの戦いの助けとなることは疑いありませぬ。",
+        "official_en": "And, more than that, access to the Gate of the Gods\nwould doubtless be a boon to our war effort.",
+        "real_en": "And, more than that, access to the Gate of the Divine Path\nwould doubtless be a boon to our war effort."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_ReconstructionTempleAurora_m01_005#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_3ISM_cAssist",
+        "jp_asset": "Msg/JPja/LG_3ISM_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_3ISM_cAssist.msbt.zst",
+        "label": "MID_LGV_3ISM_ReconstructionTempleAurora_m01_005",
+        "entry_index": 22,
+        "jp_source_sha256": "f50f5719ab91671db05ae3859b79643de68ac07da61e4355f22254467eaf1d9c",
+        "official_en_source_sha256": "9479e2000d5787c5ceeefbc9f5ac15b6957b9eeaf2d3c9d0b62ddaa32c5117da"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "セントリオン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_3ISM_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セントリオン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_セントリオン"
+            },
+            {
+              "source": "Msg/USen/LG_3ISM_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セントリオン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_3ISM_cAssist.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_ReconstructionTempleAurora_m01_004#21",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGA_3ISM_ReconstructionTempleAurora_m01#23"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_3ISM_ReconstructionTempleAurora_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "どうか、アウロラ神殿の復興を\nお手伝いいただくことは出来ぬでしょうか。",
+        "official_en": "Please—would it be possible for you to assist us\nwith the restoration of Aurora's temple?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

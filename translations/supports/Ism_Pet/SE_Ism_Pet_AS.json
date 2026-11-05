@@ -1,0 +1,3072 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A",
+        "entry_index": 0,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_001#1"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_001",
+        "entry_index": 1,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "モブ1",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "モブ1",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_モブ1"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "モブ1",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_モブ1",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "うわああああーっ！\nだ、誰かーっ！",
+        "official_en": "Waaaaaagh! S-somebodyyy!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_002",
+        "entry_index": 2,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "行くよ、救世主さん！\nたあっ！",
+        "official_en": "Promised One! Here goes! Hrah!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_003",
+        "entry_index": 3,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イシュマール",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イシュマール",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イシュマール"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イシュマール",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………！",
+        "official_en": "Hyah!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_004",
+        "entry_index": 4,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "モブ1",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "モブ1",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_モブ1"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "モブ1",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_モブ1",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_005#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あなた方は命の恩人です！\nありがとうございます！",
+        "official_en": "We owe you our lives! Thank you so much!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_005#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_005",
+        "entry_index": 5,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_006#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ぼく、見回りに行ってくるね。\nまだ隠れている敵がいるかもしれないし。",
+        "official_en": "I'll go have a look for enemies that might still be\nlurking around.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_006#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_006",
+        "entry_index": 6,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_005#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_007#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "逃げようとする奴が隠れる場所には\nだいたい見当がつくから、すぐ終わると思う。",
+        "official_en": "I have a good idea about where they might hide, so\nthis'll be over quickly.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_007#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_007",
+        "entry_index": 7,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_006#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_008#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "CHOICE",
+        "utterance_kind": "CHOICE_OPTION",
+        "speaker_applicable": false,
+        "marker": "NCA",
+        "branch_tag": "NCA",
+        "branch_option": "A",
+        "branch_phase": "PROMPT",
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<NCA>勇敢だな",
+        "official_en": "<NCA>\"Very brave.\"",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_008#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_008",
+        "entry_index": 8,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_007#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あはは……\n嬉しいけど、ぼくには似合わない評価かも。",
+        "official_en": "Haha. I'm glad you think so, but that word doesn't\ndescribe me very well.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_009#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_009",
+        "entry_index": 9,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_008#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_010#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……隠れられる場所がわかるのは、\n自分が人一倍怖がりだからなんだ。",
+        "official_en": "I only know about hiding places because I'm good at\nfinding them for myself.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_010#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_010",
+        "entry_index": 10,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_009#9",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_011#11"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "今だって本当は怖くてたまらないよ。\nだけど、怯えているわけにもいかない。",
+        "official_en": "I'm quaking in my boots right now. I just know that I\ncan't afford to let fear win.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_011#11",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_011",
+        "entry_index": 11,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_010#10",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_012#12"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 11,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "こうしている間にも、どんどん危険は広がってる。\nさっきの人も、間に合ったから良かったけど……",
+        "official_en": "Danger is spreading even as we stand here talking.\nI'm glad we saved some folks, but there's more to do.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_012#12",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_012",
+        "entry_index": 12,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_011#11",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_013#13"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 12,
+        "label_alias_count": 1,
+        "dialogue_role": "CHOICE",
+        "utterance_kind": "CHOICE_OPTION",
+        "speaker_applicable": false,
+        "marker": "NCA",
+        "branch_tag": "NCA",
+        "branch_option": "A",
+        "branch_phase": "PROMPT",
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<NCA>見回りは私がやろう",
+        "official_en": "<NCA>\"Let me do the rounds instead.\"",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_013#13",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_013",
+        "entry_index": 13,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_012#12",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_014#14"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 13,
+        "label_alias_count": 1,
+        "dialogue_role": "CHOICE",
+        "utterance_kind": "CHOICE_OPTION",
+        "speaker_applicable": false,
+        "marker": "NCB",
+        "branch_tag": "NCB",
+        "branch_option": "B",
+        "branch_phase": "PROMPT",
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<NCB>二人で一緒に見回ろう",
+        "official_en": "<NCB>\"Let's do the rounds together.\"",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_014#14",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_014",
+        "entry_index": 14,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "text",
+              "value": "branch reply",
+              "note": "post-choice branch reply retains the responder PID"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_013#13",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_015#15"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 14,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "BRANCH_DIALOGUE",
+        "speaker_applicable": true,
+        "marker": "ACA",
+        "branch_tag": "ACA",
+        "branch_option": "A",
+        "branch_phase": "REPLY",
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<ACA>ぼくは拠点に戻れって？\nそれは駄目だよ。",
+        "official_en": "<ACA>So I should just go back to base? No, I can't do that.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_015#15",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_015",
+        "entry_index": 15,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "text",
+              "value": "branch reply",
+              "note": "post-choice branch reply retains the responder PID"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_014#14",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_016#16"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 15,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "BRANCH_DIALOGUE",
+        "speaker_applicable": true,
+        "marker": "ACB",
+        "branch_tag": "ACB",
+        "branch_option": "B",
+        "branch_phase": "REPLY",
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<ACB>ありがとう……でも大丈夫。\nぼくは一人でも、ちゃんとやれるよ。",
+        "official_en": "<ACB>Thank you, but I'll be alright by myself.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_016#16",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_016",
+        "entry_index": 16,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_015#15",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_017#17"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 16,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "困っている人を少しでも早く助けるためにも、\n手分けしたほうが良いと思う。",
+        "official_en": "I think it makes sense for us to split up. It'll mean we\ncan get to those in trouble that much faster.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_017#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_017",
+        "entry_index": 17,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_016#16",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_018#18"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ぼくはあっちを見て回るから、\n救世主さんは向こうのほうをお願い。",
+        "official_en": "I'll head over that way. Promised One, you can take\nthe other side.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_018#18",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_018",
+        "entry_index": 18,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_017#17",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_019#19"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 18,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……あ、そうそう。\nあなたにも呼子笛を渡しておくね。",
+        "official_en": "Oh! Right. The signal whistles. Let me give one to\nyou too.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_019#19",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_019",
+        "entry_index": 19,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_018#18",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_020#20"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 19,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "遠くにいても、音がよく聞こえるから、\n便利だと思っていくつか用意したんだ。",
+        "official_en": "The sound carries pretty far, so it's handy to have\na few just in case.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_020#20",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_020",
+        "entry_index": 20,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_019#19",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_021#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 20,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "前に、友達が危ない目に遭ったことがあったから。\nすぐに駆けつけられるようにって。",
+        "official_en": "A friend of mine was in a dangerous situation once,\nand I want to be able to rush to her side if needed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_021#21",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_021",
+        "entry_index": 21,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_020#20",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_022#22"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 21,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ぼくも同じのを持ってるんだけど……\n危なくなったら吹くから、助けてくれる？",
+        "official_en": "I've got one too, so just come and help me if you\nhear it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_022#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_022",
+        "entry_index": 22,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_021#21",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_023#23"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ほっ。救世主さんが来てくれるって思うと、\n安心できるよ。",
+        "official_en": "Heh. I can walk easy knowing the Promised One's\ngot my back.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_023#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_A_023",
+        "entry_index": 23,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_022#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S#24"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "それじゃ、行ってくる。\nしっかりやるから、心配しないでね！",
+        "official_en": "Alright. Time to finish this.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S#24",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S",
+        "entry_index": 24,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_A_023#23",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_001#25"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 24,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_001#25",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_001",
+        "entry_index": 25,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イシュマール",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イシュマール",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イシュマール"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イシュマール",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イシュマール",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S#24",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_002#26"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 25,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "（呼子笛の音が聞こえる……！）",
+        "official_en": "Ah!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_002#26",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_002",
+        "entry_index": 26,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_001#25",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_003#27"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 26,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "きゅっ、救世主さん！？\n嘘……！　本当に来てくれた……！",
+        "official_en": "Promised One. You came to help me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_003#27",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_003",
+        "entry_index": 27,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event stages the same person (look/placement) but does not perform a motion command on the line"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_002#26",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_004#28"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 27,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "呼子笛の音、聞こえたんだ？　あはは……\n駄目かもって思ってたんだけど……",
+        "official_en": "You heard the signal, and you're here. Heh...\nI wasn't sure it'd work.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_004#28",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_004",
+        "entry_index": 28,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_003#27",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_005#29"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 28,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あなたがいなくなって、いろんな場所を\n探し回って、でもいなくて、うっ、うう……",
+        "official_en": "When you disappeared, I looked everywhere for you.\nBut I couldn't find you, and... *sniffle*",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_005#29",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_005",
+        "entry_index": 29,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_004#28",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_006#30"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 29,
+        "label_alias_count": 1,
+        "dialogue_role": "CHOICE",
+        "utterance_kind": "CHOICE_OPTION",
+        "speaker_applicable": false,
+        "marker": "NCA",
+        "branch_tag": "NCA",
+        "branch_option": "A",
+        "branch_phase": "PROMPT",
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<NCA>そんなに泣かなくても",
+        "official_en": "<NCA>\"Now, now. Don't cry.\"",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_006#30",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_006",
+        "entry_index": 30,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_005#29",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_007#31"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 30,
+        "label_alias_count": 1,
+        "dialogue_role": "CHOICE",
+        "utterance_kind": "CHOICE_OPTION",
+        "speaker_applicable": false,
+        "marker": "NCB",
+        "branch_tag": "NCB",
+        "branch_option": "B",
+        "branch_phase": "PROMPT",
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<NCB>ちゃんと駆けつけた",
+        "official_en": "<NCB>\"I rushed to your side.\"",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_007#31",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_007",
+        "entry_index": 31,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "text",
+              "value": "branch reply",
+              "note": "post-choice branch reply retains the responder PID"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_006#30",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_008#32"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 31,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "BRANCH_DIALOGUE",
+        "speaker_applicable": true,
+        "marker": "ACA",
+        "branch_tag": "ACA",
+        "branch_option": "A",
+        "branch_phase": "REPLY",
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<ACA>ごめんなさい……\nでも、止まらなくって……",
+        "official_en": "<ACA>I'm sorry... I can't stop...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_008#32",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_008",
+        "entry_index": 32,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "text",
+              "value": "branch reply",
+              "note": "post-choice branch reply retains the responder PID"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_007#31",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_009#33"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 32,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "BRANCH_DIALOGUE",
+        "speaker_applicable": true,
+        "marker": "ACB",
+        "branch_tag": "ACB",
+        "branch_option": "B",
+        "branch_phase": "REPLY",
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<ACB>うん……\n泣いちゃってごめんなさい。",
+        "official_en": "<ACB>I'm sorry for crying.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_009#33",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_009",
+        "entry_index": 33,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_008#32",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_010#34"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 33,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "やっぱりぼくは、臆病者のままだ。\n全然、強くなんてなれてないや。",
+        "official_en": "I'm such a coward at heart. I feel as if I'm still that\nweak little kid I was years ago.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_010#34",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_010",
+        "entry_index": 34,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_009#33",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_011#35"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 34,
+        "label_alias_count": 1,
+        "dialogue_role": "CHOICE",
+        "utterance_kind": "CHOICE_OPTION",
+        "speaker_applicable": false,
+        "marker": "NCA",
+        "branch_tag": "NCA",
+        "branch_option": "A",
+        "branch_phase": "PROMPT",
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<NCA>そんなことはない",
+        "official_en": "<NCA>\"That's not true at all.\"",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_011#35",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_011",
+        "entry_index": 35,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_010#34",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_012#36"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 35,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……もしそうだとしたら、\nそれはあなたがいてくれたから、だよ。",
+        "official_en": "Well, if I do seem stronger, it's only because you\nwere there for me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_012#36",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_012",
+        "entry_index": 36,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_011#35",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_013#37"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 36,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "一人で見回りなんて、本当は怖くてできない。\nでも、必ず助けに来てくれるって思ってたから。",
+        "official_en": "I didn't want to patrol alone. I was so scared, but I\ndid it because I knew you'd save me if I needed you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_013#37",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_013",
+        "entry_index": 37,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_012#36",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_014#38"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 37,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "それでどうにか踏ん張れていただけ。\n救世主さんがいなくなってからは不安で不安で……",
+        "official_en": "If I had any courage, it was because I knew you'd\nshield me. But I lost it when you went missing.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_014#38",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_014",
+        "entry_index": 38,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_013#37",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_015#39"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 38,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………その、考えてたんだけど。\nぼく、あなたがいないと駄目みたいなんだ。",
+        "official_en": "I guess I'm just no good without you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_015#39",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_015",
+        "entry_index": 39,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_014#38",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_016#40"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 39,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "迷惑だったらごめんね？\nこれからはずっと、側にいてもらえないかな……",
+        "official_en": "I know this is a lot to ask, but... Do you think you can\nalways be by my side?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_016#40",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_016",
+        "entry_index": 40,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_015#39",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_017#41"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 40,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "わ……！　ほ、本当？\n嬉しいよ！　うう、感動したらまた涙が……！",
+        "official_en": "Oh... That makes me so happy. Ugh, I'm probably\ngonna cry again.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_017#41",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_017",
+        "entry_index": 41,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_016#40",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_018#42"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 41,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "えへへ、おかしいなあ。あなたといると\n安心できるのに、泣いてばっかりだ。",
+        "official_en": "Heh... I know I'm safe with you, but that just makes\nme want to cry even more.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_018#42",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_018",
+        "entry_index": 42,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_017#41",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_019#43"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 42,
+        "label_alias_count": 1,
+        "dialogue_role": "CHOICE",
+        "utterance_kind": "CHOICE_OPTION",
+        "speaker_applicable": false,
+        "marker": "NCA",
+        "branch_tag": "NCA",
+        "branch_option": "A",
+        "branch_phase": "PROMPT",
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<NCA>もう怖い思いはしなくていい",
+        "official_en": "<NCA>\"You don't need to be afraid anymore.\"",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_019#43",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_019",
+        "entry_index": 43,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_018#42",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_022#44"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 43,
+        "label_alias_count": 1,
+        "dialogue_role": "CHOICE",
+        "utterance_kind": "CHOICE_OPTION",
+        "speaker_applicable": false,
+        "marker": "NCB",
+        "branch_tag": "NCB",
+        "branch_option": "B",
+        "branch_phase": "PROMPT",
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<NCB>泣く必要はない",
+        "official_en": "<NCB>\"There's no need to cry.\"",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_022#44",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_022",
+        "entry_index": 44,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_019#43",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_020#45"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 44,
+        "label_alias_count": 1,
+        "dialogue_role": "EMPTY",
+        "utterance_kind": "EMPTY",
+        "speaker_applicable": false,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "",
+        "official_en": "",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_020#45",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_020",
+        "entry_index": 45,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_022#44",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_021#46"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 45,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": "RSDS",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<RSDS>……うん！　そうだね。\nありがとう、救世主さん。",
+        "official_en": "<RSDS>You're right. Thank you, Promised One.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_021#46",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Ism_Pet_AS",
+        "jp_asset": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+        "label": "MID_SE_Ism_Pet_S_021",
+        "entry_index": 46,
+        "jp_source_sha256": "87db39c609f1e671b4c2a805d0102763a24ed746a82ba50293fb91c40d30372c",
+        "official_en_source_sha256": "c8e15ef5f8fc5ba380619e84c092991f45a4dfd6865cfd23b609e5e3dd122191"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ピーテル",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ピーテル"
+            },
+            {
+              "source": "Msg/USen/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ピーテル",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Ism_Pet_AS.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ピーテル",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Ism_Pet_AS:MID_SE_Ism_Pet_S_020#45"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 46,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Ism_Pet_S"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "この呼子笛はもう要らないね。\n離れることなんて、ないんだから！",
+        "official_en": "And since we'll never be apart again, I guess I won't\nneed this whistle anymore.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

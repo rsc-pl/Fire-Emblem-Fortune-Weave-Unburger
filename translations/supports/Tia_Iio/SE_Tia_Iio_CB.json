@@ -1,0 +1,3663 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C",
+        "entry_index": 0,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_001#1"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_001",
+        "entry_index": 1,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……よし、いいぞロシナン。\n今日も元気そうだな。",
+        "official_en": "Good work today, Rocinan. You should be proud.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_002",
+        "entry_index": 2,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "ティアラ",
+              "note": "Event stages a different sole actor; audited counterexample class shows staging actor is the listener and ATR1.PID remains the speaker"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ん、どうした。\n何か気になるのか？",
+        "official_en": "Hey, what's the matter? Shh... What is it?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_003",
+        "entry_index": 3,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "その子、ロシナンっていうの？\nあたしが知ってる馬と同じ名前だわ。",
+        "official_en": "Your horse is called Rocinan, right? I knew another\nhorse with that name once.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_004",
+        "entry_index": 4,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_005#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ティアラか………………\n落ち着けロシナン、普段はもっとおとなしいだろ。",
+        "official_en": "See, it's only Tialla. Relax, boy... This isn't like you.",
+        "real_en": "See, it's only Tiara. Relax, boy... This isn't like you."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_005#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_005",
+        "entry_index": 5,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_006#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "もしかしてこの子……\nサリフさんって人の馬じゃなかった？",
+        "official_en": "This isn't Sir Sariff's horse by any chance, is it?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_006#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_006",
+        "entry_index": 6,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_005#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_007#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "！　それは亡父の名だ。\nこいつは俺が１５の頃に受け継いだんだ。",
+        "official_en": "You speak of my late father. I inherited this beast\nfrom him when I was 15.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_007#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_007",
+        "entry_index": 7,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_006#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_008#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "だが、なぜ君がロシナンと親父を……\nアラゴ王国に仕えていた騎士を知っている？",
+        "official_en": "Hm. How could you know my father and Rocinan?\nAre you familiar with the knights of Arago?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_008#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_008",
+        "entry_index": 8,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_007#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "やっぱり！　それならあたし、\n昔この子に会ったことがあるわ！",
+        "official_en": "I knew it! I have met this horse, although it was\nquite a while ago.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_009#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_009",
+        "entry_index": 9,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_008#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_010#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "うちの両親も、グラン・アラゴンで\nハスドルバル陛下に仕えていたから。",
+        "official_en": "My parents were stationed in Grand Aragon, serving\nunder King Hasdrubal.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_010#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_010",
+        "entry_index": 10,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_009#9",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_011#11"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "騎士をしていたサリフさんが、\nその子を連れて家に来たことがあるの。",
+        "official_en": "Sir Sariff brought this horse to our house a few times.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_011#11",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_011",
+        "entry_index": 11,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_010#10",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_012#12"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 11,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "親父は顔が広かったからな……\nどこに住んでいたんだ？",
+        "official_en": "Father was a friend to many. Where did you live?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_012#12",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_012",
+        "entry_index": 12,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_011#11",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_013#13"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 12,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "マオン城郭よ。\n確かその時は、息子さんも一緒だったような……",
+        "official_en": "Mahón Castle. And now I'm recalling that he might\nhave had his son with him.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_013#13",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_013",
+        "entry_index": 13,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_012#12",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_014#14"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 13,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そうか！　君はあの時、\nアウグストさんの家にいた……",
+        "official_en": "That's right. You must have been in August's\nhousehold at that time.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_014#14",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_014",
+        "entry_index": 14,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_013#13",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_015#15"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 14,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "国を出て何年も経つが、\nこうして再会できるとは思わなかったよ。",
+        "official_en": "I left my country years ago. I never expected we'd\nmeet again in these circumstances.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_015#15",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_015",
+        "entry_index": 15,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_014#14",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_016#16"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 15,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あたしだって思いもしなかったわ。\nあの時の男の子が傭兵になっているだなんて。",
+        "official_en": "Me neither. And who'd have thought that little boy\nwould grow up to become a mercenary?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_016#16",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_016",
+        "entry_index": 16,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_015#15",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_017#17"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 16,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "まったくだ。俺もティアラが、\n魔道の使い手になっているとは驚いた。",
+        "official_en": "Indeed. Of course, I'm just as surprised to see that\nyou're a mage now.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_017#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_017",
+        "entry_index": 17,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_016#16",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_018#18"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "母君も優れた才を持っていたと聞く。\n流石だな。",
+        "official_en": "Then again, your mother had a great talent for magic,\ndidn't she? So it makes sense.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_018#18",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_018",
+        "entry_index": 18,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_017#17",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_019#19"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 18,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "イオさんこそ、ロシナンと息がぴったり！\nサリフさん譲りね。",
+        "official_en": "Io, you seem to have a way with that horse. I guess\nyou inherited that from Sir Sariff too.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_019#19",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_019",
+        "entry_index": 19,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_018#18",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_020#20"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 19,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………\nだといいがな……",
+        "official_en": "M-maybe so...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_020#20",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_020",
+        "entry_index": 20,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_019#19",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_021#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 20,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あなたも、あたしを覚えていてくれたのね。\nまた会えて嬉しいわ！",
+        "official_en": "And you remembered me too, didn't you, Rocinan?\nSo nice to see you again.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_021#21",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_021",
+        "entry_index": 21,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_020#20",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_022#22"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 21,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ねえ、イオさん。\nこの子のこと撫でさせてもらっていい？",
+        "official_en": "Io, do you mind if I pet your beautiful horse?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_022#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_022",
+        "entry_index": 22,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_021#21",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_023#23"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "もちろん、好きに撫でてやってくれ。\nロシナンも喜ぶ。",
+        "official_en": "Not at all. I'm sure Rocinan would like that.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_023#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_C_023",
+        "entry_index": 23,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_022#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B#24"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……親父譲り、か。\n俺はあんな立派な騎士にはなれていないがな……",
+        "official_en": "<#CTRL:0E>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B#24",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B",
+        "entry_index": 24,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_C_023#23",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_001#25"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 24,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_001#25",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_001",
+        "entry_index": 25,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B#24",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_002#26"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 25,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "イオさん、ロシナンも無事ね。\n二人の戦いぶり、流石だったわ。",
+        "official_en": "Io, Rocinan, you're both safe. Excellent. Not that I'd\nexpect anything less.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_002#26",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_002",
+        "entry_index": 26,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_001#25",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_003#27"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 26,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "生まれた時からの付き合いだからな。\n互いの動きは理解している。",
+        "official_en": "We've been together since I was born. We know\neach other's movements well.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_003#27",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_003",
+        "entry_index": 27,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_002#26",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_004#28"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 27,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "サリフさんと同じぐらいこの子と息ぴったりだけど、\n戦い方は全然違うわね。",
+        "official_en": "You inherited Sir Sariff's harmony with this horse,\nbut your fighting style is different from your father's.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_004#28",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_004",
+        "entry_index": 28,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_003#27",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_005#29"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 28,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "イオさんは傭兵らしく、\nちょっと荒っぽい手も使うし……",
+        "official_en": "You've got those sly mercenary techniques, and you\naren't afraid to use them.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_005#29",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_005",
+        "entry_index": 29,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_004#28",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_006#30"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 29,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あの騎士の息子なのに、と思うか？\n親父は常に落ち着いて構えていたからな。",
+        "official_en": "I know—not very like the son of a knight.\nFather was always so calm in battle.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_006#30",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_006",
+        "entry_index": 30,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_005#29",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_007#31"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 30,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そんなことはないわ。\nだって、サリフさんとイオさんは別人だもの。",
+        "official_en": "I didn't mean it that way. It's just that you and Sir\nSariff are a study in contrasts.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_007#31",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_007",
+        "entry_index": 31,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_006#30",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_008#32"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 31,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "違いに着目したのは、\nあたしが立てる作戦に影響するからよ。",
+        "official_en": "I tend to notice these things because they often\nimpact the strategies I develop.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_008#32",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_008",
+        "entry_index": 32,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_007#31",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_009#33"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 32,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そういった特性を活かして戦術を考えるのは、\nこっちの仕事だから！",
+        "official_en": "It's part of my job, really, developing battle plans\nbased on the characteristics I see in people.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_009#33",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_009",
+        "entry_index": 33,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_008#32",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_010#34"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 33,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "立派だな。\nご両親もさぞかし誇らしいだろう。",
+        "official_en": "That's admirable work. Your parents must be proud.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_010#34",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_010",
+        "entry_index": 34,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_009#33",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_011#35"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 34,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "イオさんもね。\n傭兵になっても、騎士の誇りを忘れていないもの。",
+        "official_en": "You too, Io. You may be a mercenary, but you have a\nknight's sensibilities.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_011#35",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_011",
+        "entry_index": 35,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_010#34",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_012#36"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 35,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "初めて会った日……あたしはまだ６歳で、\nイオさんは１０歳ぐらいだったかしら。",
+        "official_en": "When we met as children, I must have been 6,\nwhich would mean you were about 10.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_012#36",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_012",
+        "entry_index": 36,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_011#35",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_013#37"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 36,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "「あの子供たちが勇敢に戦ってるなんて」って、\n親たちにはびっくりされちゃうかも。",
+        "official_en": "Our parents would be shocked if they could see us\ntogether now. \"Look at our brave kids!\"",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_013#37",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_013",
+        "entry_index": 37,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_012#36",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_014#38"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 37,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "俺は、親父のような騎士にはなれていない。\n……だが、君を必ず生きて帰すと誓おう。",
+        "official_en": "I may not be a knight like Father yet, but I promise\nto see you home alive.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_014#38",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_014",
+        "entry_index": 38,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_013#37",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_015#39"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 38,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あの日俺に優しく接してくれた、\nご両親のためにも。",
+        "official_en": "I owe it to your parents too. They were kind to me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_015#39",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_015",
+        "entry_index": 39,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_014#38",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_016#40"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 39,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ど、どうしたの？\nそんな、急に改まって……",
+        "official_en": "So chivalrous all of a sudden.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_016#40",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_016",
+        "entry_index": 40,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_015#39",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_017#41"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 40,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "俺なりの決意だ。\n今は未熟でも、いずれ父のような騎士になる。",
+        "official_en": "I do my best. I'm not there yet, but one day I'll be a\ntrue knight.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_017#41",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_017",
+        "entry_index": 41,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_016#40",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_018#42"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 41,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "一緒に戦う仲間なんだから、\n背中を預け合えばいいじゃない。",
+        "official_en": "Friends who fight together have to look out for each\nother, right?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_018#42",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_018",
+        "entry_index": 42,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_017#41",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_019#43"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 42,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あたしたちの親だって、ハスドルバル陛下の下で、\nきっと同じように支え合っていたはずだわ。",
+        "official_en": "I'm sure our parents treated each other that same\nway when they served King Hasdrubal.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_019#43",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_019",
+        "entry_index": 43,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_018#42",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_020#44"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 43,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "それにあたし、\n守られなきゃいけないほど弱くないんだから。",
+        "official_en": "Just bear in mind that I don't need protection.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_020#44",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_020",
+        "entry_index": 44,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_019#43",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_021#45"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 44,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "イオさんとは対等の関係で、\n一緒に戦場に立ちたいわ。",
+        "official_en": "We stand together as equals on the battlefield, Io.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_021#45",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_021",
+        "entry_index": 45,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_020#44",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_022#46"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 45,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "無論、君の実力を疑ったことは一度もない。\n母君譲りの魔道は頼もしいよ。",
+        "official_en": "Of course. Your abilities speak for themselves.\nYou wield your mother's magic with ease.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_022#46",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_022",
+        "entry_index": 46,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_021#45",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_023#47"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 46,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そうでしょ？\n実際の戦いでもイオさんの助けになれるわ！",
+        "official_en": "You better believe it. In any fight, I've got you\ncovered.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_023#47",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_023",
+        "entry_index": 47,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_022#46",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_024#48"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 47,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……だがそれでも、\n俺はティアラを守りたいんだ。",
+        "official_en": "<#CTRL:0E>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_024#48",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_024",
+        "entry_index": 48,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_023#47",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_025#49"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 48,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あの小さかった娘が、\nこんな素敵な女性になっているとは……",
+        "official_en": "<#CTRL:0E>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_025#49",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_025",
+        "entry_index": 49,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_024#48",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_026#50"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 49,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "どうしたの？　顔が真っ赤よ。体調が悪いなら、\n言ってくれないと。それこそ作戦に影響が……",
+        "official_en": "Has your face gone red? Better let me know if\nyou're ill. It'll affect my tactics.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_026#50",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_026",
+        "entry_index": 50,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_025#49",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_027#51"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 50,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "なんでもない。\nただ、感慨深いなと思っていただけだ。",
+        "official_en": "Oh, no. It's nothing. I'm just, uh, moved is all.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_027#51",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_027",
+        "entry_index": 51,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "イオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_イオ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "イオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_イオ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_026#50",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_028#52"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 51,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "母君の足にしがみついて動かなかった女の子が、\n立派になったものだな、と。",
+        "official_en": "I once saw you clinging to your mother's leg, and\nnow look how far you've come.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_028#52",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Tia_Iio_CB",
+        "jp_asset": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+        "label": "MID_SE_Tia_Iio_B_028",
+        "entry_index": 52,
+        "jp_source_sha256": "7ed91a427cdb2a9dd7357e5043ee27f0ba377e2762b52412ffe257a9ff527cb5",
+        "official_en_source_sha256": "11c9a545b3deda73100f58ec10118f1e22e4d08ab213346e58e4280d368bcb90"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ティアラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ティアラ"
+            },
+            {
+              "source": "Msg/USen/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ティアラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Tia_Iio_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ティアラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Tia_Iio_CB:MID_SE_Tia_Iio_B_027#51"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 52,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Tia_Iio_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ええっ！？　……んもう！\nそんな小さな頃のことを持ち出さないで！",
+        "official_en": "Hey, go easy on the embarrassing childhood\nmemories!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

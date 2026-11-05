@@ -1,0 +1,4752 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C",
+        "entry_index": 0,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_001#1"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C_001",
+        "entry_index": 1,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "捜したよ、シモン！\nあんたに頼みたいことがあるんだ！",
+        "official_en": "Hey, Simon! Been looking for you. Need a favor, if\nthat's alright.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C_002",
+        "entry_index": 2,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……ミカエラか。何だ？　有名人のあんたが、\nおれなんかに頼みってのは？",
+        "official_en": "A favor? It's Mikaela, right? What could a guy like\nme offer someone as famous as you?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C_003",
+        "entry_index": 3,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "は、そっちこそ“天鼓のシモン”なんて\nたいそうな二つ名で知られる有名人じゃないか。",
+        "official_en": "Me? What about you? Sky-Drum Simon. That's the\nkinda nickname that puts fear in people's hearts!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C_004",
+        "entry_index": 4,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_005#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そのあんたの実力を見込んで、\n手合わせをお願いしたいのさ。",
+        "official_en": "We'll be counting on each other, so I figured a\nsparring match would be a good idea.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_005#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C_005",
+        "entry_index": 5,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_006#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "昔の感覚を思い出すなら、現役で凄腕の傭兵と\n戦うのが手っ取り早いからね。",
+        "official_en": "I'm trying to sharpen my skills up. With your\nreputation, you seem like a good whetstone.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_006#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C_006",
+        "entry_index": 6,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_005#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_007#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "昔ねえ。悪いが他を当たってくれ。\nおれは今そんな気分じゃねえのさ。",
+        "official_en": "Sorry, but you're gonna have to ask someone else.\nI'm not really in the mood.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_007#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C_007",
+        "entry_index": 7,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_006#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_008#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "何言ってんだい。実戦形式ってのは\nどんだけやっても損はない。",
+        "official_en": "You kidding? There's no such thing as too\nmuch practice.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_008#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C_008",
+        "entry_index": 8,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_007#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "言っておくけど、手加減なんてしたら\n承知しないからね。ほら、早く行くよ！",
+        "official_en": "I'm warning you—if you hold back on me, we're just\ngoing to go again. Come on, time's wasting!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_009#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C_009",
+        "entry_index": 9,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_008#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_010#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "だからやらねえって……\n聞いちゃいねえな。ったく……",
+        "official_en": "I just said I'm not— Damn, she doesn't hear a word\nI say, does she?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_010#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C_010",
+        "entry_index": 10,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_009#9",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_011#11"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "はあ……はあ……いやあ、流石だね！\n頼んで正解だったよ！",
+        "official_en": "Whew... Not...bad! Was that a workout! I knew you\nwere the one to ask.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_011#11",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C_011",
+        "entry_index": 11,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_010#10",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_012#12"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 11,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "特に見切りが抜群だ。まともに攻撃を\n入れられたのは最後の１回ぐらいのもんだね。",
+        "official_en": "You were incredible at reading my moves. I only\ntagged you at the very end!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_012#12",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C_012",
+        "entry_index": 12,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_011#11",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_013#13"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 12,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あんたの動きが大振りすぎなだけだぜ。\nあんなの誰だってわかる。",
+        "official_en": "Your movements are slow. It's obvious where your\nattacks are coming from.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_013#13",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C_013",
+        "entry_index": 13,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_012#12",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_014#14"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 13,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……本当に衰えちまったみたいだな。\n昔は凄まじかったらしいが、残念だよ。",
+        "official_en": "You've let yourself go—which is a shame! I hear\nyou used to be something to behold.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_014#14",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C_014",
+        "entry_index": 14,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_013#13",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_015#15"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 14,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "言ってくれるねえ。\n腕はいいけど、ひねくれた男だよ。",
+        "official_en": "That right? You might be the best of the best, but\nyour attitude has some room for improvement.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_015#15",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C_015",
+        "entry_index": 15,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_014#14",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_016#16"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 15,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "でもま、嫌がってた割には付き合ってくれたし、\n本気で相手してくれたみたいで嬉しかったよ。",
+        "official_en": "That said, you gave me a real fight even though you\ndidn't want to, so I can't complain.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_016#16",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C_016",
+        "entry_index": 16,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_015#15",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_017#17"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 16,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "次は期待しといてくれ。\nもっとたくさん当ててやるよ。",
+        "official_en": "I look forward to next time. I'll see you around—\ncount on it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_017#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C_017",
+        "entry_index": 17,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_016#16",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_018#18"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "おい、何で次も付き合う前提なんだよ。\nはあ、だから聞けって……",
+        "official_en": "Hey, hey! Don't just assume I'll go along with your—\nDamn it... She never listens.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_018#18",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C_018",
+        "entry_index": 18,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_017#17",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_019#19"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 18,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "しかし、貰ったのはあの１発だけだってのに、\n……ってえな。あれ、相当やばいぜ。",
+        "official_en": "Ugh. She may have only landed the one hit, but...\nI'll be feeling it later.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_019#19",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C_019",
+        "entry_index": 19,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_018#18",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_020#20"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 19,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "腐っても、“鉄血のミカエラ”ってわけか……\nだが、やっぱりあの頃には程遠いな。",
+        "official_en": "Even with the rust, she's still Mikaela Redblade.",
+        "real_en": "Even with the rust, she's still Iron-Blooded Mikaela."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_020#20",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C_020",
+        "entry_index": 20,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_019#19",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_021#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 20,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "昔、おれが会ったあんたは\nどこ行っちまったんだか。",
+        "official_en": "What happened to the woman I met all those\nyears ago?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_021#21",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_C_021",
+        "entry_index": 21,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_020#20",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B#22"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 21,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……ま、お互い、変わっちまったってことか。\nあっちもおれを思い出せねえみたいだしな。",
+        "official_en": "I guess we've both changed since last we saw each\nother—not that she remembers me...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B",
+        "entry_index": 22,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_C_021#21",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_001#23"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_001#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B_001",
+        "entry_index": 23,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_002#24"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "はあ～……\n今日こそは勝てると思ったんだけどね。",
+        "official_en": "Whew. I really thought today would be the day.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_002#24",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B_002",
+        "entry_index": 24,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_001#23",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_003#25"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 24,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "見切られても関係ないぐらいには、\n速くなったんだしさ。",
+        "official_en": "I've got my speed back, so I figured you couldn't read\nme. Guess I was wrong.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_003#25",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B_003",
+        "entry_index": 25,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_002#24",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_004#26"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 25,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "何度も付き合わされるうちに動きを\n覚えちまったからな。見切るまでもなくなったぜ。",
+        "official_en": "I don't need to follow you with my eyes. After all\nthis time together, I know how you move.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_004#26",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B_004",
+        "entry_index": 26,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_003#25",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_005#27"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 26,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "しかし、あんたもよくやるよ。その年で\n強くなろうなんて普通の人間は考えないぜ。",
+        "official_en": "But you're doing well! Most people wouldn't dare\nto start training again at your age.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_005#27",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B_005",
+        "entry_index": 27,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_004#26",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_006#28"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 27,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………",
+        "official_en": "Heh.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_006#28",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B_006",
+        "entry_index": 28,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_005#27",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_007#29"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 28,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……おい、どうした？\n人の話聞いてんのか？",
+        "official_en": "Hey. Are you ignoring me again?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_007#29",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B_007",
+        "entry_index": 29,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_006#28",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_008#30"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 29,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "聞いてるよ。あんたは変わんないなって、\n昔を思い出してたのさ。",
+        "official_en": "I'm listening, alright. I was just thinking about the\nold days. You haven't changed.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_008#30",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B_008",
+        "entry_index": 30,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_007#29",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_009#31"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 30,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "立場は逆転したけど、文句を言いながら、\n何だかんだ付き合う辺り、昔のまんまだろ？　",
+        "official_en": "Here I am, coming to you. The roles have reversed,\nbut the script is the same.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_009#31",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B_009",
+        "entry_index": 31,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_008#30",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_010#32"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 31,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "！？　覚えてたのかよ！\n村にあんたが来た時、おれは１４のガキだぜ！？",
+        "official_en": "Wha— So you do remember! I was only 14 when\nyou were there!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_010#32",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B_010",
+        "entry_index": 32,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_009#31",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_011#33"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 32,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "覚えてるに決まってんだろ？\nでなけりゃ、あんたなんかに頼まないよ。",
+        "official_en": "You thought I'd forget? If it wasn't for back then,\nI'd never have asked you to spar.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_011#33",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B_011",
+        "entry_index": 33,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_010#32",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_012#34"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 33,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "なんてったって、“天鼓のシモン”は\n女癖の悪さも有名だからね。",
+        "official_en": "Usually I steer clear of men like you—the ones who\ncan't keep it in their breeches.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_012#34",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B_012",
+        "entry_index": 34,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_011#33",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_013#35"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 34,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ひでえ、散々な言われようだぜ……\n否定はしねえけどよ……",
+        "official_en": "Well, when you say it like that, it sounds awful!\nI don't deny it though.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_013#35",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B_013",
+        "entry_index": 35,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_012#34",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_014#36"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 35,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そりゃそうさ。どうせ身から出た錆だろ？\n……強くなったね。元師匠としちゃ鼻が高いよ。",
+        "official_en": "Like I said, your reputation precedes you. Why mince\nwords? I am proud, though, to see you so strong.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_014#36",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B_014",
+        "entry_index": 36,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_013#35",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_015#37"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 36,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "へっ、何も教えてないくせに『師匠』\nなんてよく言えたもんだぜ。",
+        "official_en": "Funny that you're proud, considering you never\ntaught me anything.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_015#37",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B_015",
+        "entry_index": 37,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_014#36",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_016#38"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 37,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "仕事で立ち寄った村で、跳ねっ返りの\nガキを殴り飛ばしただけじゃねえか。",
+        "official_en": "All you did was beat me up—an idiot kid.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_016#38",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B_016",
+        "entry_index": 38,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_015#37",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_017#39"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 38,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "『腐った性根を叩き直してやる』って、\n何度も転がしやがってよ。",
+        "official_en": "You just kept saying you'd \"knock that rotten\nattitude\" outta me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_017#39",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B_017",
+        "entry_index": 39,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_016#38",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_018#40"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 39,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そんなもん、あたしの給金を\nくすねようとしたあんたが悪い。",
+        "official_en": "To be fair, you brought it on yourself. You had your\nhand in my purse!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_018#40",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B_018",
+        "entry_index": 40,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_017#39",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_019#41"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 40,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "むしろ感謝してほしいぐらいだよ。\n村に突き出さずに、機会をやったんだからね。",
+        "official_en": "See, you really should thank me. I could have\nturned you in. Instead, I helped you out.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_019#41",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B_019",
+        "entry_index": 41,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_018#40",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_020#42"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 41,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "『金が欲しけりゃ、勝ってみな』だろ？\nただのガキが傭兵に勝てるわけねえだろ……",
+        "official_en": "\"If you want the money, try and take it.\" Like a kid\nhad any chance against a grown mercenary...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_020#42",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B_020",
+        "entry_index": 42,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_019#41",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_021#43"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 42,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そうかい？　まあ、いいじゃないか。\n今はやり返す機会が巡ってきたんだからさ。",
+        "official_en": "That so? Well, now's your chance to turn the tables,\nso stop whining.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_021#43",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_B_021",
+        "entry_index": 43,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_020#42",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A#44"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 43,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "全然堪えてねえくせに、よく言うぜ……",
+        "official_en": "Bold words considering how much I'm holding back.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A#44",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A",
+        "entry_index": 44,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_B_021#43",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_001#45"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 44,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_001#45",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_001",
+        "entry_index": 45,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A#44",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_002#46"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 45,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……温い攻撃だねえ。\nなら、今度はこっちの番だよ！",
+        "official_en": "Is that a joke? I'll show you what's what!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_002#46",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_002",
+        "entry_index": 46,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_001#45",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_003#47"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 46,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "一人でほとんど片づけちまうとはな。\nもう全盛期の、いや、それ以上じゃないか？",
+        "official_en": "Impressive work, mopping up the leftovers. You seem\nto be as strong as you ever were, if not stronger.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_003#47",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_003",
+        "entry_index": 47,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_002#46",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_004#48"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 47,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "腕力だけなら、そうかもしれないね。\n引退してからもずっと鍛え続けてたし。",
+        "official_en": "In terms of pure strength...maybe. I kept up my\ntraining during retirement.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_004#48",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_004",
+        "entry_index": 48,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_003#47",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_005#49"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 48,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "おれとの手合わせを経て、その力を存分に\n叩き込めるようになったってわけか。すげえな。",
+        "official_en": "And sparring with me helped you draw out strength\nyou didn't know you had? Amazing work.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_005#49",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_005",
+        "entry_index": 49,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_004#48",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_006#50"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 49,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……珍しく手放しで褒めてくれるね。\n何か良からぬことでも企んでるのかい？",
+        "official_en": "Wow, the compliments come easy today. You must\nbe plotting something.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_006#50",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_006",
+        "entry_index": 50,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_005#49",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_007#51"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 50,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そんなんじゃない。本心だ。\n前に進めるあんたを純粋にすげえと思った。",
+        "official_en": "No, nothing like that. I think the progress you've\nmade is incredible. Truly.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_007#51",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_007",
+        "entry_index": 51,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_006#50",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_008#52"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 51,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……正直おれは村を出てから、\nずっと足が止まってる気分だからな。",
+        "official_en": "To be honest with you, ever since I left home,\nI've felt...stuck.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_008#52",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_008",
+        "entry_index": 52,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_007#51",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_009#53"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 52,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いや、足は動くんだ。思うがまま自由にな。\nただ、進んでる感覚がこれっぽっちもないのさ。",
+        "official_en": "Well, maybe not stuck exactly. I've been free to do as\nI please, but...I haven't made any kind of progress.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_009#53",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_009",
+        "entry_index": 53,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_008#52",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_010#54"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 53,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "何だい、柄にもなく詩的な表現をするね。\n……まあ、いいんじゃないのかい？",
+        "official_en": "So today you're a warrior-slash-philosopher. OK.\nReally, though... What's the problem?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_010#54",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_010",
+        "entry_index": 54,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_009#53",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_011#55"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 54,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "少なくとも、あんたの婚約者。\n確か幼馴染みだったクロリサは喜ぶよ。",
+        "official_en": "Doing as you please? Clorisa would be happy to\nhear that.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_011#55",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_011",
+        "entry_index": 55,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_010#54",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_012#56"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 55,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "？　おい、何でそこで\nあいつの名前が出てくるんだよ？",
+        "official_en": "Hm? What does she have to do with this?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_012#56",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_012",
+        "entry_index": 56,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_011#55",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_013#57"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 56,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あんたがあたしに吹っ飛ばされて気絶した後、\nあの子が言ってたのさ。",
+        "official_en": "Well, one time when you were knocked clean out,\nshe came and talked to me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_013#57",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_013",
+        "entry_index": 57,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_012#56",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_014#58"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 57,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "『彼は私や村のために戦うって言うけど、\n本当はもっと自由に生きたいんだと思う』って。",
+        "official_en": "She was worried. She thought that having to fight\nto protect the village, and her, weighed you down.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_014#58",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_014",
+        "entry_index": 58,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_013#57",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_015#59"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 58,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……そんなの初耳だぜ。",
+        "official_en": "Why haven't I heard this before?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_015#59",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_015",
+        "entry_index": 59,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_014#58",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_016#60"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 59,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そりゃ、自分と故郷を捨てて、\n自由になってくれなんて言えないだろう。",
+        "official_en": "Well, it's not like she could tell you to just drop\neverything and be free, could she?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_016#60",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_016",
+        "entry_index": 60,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_015#59",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_017#61"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 60,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "その代わり、なけなしの金を抱えて、\nあたしに依頼してきたよ。",
+        "official_en": "But what she did do was scrape together some of her\nsavings and hire me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_017#61",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_017",
+        "entry_index": 61,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_016#60",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_018#62"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 61,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "もし、あんたが何か悩むことがあれば、\n背中を押してやってくれないかってね。",
+        "official_en": "I think what she really wanted was for me to give\nyou a push to move forward.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_018#62",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_018",
+        "entry_index": 62,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_017#61",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_019#63"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 62,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "自分にできることはこれぐらいだって、\n寂しそうに笑ってたよ。",
+        "official_en": "She knew this was all she could do for you. She\nsmiled when she asked me, but she looked sad.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_019#63",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_019",
+        "entry_index": 63,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_018#62",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_020#64"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 63,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "クロリサ………………",
+        "official_en": "Clorisa...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_020#64",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_020",
+        "entry_index": 64,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_019#63",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_021#65"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 64,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "だから、ほら、背中向けな。\n力いっぱい押してやるよ。",
+        "official_en": "So here I am. It's time for that push, big guy. Square\nin the back, full strength!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_021#65",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_021",
+        "entry_index": 65,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_020#64",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_022#66"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 65,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いや、そういう意味じゃないだろ！\nそれにあんたの全力なんて、骨が折れるぜ！",
+        "official_en": "That can't be what she meant! You'll break my spine\nif you go that hard!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_022#66",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_022",
+        "entry_index": 66,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_021#65",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_023#67"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 66,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ははは！　それが嫌ならしゃんとしな！\nいじけんじゃないよ！",
+        "official_en": "Ha! If you don't like it, all you have to do is stop\nme, right? Don't lose your nerve now!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_023#67",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_023",
+        "entry_index": 67,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ミカエラ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ミカエラ"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ミカエラ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ミカエラ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_022#66",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_024#68"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 67,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "あんたは男としちゃ最低だが、可愛い弟子だ。\nこれからも面倒見てやるよ。",
+        "official_en": "You may be a dog, but I enjoy having you as an\napprentice. You'll never be rid of me!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_024#68",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Mic_Sim_CBA",
+        "jp_asset": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+        "label": "MID_SE_Mic_Sim_A_024",
+        "entry_index": 68,
+        "jp_source_sha256": "d8d21d2d87abbb3b0322d0e10882bf81f0b67d5e8c964e16ad2a11345cc283ca",
+        "official_en_source_sha256": "a72852d55a78c533225cacf380f633607142e85613cec51112dac1f4cd2020c3"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "シモン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_シモン"
+            },
+            {
+              "source": "Msg/USen/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "シモン",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Mic_Sim_CBA.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_シモン",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Mic_Sim_CBA:MID_SE_Mic_Sim_A_023#67"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 68,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Mic_Sim_A"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "かわ……ったく、\nおれにそんなこと言うのあんたぐらいだぜ。",
+        "official_en": "Heh. You're about the only person I'd let say that\nto me. You know that, right?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

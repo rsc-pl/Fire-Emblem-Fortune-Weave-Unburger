@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGA_3ISM_ReconstructionTempleAurora_m01#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_3ISM_cAssist",
+        "jp_asset": "Msg/JPja/LG_3ISM_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_3ISM_cAssist.msbt.zst",
+        "label": "MID_LGA_3ISM_ReconstructionTempleAurora_m01",
+        "entry_index": 23,
+        "jp_source_sha256": "f50f5719ab91671db05ae3859b79643de68ac07da61e4355f22254467eaf1d9c",
+        "official_en_source_sha256": "9479e2000d5787c5ceeefbc9f5ac15b6957b9eeaf2d3c9d0b62ddaa32c5117da"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "セントリオン",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_3ISM_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セントリオン",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_セントリオン"
+            },
+            {
+              "source": "Msg/USen/LG_3ISM_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "セントリオン",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_ReconstructionTempleAurora_m01_005#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_3ISM_cAssist:MID_LGV_3ISM_LG30_001_m01#24"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": "BLN",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGA_3ISM_ReconstructionTempleAurora_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<BLN>折り入ってご相談が……",
+        "official_en": "<BLN>Promised One, I have a request...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

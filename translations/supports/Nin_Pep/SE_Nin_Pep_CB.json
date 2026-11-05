@@ -1,0 +1,3307 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C#0",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C",
+        "entry_index": 0,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_001#1"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 0,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_001#1",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_001",
+        "entry_index": 1,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C#0",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_002#2"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 1,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……今日は、機嫌が悪いの？\nかわいそうね……風もどこか、乾いている……",
+        "official_en": "Oh, you poor thing... Are you really feeling that\nunwell? The wind is dry, I agree...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_002#2",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_002",
+        "entry_index": 2,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_001#1",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_003#3"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 2,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ほう！　もしや貴様……\n精霊に話しかけているのか。",
+        "official_en": "Oho! Could it be— You're conversing with spirits,\naren't you!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_003#3",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_003",
+        "entry_index": 3,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_002#2",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_004#4"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 3,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "！　ペペも、みんなの声が聞こえるの？",
+        "official_en": "You can hear them too, Peppe? Sense them,\nfeel them?",
+        "real_en": "You can hear them too, Pepe? Sense them,\nfeel them?"
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_004#4",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_004",
+        "entry_index": 4,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_003#3",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_005#5"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 4,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "否、聞こえぬ！　朕は王であるが故、\n祈祷師のようなことはせぬのだ。",
+        "official_en": "We cannot! We are a king, unable to do that\nwhich our shamans can!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_005#5",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_005",
+        "entry_index": 5,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_004#4",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_006#6"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 5,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "しかし言葉まで交わせるとは。\nそのような者、ブリギットでもそうはおらぬ！",
+        "official_en": "But you can do something that no one in Brigid\ncan—exchange words with the spirits!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_006#6",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_006",
+        "entry_index": 6,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_005#5",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_007#7"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 6,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そう……話し相手が増えたら、\n精霊たちも、喜ぶと思ったけれど。",
+        "official_en": "Oh... I thought they would be so happy to have\nanother person to talk to.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_007#7",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_007",
+        "entry_index": 7,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_006#6",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_008#8"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 7,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "朕は嬉しい！　ダグザの地には神々がいる故、\n精霊に親しむ者は限られると思っていた。",
+        "official_en": "We are gladdened by this discovery! Few in this\nland of gods even know of the spirits!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_008#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_008",
+        "entry_index": 8,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_007#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_009#9"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "大陸の精霊魔法の使い手は、恩恵だけを手にして\nその実、精霊に対する敬意が足りん！",
+        "official_en": "Those here who use spirit magic commune with\nthem only for selfish need. Such disrespect.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_009#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_009",
+        "entry_index": 9,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_008#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_010#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ニネも、そう思うわ。\nもっと仲良くしてほしい。",
+        "official_en": "I share the same opinion—very much the same.\nI think of them as my friends.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_010#10",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_010",
+        "entry_index": 10,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_009#9",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_011#11"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 10,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……ニネよ。\n精霊は……今、ここにおわすか？",
+        "official_en": "Ninae, tell me... The spirits... Are they still with us,\neven at this moment?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_011#11",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_011",
+        "entry_index": 11,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_010#10",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_012#12"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 11,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ええ。今も側にいる。\nペペの、目の前にも。",
+        "official_en": "Yes, they are. Right at your side, and right in\nfront of you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_012#12",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_012",
+        "entry_index": 12,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_011#11",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_013#13"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 12,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "………………尊き精霊たちよ。\n汝らの恵みに感謝いたす。",
+        "official_en": "O guiding spirits... We give thanks for the\nblessings you bestow on us.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_013#13",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_013",
+        "entry_index": 13,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_012#12",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_014#14"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 13,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "我ら共にあり、守護を誓う。\n願わくば、加護を賜わんことを……",
+        "official_en": "We are with you, as you are with us. We pledge\nour protection, that you may bless us forever.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_014#14",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_014",
+        "entry_index": 14,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_013#13",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_015#15"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 14,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……！\n精霊たちが……喜んでいるわ。",
+        "official_en": "Ah... The spirits are happy.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_015#15",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_015",
+        "entry_index": 15,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_014#14",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_016#16"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 15,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そうか、朕の言葉は届いたか。\n何よりである。",
+        "official_en": "Really and truly? Then our voice reached them.\nThat is all that matters.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_016#16",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_016",
+        "entry_index": 16,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_015#15",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_017#17"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 16,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "不思議……\n今のは、あなたの国の祈り？",
+        "official_en": "The words you just spoke... Was that a prayer\nfrom your country?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_017#17",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_017",
+        "entry_index": 17,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_016#16",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_018#18"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 17,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "うむ。我がブリギットに伝わる、\n祈りの儀の一つである。略式ではあるが。",
+        "official_en": "We were saying one of Brigid's most traditional\nprayers, though abridged from the full ritual.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_018#18",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_018",
+        "entry_index": 18,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_017#17",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_019#19"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 18,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "人と精霊との絆を確かめ、\nそれを忘れぬという想いを込めているのだ。",
+        "official_en": "In it, we praise the bond between spirits and\nhumans, reminding ourselves of its eternal sanctity.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_019#19",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_019",
+        "entry_index": 19,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_018#18",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_020#20"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 19,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……ニネ、精霊たちのことは、\nよく知っていると思っていた。",
+        "official_en": "I thought...I knew much about the spirits.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_020#20",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_020",
+        "entry_index": 20,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_019#19",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_021#21"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 20,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "でも……\nこんなふうに、喜ぶのね……",
+        "official_en": "But I've never known that something like that\nwould make them happy.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_021#21",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_021",
+        "entry_index": 21,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_020#20",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_022#22"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 21,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ペペ。精霊の話を、もっと教えて。\nニネも知らないことが、まだある気がするから。",
+        "official_en": "Peppe, please... Tell me more about the spirits.\nI sense now there's so much I don't know.",
+        "real_en": "Pepe, please... Tell me more about the spirits.\nI sense now there's so much I don't know."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_022#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_C_022",
+        "entry_index": 22,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_021#21",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B#23"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_C"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ふむ、良かろう！　今は学びの手を止め、\nブリギット王が自ら教授してやろうぞ！",
+        "official_en": "We will suspend our studies! You can consider the\nking of Brigid your personal tutor in this matter!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B",
+        "entry_index": 23,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_C_022#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_001#24"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "EDH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "<EDH>",
+        "official_en": "<EDH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_001#24",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_001",
+        "entry_index": 24,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B#23",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_002#25"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 24,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……海の精霊は、二つの顔を持つ。\n豊かな恵みを授ける、慈愛に満ちた顔。",
+        "official_en": "Now...we believe that an ocean spirit shows us two\nfaces. One that is merciful, granting blessings.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_002#25",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_002",
+        "entry_index": 25,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_001#24",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_003#26"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 25,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そして、災いをもたらす恐ろしい顔だ。\n朕の説明、理解できておるか？",
+        "official_en": "And one that is terrifying, bringing disaster. Do you\ngrasp the dual nature of what we are saying?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_003#26",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_003",
+        "entry_index": 26,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_002#25",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_004#27"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 26,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ええ。……ブリギットには、\nたくさんの精霊たちがいるのね。",
+        "official_en": "Yes... Yes, I do. You have a lot of spirits that are\npart of Brigid life, don't you?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_004#27",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_004",
+        "entry_index": 27,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_003#26",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_005#28"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 27,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "海の精霊や、空の精霊……\n木の精霊たちに、森の精霊……",
+        "official_en": "A spirit of the ocean, and one of the forest... Also\nthe spirits of the sky and of trees...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_005#28",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_005",
+        "entry_index": 28,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_004#27",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_006#29"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 28,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "面白いわ。\nニネもまだ、話したことがない。",
+        "official_en": "Fascinating! Utterly! I've never been able to\ndiscuss any of this in such depth.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_006#29",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_006",
+        "entry_index": 29,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_005#28",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_007#30"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 29,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……ニネよ。\n今度は貴様の話を聞かせるがよい。",
+        "official_en": "Ninae... We would like to hear your story.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_007#30",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_007",
+        "entry_index": 30,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_006#29",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_008#31"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 30,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いったいいつ、どのようにして\n精霊と言葉を交わせるようになったのだ？",
+        "official_en": "We wish to know when—and how—you learned to\ncommune with the spirits like you do.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_008#31",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_008",
+        "entry_index": 31,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_007#30",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_009#32"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 31,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ニネにも、わからない。気づいた時には、\n精霊たちの声がしていたわ。",
+        "official_en": "The \"how\" might relate to my father's blood.\nI don't know the \"when\" of the \"how.\"",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_009#32",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_009",
+        "entry_index": 32,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_008#31",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_010#33"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 32,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "お父様の血が、\nそうさせるのかもしれないと聞いた。",
+        "official_en": "I know only that one day I noticed them talking.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_010#33",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_010",
+        "entry_index": 33,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_009#32",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_011#34"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 33,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そうか。簡単に学び取れる類の\n才ではないということか……むう……",
+        "official_en": "We see... So, this isn't something that can be\ntaught, at least not easily. Hmm...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_011#34",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_011",
+        "entry_index": 34,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_010#33",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_012#35"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 34,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……ニネ！\n朕は貴様が羨ましいぞ！",
+        "official_en": "Ninae! We envy you!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_012#35",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_012",
+        "entry_index": 35,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_011#34",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_013#36"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 35,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……『羨ましい』？",
+        "official_en": "Envy...me?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_013#36",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_013",
+        "entry_index": 36,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_012#35",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_014#37"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 36,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "我が国において、精霊とは\nただ加護を願うだけの存在にはあらず。",
+        "official_en": "In our country, we believe that the spirits are all\naround us—and we do pray to them.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_014#37",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_014",
+        "entry_index": 37,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_013#36",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_015#38"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 37,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "敬い、守られ、共に生きる。\n触れ得ずとも、貴き隣人なのだ。",
+        "official_en": "We revere them and know they protect us. We live\nour lives with them, yet they are beyond us.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_015#38",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_015",
+        "entry_index": 38,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_014#37",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_016#39"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 38,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "彼らと語り合うことができるのならば、それは\n何ものにも代えがたい喜びであろう……口惜しや。",
+        "official_en": "If only my people could converse with them. They\nwould find great and joyful meaning in that.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_016#39",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_016",
+        "entry_index": 39,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_015#38",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_017#40"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 39,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "そう。\nペペも、精霊たちと話がしたいのね。",
+        "official_en": "A pitiful situation, I understand... But, Peppe, if\nyou ever want to speak to the spirits...",
+        "real_en": "A pitiful situation, I understand... But, Pepe, if\nyou ever want to speak to the spirits..."
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_017#40",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_017",
+        "entry_index": 40,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_016#39",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_018#41"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 40,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "なら、その時は\nニネに声をかけたらいい。",
+        "official_en": "you can always ask me to help.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_018#41",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_018",
+        "entry_index": 41,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_017#40",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_019#42"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 41,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "なに？\n精霊と話したくなった時、という意味か？",
+        "official_en": "Wh-what? You mean, whenever we want?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_019#42",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_019",
+        "entry_index": 42,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_018#41",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_020#43"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 42,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "ペペの言葉を、精霊たちに。\n精霊たちの言葉を、ペペに伝えてあげる。",
+        "official_en": "I'll share your words with them, and then their\nwords with you.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_020#43",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_020",
+        "entry_index": 43,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_019#42",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_021#44"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 43,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "なるほど面白い！　王の通訳というわけだな！\n自ら申し出るとは、殊勝な心がけではないか！",
+        "official_en": "Incredible! You would be the king's interpreter? Your\nnobility shines brightly, offering this!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_021#44",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_021",
+        "entry_index": 44,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_020#43",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_022#45"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 44,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "……しかし、ダグザの地にいる間はそれで良いが\n朕は故郷におわす精霊たちとも話したいのだ。",
+        "official_en": "Although...our greater wish is to speak with the\nspirits of our homeland, not just those of Dagda.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_022#45",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_022",
+        "entry_index": 45,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ニネ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ニネ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ニネ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ニネ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_021#44",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_023#46"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 45,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "いいわ、ニネがブリギットに行く。\n話をしてみたいのは、同じだもの。",
+        "official_en": "Then I'll travel to Brigid. I would like to meet the\nspirits there too—each and every one of them.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_023#46",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_023",
+        "entry_index": 46,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_022#45",
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_024#47"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 46,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "海を渡ってまで、任を果たすと言うか……！\nなんと健気な！　褒めて遣わす。",
+        "official_en": "You would cross the ocean for this? How dutiful,\nadmirable, and commendable!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_024#47",
+      "source": {
+        "platform": "switch2",
+        "bank": "SE_Nin_Pep_CB",
+        "jp_asset": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+        "official_en_asset": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+        "label": "MID_SE_Nin_Pep_B_024",
+        "entry_index": 47,
+        "jp_source_sha256": "7783bffad674a3d914e18b25d8eba36d31da5668d99474b7bc762eeb34e1bca0",
+        "official_en_source_sha256": "b9f21679ffe89704bb6d59123bb137cdfb4c79ea1f50979ad85e83a65d8eb73f"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "ペペ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ペペ"
+            },
+            {
+              "source": "Msg/USen/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ペペ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/SE_Nin_Pep_CB.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_ペペ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:SE_Nin_Pep_CB:MID_SE_Nin_Pep_B_023#46"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 47,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_SE_Nin_Pep_B"
+      },
+      "function": "supports",
+      "text": {
+        "jp": "国賓として歓待する故、\nいつか必ず我が国を訪れよ！　約束だぞ、ニネ！",
+        "official_en": "We hereby invite you to Brigid as our most honored\nguest! We would dearly like to see you visit, Ninae!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

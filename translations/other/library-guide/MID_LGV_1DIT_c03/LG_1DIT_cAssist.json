@@ -1,0 +1,2127 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_LG12_002_m01#22",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_LG12_002_m01",
+        "entry_index": 22,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": "Script/hub/Hub_002.bin.zst",
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c02_GM12_003_m01_003#21",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_LG12_002_m01_001#23"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 22,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_LG12_002_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_LG12_002_m01_001#23",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_LG12_002_m01_001",
+        "entry_index": 23,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ファビオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ファビオ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_LG12_002_m01#22",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_LG12_002_m01_002#24"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 23,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_LG12_002_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "ところでエスメラルダ。当然ながら\nダグシオンへの道は知っているのでしょうね？",
+        "official_en": "Incidentally, Esmeralda, you do know the way to\nDagsion, do you not?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_LG12_002_m01_002#24",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_LG12_002_m01_002",
+        "entry_index": 24,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "CORROBORATED",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "PID_エスメラルダ",
+              "note": "Event performs a motion command on the same person"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_LG12_002_m01_001#23",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_LG12_002_m01_003#25"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 24,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "INNER_THOUGHT",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_LG12_002_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "えぇっと……",
+        "official_en": "Well...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_LG12_002_m01_003#25",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_LG12_002_m01_003",
+        "entry_index": 25,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_LG12_002_m01_002#24",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_LG12_002_m01_004#26"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 25,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_LG12_002_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "………………",
+        "official_en": "Maybe...not.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_LG12_002_m01_004#26",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_LG12_002_m01_004",
+        "entry_index": 26,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ファビオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ファビオ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_LG12_002_m01_003#25",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_LG12_002_m01_005#27"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 26,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_LG12_002_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "成程、貴方に人並みの見識を期待した\n私が間違っていたようです。",
+        "official_en": "I see. It appears my expectation that we might rely\non you for local knowledge was erroneous.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_LG12_002_m01_005#27",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_LG12_002_m01_005",
+        "entry_index": 27,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ファビオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ファビオ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_LG12_002_m01_004#26",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_LG12_002_m01_006#28"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 27,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_LG12_002_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "ディートリヒ、準備ができたら出発しましょう。\nダグシオンへは、私が案内しますので。",
+        "official_en": "Let us depart when you are ready, Dietrich. As for\nDagsion, I shall guide us there.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_LG12_002_m01_006#28",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_LG12_002_m01_006",
+        "entry_index": 28,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            },
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.Event",
+              "value": "拠点_会話開始",
+              "note": "hub conversation start; no PID-referencing performance command, so only the attribute is direct evidence"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_LG12_002_m01_005#27",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m01#29"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 28,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_LG12_002_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "ぐぬぬぬぬ……！　あたいはやっぱり\nあんたのことなんて大っ嫌いなんだからな！",
+        "official_en": "Grr. You are a turd. You know that, right?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m01#29",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_GM12_005_m01",
+        "entry_index": 29,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_LG12_002_m01_006#28",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m01_001#30"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 29,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_GM12_005_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m01_001#30",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_GM12_005_m01_001",
+        "entry_index": 30,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ファビオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ファビオ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m01#29",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m01_002#31"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 30,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "INNER_THOUGHT",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_GM12_005_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "ダグシオンはあそこですが……\nフムン……",
+        "official_en": "Hm. We approach Dagsion. And yet...",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m01_002#31",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_GM12_005_m01_002",
+        "entry_index": 31,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m01_001#30",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m01_003#32"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 31,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_GM12_005_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "どうしたのファビオ。\nぼんやり考え事なんかしちゃってさ。",
+        "official_en": "Something's up, Fabio. What's on your mind?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m01_003#32",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_GM12_005_m01_003",
+        "entry_index": 32,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ファビオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ファビオ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m01_002#31",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m01_004#33"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 32,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_GM12_005_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "ディートリヒ、\n少し、頼みがあるのですが。",
+        "official_en": "Dietrich? I have a small favor to ask.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m01_004#33",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_GM12_005_m01_004",
+        "entry_index": 33,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ファビオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ファビオ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m01_003#32",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m02#34"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 33,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_GM12_005_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "ここからしばらく行った地点の、ヴォーダン峠\nという場所に立ち寄って欲しいのです。",
+        "official_en": "I would like to visit a place called Wodan Pass. It\nis nearby.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m02#34",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_GM12_005_m02",
+        "entry_index": 34,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m01_004#33",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m02_001#35"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 34,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_GM12_005_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m02_001#35",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_GM12_005_m02_001",
+        "entry_index": 35,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ファビオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ファビオ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m02#34",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m02_002#36"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 35,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "INNER_THOUGHT",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_GM12_005_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "幸い、ダグシオンに向かう途中ですし、\nそれほど遠回りにはならないと思います。",
+        "official_en": "The pass requires but a short detour from our route\nto Dagsion.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m02_002#36",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_GM12_005_m02_002",
+        "entry_index": 36,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m02_001#35",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_006_m01#37"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 36,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_GM12_005_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "……いいだろう。",
+        "official_en": "Very well.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_006_m01#37",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_GM12_006_m01",
+        "entry_index": 37,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_005_m02_002#36",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_006_m01_001#38"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 37,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_GM12_006_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_006_m01_001#38",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_GM12_006_m01_001",
+        "entry_index": 38,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_006_m01#37",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_006_m01_002#39"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 38,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_GM12_006_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "ヴォーダン峠ってこの辺だよね？\nでも、見た感じ何の変哲もないし、普通だよ？",
+        "official_en": "Wodan Pass is supposed to be nearby, isn't it? I don't\nsee anything.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_006_m01_002#39",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_GM12_006_m01_002",
+        "entry_index": 39,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ファビオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ファビオ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_006_m01_001#38",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_006_m01_003#40"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 39,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_GM12_006_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "正確にいうと私が用があるのは\n此処ではなく、近くにあるはずの洞窟です。",
+        "official_en": "Well, to be precise, I seek a cave near the pass, not\nthe pass itself.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_006_m01_003#40",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_GM12_006_m01_003",
+        "entry_index": 40,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_006_m01_002#39",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_006_m01_004#41"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 40,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_GM12_006_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "へえ、あんた余所者のわりに、\nここらへんに妙に詳しいじゃないのさ。",
+        "official_en": "Huh. For an outsider, you sure do know the area.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_006_m01_004#41",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_GM12_006_m01_004",
+        "entry_index": 41,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ファビオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ファビオ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_006_m01_003#40",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_006_m01_005#42"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 41,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_GM12_006_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "……情報として知っているというだけで、\n私もここを訪れたのは初めてです。",
+        "official_en": "I do, though I have not visited before. I researched it\nbefore my arrival.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_006_m01_005#42",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_GM12_006_m01_005",
+        "entry_index": 42,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_006_m01_004#41",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_006_m01_006#43"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 42,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_GM12_006_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "……？\nそれって、どういうこと？",
+        "official_en": "You researched it? How?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_006_m01_006#43",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_GM12_006_m01_006",
+        "entry_index": 43,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_006_m01_005#42",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m01#44"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 43,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_GM12_006_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "待て。この茂みの奥……\nこの先に向かう道があるようだ。",
+        "official_en": "Hold. We may have found it. A path lies beyond\nthis thicket.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m01#44",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_DN12_001_m01",
+        "entry_index": 44,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_GM12_006_m01_006#43",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m01_001#45"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 44,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_DN12_001_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m01_001#45",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_DN12_001_m01_001",
+        "entry_index": 45,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m01#44",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m01_002#46"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 45,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_DN12_001_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "……ずいぶん深そうな洞窟だね。\nねえ、本当に入るの？　こんなとこ……",
+        "official_en": "This looks like it goes pretty deep. Is it safe?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m01_002#46",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_DN12_001_m01_002",
+        "entry_index": 46,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ファビオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ファビオ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m01_001#45",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m01_003#47"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 46,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_DN12_001_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "……座標的には間違いありませんね。\nさあ、この奥を調査しましょう。",
+        "official_en": "There is no mistaking the coordinates. Come, let us\ninvestigate.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m01_003#47",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_DN12_001_m01_003",
+        "entry_index": 47,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ディートリヒ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ディートリヒ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ディートリヒ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m01_002#46",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m01_004#48"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 47,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_DN12_001_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "……異邦の地の洞窟、か。\nこの中に潜むものが何か、確かめるのも面白い。",
+        "official_en": "Perhaps we will find something interesting\nsecreted within.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m01_004#48",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_DN12_001_m01_004",
+        "entry_index": 48,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m01_003#47",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m02#49"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 48,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_DN12_001_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "ちょ、ちょっとファビオ！　ダーリン！\nあたいのこと、置いていかないでよね！",
+        "official_en": "Hey! Wait up! Sweetie? Fabio? Don't leave\nme behind!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m02#49",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_DN12_001_m02",
+        "entry_index": 49,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": "Script/hub/Dng_040.bin.zst",
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m01_004#48",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m02_001#50"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 49,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_DN12_001_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m02_001#50",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_DN12_001_m02_001",
+        "entry_index": 50,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m02#49",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m02_002#51"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 50,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_DN12_001_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "な、なにこれ……\n壁が光ってるじゃないのさ！",
+        "official_en": "What is this place? The walls are glowing!",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m02_002#51",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_DN12_001_m02_002",
+        "entry_index": 51,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ファビオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ファビオ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m02_001#50",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m02_003#52"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 51,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "INNER_THOUGHT",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_DN12_001_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "フムン……まさか、これほどまでに\n機能を維持していようとは想像以上でした。",
+        "official_en": "Hmm. I had not expected it to be so well preserved.\nThe facility appears functional.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m02_003#52",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_DN12_001_m02_003",
+        "entry_index": 52,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m02_002#51",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m02_004#53"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 52,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_DN12_001_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "あのさあ、一人だけで納得してないで\nあたいたちに何か説明しようって気はないの？",
+        "official_en": "It's nice that you know what you're talking about, but\nhow about the rest of us?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m02_004#53",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_DN12_001_m02_004",
+        "entry_index": 53,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ファビオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ファビオ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m02_003#52",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m02_006#54"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 53,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_DN12_001_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "懇切丁寧に説明したところで、\n貴方などに理解出来るものではありませんよ。",
+        "official_en": "Even if I were to take the time to explain it to you in\nmeticulous detail, you would never comprehend it.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m02_006#54",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_DN12_001_m02_006",
+        "entry_index": 54,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "ファビオ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_ファビオ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "ファビオ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m02_004#53",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m02_005#55"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 54,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_DN12_001_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "それに……なぜ私がそのような\n無駄なことをしなければならないのですか？",
+        "official_en": "So why, then, should I waste my time?",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m02_005#55",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_1DIT_cAssist",
+        "jp_asset": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+        "label": "MID_LGV_1DIT_c03_DN12_001_m02_005",
+        "entry_index": 55,
+        "jp_source_sha256": "112c3845dc22fd72d5c40a0db85da87f640af8963bed5827afc9049b51a83219",
+        "official_en_source_sha256": "9124b7dd73ea30c86bfe1adf35a2e9ed60b442846d2b9dffc18b4b0c97702ac5"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "エスメラルダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_エスメラルダ"
+            },
+            {
+              "source": "Msg/USen/LG_1DIT_cAssist.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "エスメラルダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c03_DN12_001_m02_006#54",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_1DIT_cAssist:MID_LGV_1DIT_c04_GM12_007_m01#56"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 55,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "DIALOGUE_LINE",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_1DIT_c03_DN12_001_m02"
+      },
+      "function": "other",
+      "text": {
+        "jp": "なるほどね。教える気がないってことと、\n見下されてるってことは十分に伝わったよ。",
+        "official_en": "I see how it is. You don't want to explain, especially\nnot to me.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}

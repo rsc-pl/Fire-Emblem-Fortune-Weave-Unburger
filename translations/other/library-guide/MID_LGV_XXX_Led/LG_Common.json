@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_Common:MID_LGV_XXX_Led_Closed_m01#8",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_Common",
+        "jp_asset": "Msg/JPja/LG_Common.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_Common.msbt.zst",
+        "label": "MID_LGV_XXX_Led_Closed_m01",
+        "entry_index": 8,
+        "jp_source_sha256": "89963794d3d69e244d977bc18a6d2b5ab6931e72d32b7635d299433f98d1d8fb",
+        "official_en_source_sha256": "b5b796159c019e428e80d860f6193153b485313c9fcf34d92f53abe58691a78f"
+      },
+      "context": {
+        "speaker": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_Common:MID_LGV_XXX_Seo_Closed_m01_001#7",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_Common:MID_LGV_XXX_Led_Closed_m01_001#9"
+        ],
+        "usage_state": "ASSET_REFERENCED",
+        "alignment": "ALIGNED",
+        "source_sequence": 8,
+        "label_alias_count": 1,
+        "dialogue_role": "CONTROL",
+        "utterance_kind": "CONTROL_MARKER",
+        "speaker_applicable": false,
+        "marker": "TH",
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_XXX_Led_Closed_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "<TH>",
+        "official_en": "<TH>",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    },
+    {
+      "record_id": "fefw:switch2:vUNKNOWN:msbt-v3:LG_Common:MID_LGV_XXX_Led_Closed_m01_001#9",
+      "source": {
+        "platform": "switch2",
+        "bank": "LG_Common",
+        "jp_asset": "Msg/JPja/LG_Common.msbt.zst",
+        "official_en_asset": "Msg/USen/LG_Common.msbt.zst",
+        "label": "MID_LGV_XXX_Led_Closed_m01_001",
+        "entry_index": 9,
+        "jp_source_sha256": "89963794d3d69e244d977bc18a6d2b5ab6931e72d32b7635d299433f98d1d8fb",
+        "official_en_source_sha256": "b5b796159c019e428e80d860f6193153b485313c9fcf34d92f53abe58691a78f"
+      },
+      "context": {
+        "speaker": {
+          "state": "PROVEN_FROM_ATTRIBUTE",
+          "entity_id": "レダ",
+          "evidence": [
+            {
+              "source": "Msg/JPja/LG_Common.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "authored person identifier for this physical message slot; Person.bin contains PID_レダ"
+            },
+            {
+              "source": "Msg/USen/LG_Common.msbt.zst",
+              "field": "ATR1.PID",
+              "value": "レダ",
+              "note": "US EN person identifier agrees"
+            }
+          ]
+        },
+        "addressee": {
+          "state": "UNKNOWN",
+          "entity_id": null,
+          "evidence": []
+        },
+        "scene_ref": null,
+        "neighbor_record_ids": [
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_Common:MID_LGV_XXX_Led_Closed_m01#8",
+          "fefw:switch2:vUNKNOWN:msbt-v3:LG_Common:MID_LGV_XXX_Bel_Closed_m01#10"
+        ],
+        "usage_state": "UNVERIFIED_CANDIDATE",
+        "alignment": "ALIGNED",
+        "source_sequence": 9,
+        "label_alias_count": 1,
+        "dialogue_role": "SPOKEN",
+        "utterance_kind": "INNER_THOUGHT",
+        "speaker_applicable": true,
+        "marker": null,
+        "branch_tag": null,
+        "branch_option": null,
+        "branch_phase": null,
+        "authored_group": "MID_LGV_XXX_Led_Closed_m01"
+      },
+      "function": "other",
+      "text": {
+        "jp": "今あたしが向かうべきは……\n少なくともこちらではなさそうね。",
+        "official_en": "This seems like the wrong direction.",
+        "real_en": null
+      },
+      "review": {
+        "status": "UNREVIEWED"
+      }
+    }
+  ]
+}
